@@ -27,4 +27,4 @@ function csvJSON(csv) {
 
 var json = csvJSON(text);
 
-fs.writeFile("./public/soatest.json", json, "utf8", () => {});
+fs.writeFile("./src/data/soatest.json", json, "utf8", () => {});
