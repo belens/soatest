@@ -8,18 +8,14 @@ export default function ComboBox(props) {
     <Autocomplete
       id="combo-box-demo"
       options={times}
-      onChange={(event, newValue) => {
-        // props.onChange(newValue);
-      }}
       getOptionLabel={(option) => option.title}
       defaultValue={times.find(v => v.title[0])} 
       style={{ width: 200, display: "inline-block", verticalAlign: 'middle' }}
       renderInput={(params) => (
         <TextField
           {...params}
-          label=""
           variant="outlined"
-          type="dark"
+          label="Wanneer"
         />
       )}
     />

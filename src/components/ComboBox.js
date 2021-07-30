@@ -13,7 +13,7 @@ export default function ComboBox(props) {
       }}
       getOptionLabel={(option) => option.title}
       style={{ width: 200, display: 'inline-block', 'vertical-align': 'middle' }}
-      renderInput={(params) => <TextField autoFocus {...params} label="Selecteer Provincie" variant="outlined"  type="dark" />}
+      renderInput={(params) => <TextField autoFocus {...params} variant="outlined" label="Provincie"  />}
     />
   );
 }

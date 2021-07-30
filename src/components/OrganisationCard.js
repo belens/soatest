@@ -1,17 +1,23 @@
 import React from "react";
+import moment from "moment";
+import "moment/locale/nl-be";
+import "moment/locale/fr";
+
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
-import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import LinkIcon from "@material-ui/icons/Link";
-import { List, ListItem, ListItemText } from "@material-ui/core";
+import OpeningHours from "./OpeningHours";
+
 const useStyles = makeStyles({
   root: {
-    display: "flex",
+    // display: "flex",
     marginBottom: 20,
+    maxWidth: 450,
+    margin: '0 auto'
   },
   bullet: {
     display: "inline-block",
@@ -23,23 +29,13 @@ const useStyles = makeStyles({
   },
 });
 
+moment.locale("nl-be");
+
 export default function OrganisationCard(props) {
   const classes = useStyles();
-  // const bull = <span className={classes.bullet}>•</span>;
-  var curr = new Date(); // get current date
-  var currentDay = new Intl.DateTimeFormat("en-US", { weekday: "long" }).format(
-    curr
-  );
   return (
     <Card className={classes.root} variant="outlined">
-      <CardContent style={{ flex: "1 0 auto" }}>
-        {/* <Typography
-          className={classes.title}
-          color="textSecondary"
-          gutterBottom
-        >
-          Testcenter
-        </Typography> */}
+      <CardContent>
         <Typography variant="h5" component="h2">
           {props.name}
         </Typography>
@@ -59,7 +55,8 @@ export default function OrganisationCard(props) {
           </List> */}
         </Typography>
         {/* <CardActions> */}
-        <br/><br/>
+        <br />
+        <br />
         <Button
           size="small"
           startIcon={<LocationOnIcon />}
@@ -67,28 +64,15 @@ export default function OrganisationCard(props) {
         >
           Toon Locatie
         </Button>
-        <br/>
+        <br />
         {props.website && (
-          <Button
-            size="small"
-            startIcon={<LinkIcon />}
-            href={props.website}
-          >
+          <Button size="small" startIcon={<LinkIcon />} href={props.website}>
             Bezoek website
           </Button>
         )}
         {/* </CardActions> */}
+        <OpeningHours openingHours={props.openingHours}></OpeningHours>
       </CardContent>
-      <List dense style={{ width: 220, paddingTop: 20 }}>
-        {props.openingHours.map((oh) => (
-          <ListItem
-            selected={currentDay === oh.day}
-            style={{ paddingTop: 0, paddingBottom: 0 }}
-          >
-            <ListItemText primary={oh.day + " - " + oh.hour}></ListItemText>
-          </ListItem>
-        ))}
-      </List>
     </Card>
   );
 }

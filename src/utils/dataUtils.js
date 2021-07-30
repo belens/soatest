@@ -61,6 +61,8 @@ function getOrganisations(): [Organisation] {
       weekday: weekDays.indexOf(timeslot.day),
       daypart: timeslot.daypart,
       hour: timeslot.hour,
+      startTime: timeslot.startTime,
+      endTime: timeslot.endTime,
       free: timeslot.free === "yes",
     };
     if (existingOrganisationIndex < 0) {

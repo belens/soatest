@@ -2,10 +2,14 @@
 import React from "react";
 import ComboBox from "./ComboBox";
 import data from "../utils/dataUtils";
-import SwitchesGroup from "./SwitchesGroup";
+// import SwitchesGroup from "./SwitchesGroup";
 import TimeAutocomplete from "./TimeAutocomplete";
 import OrganisationCard from "./OrganisationCard";
+import styled from "styled-components";
 
+var Box = styled.div`
+  text-align: center;
+`;
 export default class Search extends React.Component {
   constructor(props) {
     super(props);
@@ -25,15 +29,14 @@ export default class Search extends React.Component {
 
   render() {
     return (
-      <div>
+      <Box>
         <div>
           <p>
-            Ik wil me {" "}
+            Ik wil me{" "}
             <TimeAutocomplete
-              // onChange={this.handleChange}
-              
-            />
-            {" "} laten testen in regio {" "}
+            // onChange={this.handleChange}
+            />{" "}
+            laten testen in regio{" "}
             <ComboBox
               onChange={this.handleChange}
               data={this.props.data.map((val, i) => {
@@ -42,7 +45,6 @@ export default class Search extends React.Component {
             />
           </p>
         </div>
-        <br />
 
         {this.state.province &&
           data.getOrganisationsByProvince(this.state.province).map((org) => {
@@ -50,7 +52,7 @@ export default class Search extends React.Component {
           })}
         {/* <SwitchesGroup ></SwitchesGroup> */}
         {/* <h2>It is {this.state.date.toLocaleTimeString()}.</h2> */}
-      </div>
+      </Box>
     );
   }
 }
