@@ -66,7 +66,7 @@ export class OpeningHours extends Component {
             <ListItemText style={{fontWeight: "700 !important"}} primary={relativeTime + " +"}></ListItemText>
           </ListItem>
         )} */}
-        <Accordion variant="outlined" style={{flexDirection: 'column'}}>
+        <Accordion variant="outlined" >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -78,7 +78,7 @@ export class OpeningHours extends Component {
               {relativeTime}
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails style={{flexDirection: 'column'}}>
             {openingHours &&
               openingHours.map((oh) => (
                 <Typography component="p" style={{textAlign: 'left'}}  >
