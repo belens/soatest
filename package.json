@@ -22,7 +22,7 @@
     "flow": "flow",
     "start-public": "PORT=80 react-scripts start",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "PUBLIC_URL='https://s3.eu-west-1.amazonaws.com/www.soatest.be' && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

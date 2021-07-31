@@ -13,8 +13,8 @@ var Box = styled.div`
 export default class Search extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { province: null };
-    // this.state = { province: 'Brussels' };
+    // this.state = { province: null };
+    this.state = { province: 'Brussels' };
   }
 
   componentDidMount() {
