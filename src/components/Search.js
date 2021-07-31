@@ -6,8 +6,9 @@ import data from "../utils/dataUtils";
 import TimeAutocomplete from "./TimeAutocomplete";
 import OrganisationCard from "./OrganisationCard";
 import styled from "styled-components";
+import Box from '@material-ui/core/Box';
 
-var Box = styled.div`
+var Container = styled.div`
   text-align: center;
 `;
 export default class Search extends React.Component {
@@ -29,14 +30,14 @@ export default class Search extends React.Component {
 
   render() {
     return (
-      <Box>
+      <Container>
         <div>
           <p>
-            Ik wil me{" "}
+            <Box component="span" display={{ xs: 'none', sm: 'none', md: 'inline-block' }}>Ik wil me{" "}</Box >
             <TimeAutocomplete
             // onChange={this.handleChange}
             />{" "}
-            laten testen in regio{" "}
+            <Box component="span" display={{ xs: 'none', sm: 'none', md: 'inline-block' }}>laten testen in regio{" "}</Box>
             <ComboBox
               onChange={this.handleChange}
               data={this.props.data.map((val, i) => {
@@ -45,14 +46,13 @@ export default class Search extends React.Component {
             />
           </p>
         </div>
-
         {this.state.province &&
           data.getOrganisationsByProvince(this.state.province).map((org) => {
             return <OrganisationCard {...org} />;
           })}
         {/* <SwitchesGroup ></SwitchesGroup> */}
         {/* <h2>It is {this.state.date.toLocaleTimeString()}.</h2> */}
-      </Box>
+      </Container>
     );
   }
 }
