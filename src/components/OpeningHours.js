@@ -1,4 +1,11 @@
 import React, { Component } from "react";
+import Accordion from "@material-ui/core/Accordion";
+import AccordionSummary from "@material-ui/core/AccordionSummary";
+import AccordionDetails from "@material-ui/core/AccordionDetails";
+import Typography from "@material-ui/core/Typography";
+
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+
 import moment from "moment";
 import "moment/locale/nl-be";
 import "moment/locale/fr";
@@ -17,7 +24,22 @@ export class OpeningHours extends Component {
   }
 
   getRelativeTime = () => {
-    return "morgen om 8:00";
+    var { openingHours } = this.props;
+
+    
+    var closesAt = openingHours.find((oh, i) => {
+      // console.log(oh);
+      var now = moment();
+      var mStart = moment(oh.startTime);
+      var mEnd = moment(oh.endTime);
+      console.log(mStart.format('dd LLL'), now.format('dd LLL'), mEnd.format('dd LLL'))
+      console.log(mStart.isBefore(now), mEnd.isAfter(now))
+      if(mStart.isBefore(now), mEnd.isAfter(now)){
+        return true;
+      }
+      return false;
+    });
+    return (closesAt && 'OPEN') || "onbekend";
   };
 
   handleRelativeClick = () => {
@@ -35,7 +57,7 @@ export class OpeningHours extends Component {
     var relativeTime = this.getRelativeTime();
     return (
       <List dense>
-        {relativeTime && (
+        {/* {relativeTime && (
           <ListItem
             style={{ cursor: "pointer" }}
             onClick={this.handleRelativeClick}
@@ -43,22 +65,29 @@ export class OpeningHours extends Component {
             Openingstijden:
             <ListItemText style={{fontWeight: "700 !important"}} primary={relativeTime + " +"}></ListItemText>
           </ListItem>
-        )}
-        {open &&
-          openingHours &&
-          openingHours.map((oh) => (
-            <ListItem
-              selected={currentDay === oh.day}
-              style={{ paddingTop: 0, paddingBottom: 0 }}
-            >
-              <ListItemText
-                primary={
-                  moment(oh.startTime).format("dddd - H:mm tot ") +
-                  moment(oh.endTime).format("H:mm")
-                }
-              ></ListItemText>
-            </ListItem>
-          ))}
+        )} */}
+        <Accordion variant="outlined" style={{flexDirection: 'column'}}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography style={{ textAlign: "left" }}>
+              Openingstijden:
+              <br />
+              {relativeTime}
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            {openingHours &&
+              openingHours.map((oh) => (
+                <Typography component="p" style={{textAlign: 'left'}}  >
+                  {moment(oh.startTime).format("dddd - H:mm tot ") +
+                    moment(oh.endTime).format("H:mm")}
+                </Typography>
+              ))}
+          </AccordionDetails>
+        </Accordion>
       </List>
     );
   }

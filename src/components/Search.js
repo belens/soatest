@@ -6,16 +6,17 @@ import data from "../utils/dataUtils";
 import TimeAutocomplete from "./TimeAutocomplete";
 import OrganisationCard from "./OrganisationCard";
 import styled from "styled-components";
-import Box from '@material-ui/core/Box';
+import Box from "@material-ui/core/Box";
 
 var Container = styled.div`
   text-align: center;
 `;
+
 export default class Search extends React.Component {
   constructor(props) {
     super(props);
     // this.state = { province: null };
-    this.state = { province: 'Brussels' };
+    this.state = { province: "Brussels" };
   }
 
   componentDidMount() {
@@ -33,11 +34,24 @@ export default class Search extends React.Component {
       <Container>
         <div>
           <p>
-            <Box component="span" display={{ xs: 'none', sm: 'none', md: 'inline-block' }}>Ik wil me{" "}</Box >
-            <TimeAutocomplete
-            // onChange={this.handleChange}
-            />{" "}
-            <Box component="span" display={{ xs: 'none', sm: 'none', md: 'inline-block' }}>laten testen in regio{" "}</Box>
+            <Box
+              component="span"
+              display={{ xs: "none", sm: "none", md: "inline" }}
+            >
+              Ik wil me{" "}
+            </Box>
+            <TimeAutocomplete />
+            <Box
+              component="div"
+              display={{ xs: "none", sm: "none", md: "inline" }}
+            >
+              {" "}laten testen in regio{" "}
+            </Box>
+            <Box
+              component="div"
+              display={{ xs: "block", sm: "block", md: "none" }}
+              style={{ height: 10 }}
+            ></Box>
             <ComboBox
               onChange={this.handleChange}
               data={this.props.data.map((val, i) => {
