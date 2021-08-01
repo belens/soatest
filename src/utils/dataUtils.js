@@ -46,7 +46,25 @@ function getWeekDays(locale) {
 }
 var weekDays = getWeekDays("en-EN");
 
-console.log(weekDays);
+var organisationProps = [
+  {
+    name: "Help Centre",
+    coords: { lat: 51.2123091, lng: 4.3982703 },
+  },
+  {
+    name: "S-Clinic",
+    coords: { lat: 50.8433062, lng: 4.3476145 },
+  },
+  {
+    name: "Elisa Centre",
+    coords: { lat: 50.8435197, lng: 4.3487171 },
+  },
+  {
+    name: "Erasmusziekenhuis",
+    coords: { lat: 50.8132361, lng: 4.2662406},
+  },
+];
+
 function getOrganisations(): [Organisation] {
   return timeslots.reduce((orgs, timeslot, i) => {
     var existingOrganisationIndex = orgs.findIndex(
@@ -54,8 +72,6 @@ function getOrganisations(): [Organisation] {
         timeslot.organisation.toLocaleLowerCase() ===
         ts.organisation.toLocaleLowerCase()
     );
-    // console.log(existingOrganisationIndex);
-    // console.log(weekDays.indexOf(timeslot.day))
     var openingHours = {
       day: timeslot.day,
       weekday: weekDays.indexOf(timeslot.day),
@@ -70,13 +86,12 @@ function getOrganisations(): [Organisation] {
         province: timeslot.place,
         name: timeslot.organisation,
         free: timeslot.free === "yes",
-        openingHours: [
-          openingHours,
-        ],
+        openingHours: [openingHours],
         organisation: timeslot.organisation,
         address: timeslot.address,
         email: timeslot.email,
         website: timeslot.website,
+        ...getOrganisationProps(timeslot.organisation),
       };
 
       orgs = [...orgs, organisation];
@@ -84,13 +99,45 @@ function getOrganisations(): [Organisation] {
       orgs[existingOrganisationIndex].openingHours = [
         ...orgs[existingOrganisationIndex].openingHours,
         openingHours,
-      ].sort((a, b) => (a.weekday > b.weekday) ? 1 : -1);
+      ].sort((a, b) => (a.weekday > b.weekday ? 1 : -1));
       // return orgs;
     }
-    
+
     return orgs;
   }, []);
 }
+
+var provinceProps = [
+  {
+    name: "Brussels",
+    zoom: 11,
+    coords: { lat: 50.8465573, lng: 4.351697 },
+  },
+  {
+    name: "Antwerp",
+    zoom: 11,
+    coords: { lat: 51.2194475, lng: 4.4024643 },
+  },
+];
+
+function getProvinceProps(province) {
+  var provinceIndex = provinceProps.findIndex((pr) => pr.name === province);
+  if (provinceIndex > -1) {
+    return provinceProps[provinceIndex];
+  }
+  return null;
+}
+
+function getOrganisationProps(organisation) {
+  var organisationIndex = organisationProps.findIndex(
+    (pr) => pr.name === organisation
+  );
+  if (organisationIndex > -1) {
+    return organisationProps[organisationIndex];
+  }
+  return null;
+}
+
 function getProvinces(isRemoveSexProvinces: Boolean = true): [Provinces] {
   var provinces = data.reduce((arr, curr, i) => {
     if (arr.indexOf(curr.place) > -1) {
@@ -121,6 +168,12 @@ var DataUtils: Timeslot = {
       return org.province === province;
     });
     return provinceOrganisations;
+  },
+  getProvinceProps(province) {
+    return getProvinceProps(province);
+  },
+  organisationProps(organisation) {
+    return organisationProps(organisation);
   },
 };
 

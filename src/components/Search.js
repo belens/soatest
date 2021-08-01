@@ -5,6 +5,7 @@ import data from "../utils/dataUtils";
 // import SwitchesGroup from "./SwitchesGroup";
 import TimeAutocomplete from "./TimeAutocomplete";
 import OrganisationCard from "./OrganisationCard";
+import Map from "./Map";
 import styled from "styled-components";
 import Box from "@material-ui/core/Box";
 
@@ -15,8 +16,8 @@ var Container = styled.div`
 export default class Search extends React.Component {
   constructor(props) {
     super(props);
-    // this.state = { province: null };
-    this.state = { province: "Brussels" };
+    this.state = { province: null };
+    // this.state = { province: "Brussels" };
   }
 
   componentDidMount() {
@@ -60,6 +61,7 @@ export default class Search extends React.Component {
             />
           </p>
         </div>
+        <div><Map {...data.getProvinceProps(this.state.province)} orgs={data.getOrganisationsByProvince(this.state.province)}  language="nl-BE"></Map></div>
         {this.state.province &&
           data.getOrganisationsByProvince(this.state.province).map((org) => {
             return <OrganisationCard {...org} />;
