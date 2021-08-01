@@ -43,6 +43,11 @@ export class MapComponent extends Component {
       >
         <Map
           google={this.props.google}
+          mapTypeControlOptions={false}
+          streetViewControlOptions={false}
+          fullscreenControl={false}
+          mapTypeControl={false}
+          streetViewControl={false}
           zoom={this.props.zoom}
           initialCenter={this.props.coords}
           center={this.props.coords}

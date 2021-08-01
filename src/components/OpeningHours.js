@@ -10,85 +10,79 @@ import moment from "moment";
 import "moment/locale/nl-be";
 import "moment/locale/fr";
 
-import { List, ListItem, ListItemText } from "@material-ui/core";
-
 moment.locale("nl-be");
 
 export class OpeningHours extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      open: false,
-    };
-  }
-
   getRelativeTime = () => {
     var { openingHours } = this.props;
-
-    
+    if (!openingHours) return "";
     var closesAt = openingHours.find((oh, i) => {
-      // console.log(oh);
       var now = moment();
       var mStart = moment(oh.startTime);
       var mEnd = moment(oh.endTime);
-      console.log(mStart.format('dd LLL'), now.format('dd LLL'), mEnd.format('dd LLL'))
-      console.log(mStart.isBefore(now), mEnd.isAfter(now))
-      if(mStart.isBefore(now), mEnd.isAfter(now)){
+      if (mStart.isBefore(now) && mEnd.isAfter(now)) {
+        return true;
+      }
+
+      return false;
+    });
+
+    var nextOpen = openingHours.find((oh, i) => {
+      var now = moment();
+      var mStart = moment(oh.startTime);
+
+      if (mStart.isAfter(now)) {
         return true;
       }
       return false;
     });
-    return (closesAt && 'OPEN') || "onbekend";
-  };
-
-  handleRelativeClick = () => {
-    this.setState({ open: !this.state.open });
+    if (!nextOpen) {
+      nextOpen = openingHours[0];
+    }
+    if (closesAt) {
+      return (
+        <span>
+          <span style={{ color: "darkgreen", fontWeight: 700 }}>open.</span> tot{" "}
+          {moment(closesAt.endTime).format("H:mm")}
+        </span>
+      );
+    }
+    return (
+      (nextOpen && (
+        <span>
+          <span style={{ color: "darkred", fontWeight: 700 }}>gesloten.</span>{" "}
+          Open op {moment(nextOpen.startTime).format("ddd H:mm")}
+        </span>
+      )) ||
+      "onbekend"
+    );
   };
 
   render() {
-    var curr = new Date(); // get current date
-    var currentDay = new Intl.DateTimeFormat("en-US", {
-      weekday: "long",
-    }).format(curr);
-    var { openingHours } = this.props;
-    var { open } = this.state;
+    var { openingHours, open } = this.props;
 
     var relativeTime = this.getRelativeTime();
     return (
-      <List dense>
-        {/* {relativeTime && (
-          <ListItem
-            style={{ cursor: "pointer" }}
-            onClick={this.handleRelativeClick}
-          >
+      <Accordion variant="outlined" expanded={open}>
+        <AccordionSummary style={{ margin: 0 }} expandIcon={<ExpandMoreIcon />}>
+          <Typography variant="subtitle2" style={{ textAlign: "left" }}>
             Openingstijden:
-            <ListItemText style={{fontWeight: "700 !important"}} primary={relativeTime + " +"}></ListItemText>
-          </ListItem>
-        )} */}
-        <Accordion variant="outlined" >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-          >
-            <Typography style={{ textAlign: "left" }}>
-              Openingstijden:
-              <br />
-              {relativeTime}
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails style={{flexDirection: 'column'}}>
-            {openingHours &&
-              openingHours.map((oh) => (
-                <Typography component="p" style={{textAlign: 'left'}}  >
-                  {moment(oh.startTime).format("dddd - H:mm tot ") +
-                    moment(oh.endTime).format("H:mm")}
-                </Typography>
-              ))}
-          </AccordionDetails>
-        </Accordion>
-      </List>
+            <br />
+            <Typography variant="body2">{relativeTime}</Typography>
+          </Typography>
+        </AccordionSummary>
+
+        <AccordionDetails style={{ flexDirection: "column" }}>
+          {openingHours &&
+            openingHours.map((oh) => (
+              <Typography variant="caption" style={{ textAlign: "left" }}>
+                <Typography component="span" variant="caption" style={{display: 'inline-block', width: 80}}>{moment(oh.startTime).format("dddd")}</Typography>
+                {moment(oh.startTime).format("HH:mm tot ") +
+                  moment(oh.endTime).format("HH:mm")}
+              </Typography>
+            ))}
+        </AccordionDetails>
+      </Accordion>
     );
   }
 }

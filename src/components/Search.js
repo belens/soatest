@@ -10,7 +10,7 @@ import styled from "styled-components";
 import Box from "@material-ui/core/Box";
 
 var Container = styled.div`
-  text-align: center;
+
 `;
 
 export default class Search extends React.Component {
@@ -33,7 +33,7 @@ export default class Search extends React.Component {
   render() {
     return (
       <Container>
-        <div>
+        <div style={{textAlign: 'center'}}>
           <p>
             <Box
               component="span"

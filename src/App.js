@@ -3,9 +3,7 @@ import React from "react";
 import { createTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import Paper from "@material-ui/core/Paper";
 import blue from "@material-ui/core/colors/blue";
-import Grid from "@material-ui/core/Grid";
 
 import dataUtils from "./utils/dataUtils";
 import Search from "./components/Search";
