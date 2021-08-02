@@ -3,7 +3,7 @@ import data from "../data/soatest.json";
 
 type RawTimeslot = {
   place: string, // province
-  appointment: string,
+  on_appointment: string,
   free: string,
   day: string,
   daypart: string,
@@ -12,7 +12,8 @@ type RawTimeslot = {
   address: string,
   telephone: string,
   email: string,
-  website: string,
+  website_url: string,
+  appointment_url: string,
 };
 
 type Organisation = {
@@ -90,7 +91,9 @@ function getOrganisations(): [Organisation] {
         organisation: timeslot.organisation,
         address: timeslot.address,
         email: timeslot.email,
-        website: timeslot.website,
+        websiteUrl: timeslot.website_url,
+        appointmentUrl: timeslot.appointment_url,
+        onAppointment: timeslot.on_appointment === "yes",
         ...getOrganisationProps(timeslot.organisation),
       };
 

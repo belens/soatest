@@ -1,0 +1,333 @@
+place	on_appointment	free	day	daypart	hour	organisation	address	telephone	email	appointment_url	website_url
+Brussels	yes	no	Tuesday	afternoon	13h30 - 16h	S-Clinic	Rue des Alexiens 13, 1000 Brussels	02 535 37 32		https://www.stpierre-bru.be/fr/consultations/prendre-un-rendez-vous	
+Brussels	yes	no	Friday	morning	8h30 - 11h	S-Clinic	Rue des Alexiens 13, 1000 Brussels	02 535 37 32		https://www.stpierre-bru.be/fr/consultations/prendre-un-rendez-vous	
+Brussels	yes	no	Saturday	afternoon	13h30 - 15h30	S-Clinic	Rue des Alexiens 13, 1000 Brussels	02 535 37 32		https://www.stpierre-bru.be/fr/consultations/prendre-un-rendez-vous	https://www.stpierre-bru.be/
+Brussels	yes	no	Monday	morning	9h - 12h	Elisa Centre	Cellebroersstraat 11, 1000 Brussels	02 535 30 03		https://www.stpierre-bru.be/nl/raadplegingen/een-afspraak-maken	
+Brussels	yes	no	Monday	afternoon	13h - 17h	Elisa Centre	Cellebroersstraat 11, 1000 Brussels	02 535 30 03		https://www.stpierre-bru.be/nl/raadplegingen/een-afspraak-maken	
+Brussels	yes	no	Wednesday	afternoon	13h - 17h	Elisa Centre	Cellebroersstraat 11, 1000 Brussels	02 535 30 03		https://www.stpierre-bru.be/nl/raadplegingen/een-afspraak-maken	
+Brussels	yes	no	Thursday	afternoon	13h -17h	Elisa Centre	Cellebroersstraat 11, 1000 Brussels	02 535 30 03		https://www.stpierre-bru.be/nl/raadplegingen/een-afspraak-maken	
+Brussels	no	no	Monday	afternoon	15u30 - 17h30	UCL Saint-Luc	Hippocrateslaan 10, 1200 Brussels	02 764 19 02			
+Brussels	no	no	Wednesday	morning	11h - 13h	UCL Saint-Luc	Hippocrateslaan 10, 1200 Brussels	02 764 19 02			
+Brussels	yes	no	Monday	morning	9h - 12h	Erasmusziekenhuis	Lenniksebaan 808, 1070 Brussels	02 555 4688	CRSida@erasme.ulb.ac.be	https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida	
+Brussels	yes	no	Tuesday	morning	9h - 12h	Erasmusziekenhuis	Lenniksebaan 808, 1070 Brussels	02 555 4688	CRSida@erasme.ulb.ac.be	https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida	
+Brussels	yes	no	Wednesday	morning	9h - 12h	Erasmusziekenhuis	Lenniksebaan 808, 1070 Brussels	02 555 4688	CRSida@erasme.ulb.ac.be	https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida	
+Brussels	yes	no	Thursday	morning	9h - 12h	Erasmusziekenhuis	Lenniksebaan 808, 1070 Brussels	02 555 4688	CRSida@erasme.ulb.ac.be	https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida	
+Brussels	yes	no	Friday	morning	9h - 12h	Erasmusziekenhuis	Lenniksebaan 808, 1070 Brussels	02 555 4688	CRSida@erasme.ulb.ac.be	https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida	
+Brussels	yes	no	Monday	afternoon	13h - 17h	Erasmusziekenhuis	Lenniksebaan 808, 1070 Brussels	02 555 4688	CRSida@erasme.ulb.ac.be	https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida	
+Brussels	yes	no	Tuesday	afternoon	13h - 17h	Erasmusziekenhuis	Lenniksebaan 808, 1070 Brussels	02 555 4688	CRSida@erasme.ulb.ac.be	https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida	
+Brussels	yes	no	Wednesday	afternoon	13h - 17h	Erasmusziekenhuis	Lenniksebaan 808, 1070 Brussels	02 555 4688	CRSida@erasme.ulb.ac.be	https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida	
+Brussels	yes	no	Thursday	afternoon	13h - 17h	Erasmusziekenhuis	Lenniksebaan 808, 1070 Brussels	02 555 4688	CRSida@erasme.ulb.ac.be	https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida	
+Brussels	yes	no	Friday	afternoon	13h - 17h	Erasmusziekenhuis	Lenniksebaan 808, 1070 Brussels	02 555 4688	CRSida@erasme.ulb.ac.be	https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida	
+Brussels	yes	no	Tuesday	afternoon	13h-17h30	ARC UZ VUB Brussels	Laarbeeklaan 101, 1090 Brussels	02 477 60 12	afspraak_dermatologie@uzBrussels.be	https://www.uzBrussels.be/web/dermatologie/in-het-uz-Brussels	
+Brussels	yes	no	Thursday	morning	8h - 12h	ARC UZ VUB Brussels	Laarbeeklaan 101, 1090 Brussels	02 477 60 12	afspraak_dermatologie@uzBrussels.be	https://www.uzBrussels.be/web/dermatologie/in-het-uz-Brussels	
+Brussels	no	yes	Wednesday	afternoon	19h - 21h30	ex æquo	Steenstraat 29, 1000 Brussels	02 736 28 61	info@exaequo.be	www.exaequo.be	
+Brussels	no	yes	Thursday	afternoon	19h - 21h30	ex æquo	Steenstraat 29, 1000 Brussels	02 736 28 61	info@exaequo.be	www.exaequo.be	
+Brussels	yes	yes	Monday	morning	10h - 12h30	ex æquo	Steenstraat 29, 1000 Brussels	02 736 28 61	info@exaequo.be	www.exaequo.be	
+Brussels	yes	yes	Monday	afternoon	13h - 17h	ex æquo	Steenstraat 29, 1000 Brussels	02 736 28 61	info@exaequo.be	www.exaequo.be	
+Brussels	yes	yes	Tuesday	morning	10h - 12h30	ex æquo	Steenstraat 29, 1000 Brussels	02 736 28 61	info@exaequo.be	www.exaequo.be	
+Brussels	yes	yes	Tuesday	afternoon	13h - 17h	ex æquo	Steenstraat 29, 1000 Brussels	02 736 28 61	info@exaequo.be	www.exaequo.be	
+Brussels	yes	yes	Wednesday	morning	10h - 12h30	ex æquo	Steenstraat 29, 1000 Brussels	02 736 28 61	info@exaequo.be	www.exaequo.be	
+Brussels	yes	yes	Wednesday	afternoon	13h - 17h	ex æquo	Steenstraat 29, 1000 Brussels	02 736 28 61	info@exaequo.be	www.exaequo.be	
+Brussels	yes	yes	Thursday	morning	10h - 12h30	ex æquo	Steenstraat 29, 1000 Brussels	02 736 28 61	info@exaequo.be	www.exaequo.be	
+Brussels	yes	yes	Thursday	afternoon	13h - 17h	ex æquo	Steenstraat 29, 1000 Brussels	02 736 28 61	info@exaequo.be	www.exaequo.be	
+Brussels	yes	yes	Friday	morning	10h - 12h30	ex æquo	Steenstraat 29, 1000 Brussels	02 736 28 61	info@exaequo.be	www.exaequo.be	
+Brussels	yes	yes	Friday	afternoon	13h - 17h	ex æquo	Steenstraat 29, 1000 Brussels	02 736 28 61	info@exaequo.be	www.exaequo.be	
+Brussels	no	no	Monday	morning	8h - 13h	Elisa Centre	Cellebroersstraat 11, 1000 Brussels	02 535 30 03			
+Brussels	no	no	Wednesday	afternoon	12h15 - 15h	Elisa Centre (age 15 - 29)	Cellebroersstraat 11, 1000 Brussels	02 535 30 03			
+Brussels	no	no	Thursday	afternoon	15h30 - 19h	Elisa Centre	Cellebroersstraat 11, 1000 Brussels	02 535 30 03			
+Brussels	no	no	Tuesday	afternoon	13h30 - 16h	S-Clinic	Rue des Alexiens 13, 1000 Brussels				
+Brussels	no	no	Friday	morning	8h30 - 11h	S-Clinic	Rue des Alexiens 13, 1000 Brussels				
+Brussels	no	no	Friday	afternoon	13h30 - 15h30	S-Clinic	Rue des Alexiens 13, 1000 Brussels				
+Brussels	no	no	Monday	afternoon	15u30 - 17h30	UCL Saint-Luc	Hippocrateslaan 10, 1200 Brussels	02 764 19 02			
+Brussels	no	no	Wednesday	morning	11h - 13h	UCL Saint-Luc	Hippocrateslaan 10, 1200 Brussels	02 764 19 02			
+Brussels	no	yes	Monday	afternoon	14h - 16h	CPF Yser Aimer Jeunes	Rue Saint-Jean Népomucène 28, 1000 Brusselss	02 511 32 20			
+Brussels	no	yes	Tuesday	afternoon	17h - 19h	CPF Jette	Rue Léon Théodor 108, 1090 Brussels	02 426 06 27			
+Brussels	no	yes	Monday	afternoon	14h - 16h	CPF Aimer Jeunes	Rue Saint-Jean Népomucène 28, 1000 Brusselss	02 511 32 20		http://aimer-jeunes.be/?Aimer-Jeunes-a-Madrid	
+Brussels	no	yes	Monday	morning	9h - 12h	CPF Marolles	Rue de la Roue 21, 1000 Brusselss	02 426 06 27			
+Brussels	no	yes	Tuesday	morning	9h - 12h	CPF Marolles	Rue de la Roue 21, 1000 Brusselss	02 426 06 27			
+Brussels	no	yes	Wednesday	morning	9h - 12h	CPF Marolles	Rue de la Roue 21, 1000 Brusselss	02 426 06 27			
+Brussels	no	yes	Thursday	morning	9h - 12h	CPF Marolles	Rue de la Roue 21, 1000 Brusselss	02 426 06 27			
+Brussels	no	yes	Friday	morning	9h - 12h	CPF Marolles	Rue de la Roue 21, 1000 Brusselss	02 426 06 27			
+Brussels	no	yes	Monday	afternoon	12h30 - 17h30	CPF Marolles	Rue de la Roue 21, 1000 Brusselss	02 426 06 27			
+Brussels	no	yes	Tuesday	afternoon	12h30 - 17h30	CPF Marolles	Rue de la Roue 21, 1000 Brusselss	02 426 06 27			
+Brussels	no	yes	Wednesday	afternoon	12h30 - 17h30	CPF Marolles	Rue de la Roue 21, 1000 Brusselss	02 426 06 27			
+Brussels	no	yes	Thursday	afternoon	12h30 - 18h30	CPF Marolles	Rue de la Roue 21, 1000 Brusselss	02 426 06 27			
+Brussels	no	yes	Friday	afternoon	12h30 - 17h30	CPF Marolles	Rue de la Roue 21, 1000 Brusselss	02 426 06 27			
+Brussels	no	yes	Thursday	afternoon	18/7: 17h - 19h	CPF Watermael-Boitsfort	Avenue Léopold Wiener 64, 1170 Brussels	02 673 39 34			
+Brussels	no	yes	Thursday	afternoon	19/9: 17h - 19h	CPF Watermael-Boitsfort	Avenue Léopold Wiener 64, 1170 Brussels	02 673 39 34			
+Brussels	no	yes	Thursday	afternoon	18/7: 17h - 19h	CPF Watermael-Boitsfort	Avenue Léopold Wiener 64, 1170 Brussels	02 673 39 34			
+Brussels	no	yes	Thursday	afternoon	17/10: 17h - 19h	CPF Watermael-Boitsfort	Avenue Léopold Wiener 64, 1170 Brussels	02 673 39 34			
+Brussels	no	yes	Thursday	afternoon	21/11: 17h - 19h	CPF Watermael-Boitsfort	Avenue Léopold Wiener 64, 1170 Brussels	02 673 39 34			
+Brussels	no	yes	Thursday	afternoon	19/12: 17h - 19h	CPF Watermael-Boitsfort	Avenue Léopold Wiener 64, 1170 Brussels	02 673 39 34			
+Brussels	no	yes	Tuesday	afternoon	9/7: 16h - 18h	CPF Uccle	Rue de Stalle 24, 1180 Brussels	02 376 10 00			
+Brussels	no	yes	Tuesday	afternoon	13/8: 16h - 18h	CPF Uccle	Rue de Stalle 24, 1180 Brussels	02 376 10 00			
+Brussels	no	yes	Tuesday	afternoon	10/9: 16h - 18h	CPF Uccle	Rue de Stalle 24, 1180 Brussels	02 376 10 00			
+Brussels	no	yes	Tuesday	afternoon	8/10: 16h - 18h	CPF Uccle	Rue de Stalle 24, 1180 Brussels	02 376 10 00			
+Brussels	no	yes	Tuesday	afternoon	12/11: 16h - 18h	CPF Uccle	Rue de Stalle 24, 1180 Brussels	02 376 10 00			
+Brussels	no	yes	Tuesday	afternoon	10/12: 16h - 18h	CPF Uccle	Rue de Stalle 24, 1180 Brussels	02 376 10 00			
+Antwerp	yes	no	Tuesday	morning	9h - 12h	Help Centre	Kronenburgstraat 43, 2000 Antwerp	03 216 02 88	helpcenter@itg.be	https://www.itg.be/E/helpcenter	
+Antwerp	yes	no	Wednesday	morning	9h - 12h	Help Centre	Kronenburgstraat 43, 2000 Antwerp	03 216 02 88	helpcenter@itg.be	https://www.itg.be/E/helpcenter	
+Antwerp	no	no	Monday	afternoon	14h - 16h	Help Centre	Kronenburgstraat 43, 2000 Antwerp	03 216 02 88	helpcenter@itg.be	https://www.itg.be/E/helpcenter	
+Antwerp	no	no	Thursday	afternoon	14h - 16h	Help Centre	Kronenburgstraat 43, 2000 Antwerp	03 216 02 88	helpcenter@itg.be	https://www.itg.be/E/helpcenter	
+Antwerp	no	no	Friday	afternoon	14h - 16h	Help Centre	Kronenburgstraat 43, 2000 Antwerp	03 216 02 88	helpcenter@itg.be	https://www.itg.be/E/helpcenter	
+Limburg	no	no	Monday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	no	no	Monday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	no	no	Tuesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	no	no	Tuesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	no	no	Wednesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	no	no	Wednesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	no	no	Thursday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	no	no	Thursday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	no	no	Friday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	no	no	Friday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	no	no	Monday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	no	no	Monday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	no	no	Tuesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	no	no	Tuesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	no	no	Wednesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	no	no	Wednesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	no	no	Thursday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	no	no	Thursday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	no	no	Friday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	no	no	Friday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	no	no	Monday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	no	no	Monday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	no	no	Tuesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	no	no	Tuesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	no	no	Wednesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	no	no	Wednesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	no	no	Thursday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	no	no	Thursday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	no	no	Friday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	no	no	Friday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	no	no	Monday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	no	no	Monday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	no	no	Tuesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	no	no	Tuesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	no	no	Wednesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	no	no	Wednesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	no	no	Thursday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	no	no	Thursday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	no	no	Friday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	no	no	Friday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	no	no	Monday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	no	no	Monday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	no	no	Tuesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	no	no	Tuesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	no	no	Wednesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	no	no	Wednesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	no	no	Thursday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	no	no	Thursday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	no	no	Friday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	no	no	Friday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	no	no	Monday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	no	no	Monday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	no	no	Tuesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	no	no	Tuesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	no	no	Wednesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	no	no	Wednesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	no	no	Thursday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	no	no	Thursday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	no	no	Friday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	no	no	Friday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	yes	no	Monday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	yes	no	Monday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	yes	no	Tuesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	yes	no	Tuesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	yes	no	Wednesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	yes	no	Wednesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	yes	no	Thursday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	yes	no	Thursday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	yes	no	Friday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Limburg	yes	no	Friday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	yes	no	Monday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	yes	no	Monday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	yes	no	Tuesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	yes	no	Tuesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	yes	no	Wednesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	yes	no	Wednesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	yes	no	Thursday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	yes	no	Thursday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	yes	no	Friday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Antwerp	yes	no	Friday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	yes	no	Monday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	yes	no	Monday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	yes	no	Tuesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	yes	no	Tuesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	yes	no	Wednesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	yes	no	Wednesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	yes	no	Thursday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	yes	no	Thursday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	yes	no	Friday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Brussels	yes	no	Friday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	yes	no	Monday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	yes	no	Monday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	yes	no	Tuesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	yes	no	Tuesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	yes	no	Wednesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	yes	no	Wednesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	yes	no	Thursday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	yes	no	Thursday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	yes	no	Friday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+East-Flanders	yes	no	Friday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	yes	no	Monday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	yes	no	Monday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	yes	no	Tuesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	yes	no	Tuesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	yes	no	Wednesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	yes	no	Wednesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	yes	no	Thursday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	yes	no	Thursday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	yes	no	Friday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+West-Flanders	yes	no	Friday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	yes	no	Monday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	yes	no	Monday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	yes	no	Tuesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	yes	no	Tuesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	yes	no	Wednesday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	yes	no	Wednesday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	yes	no	Thursday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	yes	no	Thursday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	yes	no	Friday	morning		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+Flemish Brabant	yes	no	Friday	afternoon		General Practitioner	check website			https://en.doctena.be/General_Practitioner_GP/Belgium	
+SexBru	no	yes	Tuesday	afternoon	19h - 21h	Alias	Rue du Marché au charbon 33, Brussels	0485 547 278 (Aure)	aure@alias-bru.be	http://www.alias-bru.be/permanence-medicale/	
+SexAnt	no	yes	Wednesday	afternoon	3/7: 14h30 - 16h30	Boysproject	Appelmansstraat 12, 2018 Antwerp	03 293 95 90	info@boysproject.be	http://www.boysproject.be/en/offer/TESTING	
+SexAnt	no	yes	Wednesday	afternoon	17/7: 18h - 20h	Boysproject	Appelmansstraat 12, 2018 Antwerp	03 293 95 90	info@boysproject.be	http://www.boysproject.be/en/offer/TESTING	
+SexAnt	no	yes	Wednesday	afternoon	31/7: 14h30 - 16h30	Boysproject	Appelmansstraat 12, 2018 Antwerp	03 293 95 90	info@boysproject.be	http://www.boysproject.be/en/offer/TESTING	
+SexAnt	no	yes	Wednesday	afternoon	14/8: 18h - 20h	Boysproject	Appelmansstraat 12, 2018 Antwerp	03 293 95 90	info@boysproject.be	http://www.boysproject.be/en/offer/TESTING	
+SexAnt	no	yes	Wednesday	afternoon	28/8: 14h30 - 16h30	Boysproject	Appelmansstraat 12, 2018 Antwerp	03 293 95 90	info@boysproject.be	http://www.boysproject.be/en/offer/TESTING	
+SexAnt	no	yes	Wednesday	afternoon	11/9: 18h - 20h	Boysproject	Appelmansstraat 12, 2018 Antwerp	03 293 95 90	info@boysproject.be	http://www.boysproject.be/en/offer/TESTING	
+SexAnt	no	yes	Wednesday	afternoon	25/9: 14h30 - 16h30	Boysproject	Appelmansstraat 12, 2018 Antwerp	03 293 95 90	info@boysproject.be	http://www.boysproject.be/en/offer/TESTING	
+SexAnt	no	yes	Wednesday	afternoon	9/10: 18h - 20h	Boysproject	Appelmansstraat 12, 2018 Antwerp	03 293 95 90	info@boysproject.be	http://www.boysproject.be/en/offer/TESTING	
+SexAnt	no	yes	Wednesday	afternoon	23/10: 14h30 - 16h30	Boysproject	Appelmansstraat 12, 2018 Antwerp	03 293 95 90	info@boysproject.be	http://www.boysproject.be/en/offer/TESTING	
+SexOther	no	yes	Monday	afternoon	14h - 16h	Violett	Verversrui 3, 2000 Antwerp	03 293 95 91	dokters.Antwerpen@violett.be	https://www.violett.be/nl/laat-je-testen/	
+SexOther	no	yes	Wednesday	morning	10h - 12h	Violett	Verversrui 3, 2000 Antwerp	03 293 95 91	dokters.Antwerpen@violett.be	https://www.violett.be/nl/laat-je-testen/	
+SexOther	no	yes	Wednesday	afternoon	18h - 20h	Violett	Verversrui 3, 2000 Antwerp	03 293 95 91	dokters.Antwerpen@violett.be	https://www.violett.be/nl/laat-je-testen/	
+SexOther	no	yes	Friday	morning	10h - 12h	Violett	Verversrui 3, 2000 Antwerp	03 293 95 91	dokters.Antwerpen@violett.be	https://www.violett.be/nl/laat-je-testen/	
+SexOther	yes	yes	Wednesday	afternoon	18h30 - 19h30	Violett	Verversrui 3, 2000 Antwerp	03 293 95 91	dokters.Antwerpen@violett.be	https://www.violett.be/nl/laat-je-testen/	
+SexOther	no	yes	Friday	morning	11h - 12h	Violett	Brabantdam 100B, 9000 Ghent	09 233 47 67	dokters.gent@violett.be	https://www.violett.be/nl/laat-je-testen/	
+SexOther	no	yes	Friday	afternoon	12h - 13h	Violett	Brabantdam 100B, 9000 Ghent	09 233 47 67	dokters.gent@violett.be	https://www.violett.be/nl/laat-je-testen/	
+SexOther	no	yes	Monday	morning	10h - 12h	Violett	Ertbeekstraat 34, 3500 Hasselt	011 33 30 58	dokters.hasselt@violett.be	https://www.violett.be/nl/laat-je-testen/	
+Selftest						Swab2Know				https://www.swab2know.eu/BE/e	
+Brussels	no	yes	Monday	afternoon	8/7: 18h - 21h	Aide Info Sida	Rue Duquesnoy 45, 1000 Brussels	02 514 29 65	aide.info.sida@gmail.com	http://www.aideinfosida.be/tests_ais.php	
+Brussels	no	yes	Monday	afternoon	12/8: 18h - 21h	Aide Info Sida	Rue Duquesnoy 45, 1000 Brussels	02 514 29 65	aide.info.sida@gmail.com	http://www.aideinfosida.be/tests_ais.php	
+Brussels	no	yes	Monday	afternoon	26/8: 18h - 21h	Aide Info Sida	Rue Duquesnoy 45, 1000 Brussels	02 514 29 65	aide.info.sida@gmail.com	http://www.aideinfosida.be/tests_ais.php	
+Brussels	no	yes	Tuesday	afternoon	9/9: 18h - 21h	Aide Info Sida	Rue Duquesnoy 45, 1000 Brussels	02 514 29 65	aide.info.sida@gmail.com	http://www.aideinfosida.be/tests_ais.php	
+Brussels	no	yes	Wednesday	afternoon	23/9: 18h - 21h	Aide Info Sida	Rue Duquesnoy 45, 1000 Brussels	02 514 29 65	aide.info.sida@gmail.com	http://www.aideinfosida.be/tests_ais.php	
+Brussels	no	yes	Thursday	afternoon	26/8: 18h - 21h	Aide Info Sida	Rue Duquesnoy 45, 1000 Brussels	02 514 29 65	aide.info.sida@gmail.com	http://www.aideinfosida.be/tests_ais.php	
+Brussels	no	yes	Friday	afternoon	14/10: 18h - 21h	Aide Info Sida	Rue Duquesnoy 45, 1000 Brussels	02 514 29 65	aide.info.sida@gmail.com	http://www.aideinfosida.be/tests_ais.php	
+Brussels	no	yes	Saturday	afternoon	28/10: 18h - 21h	Aide Info Sida	Rue Duquesnoy 45, 1000 Brussels	02 514 29 65	aide.info.sida@gmail.com	http://www.aideinfosida.be/tests_ais.php	
+Brussels	no	yes	Sunday	afternoon	25/11: 18h - 21h	Aide Info Sida	Rue Duquesnoy 45, 1000 Brussels	02 514 29 65	aide.info.sida@gmail.com	http://www.aideinfosida.be/tests_ais.php	
+Brussels	no	yes	Monday	afternoon	9/12: 18h - 21h	Aide Info Sida	Rue Duquesnoy 45, 1000 Brussels	02 514 29 65	aide.info.sida@gmail.com	http://www.aideinfosida.be/tests_ais.php	
+Brussels	no	yes	Tuesday	afternoon	23/12: 18h - 21h	Aide Info Sida	Rue Duquesnoy 45, 1000 Brussels	02 514 29 65	aide.info.sida@gmail.com	http://www.aideinfosida.be/tests_ais.php	
+Brussels	no	no	Wednesday	morning	10/7: 9h - 12h	CPF Senne	Boulevard de l'Abattoir 27, Brussels	02 548 98 18	planning@tele-service.be	https://www.cpfsenne.be/spip.php?rubrique13	
+Brussels	yes	no	Wednesday	morning	10/7: 9h - 12h	CPF Senne	Boulevard de l'Abattoir 27, Brussels	02 548 98 18	planning@tele-service.be	https://www.cpfsenne.be/spip.php?rubrique14	
+Brussels	no	no	Wednesday	morning	17/7: 9h - 12h	CPF Senne	Boulevard de l'Abattoir 27, Brussels	02 548 98 18	planning@tele-service.be	https://www.cpfsenne.be/spip.php?rubrique15	
+Brussels	yes	no	Wednesday	morning	17/7: 9h - 12h	CPF Senne	Boulevard de l'Abattoir 27, Brussels	02 548 98 18	planning@tele-service.be	https://www.cpfsenne.be/spip.php?rubrique16	
+Brussels	no	no	Wednesday	morning	24/7: 9h - 12h	CPF Senne	Boulevard de l'Abattoir 27, Brussels	02 548 98 18	planning@tele-service.be	https://www.cpfsenne.be/spip.php?rubrique17	
+Brussels	yes	no	Wednesday	morning	24/7: 9h - 12h	CPF Senne	Boulevard de l'Abattoir 27, Brussels	02 548 98 18	planning@tele-service.be	https://www.cpfsenne.be/spip.php?rubrique18	
+Brussels	no	no	Wednesday	morning	31/7: 9h - 12h	CPF Senne	Boulevard de l'Abattoir 27, Brussels	02 548 98 18	planning@tele-service.be	https://www.cpfsenne.be/spip.php?rubrique19	
+Brussels	yes	no	Wednesday	morning	31/7: 9h - 12h	CPF Senne	Boulevard de l'Abattoir 27, Brussels	02 548 98 18	planning@tele-service.be	https://www.cpfsenne.be/spip.php?rubrique20	
+Brussels	no	no	Wednesday	morning	7/8: 9h - 12h	CPF Senne	Boulevard de l'Abattoir 27, Brussels	02 548 98 18	planning@tele-service.be	https://www.cpfsenne.be/spip.php?rubrique21	
+Brussels	yes	no	Wednesday	morning	7/8: 9h - 12h	CPF Senne	Boulevard de l'Abattoir 27, Brussels	02 548 98 18	planning@tele-service.be	https://www.cpfsenne.be/spip.php?rubrique22	
+Brussels	yes	no	Wednesday	morning	29/8: 9h - 12h	CPF Senne	Boulevard de l'Abattoir 27, Brussels	02 548 98 18	planning@tele-service.be	https://www.cpfsenne.be/spip.php?rubrique23	
+Brussels	no	no	Wednesday	morning	29/8: 9h - 12h	CPF Senne	Boulevard de l'Abattoir 27, Brussels	02 548 98 18	planning@tele-service.be	https://www.cpfsenne.be/spip.php?rubrique24	
+Brussels	yes	no	Monday	morning	9h - 12h	CPF Plan F	Rue des Guildes 22, 1000 Brussels	02 230 04 62		http://www.planf.be/Horaires	
+Brussels	yes	no	Monday	afternoon	14h - 18h	CPF Plan F	Rue des Guildes 22, 1000 Brussels	02 230 04 62		http://www.planf.be/Horaires	
+Brussels	yes	no	Tuesday	morning	9h - 13h30	CPF Plan F	Rue des Guildes 22, 1000 Brussels	02 230 04 62		http://www.planf.be/Horaires	
+Brussels	yes	no	Tuesday	afternoon	14h - 18h	CPF Plan F	Rue des Guildes 22, 1000 Brussels	02 230 04 62		http://www.planf.be/Horaires	
+Brussels	yes	no	Wednesday	morning	9h30 - 13h	CPF Plan F	Rue des Guildes 22, 1000 Brussels	02 230 04 62		http://www.planf.be/Horaires	
+Brussels	yes	no	Wednesday	afternoon	14h - 17h	CPF Plan F	Rue des Guildes 22, 1000 Brussels	02 230 04 62		http://www.planf.be/Horaires	
+Brussels	yes	no	Thursday	morning	9h - 13h	CPF Plan F	Rue des Guildes 22, 1000 Brussels	02 230 04 62		http://www.planf.be/Horaires	
+Brussels	yes	no	Thursday	afternoon	14h30 - 18h30	CPF Plan F	Rue des Guildes 22, 1000 Brussels	02 230 04 62		http://www.planf.be/Horaires	
+Brussels	yes	no	Friday	morning	9h30 - 13h30	CPF Plan F	Rue des Guildes 22, 1000 Brussels	02 230 04 62		http://www.planf.be/Horaires	
+Brussels	yes	no	Friday	afternoon	14h - 18h	CPF Plan F	Rue des Guildes 22, 1000 Brussels	02 230 04 62		http://www.planf.be/Horaires	
+Brussels	yes	no	Monday	morning	8h15 - 12h	CPF Rosa	Rue du Midi 120, 1000 Brussels	02 546 14 33	planningrosa@fmsb.be	https://www.planningsfps.be/nos-centres/cpf-bruxelles/	
+Brussels	yes	no	Monday	afternoon	12h45 - 16h30	CPF Rosa	Rue du Midi 120, 1000 Brussels	02 546 14 33	planningrosa@fmsb.be	https://www.planningsfps.be/nos-centres/cpf-bruxelles/	
+Brussels	yes	no	Tuesday	morning	8h15 - 12h	CPF Rosa	Rue du Midi 120, 1000 Brussels	02 546 14 33	planningrosa@fmsb.be	https://www.planningsfps.be/nos-centres/cpf-bruxelles/	
+Brussels	yes	no	Tuesday	afternoon	12h45 - 16h30	CPF Rosa	Rue du Midi 120, 1000 Brussels	02 546 14 33	planningrosa@fmsb.be	https://www.planningsfps.be/nos-centres/cpf-bruxelles/	
+Brussels	yes	no	Wednesday	morning	8h15 - 12h	CPF Rosa	Rue du Midi 120, 1000 Brussels	02 546 14 33	planningrosa@fmsb.be	https://www.planningsfps.be/nos-centres/cpf-bruxelles/	
+Brussels	yes	no	Wednesday	afternoon	12h45 - 16h30	CPF Rosa	Rue du Midi 120, 1000 Brussels	02 546 14 33	planningrosa@fmsb.be	https://www.planningsfps.be/nos-centres/cpf-bruxelles/	
+Brussels	yes	no	Thursday	morning	8h15 - 12h	CPF Rosa	Rue du Midi 120, 1000 Brussels	02 546 14 33	planningrosa@fmsb.be	https://www.planningsfps.be/nos-centres/cpf-bruxelles/	
+Brussels	yes	no	Thursday	afternoon	12h45 - 16h30	CPF Rosa	Rue du Midi 120, 1000 Brussels	02 546 14 33	planningrosa@fmsb.be	https://www.planningsfps.be/nos-centres/cpf-bruxelles/	
+Brussels	yes	no	Friday	morning	8h15 - 12h	CPF Rosa	Rue du Midi 120, 1000 Brussels	02 546 14 33	planningrosa@fmsb.be	https://www.planningsfps.be/nos-centres/cpf-bruxelles/	
+Brussels	yes	no	Friday	afternoon	12h45 - 16h30	CPF Rosa	Rue du Midi 120, 1000 Brussels	02 546 14 33	planningrosa@fmsb.be	https://www.planningsfps.be/nos-centres/cpf-bruxelles/	
+Brussels	yes	no	Thursday	morning	9h - 12h	CPF Laken	Boulevard Émile Bockstael 91, 1020 Brussels	02 325 46 40	laeken@planningfamilial.net	http://www.planninglaeken.be/contact/	
+Brussels	yes	no	Friday	afternoon	12h - 18h	CPF Laken	Boulevard Émile Bockstael 91, 1020 Brussels	02 325 46 40	laeken@planningfamilial.net	http://www.planninglaeken.be/contact/	
+Brussels	yes	no	Tuesday	morning	9h - 12h	CPF Leman	rue Général Leman 110, 1040 Brussels	02 230 10 30		https://www.guidesocial.be/planningleman/?page=5	
+Brussels	yes	no	Tuesday	afternoon	12h30 - 17h	CPF Leman	rue Général Leman 110, 1040 Brussels	02 230 10 30		https://www.guidesocial.be/planningleman/?page=6	
+Brussels	yes	no	Wednesday	afternoon	13h - 19h	CPF Leman	rue Général Leman 110, 1040 Brussels	02 230 10 30		https://www.guidesocial.be/planningleman/?page=7	
+Brussels	yes	no	Thursday	morning	9h - 12h	CPF Leman	rue Général Leman 110, 1040 Brussels	02 230 10 30		https://www.guidesocial.be/planningleman/?page=8	
+Brussels	yes	no	Thursday	afternoon	12h30 - 18h	CPF Leman	rue Général Leman 110, 1040 Brussels	02 230 10 30		https://www.guidesocial.be/planningleman/?page=9	
+Brussels	yes	no	Friday	morning	9h - 12h	CPF Leman	rue Général Leman 110, 1040 Brussels	02 230 10 30		https://www.guidesocial.be/planningleman/?page=10	
+Brussels	yes	no	Friday	afternoon	12h30 - 17h	CPF Leman	rue Général Leman 110, 1040 Brussels	02 230 10 30		https://www.guidesocial.be/planningleman/?page=11	
+Brussels	yes	no	Tuesday	afternoon	13h - 17h	Collectif Contraception	Av. des Celtes 50, 1040 Brussels	02 736 13 14		http://collectifcontraception.be/?id=20	
+Brussels	yes	no	Wednesday	afternoon	13h30 - 18h30	Collectif Contraception	Av. des Celtes 50, 1040 Brussels	02 736 13 14		http://collectifcontraception.be/?id=20	
+Brussels	no	no	Wednesday	afternoon	13h30 - 17h30	CPF Ixelles	rue du Vivier 89, Brussels	02 646 42 73	ixelles.cps@belgacom.net		
+Brussels	yes	no	Monday	afternoon	13h30 - 17h30	CPF Ixelles	rue du Vivier 89, Brussels	02 646 42 73	ixelles.cps@belgacom.net		
+Brussels	yes	no	Tuesday	afternoon	13h30 - 17h30	CPF Ixelles	rue du Vivier 89, Brussels	02 646 42 73	ixelles.cps@belgacom.net		
+Brussels	yes	no	Thursday	afternoon	13h30 - 17h30	CPF Ixelles	rue du Vivier 89, Brussels	02 646 42 73	ixelles.cps@belgacom.net		
+Brussels	yes	no	Friday	afternoon	13h30 - 17h30	CPF Ixelles	rue du Vivier 89, Brussels	02 646 42 73	ixelles.cps@belgacom.net		
+Brussels	yes	no	Monday	morning	9h - 12h	Aimer à L’ULB	Avenue Jeanne 38, Brussels	02 650 31 31		http://www.aimeralulb.be/	
+Brussels	yes	no	Monday	afternoon	12h30 - 19h	aimer à L’ULB	Avenue Jeanne 38, Brussels	02 650 31 31		http://www.aimeralulb.be/	
+Brussels	yes	no	Tuesday	morning	9h - 12h	Aimer à L’ULB	Avenue Jeanne 38, Brussels	02 650 31 31		http://www.aimeralulb.be/	
+Brussels	yes	no	Tuesday	afternoon	12h30 - 19h	aimer à L’ULB	Avenue Jeanne 38, Brussels	02 650 31 31		http://www.aimeralulb.be/	
+Brussels	yes	no	Wednesday	morning	9h - 12h	Aimer à L’ULB	Avenue Jeanne 38, Brussels	02 650 31 31		http://www.aimeralulb.be/	
+Brussels	yes	no	Wednesday	afternoon	12h30 - 19h	aimer à L’ULB	Avenue Jeanne 38, Brussels	02 650 31 31		http://www.aimeralulb.be/	
+Brussels	yes	no	Thursday	morning	9h - 12h	Aimer à L’ULB	Avenue Jeanne 38, Brussels	02 650 31 31		http://www.aimeralulb.be/	
+Brussels	yes	no	Thursday	afternoon	12h30 - 19h	aimer à L’ULB	Avenue Jeanne 38, Brussels	02 650 31 31		http://www.aimeralulb.be/	
+Brussels	yes	no	Friday	morning	9h - 12h	Aimer à L’ULB	Avenue Jeanne 38, Brussels	02 650 31 31		http://www.aimeralulb.be/	
+Brussels	yes	no	Friday	afternoon	12h30 - 19h	aimer à L’ULB	Avenue Jeanne 38, Brussels	02 650 31 31		http://www.aimeralulb.be/	
+Brussels	yes	no	Saturday	morning	9h30 - 12h30	Aimer à L’ULB	Avenue Jeanne 38, Brussels	02 650 31 31		http://www.aimeralulb.be/	
+Brussels	yes	no	Monday	morning	9h - 11h40	CPF Saint-Gilles	Avenue du Parc 89, 1060 Brussels	02 537 11 08		https://www.planningfamilialstgilles.be/infos-pratiques	
+Brussels	yes	no	Monday	afternoon	14h30 - 14h30	CPF Saint-Gilles	Avenue du Parc 89, 1060 Brussels	02 537 11 08		https://www.planningfamilialstgilles.be/infos-pratiques	
+Brussels	yes	no	Tuesday	morning	9h - 12h	CPF Saint-Gilles	Avenue du Parc 89, 1060 Brussels	02 537 11 08		https://www.planningfamilialstgilles.be/infos-pratiques	
+Brussels	yes	no	Tuesday	afternoon	13h30 - 17h	CPF Saint-Gilles	Avenue du Parc 89, 1060 Brussels	02 537 11 08		https://www.planningfamilialstgilles.be/infos-pratiques	
+Brussels	yes	no	Wednesday	morning	9h - 12h	CPF Saint-Gilles	Avenue du Parc 89, 1060 Brussels	02 537 11 08		https://www.planningfamilialstgilles.be/infos-pratiques	
+Brussels	yes	no	Wednesday	afternoon	13h30 - 16h	CPF Saint-Gilles	Avenue du Parc 89, 1060 Brussels	02 537 11 08		https://www.planningfamilialstgilles.be/infos-pratiques	
+Brussels	yes	no	Friday	afternoon	14h30 - 16h30	CPF Saint-Gilles	Avenue du Parc 89, 1060 Brussels	02 537 11 08		https://www.planningfamilialstgilles.be/infos-pratiques	
+Brussels	yes	no	Wednesday	afternoon	13h - 18h	CPF Midi	Avenue Clemenceau 23, 1070 Bruxelles	02 511 38 38	accueil@cpfmidi.be	https://www.cpfmidi.be/consultations-medicales/	
+Brussels	yes	no	Monday	morning	9h- 12h	CPF Séverine	Raymond Vander Bruggen 84, 1070 Brussels	02 524 33 14	info@planning-severine.org	https://www.planning-severine.org/nos-services	
+Brussels	yes	no	Monday	afternoon	12h30 - 18h	CPF Séverine	Raymond Vander Bruggen 84, 1070 Brussels	02 524 33 14	info@planning-severine.org	https://www.planning-severine.org/nos-services	
+Brussels	yes	no	Tuesday	morning	9h- 12h	CPF Séverine	Raymond Vander Bruggen 84, 1070 Brussels	02 524 33 14	info@planning-severine.org	https://www.planning-severine.org/nos-services	
+Brussels	yes	no	Tuesday	afternoon	12h30 - 18h	CPF Séverine	Raymond Vander Bruggen 84, 1070 Brussels	02 524 33 14	info@planning-severine.org	https://www.planning-severine.org/nos-services	
+Brussels	no	no	Wednesday	afternoon	13h- 15h30	CPF Séverine	Raymond Vander Bruggen 84, 1070 Brussels	02 524 33 14	info@planning-severine.org	https://www.planning-severine.org/nos-services	
+Brussels	yes	no	Thursday	morning	9h- 12h	CPF Séverine	Raymond Vander Bruggen 84, 1070 Brussels	02 524 33 14	info@planning-severine.org	https://www.planning-severine.org/nos-services	
+Brussels	yes	no	Thursday	afternoon	12h30 - 18h30	CPF Séverine	Raymond Vander Bruggen 84, 1070 Brussels	02 524 33 14	info@planning-severine.org	https://www.planning-severine.org/nos-services	
+Brussels	yes	no	Friday	morning	9h - 13h30	CPF Séverine	Raymond Vander Bruggen 84, 1070 Brussels	02 524 33 14	info@planning-severine.org	https://www.planning-severine.org/nos-services	
+Brussels	yes	no	Friday	afternoon	16h - 17h30	CPF Séverine	Raymond Vander Bruggen 84, 1070 Brussels	02 524 33 14	info@planning-severine.org	https://www.planning-severine.org/nos-services	
+Brussels	yes	no	Monday	afternoon	16h - 17h	CPF Evere	rue Adolphe De Brandt 70 , 1140 Brussels	02 216 20 04	planning.familial.evere@brutele.be	http://www.lentrela.be/-Planning-Familial-d-Evere-127-	
+Brussels	no	no	Monday	afternoon	17h - 18h	CPF Evere	rue Adolphe De Brandt 70 , 1140 Brussels	02 216 20 04	planning.familial.evere@brutele.be	http://www.lentrela.be/-Planning-Familial-d-Evere-127-	
+Brussels	yes	no	Wednesday	afternoon	14h - 16h	CPF Evere	rue Adolphe De Brandt 70 , 1140 Brussels	02 216 20 04	planning.familial.evere@brutele.be	http://www.lentrela.be/-Planning-Familial-d-Evere-127-	
+Brussels	yes	no	Wednesday	afternoon	16h - 17h	CPF Evere	rue Adolphe De Brandt 70 , 1140 Brussels	02 216 20 04	planning.familial.evere@brutele.be	http://www.lentrela.be/-Planning-Familial-d-Evere-127-	
+Brussels	yes	no	Monday	morning	10h - 12h	CPF Woluwé-St-Pierre	Rue Jean Deraeck 14, 1150 Brussels	02 762 00 67		https://www.guidesocial.be/planningwoluwe/?page=5	
+Brussels	yes	no	Monday	afternoon	13h - 18h	CPF Woluwé-St-Pierre	Rue Jean Deraeck 14, 1150 Brussels	02 762 00 67		https://www.guidesocial.be/planningwoluwe/?page=6	
+Brussels	yes	no	Tuesday	morning	9h -12h	CPF Woluwé-St-Pierre	Rue Jean Deraeck 14, 1150 Brussels	02 762 00 67		https://www.guidesocial.be/planningwoluwe/?page=7	
+Brussels	yes	no	Tuesday	afternoon	14h - 18h	CPF Woluwé-St-Pierre	Rue Jean Deraeck 14, 1150 Brussels	02 762 00 67		https://www.guidesocial.be/planningwoluwe/?page=8	
+Brussels	yes	no	Wednesday	afternoon	13h - 18h	CPF Woluwé-St-Pierre	Rue Jean Deraeck 14, 1150 Brussels	02 762 00 67		https://www.guidesocial.be/planningwoluwe/?page=9	
+Brussels	yes	no	Thursday	afternoon	12h30 - 17h30	CPF Woluwé-St-Pierre	Rue Jean Deraeck 14, 1150 Brussels	02 762 00 67		https://www.guidesocial.be/planningwoluwe/?page=10	
+Brussels	yes	no	Friday	morning	10h - 12h	CPF Woluwé-St-Pierre	Rue Jean Deraeck 14, 1150 Brussels	02 762 00 67		https://www.guidesocial.be/planningwoluwe/?page=11	
+Brussels	yes	no	Friday	afternoon	13h - 17h30	CPF Woluwé-St-Pierre	Rue Jean Deraeck 14, 1150 Brussels	02 762 00 67		https://www.guidesocial.be/planningwoluwe/?page=12	
+Brussels	yes	no	Tuesday	afternoon	15h30 - 18h	CPF Woluwé-Saint-Lambert CCFS	Avenue de Broqueville 270, 1200 Brussels	02 736 41 50	ccfs@skynet.be	http://www.planning-familial-wsl.be/index.php/infos-generales/horaires/medicales	
+Brussels	yes	no	Wednesday	afternoon	13h30 - 18h30	CPF Woluwé-Saint-Lambert CCFS	Avenue de Broqueville 270, 1200 Brussels	02 736 41 50	ccfs@skynet.be	http://www.planning-familial-wsl.be/index.php/infos-generales/horaires/medicales	
+Brussels	yes	no	Thursday	morning	9h -13h	CPF Woluwé-Saint-Lambert CCFS	Avenue de Broqueville 270, 1200 Brussels	02 736 41 50	ccfs@skynet.be	http://www.planning-familial-wsl.be/index.php/infos-generales/horaires/medicales	
+Brussels	yes	no	Thursday	afternoon	15h30 - 18h	CPF Woluwé-Saint-Lambert CCFS	Avenue de Broqueville 270, 1200 Brussels	02 736 41 50	ccfs@skynet.be	http://www.planning-familial-wsl.be/index.php/infos-generales/horaires/medicales	
+Brussels	yes	no	Monday	morning	9h - 12h	CPF Saint-Josse	Place Quetelet 4, 1210 Brussels	02 217 44 50		https://www.planningsaintjosse.com/les-i-s-t	
+Brussels	yes	no	Monday	afternoon	13h - 18h	CPF Saint-Josse	Place Quetelet 4, 1210 Brussels	02 217 44 50		https://www.planningsaintjosse.com/les-i-s-t	
+Brussels	yes	no	Tuesday	morning	9h - 12h	CPF Saint-Josse	Place Quetelet 4, 1210 Brussels	02 217 44 50		https://www.planningsaintjosse.com/les-i-s-t	
+Brussels	yes	no	Tuesday	afternoon	14h - 18h	CPF Saint-Josse	Place Quetelet 4, 1210 Brussels	02 217 44 50		https://www.planningsaintjosse.com/les-i-s-t	
+Brussels	yes	no	Wednesday	morning	9h - 12h	CPF Saint-Josse	Place Quetelet 4, 1210 Brussels	02 217 44 50		https://www.planningsaintjosse.com/les-i-s-t	
+Brussels	yes	no	Wednesday	afternoon	13h - 18h	CPF Saint-Josse	Place Quetelet 4, 1210 Brussels	02 217 44 50		https://www.planningsaintjosse.com/les-i-s-t	
+Brussels	yes	no	Thursday	morning	9h - 12h	CPF Saint-Josse	Place Quetelet 4, 1210 Brussels	02 217 44 50		https://www.planningsaintjosse.com/les-i-s-t	
+Brussels	yes	no	Thursday	afternoon	13h - 18h	CPF Saint-Josse	Place Quetelet 4, 1210 Brussels	02 217 44 50		https://www.planningsaintjosse.com/les-i-s-t	
+Brussels	yes	no	Friday	morning	9h - 12h	CPF Saint-Josse	Place Quetelet 4, 1210 Brussels	02 217 44 50		https://www.planningsaintjosse.com/les-i-s-t	
+Brussels	yes	no	Friday	afternoon	13h - 17h	CPF Saint-Josse	Place Quetelet 4, 1210 Brussels	02 217 44 50		https://www.planningsaintjosse.com/les-i-s-t	
+Brussels	yes	no	Wednesday	afternoon	16h45 - 18h30	CPF Bureaux de Quartiers	Rue du Noyer 344,1030 Bruxelles	02 733 43 95		http://www.bureauxdequartiers.be/	
+Brussels	yes	no	Thursday	afternoon	16h00 - 17h45	CPF Bureaux de Quartiers	Rue du Noyer 344,1030 Bruxelles	02 733 43 95		http://www.bureauxdequartiers.be/	
+Brussels	yes	no	Friday	afternoon	15h00 - 16h45	CPF Bureaux de Quartiers	Rue du Noyer 344,1030 Bruxelles	02 733 43 95		http://www.bureauxdequartiers.be/	
+Brussels	no	yes	Wednesday	afternoon	15h30 - 17H30 (only subsaharan africans)	Plate-Forme Prévention Sida	rue du Champ de Mars 5, 1050 Brussels				
+Brussels	no	yes	Monday	afternoon	1st and 4th Monday of the month - 17h45 - 19h45 (only subsaharan africans)	Les Pissenlits	chaussée de Mons, 192, 1070 Brussels				
+Brussels	no	yes	Tuesday	afternoon	1st and 4th Tuesday of the month - 16h - 18h (only subsaharan africans)	Plaine de Liverpool	rue de Liverpool, 65, 1070 Brussels				
+Brussels	no	yes	Wednesday	morning	1st Wednesday of the month - 10h - 12h (only subsaharan africans)	CPF du Midi	Avenue Clemenceau 23, 1070 Brussels	02 511 38 38			
+I'm a sexworker	no	yes	Tuesday	afternoon	19h - 20h	Espace P	rue des Plantes 116, 1030 Brussels	02 219 98 74	bruxelles@espacep.be	http://espacep.be/contact/bruxelles/	
+I'm a sexworker	no	yes	Wednesday	afternoon	13h - 14h	Espace P	rue des Plantes 116, 1030 Brussels	02 219 98 74	bruxelles@espacep.be	http://espacep.be/contact/bruxelles/	

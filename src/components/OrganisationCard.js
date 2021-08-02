@@ -12,6 +12,7 @@ import LocationOnIcon from "@material-ui/icons/LocationOn";
 import CheckIcon from "@material-ui/icons/Check";
 import CloseIcon from "@material-ui/icons/Close";
 import LinkIcon from "@material-ui/icons/Link";
+import EventIcon from "@material-ui/icons/Event";
 import OpeningHours from "./OpeningHours";
 import { green, red } from "@material-ui/core/colors";
 
@@ -35,12 +36,30 @@ moment.locale("nl-be");
 
 class CheckIconComp extends PureComponent {
   render() {
-    return <CheckIcon fontSize="small" style={{ verticalAlign: 'middle', display: "inline-block", color: green[500] }} />;
+    return (
+      <CheckIcon
+        fontSize="small"
+        style={{
+          verticalAlign: "middle",
+          display: "inline-block",
+          color: green[500],
+        }}
+      />
+    );
   }
 }
 class CloseIconComp extends PureComponent {
   render() {
-    return <CloseIcon fontSize="small" style={{ verticalAlign: 'middle', display: "inline-block", color: red[500] }} />;
+    return (
+      <CloseIcon
+        fontSize="small"
+        style={{
+          verticalAlign: "middle",
+          display: "inline-block",
+          color: red[500],
+        }}
+      />
+    );
   }
 }
 
@@ -55,11 +74,29 @@ export default function OrganisationCard(props) {
         <Typography className={classes.pos} color="textSecondary">
           {props.address}
         </Typography>
+        <br />
 
         <Typography variant="subtitle2">
-          {props.free ? <CheckIconComp></CheckIconComp> : <CloseIconComp></CloseIconComp>} Gratis consultatie
+          {props.free ? (
+            <CheckIconComp></CheckIconComp>
+          ) : (
+            <CloseIconComp></CloseIconComp>
+          )}{" "}
+          Gratis consultatie
         </Typography>
-        <br />
+        <Typography variant="subtitle2">
+          {props.onAppointment ? (
+            <CheckIconComp></CheckIconComp>
+          ) : (
+            <CloseIconComp></CloseIconComp>
+          )}{" "}
+          Zonder afspraak
+        </Typography>
+        
+        <div style={{margin: '10px 0'}}>
+        <OpeningHours openingHours={props.openingHours}></OpeningHours>
+        </div>
+        
         <Button
           size="small"
           startIcon={<LocationOnIcon />}
@@ -67,13 +104,16 @@ export default function OrganisationCard(props) {
         >
           Toon Locatie
         </Button>
-        {props.website && (
-          <Button size="small" startIcon={<LinkIcon />} href={props.website}>
+        {props.websiteUrl && (
+          <Button size="small" startIcon={<LinkIcon />} href={props.websiteUrl}>
             Bezoek website
           </Button>
         )}
-
-        <OpeningHours openingHours={props.openingHours}></OpeningHours>
+        {props.appointmentUrl && (
+          <Button size="small" startIcon={<EventIcon />} href={props.appointmentUrl}>
+            Maak afspraak
+          </Button>
+        )}
       </CardContent>
     </Card>
   );

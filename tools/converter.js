@@ -1,6 +1,6 @@
 import moment from 'moment';
 import fs from 'fs';
-var text = fs.readFileSync("./tools/soatest.tsv").toString("utf-8");
+var text = fs.readFileSync("./tools/soatest-data-1.0.tsv").toString("utf-8");
 
 //var csv is the CSV file with headers
 function csvJSON(csv) {

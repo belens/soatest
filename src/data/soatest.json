@@ -1,7 +1,7 @@
 [
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -10,13 +10,14 @@
     "address": "Rue des Alexiens 13, 1000 Brussels",
     "telephone": "02 535 37 32",
     "email": "",
-    "website": "https://www.stpierre-bru.be/fr/consultations/prendre-un-rendez-vous",
-    "startTime": "2021-07-27T11:30:10.354Z",
-    "endTime": "2021-07-27T14:00:10.356Z"
+    "appointment_url": "https://www.stpierre-bru.be/fr/consultations/prendre-un-rendez-vous",
+    "website_url": "https://www.stpierre-bru.be/",
+    "startTime": "2021-08-03T11:30:12.778Z",
+    "endTime": "2021-08-03T14:00:12.780Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "morning",
@@ -25,13 +26,14 @@
     "address": "Rue des Alexiens 13, 1000 Brussels",
     "telephone": "02 535 37 32",
     "email": "",
-    "website": "https://www.stpierre-bru.be/fr/consultations/prendre-un-rendez-vous",
-    "startTime": "2021-07-30T06:30:10.357Z",
-    "endTime": "2021-07-30T09:00:10.357Z"
+    "appointment_url": "https://www.stpierre-bru.be/fr/consultations/prendre-un-rendez-vous",
+    "website_url": "https://www.stpierre-bru.be/",
+    "startTime": "2021-08-06T06:30:12.781Z",
+    "endTime": "2021-08-06T09:00:12.781Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Saturday",
     "daypart": "afternoon",
@@ -40,13 +42,14 @@
     "address": "Rue des Alexiens 13, 1000 Brussels",
     "telephone": "02 535 37 32",
     "email": "",
-    "website": "https://www.stpierre-bru.be/fr/consultations/prendre-un-rendez-vous",
-    "startTime": "2021-07-31T11:30:10.357Z",
-    "endTime": "2021-07-31T13:30:10.357Z"
+    "appointment_url": "https://www.stpierre-bru.be/fr/consultations/prendre-un-rendez-vous",
+    "website_url": "https://www.stpierre-bru.be/",
+    "startTime": "2021-08-07T11:30:12.781Z",
+    "endTime": "2021-08-07T13:30:12.781Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "morning",
@@ -55,13 +58,14 @@
     "address": "Cellebroersstraat 11, 1000 Brussels",
     "telephone": "02 535 30 03",
     "email": "",
-    "website": "https://www.stpierre-bru.be/nl/raadplegingen/een-afspraak-maken",
-    "startTime": "2021-07-26T07:00:10.358Z",
-    "endTime": "2021-07-26T10:00:10.358Z"
+    "appointment_url": "https://www.stpierre-bru.be/nl/raadplegingen/een-afspraak-maken",
+    "website_url": "",
+    "startTime": "2021-08-02T07:00:12.781Z",
+    "endTime": "2021-08-02T10:00:12.781Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -70,13 +74,14 @@
     "address": "Cellebroersstraat 11, 1000 Brussels",
     "telephone": "02 535 30 03",
     "email": "",
-    "website": "https://www.stpierre-bru.be/nl/raadplegingen/een-afspraak-maken",
-    "startTime": "2021-07-26T11:00:10.358Z",
-    "endTime": "2021-07-26T15:00:10.358Z"
+    "appointment_url": "https://www.stpierre-bru.be/nl/raadplegingen/een-afspraak-maken",
+    "website_url": "",
+    "startTime": "2021-08-02T11:00:12.781Z",
+    "endTime": "2021-08-02T15:00:12.781Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -85,13 +90,14 @@
     "address": "Cellebroersstraat 11, 1000 Brussels",
     "telephone": "02 535 30 03",
     "email": "",
-    "website": "https://www.stpierre-bru.be/nl/raadplegingen/een-afspraak-maken",
-    "startTime": "2021-07-28T11:00:10.358Z",
-    "endTime": "2021-07-28T15:00:10.358Z"
+    "appointment_url": "https://www.stpierre-bru.be/nl/raadplegingen/een-afspraak-maken",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.782Z",
+    "endTime": "2021-08-04T15:00:12.782Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -100,13 +106,14 @@
     "address": "Hippocrateslaan 10, 1200 Brussels",
     "telephone": "02 764 19 02",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-26T12:14:10.358Z",
-    "endTime": "2021-07-26T15:30:10.358Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-02T11:24:12.782Z",
+    "endTime": "2021-08-02T15:30:12.782Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -115,13 +122,14 @@
     "address": "Hippocrateslaan 10, 1200 Brussels",
     "telephone": "02 764 19 02",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-28T09:00:10.358Z",
-    "endTime": "2021-07-28T11:00:10.358Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-04T09:00:12.782Z",
+    "endTime": "2021-08-04T11:00:12.782Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "morning",
@@ -130,13 +138,14 @@
     "address": "Lenniksebaan 808, 1070 Brussels",
     "telephone": "02 555 4688",
     "email": "CRSida@erasme.ulb.ac.be",
-    "website": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
-    "startTime": "2021-07-26T07:00:10.358Z",
-    "endTime": "2021-07-26T10:00:10.359Z"
+    "appointment_url": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
+    "website_url": "",
+    "startTime": "2021-08-02T07:00:12.782Z",
+    "endTime": "2021-08-02T10:00:12.782Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "morning",
@@ -145,13 +154,14 @@
     "address": "Lenniksebaan 808, 1070 Brussels",
     "telephone": "02 555 4688",
     "email": "CRSida@erasme.ulb.ac.be",
-    "website": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
-    "startTime": "2021-07-27T07:00:10.359Z",
-    "endTime": "2021-07-27T10:00:10.359Z"
+    "appointment_url": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
+    "website_url": "",
+    "startTime": "2021-08-03T07:00:12.782Z",
+    "endTime": "2021-08-03T10:00:12.782Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -160,13 +170,14 @@
     "address": "Lenniksebaan 808, 1070 Brussels",
     "telephone": "02 555 4688",
     "email": "CRSida@erasme.ulb.ac.be",
-    "website": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
-    "startTime": "2021-07-28T07:00:10.359Z",
-    "endTime": "2021-07-28T10:00:10.359Z"
+    "appointment_url": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
+    "website_url": "",
+    "startTime": "2021-08-04T07:00:12.782Z",
+    "endTime": "2021-08-04T10:00:12.782Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "morning",
@@ -175,13 +186,14 @@
     "address": "Lenniksebaan 808, 1070 Brussels",
     "telephone": "02 555 4688",
     "email": "CRSida@erasme.ulb.ac.be",
-    "website": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
-    "startTime": "2021-07-29T07:00:10.359Z",
-    "endTime": "2021-07-29T10:00:10.359Z"
+    "appointment_url": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
+    "website_url": "",
+    "startTime": "2021-08-05T07:00:12.782Z",
+    "endTime": "2021-08-05T10:00:12.782Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "morning",
@@ -190,13 +202,14 @@
     "address": "Lenniksebaan 808, 1070 Brussels",
     "telephone": "02 555 4688",
     "email": "CRSida@erasme.ulb.ac.be",
-    "website": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
-    "startTime": "2021-07-30T07:00:10.359Z",
-    "endTime": "2021-07-30T10:00:10.359Z"
+    "appointment_url": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
+    "website_url": "",
+    "startTime": "2021-08-06T07:00:12.783Z",
+    "endTime": "2021-08-06T10:00:12.783Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -205,13 +218,14 @@
     "address": "Lenniksebaan 808, 1070 Brussels",
     "telephone": "02 555 4688",
     "email": "CRSida@erasme.ulb.ac.be",
-    "website": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
-    "startTime": "2021-07-26T11:00:10.359Z",
-    "endTime": "2021-07-26T15:00:10.359Z"
+    "appointment_url": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
+    "website_url": "",
+    "startTime": "2021-08-02T11:00:12.783Z",
+    "endTime": "2021-08-02T15:00:12.783Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -220,13 +234,14 @@
     "address": "Lenniksebaan 808, 1070 Brussels",
     "telephone": "02 555 4688",
     "email": "CRSida@erasme.ulb.ac.be",
-    "website": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
-    "startTime": "2021-07-27T11:00:10.359Z",
-    "endTime": "2021-07-27T15:00:10.360Z"
+    "appointment_url": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
+    "website_url": "",
+    "startTime": "2021-08-03T11:00:12.783Z",
+    "endTime": "2021-08-03T15:00:12.783Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -235,13 +250,14 @@
     "address": "Lenniksebaan 808, 1070 Brussels",
     "telephone": "02 555 4688",
     "email": "CRSida@erasme.ulb.ac.be",
-    "website": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
-    "startTime": "2021-07-28T11:00:10.360Z",
-    "endTime": "2021-07-28T15:00:10.360Z"
+    "appointment_url": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.783Z",
+    "endTime": "2021-08-04T15:00:12.783Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -250,13 +266,14 @@
     "address": "Lenniksebaan 808, 1070 Brussels",
     "telephone": "02 555 4688",
     "email": "CRSida@erasme.ulb.ac.be",
-    "website": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
-    "startTime": "2021-07-29T11:00:10.360Z",
-    "endTime": "2021-07-29T15:00:10.360Z"
+    "appointment_url": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
+    "website_url": "",
+    "startTime": "2021-08-05T11:00:12.783Z",
+    "endTime": "2021-08-05T15:00:12.783Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "afternoon",
@@ -265,13 +282,14 @@
     "address": "Lenniksebaan 808, 1070 Brussels",
     "telephone": "02 555 4688",
     "email": "CRSida@erasme.ulb.ac.be",
-    "website": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
-    "startTime": "2021-07-30T11:00:10.360Z",
-    "endTime": "2021-07-30T15:00:10.360Z"
+    "appointment_url": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
+    "website_url": "",
+    "startTime": "2021-08-06T11:00:12.783Z",
+    "endTime": "2021-08-06T15:00:12.783Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "morning",
@@ -280,13 +298,14 @@
     "address": "Laarbeeklaan 101, 1090 Brussels",
     "telephone": "02 477 60 12",
     "email": "afspraak_dermatologie@uzBrussels.be",
-    "website": "https://www.uzBrussels.be/web/dermatologie/in-het-uz-Brussels",
-    "startTime": "2021-07-29T06:00:10.360Z",
-    "endTime": "2021-07-29T10:00:10.360Z"
+    "appointment_url": "https://www.uzBrussels.be/web/dermatologie/in-het-uz-Brussels",
+    "website_url": "",
+    "startTime": "2021-08-05T06:00:12.783Z",
+    "endTime": "2021-08-05T10:00:12.783Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -295,13 +314,14 @@
     "address": "Steenstraat 29, 1000 Brussels",
     "telephone": "02 736 28 61",
     "email": "info@exaequo.be",
-    "website": "www.exaequo.be",
-    "startTime": "2021-07-28T17:00:10.360Z",
-    "endTime": "2021-07-28T19:30:10.360Z"
+    "appointment_url": "www.exaequo.be",
+    "website_url": "",
+    "startTime": "2021-08-04T17:00:12.784Z",
+    "endTime": "2021-08-04T19:30:12.784Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -310,13 +330,14 @@
     "address": "Steenstraat 29, 1000 Brussels",
     "telephone": "02 736 28 61",
     "email": "info@exaequo.be",
-    "website": "www.exaequo.be",
-    "startTime": "2021-07-29T17:00:10.361Z",
-    "endTime": "2021-07-29T19:30:10.361Z"
+    "appointment_url": "www.exaequo.be",
+    "website_url": "",
+    "startTime": "2021-08-05T17:00:12.784Z",
+    "endTime": "2021-08-05T19:30:12.784Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "yes",
     "day": "Monday",
     "daypart": "morning",
@@ -325,13 +346,14 @@
     "address": "Steenstraat 29, 1000 Brussels",
     "telephone": "02 736 28 61",
     "email": "info@exaequo.be",
-    "website": "www.exaequo.be",
-    "startTime": "2021-07-26T08:00:10.361Z",
-    "endTime": "2021-07-26T10:30:10.361Z"
+    "appointment_url": "www.exaequo.be",
+    "website_url": "",
+    "startTime": "2021-08-02T08:00:12.784Z",
+    "endTime": "2021-08-02T10:30:12.784Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "yes",
     "day": "Monday",
     "daypart": "afternoon",
@@ -340,13 +362,14 @@
     "address": "Steenstraat 29, 1000 Brussels",
     "telephone": "02 736 28 61",
     "email": "info@exaequo.be",
-    "website": "www.exaequo.be",
-    "startTime": "2021-07-26T11:00:10.361Z",
-    "endTime": "2021-07-26T15:00:10.361Z"
+    "appointment_url": "www.exaequo.be",
+    "website_url": "",
+    "startTime": "2021-08-02T11:00:12.784Z",
+    "endTime": "2021-08-02T15:00:12.784Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "morning",
@@ -355,13 +378,14 @@
     "address": "Steenstraat 29, 1000 Brussels",
     "telephone": "02 736 28 61",
     "email": "info@exaequo.be",
-    "website": "www.exaequo.be",
-    "startTime": "2021-07-27T08:00:10.361Z",
-    "endTime": "2021-07-27T10:30:10.361Z"
+    "appointment_url": "www.exaequo.be",
+    "website_url": "",
+    "startTime": "2021-08-03T08:00:12.784Z",
+    "endTime": "2021-08-03T10:30:12.784Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -370,13 +394,14 @@
     "address": "Steenstraat 29, 1000 Brussels",
     "telephone": "02 736 28 61",
     "email": "info@exaequo.be",
-    "website": "www.exaequo.be",
-    "startTime": "2021-07-27T11:00:10.361Z",
-    "endTime": "2021-07-27T15:00:10.361Z"
+    "appointment_url": "www.exaequo.be",
+    "website_url": "",
+    "startTime": "2021-08-03T11:00:12.784Z",
+    "endTime": "2021-08-03T15:00:12.784Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "morning",
@@ -385,13 +410,14 @@
     "address": "Steenstraat 29, 1000 Brussels",
     "telephone": "02 736 28 61",
     "email": "info@exaequo.be",
-    "website": "www.exaequo.be",
-    "startTime": "2021-07-28T08:00:10.361Z",
-    "endTime": "2021-07-28T10:30:10.361Z"
+    "appointment_url": "www.exaequo.be",
+    "website_url": "",
+    "startTime": "2021-08-04T08:00:12.784Z",
+    "endTime": "2021-08-04T10:30:12.784Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -400,13 +426,14 @@
     "address": "Steenstraat 29, 1000 Brussels",
     "telephone": "02 736 28 61",
     "email": "info@exaequo.be",
-    "website": "www.exaequo.be",
-    "startTime": "2021-07-28T11:00:10.361Z",
-    "endTime": "2021-07-28T15:00:10.361Z"
+    "appointment_url": "www.exaequo.be",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.784Z",
+    "endTime": "2021-08-04T15:00:12.784Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "yes",
     "day": "Thursday",
     "daypart": "morning",
@@ -415,13 +442,14 @@
     "address": "Steenstraat 29, 1000 Brussels",
     "telephone": "02 736 28 61",
     "email": "info@exaequo.be",
-    "website": "www.exaequo.be",
-    "startTime": "2021-07-29T08:00:10.361Z",
-    "endTime": "2021-07-29T10:30:10.362Z"
+    "appointment_url": "www.exaequo.be",
+    "website_url": "",
+    "startTime": "2021-08-05T08:00:12.784Z",
+    "endTime": "2021-08-05T10:30:12.785Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "yes",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -430,13 +458,14 @@
     "address": "Steenstraat 29, 1000 Brussels",
     "telephone": "02 736 28 61",
     "email": "info@exaequo.be",
-    "website": "www.exaequo.be",
-    "startTime": "2021-07-29T11:00:10.362Z",
-    "endTime": "2021-07-29T15:00:10.362Z"
+    "appointment_url": "www.exaequo.be",
+    "website_url": "",
+    "startTime": "2021-08-05T11:00:12.785Z",
+    "endTime": "2021-08-05T15:00:12.785Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "yes",
     "day": "Friday",
     "daypart": "morning",
@@ -445,13 +474,14 @@
     "address": "Steenstraat 29, 1000 Brussels",
     "telephone": "02 736 28 61",
     "email": "info@exaequo.be",
-    "website": "www.exaequo.be",
-    "startTime": "2021-07-30T08:00:10.363Z",
-    "endTime": "2021-07-30T10:30:10.363Z"
+    "appointment_url": "www.exaequo.be",
+    "website_url": "",
+    "startTime": "2021-08-06T08:00:12.786Z",
+    "endTime": "2021-08-06T10:30:12.786Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "yes",
     "day": "Friday",
     "daypart": "afternoon",
@@ -460,13 +490,14 @@
     "address": "Steenstraat 29, 1000 Brussels",
     "telephone": "02 736 28 61",
     "email": "info@exaequo.be",
-    "website": "www.exaequo.be",
-    "startTime": "2021-07-30T11:00:10.363Z",
-    "endTime": "2021-07-30T15:00:10.364Z"
+    "appointment_url": "www.exaequo.be",
+    "website_url": "",
+    "startTime": "2021-08-06T11:00:12.786Z",
+    "endTime": "2021-08-06T15:00:12.786Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Monday",
     "daypart": "morning",
@@ -475,13 +506,14 @@
     "address": "Cellebroersstraat 11, 1000 Brussels",
     "telephone": "02 535 30 03",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-26T06:00:10.364Z",
-    "endTime": "2021-07-26T11:00:10.364Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-02T06:00:12.786Z",
+    "endTime": "2021-08-02T11:00:12.786Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -490,13 +522,14 @@
     "address": "Cellebroersstraat 11, 1000 Brussels",
     "telephone": "02 535 30 03",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-28T10:15:10.364Z",
-    "endTime": "2021-07-28T13:00:10.364Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-04T10:15:12.786Z",
+    "endTime": "2021-08-04T13:00:12.786Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -505,13 +538,14 @@
     "address": "Cellebroersstraat 11, 1000 Brussels",
     "telephone": "02 535 30 03",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-29T13:30:10.364Z",
-    "endTime": "2021-07-29T17:00:10.364Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-05T13:30:12.786Z",
+    "endTime": "2021-08-05T17:00:12.786Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -520,13 +554,14 @@
     "address": "Rue des Alexiens 13, 1000 Brussels",
     "telephone": "",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-27T11:30:10.364Z",
-    "endTime": "2021-07-27T14:00:10.364Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-03T11:30:12.786Z",
+    "endTime": "2021-08-03T14:00:12.786Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Friday",
     "daypart": "morning",
@@ -535,13 +570,14 @@
     "address": "Rue des Alexiens 13, 1000 Brussels",
     "telephone": "",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-30T06:30:10.364Z",
-    "endTime": "2021-07-30T09:00:10.364Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-06T06:30:12.786Z",
+    "endTime": "2021-08-06T09:00:12.786Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Friday",
     "daypart": "afternoon",
@@ -550,13 +586,14 @@
     "address": "Rue des Alexiens 13, 1000 Brussels",
     "telephone": "",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-30T11:30:10.364Z",
-    "endTime": "2021-07-30T13:30:10.364Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-06T11:30:12.787Z",
+    "endTime": "2021-08-06T13:30:12.787Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -565,13 +602,14 @@
     "address": "Hippocrateslaan 10, 1200 Brussels",
     "telephone": "02 764 19 02",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-26T12:14:10.365Z",
-    "endTime": "2021-07-26T15:30:10.365Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-02T11:24:12.787Z",
+    "endTime": "2021-08-02T15:30:12.787Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -580,13 +618,14 @@
     "address": "Hippocrateslaan 10, 1200 Brussels",
     "telephone": "02 764 19 02",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-28T09:00:10.365Z",
-    "endTime": "2021-07-28T11:00:10.365Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-04T09:00:12.787Z",
+    "endTime": "2021-08-04T11:00:12.787Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Monday",
     "daypart": "afternoon",
@@ -595,13 +634,14 @@
     "address": "Rue Saint-Jean Népomucène 28, 1000 Brusselss",
     "telephone": "02 511 32 20",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-26T12:00:10.365Z",
-    "endTime": "2021-07-26T14:00:10.365Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-02T12:00:12.787Z",
+    "endTime": "2021-08-02T14:00:12.787Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -610,13 +650,14 @@
     "address": "Rue Léon Théodor 108, 1090 Brussels",
     "telephone": "02 426 06 27",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-27T15:00:10.365Z",
-    "endTime": "2021-07-27T17:00:10.365Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-03T15:00:12.787Z",
+    "endTime": "2021-08-03T17:00:12.787Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Monday",
     "daypart": "afternoon",
@@ -625,13 +666,14 @@
     "address": "Rue Saint-Jean Népomucène 28, 1000 Brusselss",
     "telephone": "02 511 32 20",
     "email": "",
-    "website": "http://aimer-jeunes.be/?Aimer-Jeunes-a-Madrid",
-    "startTime": "2021-07-26T12:00:10.365Z",
-    "endTime": "2021-07-26T14:00:10.365Z"
+    "appointment_url": "http://aimer-jeunes.be/?Aimer-Jeunes-a-Madrid",
+    "website_url": "",
+    "startTime": "2021-08-02T12:00:12.787Z",
+    "endTime": "2021-08-02T14:00:12.787Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Monday",
     "daypart": "morning",
@@ -640,13 +682,14 @@
     "address": "Rue de la Roue 21, 1000 Brusselss",
     "telephone": "02 426 06 27",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-26T07:00:10.365Z",
-    "endTime": "2021-07-26T10:00:10.365Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-02T07:00:12.787Z",
+    "endTime": "2021-08-02T10:00:12.787Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "morning",
@@ -655,13 +698,14 @@
     "address": "Rue de la Roue 21, 1000 Brusselss",
     "telephone": "02 426 06 27",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-27T07:00:10.365Z",
-    "endTime": "2021-07-27T10:00:10.365Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-03T07:00:12.787Z",
+    "endTime": "2021-08-03T10:00:12.787Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "morning",
@@ -670,13 +714,14 @@
     "address": "Rue de la Roue 21, 1000 Brusselss",
     "telephone": "02 426 06 27",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-28T07:00:10.365Z",
-    "endTime": "2021-07-28T10:00:10.365Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-04T07:00:12.787Z",
+    "endTime": "2021-08-04T10:00:12.787Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Thursday",
     "daypart": "morning",
@@ -685,13 +730,14 @@
     "address": "Rue de la Roue 21, 1000 Brusselss",
     "telephone": "02 426 06 27",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-29T07:00:10.366Z",
-    "endTime": "2021-07-29T10:00:10.366Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-05T07:00:12.788Z",
+    "endTime": "2021-08-05T10:00:12.788Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Friday",
     "daypart": "morning",
@@ -700,13 +746,14 @@
     "address": "Rue de la Roue 21, 1000 Brusselss",
     "telephone": "02 426 06 27",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-30T07:00:10.366Z",
-    "endTime": "2021-07-30T10:00:10.366Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-06T07:00:12.788Z",
+    "endTime": "2021-08-06T10:00:12.788Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Monday",
     "daypart": "afternoon",
@@ -715,13 +762,14 @@
     "address": "Rue de la Roue 21, 1000 Brusselss",
     "telephone": "02 426 06 27",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-26T10:30:10.366Z",
-    "endTime": "2021-07-26T15:30:10.366Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-02T10:30:12.788Z",
+    "endTime": "2021-08-02T15:30:12.788Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -730,13 +778,14 @@
     "address": "Rue de la Roue 21, 1000 Brusselss",
     "telephone": "02 426 06 27",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-27T10:30:10.366Z",
-    "endTime": "2021-07-27T15:30:10.366Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-03T10:30:12.788Z",
+    "endTime": "2021-08-03T15:30:12.788Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -745,13 +794,14 @@
     "address": "Rue de la Roue 21, 1000 Brusselss",
     "telephone": "02 426 06 27",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-28T10:30:10.366Z",
-    "endTime": "2021-07-28T15:30:10.366Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-04T10:30:12.788Z",
+    "endTime": "2021-08-04T15:30:12.788Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -760,13 +810,14 @@
     "address": "Rue de la Roue 21, 1000 Brusselss",
     "telephone": "02 426 06 27",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-29T10:30:10.366Z",
-    "endTime": "2021-07-29T16:30:10.366Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-05T10:30:12.788Z",
+    "endTime": "2021-08-05T16:30:12.788Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Friday",
     "daypart": "afternoon",
@@ -775,13 +826,14 @@
     "address": "Rue de la Roue 21, 1000 Brusselss",
     "telephone": "02 426 06 27",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-30T10:30:10.366Z",
-    "endTime": "2021-07-30T15:30:10.366Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-06T10:30:12.788Z",
+    "endTime": "2021-08-06T15:30:12.788Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -790,13 +842,14 @@
     "address": "Avenue Léopold Wiener 64, 1170 Brussels",
     "telephone": "02 673 39 34",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-29T12:00:10.367Z",
-    "endTime": "2021-07-29T17:00:10.367Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-05T11:00:12.789Z",
+    "endTime": "2021-08-05T17:00:12.789Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -805,13 +858,14 @@
     "address": "Avenue Léopold Wiener 64, 1170 Brussels",
     "telephone": "02 673 39 34",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-29T12:00:10.367Z",
-    "endTime": "2021-07-29T17:00:10.367Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-05T11:00:12.789Z",
+    "endTime": "2021-08-05T17:00:12.789Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -820,13 +874,14 @@
     "address": "Avenue Léopold Wiener 64, 1170 Brussels",
     "telephone": "02 673 39 34",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-29T12:00:10.367Z",
-    "endTime": "2021-07-29T17:00:10.367Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-05T11:00:12.789Z",
+    "endTime": "2021-08-05T17:00:12.789Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -835,13 +890,14 @@
     "address": "Avenue Léopold Wiener 64, 1170 Brussels",
     "telephone": "02 673 39 34",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-29T12:00:10.367Z",
-    "endTime": "2021-07-29T17:00:10.367Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-05T11:00:12.789Z",
+    "endTime": "2021-08-05T17:00:12.789Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -850,13 +906,14 @@
     "address": "Avenue Léopold Wiener 64, 1170 Brussels",
     "telephone": "02 673 39 34",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-29T12:00:10.367Z",
-    "endTime": "2021-07-29T17:00:10.367Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-05T11:00:12.789Z",
+    "endTime": "2021-08-05T17:00:12.789Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -865,13 +922,14 @@
     "address": "Avenue Léopold Wiener 64, 1170 Brussels",
     "telephone": "02 673 39 34",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-29T12:00:10.367Z",
-    "endTime": "2021-07-29T17:00:10.367Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-05T11:00:12.789Z",
+    "endTime": "2021-08-05T17:00:12.789Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -880,13 +938,14 @@
     "address": "Rue de Stalle 24, 1180 Brussels",
     "telephone": "02 376 10 00",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-27T12:00:10.368Z",
-    "endTime": "2021-07-27T16:00:10.368Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-03T11:00:12.789Z",
+    "endTime": "2021-08-03T16:00:12.789Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -895,13 +954,14 @@
     "address": "Rue de Stalle 24, 1180 Brussels",
     "telephone": "02 376 10 00",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-27T12:00:10.368Z",
-    "endTime": "2021-07-27T16:00:10.368Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-03T11:00:12.790Z",
+    "endTime": "2021-08-03T16:00:12.790Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -910,13 +970,14 @@
     "address": "Rue de Stalle 24, 1180 Brussels",
     "telephone": "02 376 10 00",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-27T12:00:10.368Z",
-    "endTime": "2021-07-27T16:00:10.368Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-03T11:00:12.790Z",
+    "endTime": "2021-08-03T16:00:12.790Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -925,13 +986,14 @@
     "address": "Rue de Stalle 24, 1180 Brussels",
     "telephone": "02 376 10 00",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-27T12:00:10.368Z",
-    "endTime": "2021-07-27T16:00:10.368Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-03T11:00:12.790Z",
+    "endTime": "2021-08-03T16:00:12.790Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -940,13 +1002,14 @@
     "address": "Rue de Stalle 24, 1180 Brussels",
     "telephone": "02 376 10 00",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-27T12:00:10.368Z",
-    "endTime": "2021-07-27T16:00:10.368Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-03T11:00:12.790Z",
+    "endTime": "2021-08-03T16:00:12.790Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -955,13 +1018,14 @@
     "address": "Rue de Stalle 24, 1180 Brussels",
     "telephone": "02 376 10 00",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-27T12:00:10.368Z",
-    "endTime": "2021-07-27T16:00:10.368Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-03T11:00:12.790Z",
+    "endTime": "2021-08-03T16:00:12.790Z"
   },
   {
     "place": "Antwerp",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "morning",
@@ -970,13 +1034,14 @@
     "address": "Kronenburgstraat 43, 2000 Antwerp",
     "telephone": "03 216 02 88",
     "email": "helpcenter@itg.be",
-    "website": "https://www.itg.be/E/helpcenter",
-    "startTime": "2021-07-27T07:00:10.369Z",
-    "endTime": "2021-07-27T10:00:10.369Z"
+    "appointment_url": "https://www.itg.be/E/helpcenter",
+    "website_url": "",
+    "startTime": "2021-08-03T07:00:12.790Z",
+    "endTime": "2021-08-03T10:00:12.790Z"
   },
   {
     "place": "Antwerp",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -985,13 +1050,14 @@
     "address": "Kronenburgstraat 43, 2000 Antwerp",
     "telephone": "03 216 02 88",
     "email": "helpcenter@itg.be",
-    "website": "https://www.itg.be/E/helpcenter",
-    "startTime": "2021-07-28T07:00:10.369Z",
-    "endTime": "2021-07-28T10:00:10.369Z"
+    "appointment_url": "https://www.itg.be/E/helpcenter",
+    "website_url": "",
+    "startTime": "2021-08-04T07:00:12.790Z",
+    "endTime": "2021-08-04T10:00:12.790Z"
   },
   {
     "place": "Antwerp",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -1000,13 +1066,14 @@
     "address": "Kronenburgstraat 43, 2000 Antwerp",
     "telephone": "03 216 02 88",
     "email": "helpcenter@itg.be",
-    "website": "https://www.itg.be/E/helpcenter",
-    "startTime": "2021-07-26T12:00:10.369Z",
-    "endTime": "2021-07-26T14:00:10.369Z"
+    "appointment_url": "https://www.itg.be/E/helpcenter",
+    "website_url": "",
+    "startTime": "2021-08-02T12:00:12.790Z",
+    "endTime": "2021-08-02T14:00:12.790Z"
   },
   {
     "place": "Antwerp",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -1015,13 +1082,14 @@
     "address": "Kronenburgstraat 43, 2000 Antwerp",
     "telephone": "03 216 02 88",
     "email": "helpcenter@itg.be",
-    "website": "https://www.itg.be/E/helpcenter",
-    "startTime": "2021-07-29T12:00:10.369Z",
-    "endTime": "2021-07-29T14:00:10.369Z"
+    "appointment_url": "https://www.itg.be/E/helpcenter",
+    "website_url": "",
+    "startTime": "2021-08-05T12:00:12.790Z",
+    "endTime": "2021-08-05T14:00:12.790Z"
   },
   {
     "place": "Antwerp",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Friday",
     "daypart": "afternoon",
@@ -1030,13 +1098,14 @@
     "address": "Kronenburgstraat 43, 2000 Antwerp",
     "telephone": "03 216 02 88",
     "email": "helpcenter@itg.be",
-    "website": "https://www.itg.be/E/helpcenter",
-    "startTime": "2021-07-30T12:00:10.369Z",
-    "endTime": "2021-07-30T14:00:10.369Z"
+    "appointment_url": "https://www.itg.be/E/helpcenter",
+    "website_url": "",
+    "startTime": "2021-08-06T12:00:12.791Z",
+    "endTime": "2021-08-06T14:00:12.791Z"
   },
   {
     "place": "SexBru",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -1045,13 +1114,14 @@
     "address": "Rue du Marché au charbon 33, Brussels",
     "telephone": "0485 547 278 (Aure)",
     "email": "aure@alias-bru.be",
-    "website": "http://www.alias-bru.be/permanence-medicale/",
-    "startTime": "2021-07-27T17:00:10.371Z",
-    "endTime": "2021-07-27T19:00:10.371Z"
+    "appointment_url": "http://www.alias-bru.be/permanence-medicale/",
+    "website_url": "",
+    "startTime": "2021-08-03T17:00:12.795Z",
+    "endTime": "2021-08-03T19:00:12.795Z"
   },
   {
     "place": "SexAnt",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -1060,13 +1130,14 @@
     "address": "Appelmansstraat 12, 2018 Antwerp",
     "telephone": "03 293 95 90",
     "email": "info@boysproject.be",
-    "website": "http://www.boysproject.be/en/offer/TESTING",
-    "startTime": "2021-07-28T12:30:10.371Z",
-    "endTime": "2021-07-28T14:30:10.371Z"
+    "appointment_url": "http://www.boysproject.be/en/offer/TESTING",
+    "website_url": "",
+    "startTime": "2021-08-04T11:30:12.795Z",
+    "endTime": "2021-08-04T14:30:12.795Z"
   },
   {
     "place": "SexAnt",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -1075,13 +1146,14 @@
     "address": "Appelmansstraat 12, 2018 Antwerp",
     "telephone": "03 293 95 90",
     "email": "info@boysproject.be",
-    "website": "http://www.boysproject.be/en/offer/TESTING",
-    "startTime": "2021-07-28T12:00:10.371Z",
-    "endTime": "2021-07-28T18:00:10.371Z"
+    "appointment_url": "http://www.boysproject.be/en/offer/TESTING",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.796Z",
+    "endTime": "2021-08-04T18:00:12.796Z"
   },
   {
     "place": "SexAnt",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -1090,13 +1162,14 @@
     "address": "Appelmansstraat 12, 2018 Antwerp",
     "telephone": "03 293 95 90",
     "email": "info@boysproject.be",
-    "website": "http://www.boysproject.be/en/offer/TESTING",
-    "startTime": "2021-07-28T12:30:10.371Z",
-    "endTime": "2021-07-28T14:30:10.371Z"
+    "appointment_url": "http://www.boysproject.be/en/offer/TESTING",
+    "website_url": "",
+    "startTime": "2021-08-04T11:30:12.796Z",
+    "endTime": "2021-08-04T14:30:12.796Z"
   },
   {
     "place": "SexAnt",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -1105,13 +1178,14 @@
     "address": "Appelmansstraat 12, 2018 Antwerp",
     "telephone": "03 293 95 90",
     "email": "info@boysproject.be",
-    "website": "http://www.boysproject.be/en/offer/TESTING",
-    "startTime": "2021-07-28T12:00:10.371Z",
-    "endTime": "2021-07-28T18:00:10.371Z"
+    "appointment_url": "http://www.boysproject.be/en/offer/TESTING",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.796Z",
+    "endTime": "2021-08-04T18:00:12.797Z"
   },
   {
     "place": "SexAnt",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -1120,13 +1194,14 @@
     "address": "Appelmansstraat 12, 2018 Antwerp",
     "telephone": "03 293 95 90",
     "email": "info@boysproject.be",
-    "website": "http://www.boysproject.be/en/offer/TESTING",
-    "startTime": "2021-07-28T12:30:10.371Z",
-    "endTime": "2021-07-28T14:30:10.372Z"
+    "appointment_url": "http://www.boysproject.be/en/offer/TESTING",
+    "website_url": "",
+    "startTime": "2021-08-04T11:30:12.800Z",
+    "endTime": "2021-08-04T14:30:12.800Z"
   },
   {
     "place": "SexAnt",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -1135,13 +1210,14 @@
     "address": "Appelmansstraat 12, 2018 Antwerp",
     "telephone": "03 293 95 90",
     "email": "info@boysproject.be",
-    "website": "http://www.boysproject.be/en/offer/TESTING",
-    "startTime": "2021-07-28T12:00:10.372Z",
-    "endTime": "2021-07-28T18:00:10.372Z"
+    "appointment_url": "http://www.boysproject.be/en/offer/TESTING",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.801Z",
+    "endTime": "2021-08-04T18:00:12.801Z"
   },
   {
     "place": "SexAnt",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -1150,13 +1226,14 @@
     "address": "Appelmansstraat 12, 2018 Antwerp",
     "telephone": "03 293 95 90",
     "email": "info@boysproject.be",
-    "website": "http://www.boysproject.be/en/offer/TESTING",
-    "startTime": "2021-07-28T12:30:10.372Z",
-    "endTime": "2021-07-28T14:30:10.372Z"
+    "appointment_url": "http://www.boysproject.be/en/offer/TESTING",
+    "website_url": "",
+    "startTime": "2021-08-04T11:30:12.801Z",
+    "endTime": "2021-08-04T14:30:12.801Z"
   },
   {
     "place": "SexAnt",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -1165,13 +1242,14 @@
     "address": "Appelmansstraat 12, 2018 Antwerp",
     "telephone": "03 293 95 90",
     "email": "info@boysproject.be",
-    "website": "http://www.boysproject.be/en/offer/TESTING",
-    "startTime": "2021-07-28T12:00:10.372Z",
-    "endTime": "2021-07-28T18:00:10.372Z"
+    "appointment_url": "http://www.boysproject.be/en/offer/TESTING",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.801Z",
+    "endTime": "2021-08-04T18:00:12.801Z"
   },
   {
     "place": "SexAnt",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -1180,13 +1258,14 @@
     "address": "Appelmansstraat 12, 2018 Antwerp",
     "telephone": "03 293 95 90",
     "email": "info@boysproject.be",
-    "website": "http://www.boysproject.be/en/offer/TESTING",
-    "startTime": "2021-07-28T12:30:10.372Z",
-    "endTime": "2021-07-28T14:30:10.372Z"
+    "appointment_url": "http://www.boysproject.be/en/offer/TESTING",
+    "website_url": "",
+    "startTime": "2021-08-04T11:30:12.802Z",
+    "endTime": "2021-08-04T14:30:12.802Z"
   },
   {
     "place": "SexOther",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Monday",
     "daypart": "afternoon",
@@ -1195,13 +1274,14 @@
     "address": "Verversrui 3, 2000 Antwerp",
     "telephone": "03 293 95 91",
     "email": "dokters.Antwerpen@violett.be",
-    "website": "https://www.violett.be/nl/laat-je-testen/",
-    "startTime": "2021-07-26T12:00:10.372Z",
-    "endTime": "2021-07-26T14:00:10.372Z"
+    "appointment_url": "https://www.violett.be/nl/laat-je-testen/",
+    "website_url": "",
+    "startTime": "2021-08-02T12:00:12.802Z",
+    "endTime": "2021-08-02T14:00:12.802Z"
   },
   {
     "place": "SexOther",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1210,13 +1290,14 @@
     "address": "Verversrui 3, 2000 Antwerp",
     "telephone": "03 293 95 91",
     "email": "dokters.Antwerpen@violett.be",
-    "website": "https://www.violett.be/nl/laat-je-testen/",
-    "startTime": "2021-07-28T08:00:10.372Z",
-    "endTime": "2021-07-28T10:00:10.372Z"
+    "appointment_url": "https://www.violett.be/nl/laat-je-testen/",
+    "website_url": "",
+    "startTime": "2021-08-04T08:00:12.802Z",
+    "endTime": "2021-08-04T10:00:12.802Z"
   },
   {
     "place": "SexOther",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -1225,13 +1306,14 @@
     "address": "Verversrui 3, 2000 Antwerp",
     "telephone": "03 293 95 91",
     "email": "dokters.Antwerpen@violett.be",
-    "website": "https://www.violett.be/nl/laat-je-testen/",
-    "startTime": "2021-07-28T16:00:10.372Z",
-    "endTime": "2021-07-28T18:00:10.373Z"
+    "appointment_url": "https://www.violett.be/nl/laat-je-testen/",
+    "website_url": "",
+    "startTime": "2021-08-04T16:00:12.802Z",
+    "endTime": "2021-08-04T18:00:12.802Z"
   },
   {
     "place": "SexOther",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Friday",
     "daypart": "morning",
@@ -1240,13 +1322,14 @@
     "address": "Verversrui 3, 2000 Antwerp",
     "telephone": "03 293 95 91",
     "email": "dokters.Antwerpen@violett.be",
-    "website": "https://www.violett.be/nl/laat-je-testen/",
-    "startTime": "2021-07-30T08:00:10.373Z",
-    "endTime": "2021-07-30T10:00:10.373Z"
+    "appointment_url": "https://www.violett.be/nl/laat-je-testen/",
+    "website_url": "",
+    "startTime": "2021-08-06T08:00:12.802Z",
+    "endTime": "2021-08-06T10:00:12.802Z"
   },
   {
     "place": "SexOther",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -1255,13 +1338,14 @@
     "address": "Verversrui 3, 2000 Antwerp",
     "telephone": "03 293 95 91",
     "email": "dokters.Antwerpen@violett.be",
-    "website": "https://www.violett.be/nl/laat-je-testen/",
-    "startTime": "2021-07-28T16:30:10.373Z",
-    "endTime": "2021-07-28T17:30:10.373Z"
+    "appointment_url": "https://www.violett.be/nl/laat-je-testen/",
+    "website_url": "",
+    "startTime": "2021-08-04T16:30:12.802Z",
+    "endTime": "2021-08-04T17:30:12.803Z"
   },
   {
     "place": "SexOther",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Friday",
     "daypart": "morning",
@@ -1270,13 +1354,14 @@
     "address": "Brabantdam 100B, 9000 Ghent",
     "telephone": "09 233 47 67",
     "email": "dokters.gent@violett.be",
-    "website": "https://www.violett.be/nl/laat-je-testen/",
-    "startTime": "2021-07-30T09:00:10.373Z",
-    "endTime": "2021-07-30T10:00:10.373Z"
+    "appointment_url": "https://www.violett.be/nl/laat-je-testen/",
+    "website_url": "",
+    "startTime": "2021-08-06T09:00:12.803Z",
+    "endTime": "2021-08-06T10:00:12.803Z"
   },
   {
     "place": "SexOther",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Friday",
     "daypart": "afternoon",
@@ -1285,13 +1370,14 @@
     "address": "Brabantdam 100B, 9000 Ghent",
     "telephone": "09 233 47 67",
     "email": "dokters.gent@violett.be",
-    "website": "https://www.violett.be/nl/laat-je-testen/",
-    "startTime": "2021-07-30T10:00:10.373Z",
-    "endTime": "2021-07-30T11:00:10.374Z"
+    "appointment_url": "https://www.violett.be/nl/laat-je-testen/",
+    "website_url": "",
+    "startTime": "2021-08-06T10:00:12.803Z",
+    "endTime": "2021-08-06T11:00:12.803Z"
   },
   {
     "place": "SexOther",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Monday",
     "daypart": "morning",
@@ -1300,13 +1386,14 @@
     "address": "Ertbeekstraat 34, 3500 Hasselt",
     "telephone": "011 33 30 58",
     "email": "dokters.hasselt@violett.be",
-    "website": "https://www.violett.be/nl/laat-je-testen/",
-    "startTime": "2021-07-26T08:00:10.374Z",
-    "endTime": "2021-07-26T10:00:10.374Z"
+    "appointment_url": "https://www.violett.be/nl/laat-je-testen/",
+    "website_url": "",
+    "startTime": "2021-08-02T08:00:12.803Z",
+    "endTime": "2021-08-02T10:00:12.803Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Monday",
     "daypart": "afternoon",
@@ -1315,13 +1402,14 @@
     "address": "Rue Duquesnoy 45, 1000 Brussels",
     "telephone": "02 514 29 65",
     "email": "aide.info.sida@gmail.com",
-    "website": "http://www.aideinfosida.be/tests_ais.php",
-    "startTime": "2021-07-26T12:00:10.374Z",
-    "endTime": "2021-07-26T19:00:10.374Z"
+    "appointment_url": "http://www.aideinfosida.be/tests_ais.php",
+    "website_url": "",
+    "startTime": "2021-08-02T11:00:12.803Z",
+    "endTime": "2021-08-02T19:00:12.804Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Monday",
     "daypart": "afternoon",
@@ -1330,13 +1418,14 @@
     "address": "Rue Duquesnoy 45, 1000 Brussels",
     "telephone": "02 514 29 65",
     "email": "aide.info.sida@gmail.com",
-    "website": "http://www.aideinfosida.be/tests_ais.php",
-    "startTime": "2021-07-26T12:00:10.374Z",
-    "endTime": "2021-07-26T19:00:10.374Z"
+    "appointment_url": "http://www.aideinfosida.be/tests_ais.php",
+    "website_url": "",
+    "startTime": "2021-08-02T11:00:12.804Z",
+    "endTime": "2021-08-02T19:00:12.804Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Monday",
     "daypart": "afternoon",
@@ -1345,13 +1434,14 @@
     "address": "Rue Duquesnoy 45, 1000 Brussels",
     "telephone": "02 514 29 65",
     "email": "aide.info.sida@gmail.com",
-    "website": "http://www.aideinfosida.be/tests_ais.php",
-    "startTime": "2021-07-26T12:00:10.375Z",
-    "endTime": "2021-07-26T19:00:10.375Z"
+    "appointment_url": "http://www.aideinfosida.be/tests_ais.php",
+    "website_url": "",
+    "startTime": "2021-08-02T11:00:12.804Z",
+    "endTime": "2021-08-02T19:00:12.804Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -1360,13 +1450,14 @@
     "address": "Rue Duquesnoy 45, 1000 Brussels",
     "telephone": "02 514 29 65",
     "email": "aide.info.sida@gmail.com",
-    "website": "http://www.aideinfosida.be/tests_ais.php",
-    "startTime": "2021-07-27T12:00:10.375Z",
-    "endTime": "2021-07-27T19:00:10.375Z"
+    "appointment_url": "http://www.aideinfosida.be/tests_ais.php",
+    "website_url": "",
+    "startTime": "2021-08-03T11:00:12.804Z",
+    "endTime": "2021-08-03T19:00:12.804Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -1375,13 +1466,14 @@
     "address": "Rue Duquesnoy 45, 1000 Brussels",
     "telephone": "02 514 29 65",
     "email": "aide.info.sida@gmail.com",
-    "website": "http://www.aideinfosida.be/tests_ais.php",
-    "startTime": "2021-07-28T12:00:10.375Z",
-    "endTime": "2021-07-28T19:00:10.375Z"
+    "appointment_url": "http://www.aideinfosida.be/tests_ais.php",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.804Z",
+    "endTime": "2021-08-04T19:00:12.804Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -1390,13 +1482,14 @@
     "address": "Rue Duquesnoy 45, 1000 Brussels",
     "telephone": "02 514 29 65",
     "email": "aide.info.sida@gmail.com",
-    "website": "http://www.aideinfosida.be/tests_ais.php",
-    "startTime": "2021-07-29T12:00:10.376Z",
-    "endTime": "2021-07-29T19:00:10.376Z"
+    "appointment_url": "http://www.aideinfosida.be/tests_ais.php",
+    "website_url": "",
+    "startTime": "2021-08-05T11:00:12.805Z",
+    "endTime": "2021-08-05T19:00:12.805Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Friday",
     "daypart": "afternoon",
@@ -1405,13 +1498,14 @@
     "address": "Rue Duquesnoy 45, 1000 Brussels",
     "telephone": "02 514 29 65",
     "email": "aide.info.sida@gmail.com",
-    "website": "http://www.aideinfosida.be/tests_ais.php",
-    "startTime": "2021-07-30T12:00:10.376Z",
-    "endTime": "2021-07-30T19:00:10.376Z"
+    "appointment_url": "http://www.aideinfosida.be/tests_ais.php",
+    "website_url": "",
+    "startTime": "2021-08-06T11:00:12.806Z",
+    "endTime": "2021-08-06T19:00:12.806Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Saturday",
     "daypart": "afternoon",
@@ -1420,13 +1514,14 @@
     "address": "Rue Duquesnoy 45, 1000 Brussels",
     "telephone": "02 514 29 65",
     "email": "aide.info.sida@gmail.com",
-    "website": "http://www.aideinfosida.be/tests_ais.php",
-    "startTime": "2021-07-31T12:00:10.376Z",
-    "endTime": "2021-07-31T19:00:10.376Z"
+    "appointment_url": "http://www.aideinfosida.be/tests_ais.php",
+    "website_url": "",
+    "startTime": "2021-08-07T11:00:12.806Z",
+    "endTime": "2021-08-07T19:00:12.806Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Sunday",
     "daypart": "afternoon",
@@ -1435,13 +1530,14 @@
     "address": "Rue Duquesnoy 45, 1000 Brussels",
     "telephone": "02 514 29 65",
     "email": "aide.info.sida@gmail.com",
-    "website": "http://www.aideinfosida.be/tests_ais.php",
-    "startTime": "2021-07-25T12:00:10.376Z",
-    "endTime": "2021-07-25T19:00:10.376Z"
+    "appointment_url": "http://www.aideinfosida.be/tests_ais.php",
+    "website_url": "",
+    "startTime": "2021-08-01T11:00:12.807Z",
+    "endTime": "2021-08-01T19:00:12.807Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Monday",
     "daypart": "afternoon",
@@ -1450,13 +1546,14 @@
     "address": "Rue Duquesnoy 45, 1000 Brussels",
     "telephone": "02 514 29 65",
     "email": "aide.info.sida@gmail.com",
-    "website": "http://www.aideinfosida.be/tests_ais.php",
-    "startTime": "2021-07-26T12:00:10.376Z",
-    "endTime": "2021-07-26T19:00:10.376Z"
+    "appointment_url": "http://www.aideinfosida.be/tests_ais.php",
+    "website_url": "",
+    "startTime": "2021-08-02T11:00:12.807Z",
+    "endTime": "2021-08-02T19:00:12.807Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -1465,13 +1562,14 @@
     "address": "Rue Duquesnoy 45, 1000 Brussels",
     "telephone": "02 514 29 65",
     "email": "aide.info.sida@gmail.com",
-    "website": "http://www.aideinfosida.be/tests_ais.php",
-    "startTime": "2021-07-27T12:00:10.377Z",
-    "endTime": "2021-07-27T19:00:10.377Z"
+    "appointment_url": "http://www.aideinfosida.be/tests_ais.php",
+    "website_url": "",
+    "startTime": "2021-08-03T11:00:12.807Z",
+    "endTime": "2021-08-03T19:00:12.807Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1480,13 +1578,14 @@
     "address": "Boulevard de l'Abattoir 27, Brussels",
     "telephone": "02 548 98 18",
     "email": "planning@tele-service.be",
-    "website": "https://www.cpfsenne.be/spip.php?rubrique13",
-    "startTime": "2021-07-28T12:00:10.377Z",
-    "endTime": "2021-07-28T10:00:10.377Z"
+    "appointment_url": "https://www.cpfsenne.be/spip.php?rubrique13",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.807Z",
+    "endTime": "2021-08-04T10:00:12.807Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1495,13 +1594,14 @@
     "address": "Boulevard de l'Abattoir 27, Brussels",
     "telephone": "02 548 98 18",
     "email": "planning@tele-service.be",
-    "website": "https://www.cpfsenne.be/spip.php?rubrique14",
-    "startTime": "2021-07-28T12:00:10.377Z",
-    "endTime": "2021-07-28T10:00:10.377Z"
+    "appointment_url": "https://www.cpfsenne.be/spip.php?rubrique14",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.807Z",
+    "endTime": "2021-08-04T10:00:12.807Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1510,13 +1610,14 @@
     "address": "Boulevard de l'Abattoir 27, Brussels",
     "telephone": "02 548 98 18",
     "email": "planning@tele-service.be",
-    "website": "https://www.cpfsenne.be/spip.php?rubrique15",
-    "startTime": "2021-07-28T12:00:10.377Z",
-    "endTime": "2021-07-28T10:00:10.377Z"
+    "appointment_url": "https://www.cpfsenne.be/spip.php?rubrique15",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.807Z",
+    "endTime": "2021-08-04T10:00:12.807Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1525,13 +1626,14 @@
     "address": "Boulevard de l'Abattoir 27, Brussels",
     "telephone": "02 548 98 18",
     "email": "planning@tele-service.be",
-    "website": "https://www.cpfsenne.be/spip.php?rubrique16",
-    "startTime": "2021-07-28T12:00:10.377Z",
-    "endTime": "2021-07-28T10:00:10.377Z"
+    "appointment_url": "https://www.cpfsenne.be/spip.php?rubrique16",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.807Z",
+    "endTime": "2021-08-04T10:00:12.807Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1540,13 +1642,14 @@
     "address": "Boulevard de l'Abattoir 27, Brussels",
     "telephone": "02 548 98 18",
     "email": "planning@tele-service.be",
-    "website": "https://www.cpfsenne.be/spip.php?rubrique17",
-    "startTime": "2021-07-28T12:00:10.377Z",
-    "endTime": "2021-07-28T10:00:10.377Z"
+    "appointment_url": "https://www.cpfsenne.be/spip.php?rubrique17",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.807Z",
+    "endTime": "2021-08-04T10:00:12.807Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1555,13 +1658,14 @@
     "address": "Boulevard de l'Abattoir 27, Brussels",
     "telephone": "02 548 98 18",
     "email": "planning@tele-service.be",
-    "website": "https://www.cpfsenne.be/spip.php?rubrique18",
-    "startTime": "2021-07-28T12:00:10.377Z",
-    "endTime": "2021-07-28T10:00:10.378Z"
+    "appointment_url": "https://www.cpfsenne.be/spip.php?rubrique18",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.807Z",
+    "endTime": "2021-08-04T10:00:12.808Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1570,13 +1674,14 @@
     "address": "Boulevard de l'Abattoir 27, Brussels",
     "telephone": "02 548 98 18",
     "email": "planning@tele-service.be",
-    "website": "https://www.cpfsenne.be/spip.php?rubrique19",
-    "startTime": "2021-07-28T12:00:10.378Z",
-    "endTime": "2021-07-28T10:00:10.378Z"
+    "appointment_url": "https://www.cpfsenne.be/spip.php?rubrique19",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.808Z",
+    "endTime": "2021-08-04T10:00:12.808Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1585,13 +1690,14 @@
     "address": "Boulevard de l'Abattoir 27, Brussels",
     "telephone": "02 548 98 18",
     "email": "planning@tele-service.be",
-    "website": "https://www.cpfsenne.be/spip.php?rubrique20",
-    "startTime": "2021-07-28T12:00:10.378Z",
-    "endTime": "2021-07-28T10:00:10.378Z"
+    "appointment_url": "https://www.cpfsenne.be/spip.php?rubrique20",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.808Z",
+    "endTime": "2021-08-04T10:00:12.808Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1600,13 +1706,14 @@
     "address": "Boulevard de l'Abattoir 27, Brussels",
     "telephone": "02 548 98 18",
     "email": "planning@tele-service.be",
-    "website": "https://www.cpfsenne.be/spip.php?rubrique21",
-    "startTime": "2021-07-28T12:00:10.378Z",
-    "endTime": "2021-07-28T10:00:10.378Z"
+    "appointment_url": "https://www.cpfsenne.be/spip.php?rubrique21",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.808Z",
+    "endTime": "2021-08-04T10:00:12.808Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1615,13 +1722,14 @@
     "address": "Boulevard de l'Abattoir 27, Brussels",
     "telephone": "02 548 98 18",
     "email": "planning@tele-service.be",
-    "website": "https://www.cpfsenne.be/spip.php?rubrique22",
-    "startTime": "2021-07-28T12:00:10.378Z",
-    "endTime": "2021-07-28T10:00:10.378Z"
+    "appointment_url": "https://www.cpfsenne.be/spip.php?rubrique22",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.808Z",
+    "endTime": "2021-08-04T10:00:12.808Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1630,13 +1738,14 @@
     "address": "Boulevard de l'Abattoir 27, Brussels",
     "telephone": "02 548 98 18",
     "email": "planning@tele-service.be",
-    "website": "https://www.cpfsenne.be/spip.php?rubrique23",
-    "startTime": "2021-07-28T12:00:10.378Z",
-    "endTime": "2021-07-28T10:00:10.378Z"
+    "appointment_url": "https://www.cpfsenne.be/spip.php?rubrique23",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.808Z",
+    "endTime": "2021-08-04T10:00:12.808Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1645,13 +1754,14 @@
     "address": "Boulevard de l'Abattoir 27, Brussels",
     "telephone": "02 548 98 18",
     "email": "planning@tele-service.be",
-    "website": "https://www.cpfsenne.be/spip.php?rubrique24",
-    "startTime": "2021-07-28T12:00:10.378Z",
-    "endTime": "2021-07-28T10:00:10.378Z"
+    "appointment_url": "https://www.cpfsenne.be/spip.php?rubrique24",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.808Z",
+    "endTime": "2021-08-04T10:00:12.808Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "morning",
@@ -1660,13 +1770,14 @@
     "address": "Rue des Guildes 22, 1000 Brussels",
     "telephone": "02 230 04 62",
     "email": "",
-    "website": "http://www.planf.be/Horaires",
-    "startTime": "2021-07-26T07:00:10.378Z",
-    "endTime": "2021-07-26T10:00:10.379Z"
+    "appointment_url": "http://www.planf.be/Horaires",
+    "website_url": "",
+    "startTime": "2021-08-02T07:00:12.808Z",
+    "endTime": "2021-08-02T10:00:12.808Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -1675,13 +1786,14 @@
     "address": "Rue des Guildes 22, 1000 Brussels",
     "telephone": "02 230 04 62",
     "email": "",
-    "website": "http://www.planf.be/Horaires",
-    "startTime": "2021-07-26T12:00:10.379Z",
-    "endTime": "2021-07-26T16:00:10.379Z"
+    "appointment_url": "http://www.planf.be/Horaires",
+    "website_url": "",
+    "startTime": "2021-08-02T12:00:12.808Z",
+    "endTime": "2021-08-02T16:00:12.808Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "morning",
@@ -1690,13 +1802,14 @@
     "address": "Rue des Guildes 22, 1000 Brussels",
     "telephone": "02 230 04 62",
     "email": "",
-    "website": "http://www.planf.be/Horaires",
-    "startTime": "2021-07-27T07:00:10.379Z",
-    "endTime": "2021-07-27T11:30:10.379Z"
+    "appointment_url": "http://www.planf.be/Horaires",
+    "website_url": "",
+    "startTime": "2021-08-03T07:00:12.809Z",
+    "endTime": "2021-08-03T11:30:12.809Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -1705,13 +1818,14 @@
     "address": "Rue des Guildes 22, 1000 Brussels",
     "telephone": "02 230 04 62",
     "email": "",
-    "website": "http://www.planf.be/Horaires",
-    "startTime": "2021-07-27T12:00:10.379Z",
-    "endTime": "2021-07-27T16:00:10.379Z"
+    "appointment_url": "http://www.planf.be/Horaires",
+    "website_url": "",
+    "startTime": "2021-08-03T12:00:12.809Z",
+    "endTime": "2021-08-03T16:00:12.809Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1720,13 +1834,14 @@
     "address": "Rue des Guildes 22, 1000 Brussels",
     "telephone": "02 230 04 62",
     "email": "",
-    "website": "http://www.planf.be/Horaires",
-    "startTime": "2021-07-28T07:30:10.379Z",
-    "endTime": "2021-07-28T11:00:10.379Z"
+    "appointment_url": "http://www.planf.be/Horaires",
+    "website_url": "",
+    "startTime": "2021-08-04T07:30:12.809Z",
+    "endTime": "2021-08-04T11:00:12.809Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -1735,13 +1850,14 @@
     "address": "Rue des Guildes 22, 1000 Brussels",
     "telephone": "02 230 04 62",
     "email": "",
-    "website": "http://www.planf.be/Horaires",
-    "startTime": "2021-07-28T12:00:10.379Z",
-    "endTime": "2021-07-28T15:00:10.379Z"
+    "appointment_url": "http://www.planf.be/Horaires",
+    "website_url": "",
+    "startTime": "2021-08-04T12:00:12.809Z",
+    "endTime": "2021-08-04T15:00:12.809Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "morning",
@@ -1750,13 +1866,14 @@
     "address": "Rue des Guildes 22, 1000 Brussels",
     "telephone": "02 230 04 62",
     "email": "",
-    "website": "http://www.planf.be/Horaires",
-    "startTime": "2021-07-29T07:00:10.379Z",
-    "endTime": "2021-07-29T11:00:10.379Z"
+    "appointment_url": "http://www.planf.be/Horaires",
+    "website_url": "",
+    "startTime": "2021-08-05T07:00:12.809Z",
+    "endTime": "2021-08-05T11:00:12.809Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -1765,13 +1882,14 @@
     "address": "Rue des Guildes 22, 1000 Brussels",
     "telephone": "02 230 04 62",
     "email": "",
-    "website": "http://www.planf.be/Horaires",
-    "startTime": "2021-07-29T12:30:10.379Z",
-    "endTime": "2021-07-29T16:30:10.379Z"
+    "appointment_url": "http://www.planf.be/Horaires",
+    "website_url": "",
+    "startTime": "2021-08-05T12:30:12.809Z",
+    "endTime": "2021-08-05T16:30:12.809Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "morning",
@@ -1780,13 +1898,14 @@
     "address": "Rue des Guildes 22, 1000 Brussels",
     "telephone": "02 230 04 62",
     "email": "",
-    "website": "http://www.planf.be/Horaires",
-    "startTime": "2021-07-30T07:30:10.380Z",
-    "endTime": "2021-07-30T11:30:10.380Z"
+    "appointment_url": "http://www.planf.be/Horaires",
+    "website_url": "",
+    "startTime": "2021-08-06T07:30:12.809Z",
+    "endTime": "2021-08-06T11:30:12.809Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "afternoon",
@@ -1795,13 +1914,14 @@
     "address": "Rue des Guildes 22, 1000 Brussels",
     "telephone": "02 230 04 62",
     "email": "",
-    "website": "http://www.planf.be/Horaires",
-    "startTime": "2021-07-30T12:00:10.380Z",
-    "endTime": "2021-07-30T16:00:10.380Z"
+    "appointment_url": "http://www.planf.be/Horaires",
+    "website_url": "",
+    "startTime": "2021-08-06T12:00:12.809Z",
+    "endTime": "2021-08-06T16:00:12.809Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "morning",
@@ -1810,13 +1930,14 @@
     "address": "Rue du Midi 120, 1000 Brussels",
     "telephone": "02 546 14 33",
     "email": "planningrosa@fmsb.be",
-    "website": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
-    "startTime": "2021-07-26T06:15:10.380Z",
-    "endTime": "2021-07-26T10:00:10.380Z"
+    "appointment_url": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
+    "website_url": "",
+    "startTime": "2021-08-02T06:15:12.810Z",
+    "endTime": "2021-08-02T10:00:12.810Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -1825,13 +1946,14 @@
     "address": "Rue du Midi 120, 1000 Brussels",
     "telephone": "02 546 14 33",
     "email": "planningrosa@fmsb.be",
-    "website": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
-    "startTime": "2021-07-26T10:45:10.380Z",
-    "endTime": "2021-07-26T14:30:10.380Z"
+    "appointment_url": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
+    "website_url": "",
+    "startTime": "2021-08-02T10:45:12.810Z",
+    "endTime": "2021-08-02T14:30:12.810Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "morning",
@@ -1840,13 +1962,14 @@
     "address": "Rue du Midi 120, 1000 Brussels",
     "telephone": "02 546 14 33",
     "email": "planningrosa@fmsb.be",
-    "website": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
-    "startTime": "2021-07-27T06:15:10.380Z",
-    "endTime": "2021-07-27T10:00:10.380Z"
+    "appointment_url": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
+    "website_url": "",
+    "startTime": "2021-08-03T06:15:12.810Z",
+    "endTime": "2021-08-03T10:00:12.810Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -1855,13 +1978,14 @@
     "address": "Rue du Midi 120, 1000 Brussels",
     "telephone": "02 546 14 33",
     "email": "planningrosa@fmsb.be",
-    "website": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
-    "startTime": "2021-07-27T10:45:10.380Z",
-    "endTime": "2021-07-27T14:30:10.380Z"
+    "appointment_url": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
+    "website_url": "",
+    "startTime": "2021-08-03T10:45:12.810Z",
+    "endTime": "2021-08-03T14:30:12.810Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -1870,13 +1994,14 @@
     "address": "Rue du Midi 120, 1000 Brussels",
     "telephone": "02 546 14 33",
     "email": "planningrosa@fmsb.be",
-    "website": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
-    "startTime": "2021-07-28T06:15:10.380Z",
-    "endTime": "2021-07-28T10:00:10.380Z"
+    "appointment_url": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
+    "website_url": "",
+    "startTime": "2021-08-04T06:15:12.810Z",
+    "endTime": "2021-08-04T10:00:12.810Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -1885,13 +2010,14 @@
     "address": "Rue du Midi 120, 1000 Brussels",
     "telephone": "02 546 14 33",
     "email": "planningrosa@fmsb.be",
-    "website": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
-    "startTime": "2021-07-28T10:45:10.380Z",
-    "endTime": "2021-07-28T14:30:10.380Z"
+    "appointment_url": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
+    "website_url": "",
+    "startTime": "2021-08-04T10:45:12.810Z",
+    "endTime": "2021-08-04T14:30:12.810Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "morning",
@@ -1900,13 +2026,14 @@
     "address": "Rue du Midi 120, 1000 Brussels",
     "telephone": "02 546 14 33",
     "email": "planningrosa@fmsb.be",
-    "website": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
-    "startTime": "2021-07-29T06:15:10.381Z",
-    "endTime": "2021-07-29T10:00:10.381Z"
+    "appointment_url": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
+    "website_url": "",
+    "startTime": "2021-08-05T06:15:12.810Z",
+    "endTime": "2021-08-05T10:00:12.810Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -1915,13 +2042,14 @@
     "address": "Rue du Midi 120, 1000 Brussels",
     "telephone": "02 546 14 33",
     "email": "planningrosa@fmsb.be",
-    "website": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
-    "startTime": "2021-07-29T10:45:10.381Z",
-    "endTime": "2021-07-29T14:30:10.381Z"
+    "appointment_url": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
+    "website_url": "",
+    "startTime": "2021-08-05T10:45:12.810Z",
+    "endTime": "2021-08-05T14:30:12.810Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "morning",
@@ -1930,13 +2058,14 @@
     "address": "Rue du Midi 120, 1000 Brussels",
     "telephone": "02 546 14 33",
     "email": "planningrosa@fmsb.be",
-    "website": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
-    "startTime": "2021-07-30T06:15:10.381Z",
-    "endTime": "2021-07-30T10:00:10.381Z"
+    "appointment_url": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
+    "website_url": "",
+    "startTime": "2021-08-06T06:15:12.810Z",
+    "endTime": "2021-08-06T10:00:12.810Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "afternoon",
@@ -1945,13 +2074,14 @@
     "address": "Rue du Midi 120, 1000 Brussels",
     "telephone": "02 546 14 33",
     "email": "planningrosa@fmsb.be",
-    "website": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
-    "startTime": "2021-07-30T10:45:10.381Z",
-    "endTime": "2021-07-30T14:30:10.381Z"
+    "appointment_url": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
+    "website_url": "",
+    "startTime": "2021-08-06T10:45:12.811Z",
+    "endTime": "2021-08-06T14:30:12.811Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "morning",
@@ -1960,13 +2090,14 @@
     "address": "Boulevard Émile Bockstael 91, 1020 Brussels",
     "telephone": "02 325 46 40",
     "email": "laeken@planningfamilial.net",
-    "website": "http://www.planninglaeken.be/contact/",
-    "startTime": "2021-07-29T07:00:10.381Z",
-    "endTime": "2021-07-29T10:00:10.381Z"
+    "appointment_url": "http://www.planninglaeken.be/contact/",
+    "website_url": "",
+    "startTime": "2021-08-05T07:00:12.811Z",
+    "endTime": "2021-08-05T10:00:12.811Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "afternoon",
@@ -1975,13 +2106,14 @@
     "address": "Boulevard Émile Bockstael 91, 1020 Brussels",
     "telephone": "02 325 46 40",
     "email": "laeken@planningfamilial.net",
-    "website": "http://www.planninglaeken.be/contact/",
-    "startTime": "2021-07-30T10:00:10.382Z",
-    "endTime": "2021-07-30T16:00:10.382Z"
+    "appointment_url": "http://www.planninglaeken.be/contact/",
+    "website_url": "",
+    "startTime": "2021-08-06T10:00:12.812Z",
+    "endTime": "2021-08-06T16:00:12.812Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "morning",
@@ -1990,13 +2122,14 @@
     "address": "rue Général Leman 110, 1040 Brussels",
     "telephone": "02 230 10 30",
     "email": "",
-    "website": "https://www.guidesocial.be/planningleman/?page=5",
-    "startTime": "2021-07-27T07:00:10.382Z",
-    "endTime": "2021-07-27T10:00:10.382Z"
+    "appointment_url": "https://www.guidesocial.be/planningleman/?page=5",
+    "website_url": "",
+    "startTime": "2021-08-03T07:00:12.812Z",
+    "endTime": "2021-08-03T10:00:12.812Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -2005,13 +2138,14 @@
     "address": "rue Général Leman 110, 1040 Brussels",
     "telephone": "02 230 10 30",
     "email": "",
-    "website": "https://www.guidesocial.be/planningleman/?page=6",
-    "startTime": "2021-07-27T10:30:10.382Z",
-    "endTime": "2021-07-27T15:00:10.382Z"
+    "appointment_url": "https://www.guidesocial.be/planningleman/?page=6",
+    "website_url": "",
+    "startTime": "2021-08-03T10:30:12.812Z",
+    "endTime": "2021-08-03T15:00:12.812Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -2020,13 +2154,14 @@
     "address": "rue Général Leman 110, 1040 Brussels",
     "telephone": "02 230 10 30",
     "email": "",
-    "website": "https://www.guidesocial.be/planningleman/?page=7",
-    "startTime": "2021-07-28T11:00:10.382Z",
-    "endTime": "2021-07-28T17:00:10.382Z"
+    "appointment_url": "https://www.guidesocial.be/planningleman/?page=7",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.812Z",
+    "endTime": "2021-08-04T17:00:12.812Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "morning",
@@ -2035,13 +2170,14 @@
     "address": "rue Général Leman 110, 1040 Brussels",
     "telephone": "02 230 10 30",
     "email": "",
-    "website": "https://www.guidesocial.be/planningleman/?page=8",
-    "startTime": "2021-07-29T07:00:10.382Z",
-    "endTime": "2021-07-29T10:00:10.382Z"
+    "appointment_url": "https://www.guidesocial.be/planningleman/?page=8",
+    "website_url": "",
+    "startTime": "2021-08-05T07:00:12.813Z",
+    "endTime": "2021-08-05T10:00:12.813Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -2050,13 +2186,14 @@
     "address": "rue Général Leman 110, 1040 Brussels",
     "telephone": "02 230 10 30",
     "email": "",
-    "website": "https://www.guidesocial.be/planningleman/?page=9",
-    "startTime": "2021-07-29T10:30:10.382Z",
-    "endTime": "2021-07-29T16:00:10.382Z"
+    "appointment_url": "https://www.guidesocial.be/planningleman/?page=9",
+    "website_url": "",
+    "startTime": "2021-08-05T10:30:12.813Z",
+    "endTime": "2021-08-05T16:00:12.813Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "morning",
@@ -2065,13 +2202,14 @@
     "address": "rue Général Leman 110, 1040 Brussels",
     "telephone": "02 230 10 30",
     "email": "",
-    "website": "https://www.guidesocial.be/planningleman/?page=10",
-    "startTime": "2021-07-30T07:00:10.382Z",
-    "endTime": "2021-07-30T10:00:10.382Z"
+    "appointment_url": "https://www.guidesocial.be/planningleman/?page=10",
+    "website_url": "",
+    "startTime": "2021-08-06T07:00:12.813Z",
+    "endTime": "2021-08-06T10:00:12.813Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "afternoon",
@@ -2080,13 +2218,14 @@
     "address": "rue Général Leman 110, 1040 Brussels",
     "telephone": "02 230 10 30",
     "email": "",
-    "website": "https://www.guidesocial.be/planningleman/?page=11",
-    "startTime": "2021-07-30T10:30:10.382Z",
-    "endTime": "2021-07-30T15:00:10.383Z"
+    "appointment_url": "https://www.guidesocial.be/planningleman/?page=11",
+    "website_url": "",
+    "startTime": "2021-08-06T10:30:12.813Z",
+    "endTime": "2021-08-06T15:00:12.813Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -2095,13 +2234,14 @@
     "address": "Av. des Celtes 50, 1040 Brussels",
     "telephone": "02 736 13 14",
     "email": "",
-    "website": "http://collectifcontraception.be/?id=20",
-    "startTime": "2021-07-27T11:00:10.383Z",
-    "endTime": "2021-07-27T15:00:10.383Z"
+    "appointment_url": "http://collectifcontraception.be/?id=20",
+    "website_url": "",
+    "startTime": "2021-08-03T11:00:12.813Z",
+    "endTime": "2021-08-03T15:00:12.813Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -2110,13 +2250,14 @@
     "address": "Av. des Celtes 50, 1040 Brussels",
     "telephone": "02 736 13 14",
     "email": "",
-    "website": "http://collectifcontraception.be/?id=20",
-    "startTime": "2021-07-28T11:30:10.383Z",
-    "endTime": "2021-07-28T16:30:10.383Z"
+    "appointment_url": "http://collectifcontraception.be/?id=20",
+    "website_url": "",
+    "startTime": "2021-08-04T11:30:12.813Z",
+    "endTime": "2021-08-04T16:30:12.813Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -2125,13 +2266,14 @@
     "address": "rue du Vivier 89, Brussels",
     "telephone": "02 646 42 73",
     "email": "ixelles.cps@belgacom.net",
-    "website": "",
-    "startTime": "2021-07-28T11:30:10.383Z",
-    "endTime": "2021-07-28T15:30:10.383Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-04T11:30:12.813Z",
+    "endTime": "2021-08-04T15:30:12.813Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -2140,13 +2282,14 @@
     "address": "rue du Vivier 89, Brussels",
     "telephone": "02 646 42 73",
     "email": "ixelles.cps@belgacom.net",
-    "website": "",
-    "startTime": "2021-07-26T11:30:10.383Z",
-    "endTime": "2021-07-26T15:30:10.383Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-02T11:30:12.813Z",
+    "endTime": "2021-08-02T15:30:12.813Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -2155,13 +2298,14 @@
     "address": "rue du Vivier 89, Brussels",
     "telephone": "02 646 42 73",
     "email": "ixelles.cps@belgacom.net",
-    "website": "",
-    "startTime": "2021-07-27T11:30:10.383Z",
-    "endTime": "2021-07-27T15:30:10.383Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-03T11:30:12.813Z",
+    "endTime": "2021-08-03T15:30:12.813Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -2170,13 +2314,14 @@
     "address": "rue du Vivier 89, Brussels",
     "telephone": "02 646 42 73",
     "email": "ixelles.cps@belgacom.net",
-    "website": "",
-    "startTime": "2021-07-29T11:30:10.383Z",
-    "endTime": "2021-07-29T15:30:10.383Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-05T11:30:12.814Z",
+    "endTime": "2021-08-05T15:30:12.814Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "afternoon",
@@ -2185,13 +2330,14 @@
     "address": "rue du Vivier 89, Brussels",
     "telephone": "02 646 42 73",
     "email": "ixelles.cps@belgacom.net",
-    "website": "",
-    "startTime": "2021-07-30T11:30:10.383Z",
-    "endTime": "2021-07-30T15:30:10.383Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-06T11:30:12.814Z",
+    "endTime": "2021-08-06T15:30:12.815Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "morning",
@@ -2200,13 +2346,14 @@
     "address": "Avenue Jeanne 38, Brussels",
     "telephone": "02 650 31 31",
     "email": "",
-    "website": "http://www.aimeralulb.be/",
-    "startTime": "2021-07-26T07:00:10.383Z",
-    "endTime": "2021-07-26T10:00:10.383Z"
+    "appointment_url": "http://www.aimeralulb.be/",
+    "website_url": "",
+    "startTime": "2021-08-02T07:00:12.816Z",
+    "endTime": "2021-08-02T10:00:12.816Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -2215,13 +2362,14 @@
     "address": "Avenue Jeanne 38, Brussels",
     "telephone": "02 650 31 31",
     "email": "",
-    "website": "http://www.aimeralulb.be/",
-    "startTime": "2021-07-26T10:30:10.384Z",
-    "endTime": "2021-07-26T17:00:10.384Z"
+    "appointment_url": "http://www.aimeralulb.be/",
+    "website_url": "",
+    "startTime": "2021-08-02T10:30:12.816Z",
+    "endTime": "2021-08-02T17:00:12.816Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "morning",
@@ -2230,13 +2378,14 @@
     "address": "Avenue Jeanne 38, Brussels",
     "telephone": "02 650 31 31",
     "email": "",
-    "website": "http://www.aimeralulb.be/",
-    "startTime": "2021-07-27T07:00:10.384Z",
-    "endTime": "2021-07-27T10:00:10.384Z"
+    "appointment_url": "http://www.aimeralulb.be/",
+    "website_url": "",
+    "startTime": "2021-08-03T07:00:12.816Z",
+    "endTime": "2021-08-03T10:00:12.816Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -2245,13 +2394,14 @@
     "address": "Avenue Jeanne 38, Brussels",
     "telephone": "02 650 31 31",
     "email": "",
-    "website": "http://www.aimeralulb.be/",
-    "startTime": "2021-07-27T10:30:10.384Z",
-    "endTime": "2021-07-27T17:00:10.384Z"
+    "appointment_url": "http://www.aimeralulb.be/",
+    "website_url": "",
+    "startTime": "2021-08-03T10:30:12.816Z",
+    "endTime": "2021-08-03T17:00:12.816Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -2260,13 +2410,14 @@
     "address": "Avenue Jeanne 38, Brussels",
     "telephone": "02 650 31 31",
     "email": "",
-    "website": "http://www.aimeralulb.be/",
-    "startTime": "2021-07-28T07:00:10.384Z",
-    "endTime": "2021-07-28T10:00:10.384Z"
+    "appointment_url": "http://www.aimeralulb.be/",
+    "website_url": "",
+    "startTime": "2021-08-04T07:00:12.816Z",
+    "endTime": "2021-08-04T10:00:12.816Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -2275,13 +2426,14 @@
     "address": "Avenue Jeanne 38, Brussels",
     "telephone": "02 650 31 31",
     "email": "",
-    "website": "http://www.aimeralulb.be/",
-    "startTime": "2021-07-28T10:30:10.384Z",
-    "endTime": "2021-07-28T17:00:10.384Z"
+    "appointment_url": "http://www.aimeralulb.be/",
+    "website_url": "",
+    "startTime": "2021-08-04T10:30:12.816Z",
+    "endTime": "2021-08-04T17:00:12.816Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "morning",
@@ -2290,13 +2442,14 @@
     "address": "Avenue Jeanne 38, Brussels",
     "telephone": "02 650 31 31",
     "email": "",
-    "website": "http://www.aimeralulb.be/",
-    "startTime": "2021-07-29T07:00:10.384Z",
-    "endTime": "2021-07-29T10:00:10.384Z"
+    "appointment_url": "http://www.aimeralulb.be/",
+    "website_url": "",
+    "startTime": "2021-08-05T07:00:12.816Z",
+    "endTime": "2021-08-05T10:00:12.816Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -2305,13 +2458,14 @@
     "address": "Avenue Jeanne 38, Brussels",
     "telephone": "02 650 31 31",
     "email": "",
-    "website": "http://www.aimeralulb.be/",
-    "startTime": "2021-07-29T10:30:10.384Z",
-    "endTime": "2021-07-29T17:00:10.384Z"
+    "appointment_url": "http://www.aimeralulb.be/",
+    "website_url": "",
+    "startTime": "2021-08-05T10:30:12.816Z",
+    "endTime": "2021-08-05T17:00:12.816Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "morning",
@@ -2320,13 +2474,14 @@
     "address": "Avenue Jeanne 38, Brussels",
     "telephone": "02 650 31 31",
     "email": "",
-    "website": "http://www.aimeralulb.be/",
-    "startTime": "2021-07-30T07:00:10.385Z",
-    "endTime": "2021-07-30T10:00:10.385Z"
+    "appointment_url": "http://www.aimeralulb.be/",
+    "website_url": "",
+    "startTime": "2021-08-06T07:00:12.816Z",
+    "endTime": "2021-08-06T10:00:12.816Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "afternoon",
@@ -2335,13 +2490,14 @@
     "address": "Avenue Jeanne 38, Brussels",
     "telephone": "02 650 31 31",
     "email": "",
-    "website": "http://www.aimeralulb.be/",
-    "startTime": "2021-07-30T10:30:10.385Z",
-    "endTime": "2021-07-30T17:00:10.385Z"
+    "appointment_url": "http://www.aimeralulb.be/",
+    "website_url": "",
+    "startTime": "2021-08-06T10:30:12.817Z",
+    "endTime": "2021-08-06T17:00:12.817Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Saturday",
     "daypart": "morning",
@@ -2350,13 +2506,14 @@
     "address": "Avenue Jeanne 38, Brussels",
     "telephone": "02 650 31 31",
     "email": "",
-    "website": "http://www.aimeralulb.be/",
-    "startTime": "2021-07-31T07:30:10.385Z",
-    "endTime": "2021-07-31T10:30:10.385Z"
+    "appointment_url": "http://www.aimeralulb.be/",
+    "website_url": "",
+    "startTime": "2021-08-07T07:30:12.817Z",
+    "endTime": "2021-08-07T10:30:12.817Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "morning",
@@ -2365,13 +2522,14 @@
     "address": "Avenue du Parc 89, 1060 Brussels",
     "telephone": "02 537 11 08",
     "email": "",
-    "website": "https://www.planningfamilialstgilles.be/infos-pratiques",
-    "startTime": "2021-07-26T07:00:10.385Z",
-    "endTime": "2021-07-26T09:40:10.385Z"
+    "appointment_url": "https://www.planningfamilialstgilles.be/infos-pratiques",
+    "website_url": "",
+    "startTime": "2021-08-02T07:00:12.817Z",
+    "endTime": "2021-08-02T09:40:12.817Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -2380,13 +2538,14 @@
     "address": "Avenue du Parc 89, 1060 Brussels",
     "telephone": "02 537 11 08",
     "email": "",
-    "website": "https://www.planningfamilialstgilles.be/infos-pratiques",
-    "startTime": "2021-07-26T12:30:10.385Z",
-    "endTime": "2021-07-26T12:30:10.385Z"
+    "appointment_url": "https://www.planningfamilialstgilles.be/infos-pratiques",
+    "website_url": "",
+    "startTime": "2021-08-02T12:30:12.817Z",
+    "endTime": "2021-08-02T12:30:12.817Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "morning",
@@ -2395,13 +2554,14 @@
     "address": "Avenue du Parc 89, 1060 Brussels",
     "telephone": "02 537 11 08",
     "email": "",
-    "website": "https://www.planningfamilialstgilles.be/infos-pratiques",
-    "startTime": "2021-07-27T07:00:10.385Z",
-    "endTime": "2021-07-27T10:00:10.385Z"
+    "appointment_url": "https://www.planningfamilialstgilles.be/infos-pratiques",
+    "website_url": "",
+    "startTime": "2021-08-03T07:00:12.817Z",
+    "endTime": "2021-08-03T10:00:12.817Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -2410,13 +2570,14 @@
     "address": "Avenue du Parc 89, 1060 Brussels",
     "telephone": "02 537 11 08",
     "email": "",
-    "website": "https://www.planningfamilialstgilles.be/infos-pratiques",
-    "startTime": "2021-07-27T11:30:10.385Z",
-    "endTime": "2021-07-27T15:00:10.385Z"
+    "appointment_url": "https://www.planningfamilialstgilles.be/infos-pratiques",
+    "website_url": "",
+    "startTime": "2021-08-03T11:30:12.817Z",
+    "endTime": "2021-08-03T15:00:12.817Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -2425,13 +2586,14 @@
     "address": "Avenue du Parc 89, 1060 Brussels",
     "telephone": "02 537 11 08",
     "email": "",
-    "website": "https://www.planningfamilialstgilles.be/infos-pratiques",
-    "startTime": "2021-07-28T07:00:10.385Z",
-    "endTime": "2021-07-28T10:00:10.385Z"
+    "appointment_url": "https://www.planningfamilialstgilles.be/infos-pratiques",
+    "website_url": "",
+    "startTime": "2021-08-04T07:00:12.817Z",
+    "endTime": "2021-08-04T10:00:12.817Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -2440,13 +2602,14 @@
     "address": "Avenue du Parc 89, 1060 Brussels",
     "telephone": "02 537 11 08",
     "email": "",
-    "website": "https://www.planningfamilialstgilles.be/infos-pratiques",
-    "startTime": "2021-07-28T11:30:10.386Z",
-    "endTime": "2021-07-28T14:00:10.386Z"
+    "appointment_url": "https://www.planningfamilialstgilles.be/infos-pratiques",
+    "website_url": "",
+    "startTime": "2021-08-04T11:30:12.817Z",
+    "endTime": "2021-08-04T14:00:12.817Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "afternoon",
@@ -2455,13 +2618,14 @@
     "address": "Avenue du Parc 89, 1060 Brussels",
     "telephone": "02 537 11 08",
     "email": "",
-    "website": "https://www.planningfamilialstgilles.be/infos-pratiques",
-    "startTime": "2021-07-30T12:30:10.386Z",
-    "endTime": "2021-07-30T14:30:10.386Z"
+    "appointment_url": "https://www.planningfamilialstgilles.be/infos-pratiques",
+    "website_url": "",
+    "startTime": "2021-08-06T12:30:12.817Z",
+    "endTime": "2021-08-06T14:30:12.817Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -2470,13 +2634,14 @@
     "address": "Avenue Clemenceau 23, 1070 Bruxelles",
     "telephone": "02 511 38 38",
     "email": "accueil@cpfmidi.be",
-    "website": "https://www.cpfmidi.be/consultations-medicales/",
-    "startTime": "2021-07-28T11:00:10.386Z",
-    "endTime": "2021-07-28T16:00:10.386Z"
+    "appointment_url": "https://www.cpfmidi.be/consultations-medicales/",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.817Z",
+    "endTime": "2021-08-04T16:00:12.817Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -2485,13 +2650,14 @@
     "address": "Raymond Vander Bruggen 84, 1070 Brussels",
     "telephone": "02 524 33 14",
     "email": "info@planning-severine.org",
-    "website": "https://www.planning-severine.org/nos-services",
-    "startTime": "2021-07-26T10:30:10.386Z",
-    "endTime": "2021-07-26T16:00:10.386Z"
+    "appointment_url": "https://www.planning-severine.org/nos-services",
+    "website_url": "",
+    "startTime": "2021-08-02T10:30:12.817Z",
+    "endTime": "2021-08-02T16:00:12.818Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -2500,13 +2666,14 @@
     "address": "Raymond Vander Bruggen 84, 1070 Brussels",
     "telephone": "02 524 33 14",
     "email": "info@planning-severine.org",
-    "website": "https://www.planning-severine.org/nos-services",
-    "startTime": "2021-07-27T10:30:10.386Z",
-    "endTime": "2021-07-27T16:00:10.386Z"
+    "appointment_url": "https://www.planning-severine.org/nos-services",
+    "website_url": "",
+    "startTime": "2021-08-03T10:30:12.818Z",
+    "endTime": "2021-08-03T16:00:12.818Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -2515,13 +2682,14 @@
     "address": "Raymond Vander Bruggen 84, 1070 Brussels",
     "telephone": "02 524 33 14",
     "email": "info@planning-severine.org",
-    "website": "https://www.planning-severine.org/nos-services",
-    "startTime": "2021-07-29T10:30:10.386Z",
-    "endTime": "2021-07-29T16:30:10.386Z"
+    "appointment_url": "https://www.planning-severine.org/nos-services",
+    "website_url": "",
+    "startTime": "2021-08-05T10:30:12.818Z",
+    "endTime": "2021-08-05T16:30:12.818Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "morning",
@@ -2530,13 +2698,14 @@
     "address": "Raymond Vander Bruggen 84, 1070 Brussels",
     "telephone": "02 524 33 14",
     "email": "info@planning-severine.org",
-    "website": "https://www.planning-severine.org/nos-services",
-    "startTime": "2021-07-30T07:00:10.386Z",
-    "endTime": "2021-07-30T11:30:10.387Z"
+    "appointment_url": "https://www.planning-severine.org/nos-services",
+    "website_url": "",
+    "startTime": "2021-08-06T07:00:12.818Z",
+    "endTime": "2021-08-06T11:30:12.818Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "afternoon",
@@ -2545,13 +2714,14 @@
     "address": "Raymond Vander Bruggen 84, 1070 Brussels",
     "telephone": "02 524 33 14",
     "email": "info@planning-severine.org",
-    "website": "https://www.planning-severine.org/nos-services",
-    "startTime": "2021-07-30T14:00:10.387Z",
-    "endTime": "2021-07-30T15:30:10.387Z"
+    "appointment_url": "https://www.planning-severine.org/nos-services",
+    "website_url": "",
+    "startTime": "2021-08-06T14:00:12.818Z",
+    "endTime": "2021-08-06T15:30:12.819Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -2560,13 +2730,14 @@
     "address": "rue Adolphe De Brandt 70 , 1140 Brussels",
     "telephone": "02 216 20 04",
     "email": "planning.familial.evere@brutele.be",
-    "website": "http://www.lentrela.be/-Planning-Familial-d-Evere-127-",
-    "startTime": "2021-07-26T14:00:10.387Z",
-    "endTime": "2021-07-26T15:00:10.388Z"
+    "appointment_url": "http://www.lentrela.be/-Planning-Familial-d-Evere-127-",
+    "website_url": "",
+    "startTime": "2021-08-02T14:00:12.819Z",
+    "endTime": "2021-08-02T15:00:12.819Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -2575,13 +2746,14 @@
     "address": "rue Adolphe De Brandt 70 , 1140 Brussels",
     "telephone": "02 216 20 04",
     "email": "planning.familial.evere@brutele.be",
-    "website": "http://www.lentrela.be/-Planning-Familial-d-Evere-127-",
-    "startTime": "2021-07-26T15:00:10.388Z",
-    "endTime": "2021-07-26T16:00:10.388Z"
+    "appointment_url": "http://www.lentrela.be/-Planning-Familial-d-Evere-127-",
+    "website_url": "",
+    "startTime": "2021-08-02T15:00:12.819Z",
+    "endTime": "2021-08-02T16:00:12.819Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -2590,13 +2762,14 @@
     "address": "rue Adolphe De Brandt 70 , 1140 Brussels",
     "telephone": "02 216 20 04",
     "email": "planning.familial.evere@brutele.be",
-    "website": "http://www.lentrela.be/-Planning-Familial-d-Evere-127-",
-    "startTime": "2021-07-28T12:00:10.388Z",
-    "endTime": "2021-07-28T14:00:10.388Z"
+    "appointment_url": "http://www.lentrela.be/-Planning-Familial-d-Evere-127-",
+    "website_url": "",
+    "startTime": "2021-08-04T12:00:12.819Z",
+    "endTime": "2021-08-04T14:00:12.819Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -2605,13 +2778,14 @@
     "address": "rue Adolphe De Brandt 70 , 1140 Brussels",
     "telephone": "02 216 20 04",
     "email": "planning.familial.evere@brutele.be",
-    "website": "http://www.lentrela.be/-Planning-Familial-d-Evere-127-",
-    "startTime": "2021-07-28T14:00:10.388Z",
-    "endTime": "2021-07-28T15:00:10.388Z"
+    "appointment_url": "http://www.lentrela.be/-Planning-Familial-d-Evere-127-",
+    "website_url": "",
+    "startTime": "2021-08-04T14:00:12.819Z",
+    "endTime": "2021-08-04T15:00:12.819Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "morning",
@@ -2620,13 +2794,14 @@
     "address": "Rue Jean Deraeck 14, 1150 Brussels",
     "telephone": "02 762 00 67",
     "email": "",
-    "website": "https://www.guidesocial.be/planningwoluwe/?page=5",
-    "startTime": "2021-07-26T08:00:10.388Z",
-    "endTime": "2021-07-26T10:00:10.388Z"
+    "appointment_url": "https://www.guidesocial.be/planningwoluwe/?page=5",
+    "website_url": "",
+    "startTime": "2021-08-02T08:00:12.819Z",
+    "endTime": "2021-08-02T10:00:12.819Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -2635,13 +2810,14 @@
     "address": "Rue Jean Deraeck 14, 1150 Brussels",
     "telephone": "02 762 00 67",
     "email": "",
-    "website": "https://www.guidesocial.be/planningwoluwe/?page=6",
-    "startTime": "2021-07-26T11:00:10.388Z",
-    "endTime": "2021-07-26T16:00:10.388Z"
+    "appointment_url": "https://www.guidesocial.be/planningwoluwe/?page=6",
+    "website_url": "",
+    "startTime": "2021-08-02T11:00:12.819Z",
+    "endTime": "2021-08-02T16:00:12.819Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -2650,13 +2826,14 @@
     "address": "Rue Jean Deraeck 14, 1150 Brussels",
     "telephone": "02 762 00 67",
     "email": "",
-    "website": "https://www.guidesocial.be/planningwoluwe/?page=8",
-    "startTime": "2021-07-27T12:00:10.388Z",
-    "endTime": "2021-07-27T16:00:10.388Z"
+    "appointment_url": "https://www.guidesocial.be/planningwoluwe/?page=8",
+    "website_url": "",
+    "startTime": "2021-08-03T12:00:12.819Z",
+    "endTime": "2021-08-03T16:00:12.819Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -2665,13 +2842,14 @@
     "address": "Rue Jean Deraeck 14, 1150 Brussels",
     "telephone": "02 762 00 67",
     "email": "",
-    "website": "https://www.guidesocial.be/planningwoluwe/?page=9",
-    "startTime": "2021-07-28T11:00:10.388Z",
-    "endTime": "2021-07-28T16:00:10.388Z"
+    "appointment_url": "https://www.guidesocial.be/planningwoluwe/?page=9",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.819Z",
+    "endTime": "2021-08-04T16:00:12.819Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -2680,13 +2858,14 @@
     "address": "Rue Jean Deraeck 14, 1150 Brussels",
     "telephone": "02 762 00 67",
     "email": "",
-    "website": "https://www.guidesocial.be/planningwoluwe/?page=10",
-    "startTime": "2021-07-29T10:30:10.388Z",
-    "endTime": "2021-07-29T15:30:10.388Z"
+    "appointment_url": "https://www.guidesocial.be/planningwoluwe/?page=10",
+    "website_url": "",
+    "startTime": "2021-08-05T10:30:12.819Z",
+    "endTime": "2021-08-05T15:30:12.820Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "morning",
@@ -2695,13 +2874,14 @@
     "address": "Rue Jean Deraeck 14, 1150 Brussels",
     "telephone": "02 762 00 67",
     "email": "",
-    "website": "https://www.guidesocial.be/planningwoluwe/?page=11",
-    "startTime": "2021-07-30T08:00:10.388Z",
-    "endTime": "2021-07-30T10:00:10.389Z"
+    "appointment_url": "https://www.guidesocial.be/planningwoluwe/?page=11",
+    "website_url": "",
+    "startTime": "2021-08-06T08:00:12.820Z",
+    "endTime": "2021-08-06T10:00:12.820Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "afternoon",
@@ -2710,13 +2890,14 @@
     "address": "Rue Jean Deraeck 14, 1150 Brussels",
     "telephone": "02 762 00 67",
     "email": "",
-    "website": "https://www.guidesocial.be/planningwoluwe/?page=12",
-    "startTime": "2021-07-30T11:00:10.389Z",
-    "endTime": "2021-07-30T15:30:10.389Z"
+    "appointment_url": "https://www.guidesocial.be/planningwoluwe/?page=12",
+    "website_url": "",
+    "startTime": "2021-08-06T11:00:12.821Z",
+    "endTime": "2021-08-06T15:30:12.821Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -2725,13 +2906,14 @@
     "address": "Avenue de Broqueville 270, 1200 Brussels",
     "telephone": "02 736 41 50",
     "email": "ccfs@skynet.be",
-    "website": "http://www.planning-familial-wsl.be/index.php/infos-generales/horaires/medicales",
-    "startTime": "2021-07-27T13:30:10.389Z",
-    "endTime": "2021-07-27T16:00:10.389Z"
+    "appointment_url": "http://www.planning-familial-wsl.be/index.php/infos-generales/horaires/medicales",
+    "website_url": "",
+    "startTime": "2021-08-03T13:30:12.821Z",
+    "endTime": "2021-08-03T16:00:12.821Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -2740,13 +2922,14 @@
     "address": "Avenue de Broqueville 270, 1200 Brussels",
     "telephone": "02 736 41 50",
     "email": "ccfs@skynet.be",
-    "website": "http://www.planning-familial-wsl.be/index.php/infos-generales/horaires/medicales",
-    "startTime": "2021-07-28T11:30:10.389Z",
-    "endTime": "2021-07-28T16:30:10.389Z"
+    "appointment_url": "http://www.planning-familial-wsl.be/index.php/infos-generales/horaires/medicales",
+    "website_url": "",
+    "startTime": "2021-08-04T11:30:12.821Z",
+    "endTime": "2021-08-04T16:30:12.821Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -2755,13 +2938,14 @@
     "address": "Avenue de Broqueville 270, 1200 Brussels",
     "telephone": "02 736 41 50",
     "email": "ccfs@skynet.be",
-    "website": "http://www.planning-familial-wsl.be/index.php/infos-generales/horaires/medicales",
-    "startTime": "2021-07-29T13:30:10.389Z",
-    "endTime": "2021-07-29T16:00:10.389Z"
+    "appointment_url": "http://www.planning-familial-wsl.be/index.php/infos-generales/horaires/medicales",
+    "website_url": "",
+    "startTime": "2021-08-05T13:30:12.821Z",
+    "endTime": "2021-08-05T16:00:12.821Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "morning",
@@ -2770,13 +2954,14 @@
     "address": "Place Quetelet 4, 1210 Brussels",
     "telephone": "02 217 44 50",
     "email": "",
-    "website": "https://www.planningsaintjosse.com/les-i-s-t",
-    "startTime": "2021-07-26T07:00:10.389Z",
-    "endTime": "2021-07-26T10:00:10.390Z"
+    "appointment_url": "https://www.planningsaintjosse.com/les-i-s-t",
+    "website_url": "",
+    "startTime": "2021-08-02T07:00:12.822Z",
+    "endTime": "2021-08-02T10:00:12.822Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Monday",
     "daypart": "afternoon",
@@ -2785,13 +2970,14 @@
     "address": "Place Quetelet 4, 1210 Brussels",
     "telephone": "02 217 44 50",
     "email": "",
-    "website": "https://www.planningsaintjosse.com/les-i-s-t",
-    "startTime": "2021-07-26T11:00:10.390Z",
-    "endTime": "2021-07-26T16:00:10.390Z"
+    "appointment_url": "https://www.planningsaintjosse.com/les-i-s-t",
+    "website_url": "",
+    "startTime": "2021-08-02T11:00:12.822Z",
+    "endTime": "2021-08-02T16:00:12.822Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "morning",
@@ -2800,13 +2986,14 @@
     "address": "Place Quetelet 4, 1210 Brussels",
     "telephone": "02 217 44 50",
     "email": "",
-    "website": "https://www.planningsaintjosse.com/les-i-s-t",
-    "startTime": "2021-07-27T07:00:10.390Z",
-    "endTime": "2021-07-27T10:00:10.390Z"
+    "appointment_url": "https://www.planningsaintjosse.com/les-i-s-t",
+    "website_url": "",
+    "startTime": "2021-08-03T07:00:12.822Z",
+    "endTime": "2021-08-03T10:00:12.822Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -2815,13 +3002,14 @@
     "address": "Place Quetelet 4, 1210 Brussels",
     "telephone": "02 217 44 50",
     "email": "",
-    "website": "https://www.planningsaintjosse.com/les-i-s-t",
-    "startTime": "2021-07-27T12:00:10.390Z",
-    "endTime": "2021-07-27T16:00:10.390Z"
+    "appointment_url": "https://www.planningsaintjosse.com/les-i-s-t",
+    "website_url": "",
+    "startTime": "2021-08-03T12:00:12.822Z",
+    "endTime": "2021-08-03T16:00:12.822Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "morning",
@@ -2830,13 +3018,14 @@
     "address": "Place Quetelet 4, 1210 Brussels",
     "telephone": "02 217 44 50",
     "email": "",
-    "website": "https://www.planningsaintjosse.com/les-i-s-t",
-    "startTime": "2021-07-28T07:00:10.390Z",
-    "endTime": "2021-07-28T10:00:10.391Z"
+    "appointment_url": "https://www.planningsaintjosse.com/les-i-s-t",
+    "website_url": "",
+    "startTime": "2021-08-04T07:00:12.822Z",
+    "endTime": "2021-08-04T10:00:12.823Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -2845,13 +3034,14 @@
     "address": "Place Quetelet 4, 1210 Brussels",
     "telephone": "02 217 44 50",
     "email": "",
-    "website": "https://www.planningsaintjosse.com/les-i-s-t",
-    "startTime": "2021-07-28T11:00:10.392Z",
-    "endTime": "2021-07-28T16:00:10.392Z"
+    "appointment_url": "https://www.planningsaintjosse.com/les-i-s-t",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.823Z",
+    "endTime": "2021-08-04T16:00:12.823Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "morning",
@@ -2860,13 +3050,14 @@
     "address": "Place Quetelet 4, 1210 Brussels",
     "telephone": "02 217 44 50",
     "email": "",
-    "website": "https://www.planningsaintjosse.com/les-i-s-t",
-    "startTime": "2021-07-29T07:00:10.392Z",
-    "endTime": "2021-07-29T10:00:10.392Z"
+    "appointment_url": "https://www.planningsaintjosse.com/les-i-s-t",
+    "website_url": "",
+    "startTime": "2021-08-05T07:00:12.823Z",
+    "endTime": "2021-08-05T10:00:12.823Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -2875,13 +3066,14 @@
     "address": "Place Quetelet 4, 1210 Brussels",
     "telephone": "02 217 44 50",
     "email": "",
-    "website": "https://www.planningsaintjosse.com/les-i-s-t",
-    "startTime": "2021-07-29T11:00:10.392Z",
-    "endTime": "2021-07-29T16:00:10.392Z"
+    "appointment_url": "https://www.planningsaintjosse.com/les-i-s-t",
+    "website_url": "",
+    "startTime": "2021-08-05T11:00:12.823Z",
+    "endTime": "2021-08-05T16:00:12.823Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "morning",
@@ -2890,13 +3082,14 @@
     "address": "Place Quetelet 4, 1210 Brussels",
     "telephone": "02 217 44 50",
     "email": "",
-    "website": "https://www.planningsaintjosse.com/les-i-s-t",
-    "startTime": "2021-07-30T07:00:10.392Z",
-    "endTime": "2021-07-30T10:00:10.392Z"
+    "appointment_url": "https://www.planningsaintjosse.com/les-i-s-t",
+    "website_url": "",
+    "startTime": "2021-08-06T07:00:12.823Z",
+    "endTime": "2021-08-06T10:00:12.823Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "afternoon",
@@ -2905,13 +3098,14 @@
     "address": "Place Quetelet 4, 1210 Brussels",
     "telephone": "02 217 44 50",
     "email": "",
-    "website": "https://www.planningsaintjosse.com/les-i-s-t",
-    "startTime": "2021-07-30T11:00:10.392Z",
-    "endTime": "2021-07-30T15:00:10.392Z"
+    "appointment_url": "https://www.planningsaintjosse.com/les-i-s-t",
+    "website_url": "",
+    "startTime": "2021-08-06T11:00:12.824Z",
+    "endTime": "2021-08-06T15:00:12.824Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -2920,13 +3114,14 @@
     "address": "Rue du Noyer 344,1030 Bruxelles",
     "telephone": "02 733 43 95",
     "email": "",
-    "website": "http://www.bureauxdequartiers.be/",
-    "startTime": "2021-07-28T14:45:10.392Z",
-    "endTime": "2021-07-28T16:30:10.392Z"
+    "appointment_url": "http://www.bureauxdequartiers.be/",
+    "website_url": "",
+    "startTime": "2021-08-04T14:45:12.824Z",
+    "endTime": "2021-08-04T16:30:12.824Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Thursday",
     "daypart": "afternoon",
@@ -2935,13 +3130,14 @@
     "address": "Rue du Noyer 344,1030 Bruxelles",
     "telephone": "02 733 43 95",
     "email": "",
-    "website": "http://www.bureauxdequartiers.be/",
-    "startTime": "2021-07-29T14:00:10.392Z",
-    "endTime": "2021-07-29T15:45:10.392Z"
+    "appointment_url": "http://www.bureauxdequartiers.be/",
+    "website_url": "",
+    "startTime": "2021-08-05T14:00:12.824Z",
+    "endTime": "2021-08-05T15:45:12.824Z"
   },
   {
     "place": "Brussels",
-    "appointment": "yes",
+    "on_appointment": "yes",
     "free": "no",
     "day": "Friday",
     "daypart": "afternoon",
@@ -2950,13 +3146,14 @@
     "address": "Rue du Noyer 344,1030 Bruxelles",
     "telephone": "02 733 43 95",
     "email": "",
-    "website": "http://www.bureauxdequartiers.be/",
-    "startTime": "2021-07-30T13:00:10.392Z",
-    "endTime": "2021-07-30T14:45:10.393Z"
+    "appointment_url": "http://www.bureauxdequartiers.be/",
+    "website_url": "",
+    "startTime": "2021-08-06T13:00:12.824Z",
+    "endTime": "2021-08-06T14:45:12.824Z"
   },
   {
     "place": "Brussels",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -2965,13 +3162,14 @@
     "address": "rue du Champ de Mars 5, 1050 Brussels",
     "telephone": "",
     "email": "",
-    "website": "",
-    "startTime": "2021-07-28T13:30:10.393Z",
-    "endTime": "2021-07-28T15:14:10.393Z"
+    "appointment_url": "",
+    "website_url": "",
+    "startTime": "2021-08-04T13:30:12.824Z",
+    "endTime": "2021-08-04T15:24:12.824Z"
   },
   {
     "place": "I'm a sexworker",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Tuesday",
     "daypart": "afternoon",
@@ -2980,13 +3178,14 @@
     "address": "rue des Plantes 116, 1030 Brussels",
     "telephone": "02 219 98 74",
     "email": "bruxelles@espacep.be",
-    "website": "http://espacep.be/contact/bruxelles/",
-    "startTime": "2021-07-27T17:00:10.393Z",
-    "endTime": "2021-07-27T18:00:10.393Z"
+    "appointment_url": "http://espacep.be/contact/bruxelles/",
+    "website_url": "",
+    "startTime": "2021-08-03T17:00:12.824Z",
+    "endTime": "2021-08-03T18:00:12.824Z"
   },
   {
     "place": "I'm a sexworker",
-    "appointment": "no",
+    "on_appointment": "no",
     "free": "yes",
     "day": "Wednesday",
     "daypart": "afternoon",
@@ -2995,8 +3194,9 @@
     "address": "rue des Plantes 116, 1030 Brussels",
     "telephone": "02 219 98 74",
     "email": "bruxelles@espacep.be",
-    "website": "http://espacep.be/contact/bruxelles/",
-    "startTime": "2021-07-28T11:00:10.393Z",
-    "endTime": "2021-07-28T12:00:10.393Z"
+    "appointment_url": "http://espacep.be/contact/bruxelles/",
+    "website_url": "",
+    "startTime": "2021-08-04T11:00:12.824Z",
+    "endTime": "2021-08-04T12:00:12.824Z"
   }
 ]
