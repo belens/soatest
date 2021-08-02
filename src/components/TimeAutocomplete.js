@@ -10,7 +10,7 @@ export default function ComboBox(props) {
       options={times}
       getOptionLabel={(option) => option.title}
       defaultValue={times.find(v => v.title[0])} 
-      style={{ width: 200, display: "inline-block", verticalAlign: 'middle' }}
+      style={{ width: 210, display: "inline-block", verticalAlign: 'middle' }}
       renderInput={(params) => (
         <TextField
           {...params}
