@@ -13,6 +13,7 @@ import CheckIcon from "@material-ui/icons/Check";
 import CloseIcon from "@material-ui/icons/Close";
 import LinkIcon from "@material-ui/icons/Link";
 import EventIcon from "@material-ui/icons/Event";
+import CallIcon from "@material-ui/icons/Call";
 import OpeningHours from "./OpeningHours";
 import { green, red } from "@material-ui/core/colors";
 
@@ -92,28 +93,54 @@ export default function OrganisationCard(props) {
           )}{" "}
           Zonder afspraak
         </Typography>
-        
-        <div style={{margin: '10px 0'}}>
-        <OpeningHours openingHours={props.openingHours}></OpeningHours>
+
+        <div style={{ margin: "10px 0" }}>
+          <OpeningHours openingHours={props.openingHours}></OpeningHours>
         </div>
-        
-        <Button
-          size="small"
-          startIcon={<LocationOnIcon />}
-          href={"https://maps.google.com/?q=" + props.address}
-        >
-          Toon Locatie
-        </Button>
-        {props.websiteUrl && (
-          <Button size="small" startIcon={<LinkIcon />} href={props.websiteUrl}>
-            Bezoek website
+
+        <div>
+          <Button
+            size="small"
+            target="_blank"
+            startIcon={<LocationOnIcon />}
+            href={"https://maps.google.com/?q=" + props.address}
+          >
+            Toon locatie
           </Button>
-        )}
-        {props.appointmentUrl && (
-          <Button size="small" startIcon={<EventIcon />} href={props.appointmentUrl}>
-            Maak afspraak
-          </Button>
-        )}
+          {props.appointmentUrl && (
+            <Button
+              size="small"
+              target="_blank"
+              style={{ float: "right" }}
+              startIcon={<EventIcon />}
+              href={props.appointmentUrl}
+            >
+              Maak afspraak
+            </Button>
+          )}
+        </div>
+        <div>
+          {props.websiteUrl && (
+            <Button
+              size="small"
+              target="_blank"
+              startIcon={<LinkIcon />}
+              href={props.websiteUrl}
+            >
+              Bezoek website
+            </Button>
+          )}
+          {props.appointmentUrl && (
+            <Button
+              size="small"
+              style={{ float: "right" }}
+              startIcon={<CallIcon />}
+              href={`tel:${props.telephone}`}
+            >
+              Bel organisatie
+            </Button>
+          )}
+        </div>
       </CardContent>
     </Card>
   );

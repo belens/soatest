@@ -92,6 +92,7 @@ function getOrganisations(): [Organisation] {
         address: timeslot.address,
         email: timeslot.email,
         websiteUrl: timeslot.website_url,
+        telephone: timeslot.telephone,
         appointmentUrl: timeslot.appointment_url,
         onAppointment: timeslot.on_appointment === "yes",
         ...getOrganisationProps(timeslot.organisation),
