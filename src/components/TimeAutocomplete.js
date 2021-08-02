@@ -23,7 +23,6 @@ export default function ComboBox(props) {
 }
 
 var times = [
-  { title: "binnenkort" },
   { title: "Zo snel mogelijk" },
   { title: "Deze week" },
 ];
