@@ -73,7 +73,7 @@ export default function OrganisationCard(props) {
           {props.name}
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
-          {props.address}
+          {props.address} · <span>{props.telephone}</span>
         </Typography>
         <br />
 

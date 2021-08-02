@@ -82,7 +82,9 @@ function getOrganisations(): [Organisation] {
       endTime: timeslot.endTime,
       free: timeslot.free === "yes",
     };
+    
     if (existingOrganisationIndex < 0) {
+
       var organisation = {
         province: timeslot.place,
         name: timeslot.organisation,
@@ -104,7 +106,6 @@ function getOrganisations(): [Organisation] {
         ...orgs[existingOrganisationIndex].openingHours,
         openingHours,
       ].sort((a, b) => (a.weekday > b.weekday ? 1 : -1));
-      // return orgs;
     }
 
     return orgs;
