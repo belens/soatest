@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
-import OpeningHours from "./OpeningHours";
+import OpenPeriods from "./OpenPeriods";
 
 class MapComponent extends Component {
   constructor(props) {
@@ -60,16 +60,16 @@ class MapComponent extends Component {
                   onClick={this.onMarkerClick}
                   position={org.coords}
                   name={org.organisation}
-                  openingHours={org.openingHours}
+                  openPeriods={org.openPeriods}
                 />
               )
           )}
 
           <InfoWindow marker={activeMarker} visible={showingInfoWindow}>
-                <OpeningHours
+                <OpenPeriods
                   open={true}
-                  openingHours={selectedPlace.openingHours}
-                ></OpeningHours>
+                  openPeriods={selectedPlace.openPeriods}
+                ></OpenPeriods>
           </InfoWindow>
         </Map>
       </div>

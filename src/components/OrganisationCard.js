@@ -14,7 +14,7 @@ import CloseIcon from "@material-ui/icons/Close";
 import LinkIcon from "@material-ui/icons/Link";
 import EventIcon from "@material-ui/icons/Event";
 import CallIcon from "@material-ui/icons/Call";
-import OpeningHours from "./OpeningHours";
+import OpenPeriods from "./OpenPeriods";
 import { green, red } from "@material-ui/core/colors";
 
 const useStyles = makeStyles({
@@ -95,7 +95,7 @@ export default function OrganisationCard(props) {
         </Typography>
 
         <div style={{ margin: "10px 0" }}>
-          <OpeningHours openingHours={props.openingHours}></OpeningHours>
+          <OpenPeriods openPeriods={props.openPeriods}></OpenPeriods>
         </div>
 
         <div>

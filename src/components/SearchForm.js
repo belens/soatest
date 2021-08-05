@@ -96,7 +96,7 @@ export default class Search extends React.Component {
           onOptionsChange={this.handleOptionsChange}
         ></SwitchesGroup>
 
-        {selectedProvince && <OrganisationList orgs={orgs}></OrganisationList>}
+        {selectedProvince && <OrganisationList orgs={orgs} {...selectedProvinceProps}></OrganisationList>}
       </Container>
     );
   }

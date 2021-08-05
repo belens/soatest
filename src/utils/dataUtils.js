@@ -97,7 +97,7 @@ export function getOrganisations(): [Organisation] {
         timeslot.organisation.toLocaleLowerCase() ===
         ts.organisation.toLocaleLowerCase()
     );
-    const openingHours = {
+    const openPeriods = {
       day: timeslot.day,
       weekday: weekDays.indexOf(timeslot.day),
       daypart: timeslot.daypart,
@@ -106,14 +106,11 @@ export function getOrganisations(): [Organisation] {
       endTime: timeslot.endTime,
       free: timeslot.free === "yes",
     };
-
     if (existingOrgIndex < 0) {
       const organisation = {
         province: timeslot.place,
         name: timeslot.organisation,
         free: timeslot.free === "yes",
-        // openingHours: [openingHours],
-        openPeriods: defaultOpenPeriods,
         organisation: timeslot.organisation,
         address: timeslot.address,
         email: timeslot.email,
@@ -123,13 +120,18 @@ export function getOrganisations(): [Organisation] {
         onAppointment: timeslot.on_appointment === "yes",
         ...getOrganisationProps(timeslot.organisation), // temp
       };
-      organisation.openPeriods[openingHours.weekday].push(openingHours);
-
+      organisation.openPeriods = {
+        ...defaultOpenPeriods,
+        [openPeriods.weekday]: [openPeriods],
+      };
+      // console.log(organisation.openPeriods);
       orgs = [...orgs, organisation];
     } else {
       const existingOrg = orgs[existingOrgIndex];
-      // console.log(existingOrg.openPeriods);
-      existingOrg.openPeriods[openingHours.weekday].push(openingHours)
+      existingOrg.openPeriods = {
+        ...existingOrg.openPeriods,
+        [openPeriods.weekday]: [...existingOrg.openPeriods[openPeriods.weekday], openPeriods],
+      };
       // .sort((a, b) => (a.weekday > b.weekday ? 1 : -1));
     }
 
@@ -137,7 +139,7 @@ export function getOrganisations(): [Organisation] {
   }, []);
 
   return organisations.map((org) => {
-    // org.openingHours.reduce((prev, org, arr) => {});
+    // org.openPeriods.reduce((prev, org, arr) => {});
     return org;
   });
 }

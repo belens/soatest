@@ -26,14 +26,11 @@ it("getOrganisationsByProvince must less than getOrganisations", () => {
 });
 
 it("getOrganisations objects should contain OpeningPeriods", () => {
-  const provinceOrgs = DataUtils.getOrganisationsByProvince("Brussels");
   const orgs = getOrganisations();
   const org = orgs[0];
 
   expect(org.openPeriods).toBeTruthy();  
-  // console.log(org.openPeriods);
   expect(Object.keys(org.openPeriods)).toBeTruthy();  
-  // expect(Object.keys(org.openPeriods)).toMatch(["0","1","2","3","4","5","6"]);  
-  // expect(org.openPeriods.keys().length).toEqual(7);  
+  expect(Object.keys(org.openPeriods).length).toEqual(7);  
   
 });
