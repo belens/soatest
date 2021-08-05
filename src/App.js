@@ -6,7 +6,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import blue from "@material-ui/core/colors/blue";
 
 import dataUtils from "./utils/dataUtils";
-import Search from "./components/Search";
+import SearchForm from "./components/SearchForm";
 import AppBar from "./components/AppBar";
 import { palette, spacing } from "@material-ui/system";
 import styled from "styled-components";
@@ -15,6 +15,7 @@ const Box = styled.div`
   ${palette}
   ${spacing}
 `;
+
 const values = {
   xs: 0,
   sm: 600,
@@ -22,6 +23,7 @@ const values = {
   lg: 1280,
   xl: 1920,
 };
+
 function App() {
   const theme = React.useMemo(
     () =>
@@ -44,10 +46,7 @@ function App() {
       <CssBaseline />
       <AppBar />
       <Box p={3}>
-        
-            <Search data={dataUtils.getProvinces()} />
-          
-        
+        <SearchForm data={dataUtils.getProvinces()} />
       </Box>
     </ThemeProvider>
   );

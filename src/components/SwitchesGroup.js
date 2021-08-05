@@ -4,31 +4,41 @@ import FormControl from '@material-ui/core/FormControl';
 import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Switch from '@material-ui/core/Switch';
+import styled from 'styled-components';
 
-export default function SwitchesGroup() {
+const FC = styled(FormControl)`
+  width: 100%;
+  text-align: center;
+
+`
+export default function SwitchesGroup(props) {
   const [state, setState] = React.useState({
-    gilad: true,
-    jason: false,
-    antoine: true,
+    free: false,
+    onAppointment: true,
   });
 
   const handleChange = (event) => {
-    setState({ ...state, [event.target.name]: event.target.checked });
+    const newState = { ...state, [event.target.name]: event.target.checked }
+    setState(newState);
+    if (props.onOptionsChange) {
+      console.log(props);
+      props.onOptionsChange(newState);
+    }
   };
 
   return (
-    <FormControl component="fieldset">
+    <FC component="fieldset">
       <FormLabel component="legend">Meer Opties</FormLabel>
       <FormGroup>
         <FormControlLabel
-          control={<Switch checked={state.gilad} onChange={handleChange} name="fee" />}
-          label="Betalend?"
+          control={<Switch checked={state.free} onChange={handleChange} name="free" />}
+          label="Gratis Consultatie"
         />
         <FormControlLabel
-          control={<Switch checked={state.jason} onChange={handleChange} name="onAppointment" />}
+          control={<Switch checked={state.onAppointment} onChange={handleChange} name="onAppointment" />}
           label="Op Afspraak"
         />
       </FormGroup>
-    </FormControl>
+    </FC>
   );
 }

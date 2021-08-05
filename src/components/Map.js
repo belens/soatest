@@ -2,16 +2,16 @@ import React, { Component } from "react";
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 import OpeningHours from "./OpeningHours";
 
-export class MapComponent extends Component {
-  state = {
-    showingInfoWindow: false,
-    activeMarker: {},
-    selectedPlace: {},
-  };
-  componentDidMount(props) {}
-  onMapClicked = (props) => {
-    console.log(props.center);
-  };
+class MapComponent extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showingInfoWindow: false,
+      activeMarker: {},
+      selectedPlace: {},
+    };
+  }
+
   onMarkerClick = (props, marker, e) =>
     this.setState({
       selectedPlace: props,
@@ -29,7 +29,8 @@ export class MapComponent extends Component {
   };
 
   render() {
-    console.log(this.props.orgs);
+    const { activeMarker, showingInfoWindow, selectedPlace } = this.state;
+    const { google, zoom, coords, orgs } = this.props;
     return (
       <div
         style={{
@@ -42,18 +43,17 @@ export class MapComponent extends Component {
         }}
       >
         <Map
-          google={this.props.google}
+          google={google}
           mapTypeControlOptions={false}
-          streetViewControlOptions={false}
           fullscreenControl={false}
           mapTypeControl={false}
           streetViewControl={false}
-          zoom={this.props.zoom}
-          initialCenter={this.props.coords}
-          center={this.props.coords}
+          zoom={zoom}
+          initialCenter={coords}
+          center={coords}
           onClick={this.onMapClicked}
         >
-          {this.props.orgs.map(
+          {orgs.map(
             (org) =>
               org && (
                 <Marker
@@ -64,20 +64,19 @@ export class MapComponent extends Component {
                 />
               )
           )}
-          <InfoWindow
-            marker={this.state.activeMarker}
-            visible={this.state.showingInfoWindow}
-          >
-            <div>
-              <h4>{this.state.selectedPlace.name}</h4>
-              <OpeningHours open={true} openingHours={this.state.selectedPlace.openingHours}></OpeningHours>
-            </div>
+
+          <InfoWindow marker={activeMarker} visible={showingInfoWindow}>
+                <OpeningHours
+                  open={true}
+                  openingHours={selectedPlace.openingHours}
+                ></OpeningHours>
           </InfoWindow>
         </Map>
       </div>
     );
   }
 }
+
 MapComponent.defaultProps = {
   zoom: 7, // flanders
   coords: { lat: 50.8999964, lng: 4.5333312 }, // flanders

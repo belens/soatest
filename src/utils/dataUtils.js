@@ -20,13 +20,14 @@ type Organisation = {
   province: string, // province
   name: String,
   free: Boolean,
+  onAppointment: String,
   organisation: String,
   address: String,
   email: String,
   website: String,
 };
 
-var timeslots: [RawTimeslot] = data;
+const timeslots: [RawTimeslot] = data;
 
 function removeSexProvinces(provinces: Provinces): [Provinces] {
   return provinces.reduce((arr, curr, i) => {
@@ -37,17 +38,17 @@ function removeSexProvinces(provinces: Provinces): [Provinces] {
   }, []);
 }
 function getWeekDays(locale) {
-  var baseDate = new Date(Date.UTC(2017, 0, 2)); // just a Monday
-  var weekDays = [];
+  const baseDate = new Date(Date.UTC(2017, 0, 2)); // just a Monday
+  const weekDays = [];
   for (var i = 0; i < 7; i++) {
     weekDays.push(baseDate.toLocaleDateString(locale, { weekday: "long" }));
     baseDate.setDate(baseDate.getDate() + 1);
   }
   return weekDays;
 }
-var weekDays = getWeekDays("en-EN");
+const weekDays = getWeekDays("en-EN");
 
-var organisationProps = [
+const organisationProps = [
   {
     name: "Help Centre",
     coords: { lat: 51.2123091, lng: 4.3982703 },
@@ -62,57 +63,11 @@ var organisationProps = [
   },
   {
     name: "Erasmusziekenhuis",
-    coords: { lat: 50.8132361, lng: 4.2662406},
+    coords: { lat: 50.8132361, lng: 4.2662406 },
   },
 ];
 
-function getOrganisations(): [Organisation] {
-  return timeslots.reduce((orgs, timeslot, i) => {
-    var existingOrganisationIndex = orgs.findIndex(
-      (ts) =>
-        timeslot.organisation.toLocaleLowerCase() ===
-        ts.organisation.toLocaleLowerCase()
-    );
-    var openingHours = {
-      day: timeslot.day,
-      weekday: weekDays.indexOf(timeslot.day),
-      daypart: timeslot.daypart,
-      hour: timeslot.hour,
-      startTime: timeslot.startTime,
-      endTime: timeslot.endTime,
-      free: timeslot.free === "yes",
-    };
-    
-    if (existingOrganisationIndex < 0) {
-
-      var organisation = {
-        province: timeslot.place,
-        name: timeslot.organisation,
-        free: timeslot.free === "yes",
-        openingHours: [openingHours],
-        organisation: timeslot.organisation,
-        address: timeslot.address,
-        email: timeslot.email,
-        websiteUrl: timeslot.website_url,
-        telephone: timeslot.telephone,
-        appointmentUrl: timeslot.appointment_url,
-        onAppointment: timeslot.on_appointment === "yes",
-        ...getOrganisationProps(timeslot.organisation),
-      };
-
-      orgs = [...orgs, organisation];
-    } else {
-      orgs[existingOrganisationIndex].openingHours = [
-        ...orgs[existingOrganisationIndex].openingHours,
-        openingHours,
-      ].sort((a, b) => (a.weekday > b.weekday ? 1 : -1));
-    }
-
-    return orgs;
-  }, []);
-}
-
-var provinceProps = [
+const provinceProps = [
   {
     name: "Brussels",
     zoom: 11,
@@ -125,8 +80,70 @@ var provinceProps = [
   },
 ];
 
+const defaultOpenPeriods = {
+  0: [],
+  1: [],
+  2: [],
+  3: [],
+  4: [],
+  5: [],
+  6: [],
+};
+
+export function getOrganisations(): [Organisation] {
+  const organisations = timeslots.reduce((orgs, timeslot, i) => {
+    const existingOrgIndex = orgs.findIndex(
+      (ts) =>
+        timeslot.organisation.toLocaleLowerCase() ===
+        ts.organisation.toLocaleLowerCase()
+    );
+    const openingHours = {
+      day: timeslot.day,
+      weekday: weekDays.indexOf(timeslot.day),
+      daypart: timeslot.daypart,
+      hour: timeslot.hour,
+      startTime: timeslot.startTime,
+      endTime: timeslot.endTime,
+      free: timeslot.free === "yes",
+    };
+
+    if (existingOrgIndex < 0) {
+      const organisation = {
+        province: timeslot.place,
+        name: timeslot.organisation,
+        free: timeslot.free === "yes",
+        // openingHours: [openingHours],
+        openPeriods: defaultOpenPeriods,
+        organisation: timeslot.organisation,
+        address: timeslot.address,
+        email: timeslot.email,
+        websiteUrl: timeslot.website_url,
+        telephone: timeslot.telephone,
+        appointmentUrl: timeslot.appointment_url,
+        onAppointment: timeslot.on_appointment === "yes",
+        ...getOrganisationProps(timeslot.organisation), // temp
+      };
+      organisation.openPeriods[openingHours.weekday].push(openingHours);
+
+      orgs = [...orgs, organisation];
+    } else {
+      const existingOrg = orgs[existingOrgIndex];
+      // console.log(existingOrg.openPeriods);
+      existingOrg.openPeriods[openingHours.weekday].push(openingHours)
+      // .sort((a, b) => (a.weekday > b.weekday ? 1 : -1));
+    }
+
+    return orgs;
+  }, []);
+
+  return organisations.map((org) => {
+    // org.openingHours.reduce((prev, org, arr) => {});
+    return org;
+  });
+}
+
 function getProvinceProps(province) {
-  var provinceIndex = provinceProps.findIndex((pr) => pr.name === province);
+  const provinceIndex = provinceProps.findIndex((pr) => pr.name === province);
   if (provinceIndex > -1) {
     return provinceProps[provinceIndex];
   }
@@ -134,7 +151,7 @@ function getProvinceProps(province) {
 }
 
 function getOrganisationProps(organisation) {
-  var organisationIndex = organisationProps.findIndex(
+  const organisationIndex = organisationProps.findIndex(
     (pr) => pr.name === organisation
   );
   if (organisationIndex > -1) {
@@ -144,7 +161,7 @@ function getOrganisationProps(organisation) {
 }
 
 function getProvinces(isRemoveSexProvinces: Boolean = true): [Provinces] {
-  var provinces = data.reduce((arr, curr, i) => {
+  const provinces = data.reduce((arr, curr, i) => {
     if (arr.indexOf(curr.place) > -1) {
       return arr;
     }
@@ -157,7 +174,7 @@ function getProvinces(isRemoveSexProvinces: Boolean = true): [Provinces] {
   return provinces;
 }
 
-var DataUtils: Timeslot = {
+const DataUtils: Timeslot = {
   getData: () => {
     return timeslots;
   },
@@ -167,9 +184,9 @@ var DataUtils: Timeslot = {
   },
 
   getOrganisationsByProvince: (province): [Organisation] => {
-    var organisations = getOrganisations();
+    const organisations = getOrganisations();
 
-    var provinceOrganisations = organisations.filter(function (org) {
+    const provinceOrganisations = organisations.filter(function (org) {
       return org.province === province;
     });
     return provinceOrganisations;

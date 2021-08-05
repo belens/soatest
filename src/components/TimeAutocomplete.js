@@ -6,7 +6,6 @@ import Autocomplete from "@material-ui/lab/Autocomplete";
 export default function ComboBox(props) {
   return (
     <Autocomplete
-      id="combo-box-demo"
       options={times}
       getOptionLabel={(option) => option.title}
       defaultValue={times.find(v => v.title[0])} 
