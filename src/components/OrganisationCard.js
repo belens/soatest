@@ -66,6 +66,7 @@ class CloseIconComp extends PureComponent {
 
 export default function OrganisationCard(props) {
   const classes = useStyles();
+  console.log(props)
   return (
     <Card className={classes.root} variant="outlined">
       <CardContent>
@@ -75,6 +76,15 @@ export default function OrganisationCard(props) {
         <Typography className={classes.pos} color="textSecondary">
           {props.address} · <span>{props.telephone}</span>
         </Typography>
+        {props.extraInfo && (
+          <div>
+            <br />
+            <Typography className={classes.pos} variant="body">
+              {props.extraInfo}
+            </Typography>
+            <br />
+          </div>
+        )}
         <br />
 
         <Typography variant="subtitle2">

@@ -1,0 +1,173 @@
+organisation	day	hour	on_appointment	free
+Action Test	Monday	17h45 - 19h45	no	yes
+Aide Info Sida	Monday	18h - 21h	no	yes
+Aimer à L’ULB	Friday	9h - 12h	yes	no
+Aimer à L’ULB	Friday	12h30 - 18h	yes	no
+Aimer à L’ULB	Monday	9h - 12h	yes	no
+Aimer à L’ULB	Monday	12h30 - 18h	yes	no
+Aimer à L’ULB	Saturday	9h30 - 12h30	yes	no
+Aimer à L’ULB	Thursday	9h - 12h	yes	no
+Aimer à L’ULB	Thursday	12h30 - 18h	yes	no
+Aimer à L’ULB	Tuesday	9h - 12h	yes	no
+Aimer à L’ULB	Tuesday	12h30 - 18h	yes	no
+Aimer à L’ULB	Wednesday	9h - 12h	yes	no
+Aimer à L’ULB	Wednesday	12h30 - 18h	yes	no
+Alias	Tuesday	19h - 21h	no	yes
+HRC UZ VUB Brussels	Tuesday	13h-17h30	yes	no
+HRC UZ VUB Brussels	Thursday	8h - 12h	yes	no
+Boysproject	Wednesday	14h30 - 16h30	no	yes
+Boysproject	Wednesday	18h - 20h	no	yes
+CPF Aimer Jeunes	Monday	14h - 16h	yes	no
+CPF Aimer Jeunes	Tuesday	13h - 15h	yes	no
+CPF Aimer Jeunes	Wednesday	14h - 18h	yes	no
+CPF Aimer Jeunes	Thursday	10h - 12h	yes	no
+CPF Aimer Jeunes	Friday	14h30 - 16h30	yes	no
+CPF Bureaux de Quartiers	Wednesday	16h45 - 18h30	no	no
+CPF Bureaux de Quartiers	Thursday	16h00 - 17h45	no	no
+CPF Bureaux de Quartiers	Friday	15h00 - 16h45	no	no
+CPF Evere	Monday	16h - 17h	yes	no
+CPF Evere	Monday	17h - 18h	no	no
+CPF Evere	Wednesday	14h - 16h	yes	no
+CPF Evere	Wednesday	16h - 17h	no	no
+CPF Ixelles	Wednesday	12h30 - 16h30	no	no
+CPF Ixelles	Monday	13h30 - 17h30	yes	no
+CPF Ixelles	Tuesday	14h - 17h30	yes	no
+CPF Ixelles	Thursday	12h50 - 15h30	yes	no
+CPF Ixelles	Friday	12h30 - 18h	yes	no
+CPF Ixelles	Friday	10h - 12h30	yes	no
+CPF Jette	Tuesday	15h - 19h	yes	no
+CPF Jette	Wednesday	10h - 12h30h	yes	no
+CPF Jette	Wednesday	13h - 15h	yes	no
+CPF Jette	Thursday	13h - 18h	yes	no
+CPF Laken	Thursday	13h30 - 15h30	yes	no
+CPF Laken	Friday	9h30 - 13h30	yes	no
+CPF Leman	Tuesday	13h - 16h	yes	no
+CPF Leman	Friday	14h - 17h	yes	no
+CPF Marolles	Tuesday	9h - 13h	yes	no
+CPF Marolles	Wednesday	9h - 12h	yes	no
+CPF Marolles	Thursday	9h - 12h	yes	no
+CPF Marolles	Friday	9h - 12h	yes	no
+CPF Marolles	Tuesday	14h - 17h30	yes	no
+CPF Marolles	Wednesday	12h - 17h	yes	no
+CPF Marolles	Thursday	12h - 19h	yes	no
+CPF Marolles	Friday	12h - 13h	yes	no
+CPF Midi	Wednesday	12h - 18h	yes	yes
+CPF Plan F	Monday	9h - 12h	yes	no
+CPF Plan F	Monday	15h - 18h	yes	no
+CPF Plan F	Tuesday	9h - 13h	yes	no
+CPF Plan F	Tuesday	14h - 18h	yes	no
+CPF Plan F	Wednesday	9h30 - 12h30	yes	no
+CPF Plan F	Wednesday	13h30 - 16h30	yes	no
+CPF Plan F	Thursday	9h - 13h	yes	no
+CPF Plan F	Thursday	14h30 - 18h30	yes	no
+CPF Plan F	Friday	9h30 - 12h30	yes	no
+CPF Plan F	Friday	14h - 18h	yes	no
+CPF Rosa	Monday	9h30 - 12h30	yes	no
+CPF Rosa	Tuesday	14h - 18h	yes	no
+CPF Rosa	Wednesday	12h - 16h	yes	no
+CPF Saint-Gilles	Monday	9h - 11h40	yes	no
+CPF Saint-Gilles	Monday	14h30 - 16h30	yes	no
+CPF Saint-Gilles	Tuesday	9h - 12h	yes	no
+CPF Saint-Gilles	Tuesday	13h30 - 17h	yes	no
+CPF Saint-Gilles	Wednesday	9h - 12h	yes	no
+CPF Saint-Gilles	Wednesday	13h30 - 16h	yes	no
+CPF Saint-Gilles	Friday	14h30 - 16h30	yes	no
+CPF Saint-Gilles	Thursday	9h30 - 12h15	yes	no
+CPF Saint-Gilles	Thursday	13h40 - 16h45	yes	no
+CPF Saint-Josse	Monday	12h - 17h	yes	no
+CPF Saint-Josse	Wednesday	10h - 12h	yes	no
+CPF Saint-Josse	Wednesday	12h - 17h	yes	no
+CPF Saint-Josse	Thursday	10h - 12h	yes	no
+CPF Saint-Josse	Thursday	12h - 13h	yes	no
+CPF Saint-Josse	Friday	9h30 - 12h	yes	no
+CPF Saint-Josse	Friday	12h - 16h	yes	no
+CPF Senne	Monday	12h30 - 15h30	yes	no
+CPF Senne	Thursday	9h - 12h30	yes	no
+CPF Séverine	Monday	9h- 12h	yes	no
+CPF Séverine	Tuesday	9h30- 12h	yes	no
+CPF Séverine	Tuesday	12h30 - 16h	yes	no
+CPF Séverine	Wednesday	13h - 15h30	no	no
+CPF Séverine	Thursday	9h- 12h	yes	no
+CPF Séverine	Thursday	12h - 13h	yes	no
+CPF Séverine	Friday	9h - 12h	yes	no
+CPF Séverine	Friday	12h - 13h	yes	no
+CPF Uccle	Tuesday	16h - 17h30	yes	yes
+CPF Watermael-Boitsfort	Monday	9h - 12h	yes	no
+CPF Watermael-Boitsfort	Tuesday	9h - 12h	yes	no
+CPF Watermael-Boitsfort	Wednesday	12h10 - 16h	yes	no
+CPF Watermael-Boitsfort	Thursday	12h - 18h	yes	no
+CPF Watermael-Boitsfort	Friday	9h - 12h	yes	no
+CPF Woluwé-Saint-Lambert CCFS	Tuesday	15h - 18h	yes	no
+CPF Woluwé-Saint-Lambert CCFS	Wednesday	13h - 18h	yes	no
+CPF Woluwé-Saint-Lambert CCFS	Thursday	15h - 18h	yes	no
+CPF Woluwé-St-Pierre	Monday	10h - 12h	yes	no
+CPF Woluwé-St-Pierre	Monday	12h - 14h	yes	no
+CPF Woluwé-St-Pierre	Tuesday	9h30 -12h	yes	no
+CPF Woluwé-St-Pierre	Friday	14h - 16h	yes	no
+CPF Yser Aimer Jeunes	Monday	11h - 12h	yes	no
+CPF Yser Aimer Jeunes	Monday	12h - 119h	yes	no
+CPF Yser Aimer Jeunes	Tuesday	10h - 12h	yes	no
+CPF Yser Aimer Jeunes	Tuesday	12h - 16h	yes	no
+CPF Yser Aimer Jeunes	Wednesday	9h - 13	yes	no
+CPF Yser Aimer Jeunes	Wednesday	14h - 19h	yes	no
+CPF Yser Aimer Jeunes	Thursday	9h - 12h	yes	no
+CPF Yser Aimer Jeunes	Thursday	12h - 17h	yes	no
+CPF Yser Aimer Jeunes	Friday	12h - 18h	yes	no
+Elisa Centre	Monday	8h - 12h	no	yes
+Elisa Centre	Monday	12h - 13h	no	yes
+Elisa Centre	Wednesday	12h15 - 15h	no	yes
+Elisa Centre	Thursday	15h30 -19h	no	yes
+Erasmusziekenhuis	Monday	9h - 12h	yes	no
+Erasmusziekenhuis	Monday	13h - 17h	yes	no
+Erasmusziekenhuis	Tuesday	9h - 12h	yes	no
+Erasmusziekenhuis	Tuesday	13h - 17h	yes	no
+Erasmusziekenhuis	Wednesday	9h - 12h	yes	no
+Erasmusziekenhuis	Wednesday	13h - 17h	yes	no
+Erasmusziekenhuis	Thursday	9h - 12h	yes	no
+Erasmusziekenhuis	Thursday	13h - 17h	yes	no
+Erasmusziekenhuis	Friday	9h - 12h	yes	no
+Erasmusziekenhuis	Friday	13h - 17h	yes	no
+Espace P	Tuesday	19h - 20h	no	yes
+Espace P	Wednesday	13h - 14h	no	yes
+Ex Aequo	Friday	10h - 12h30	yes	yes
+Ex Aequo	Friday	14h - 17h	yes	yes
+Ex Aequo	Monday	9h30h - 12h30	yes	yes
+Ex Aequo	Monday	14h - 17h	yes	yes
+Ex Aequo	Thursday	19h - 21h30	no	yes
+Ex Aequo	Thursday	9h30h - 12h30	yes	yes
+Ex Aequo	Thursday	14h - 17h	yes	yes
+Ex Aequo	Tuesday	9h30h - 12h30	yes	yes
+Ex Aequo	Tuesday	14h - 17h	yes	yes
+Ex Aequo	Wednesday	19h - 21h30	no	yes
+Ex Aequo	Wednesday	9h30h - 12h30	yes	yes
+Ex Aequo	Wednesday	14h - 17h	yes	yes
+Help Centre	Tuesday	13h30 - 16h	yes	yes
+Help Centre	Wednesday	13h30 - 16h	yes	yes
+Help Centre	Monday	13h30 - 16h	yes	yes
+Help Centre	Thursday	13h30 - 16h	yes	yes
+Help Centre	Friday	13h30 - 16h	yes	yes
+HRC UZ VUB Brussels	Tuesday	13h-17h30	yes	no
+HRC UZ VUB Brussels	Thursday	8h - 12h	yes	no
+S-Clinic	Tuesday	13h30 - 16h	yes	no
+S-Clinic	Friday	8h30 - 11h	yes	no
+S-Clinic	Friday	13h30 - 15h30	yes	no
+Swab2Know			no	yes
+UCL Saint-Luc	Monday	15u - 17h	yes	no
+UCL Saint-Luc	Wednesday	11h - 12h	yes	no
+UCL Saint-Luc	Wednesday	12h - 13h	yes	no
+Violett Antwerp	Monday	14h - 16h	yes	yes
+Violett Antwerp	Wednesday	10h - 12h	yes	yes
+Violett Antwerp	Wednesday	18h - 20h	yes	yes
+Violett Antwerp	Friday	10h - 12h	yes	yes
+Violett Antwerp	Wednesday	18h30 - 19h30	yes	yes
+Violett Gent	Friday	11h - 12h	yes	yes
+Violett Gent	Friday	12h - 13h	yes	yes
+Violett Hasselt	Monday	10h - 12h	yes	yes
+HRC Virga Jesse	Monday	9h - 12h	yes	no
+HRC Virga Jesse	Monday	14h - 16h30	yes	no
+HRC Virga Jesse	Tuesday	9h - 12h	yes	no
+HRC Virga Jesse	Tuesday	14h - 16h30	yes	no
+HRC Virga Jesse	Wednesday	9h - 12h	yes	no
+HRC Virga Jesse	Thursday	9h - 12h	yes	no
+HRC Virga Jesse	Friday	9h - 12h	yes	no
+HRC Virga Jesse	Friday	14h - 16h30	yes	no

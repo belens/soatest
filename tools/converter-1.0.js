@@ -70,7 +70,7 @@ refactoredJson = refactoredJson.filter(function (el) {
 });
 
 fs.writeFile(
-  "./src/data/soatest.json",
+  "./src/data/soatest-1.0.json",
   JSON.stringify(refactoredJson, null, 2),
   "utf8",
   () => {}

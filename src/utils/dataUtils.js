@@ -1,5 +1,6 @@
 // @flow
-import data from "../data/soatest.json";
+import data1 from "../data/soatest-1.0.json";
+import data2 from "../data/soatest-2.0.json";
 
 type RawTimeslot = {
   place: string, // province
@@ -27,7 +28,7 @@ type Organisation = {
   website: String,
 };
 
-const timeslots: [RawTimeslot] = data;
+const timeslots: [RawTimeslot] = data2;
 
 function removeSexProvinces(provinces: Provinces): [Provinces] {
   return provinces.reduce((arr, curr, i) => {
@@ -48,24 +49,24 @@ function getWeekDays(locale) {
 }
 const weekDays = getWeekDays("en-EN");
 
-const organisationProps = [
-  {
-    name: "Help Centre",
-    coords: { lat: 51.2123091, lng: 4.3982703 },
-  },
-  {
-    name: "S-Clinic",
-    coords: { lat: 50.8433062, lng: 4.3476145 },
-  },
-  {
-    name: "Elisa Centre",
-    coords: { lat: 50.8435197, lng: 4.3487171 },
-  },
-  {
-    name: "Erasmusziekenhuis",
-    coords: { lat: 50.8132361, lng: 4.2662406 },
-  },
-];
+// const organisationProps = [
+//   {
+//     name: "Help Centre",
+//     coords: { lat: 51.2123091, lng: 4.3982703 },
+//   },
+//   {
+//     name: "S-Clinic",
+//     coords: { lat: 50.8433062, lng: 4.3476145 },
+//   },
+//   {
+//     name: "Elisa Centre",
+//     coords: { lat: 50.8435197, lng: 4.3487171 },
+//   },
+//   {
+//     name: "Erasmusziekenhuis",
+//     coords: { lat: 50.8132361, lng: 4.2662406 },
+//   },
+// ];
 
 const provinceProps = [
   {
@@ -91,57 +92,58 @@ const defaultOpenPeriods = {
 };
 
 export function getOrganisations(): [Organisation] {
-  const organisations = timeslots.reduce((orgs, timeslot, i) => {
-    const existingOrgIndex = orgs.findIndex(
-      (ts) =>
-        timeslot.organisation.toLocaleLowerCase() ===
-        ts.organisation.toLocaleLowerCase()
-    );
-    const openPeriods = {
-      day: timeslot.day,
-      weekday: weekDays.indexOf(timeslot.day),
-      daypart: timeslot.daypart,
-      hour: timeslot.hour,
-      startTime: timeslot.startTime,
-      endTime: timeslot.endTime,
-      free: timeslot.free === "yes",
-    };
-    if (existingOrgIndex < 0) {
-      const organisation = {
-        province: timeslot.place,
-        name: timeslot.organisation,
-        free: timeslot.free === "yes",
-        organisation: timeslot.organisation,
-        address: timeslot.address,
-        email: timeslot.email,
-        websiteUrl: timeslot.website_url,
-        telephone: timeslot.telephone,
-        appointmentUrl: timeslot.appointment_url,
-        onAppointment: timeslot.on_appointment === "yes",
-        ...getOrganisationProps(timeslot.organisation), // temp
-      };
-      organisation.openPeriods = {
-        ...defaultOpenPeriods,
-        [openPeriods.weekday]: [openPeriods],
-      };
-      // console.log(organisation.openPeriods);
-      orgs = [...orgs, organisation];
-    } else {
-      const existingOrg = orgs[existingOrgIndex];
-      existingOrg.openPeriods = {
-        ...existingOrg.openPeriods,
-        [openPeriods.weekday]: [...existingOrg.openPeriods[openPeriods.weekday], openPeriods],
-      };
-      // .sort((a, b) => (a.weekday > b.weekday ? 1 : -1));
-    }
+  // const organisations = timeslots.reduce((orgs, timeslot, i) => {
+  //   const existingOrgIndex = orgs.findIndex(
+  //     (ts) =>
+  //       timeslot.organisation.toLocaleLowerCase() ===
+  //       ts.organisation.toLocaleLowerCase()
+  //   );
+  //   // const openPeriods = {
+  //   //   day: timeslot.day,
+  //   //   weekday: weekDays.indexOf(timeslot.day),
+  //   //   daypart: timeslot.daypart,
+  //   //   hour: timeslot.hour,
+  //   //   startTime: timeslot.startTime,
+  //   //   endTime: timeslot.endTime,
+  //   //   free: timeslot.free === "yes",
+  //   // };
+  //   if (existingOrgIndex < 0) {
+  //     const organisation = {
+  //       ...timeslot,
+  //       // province: timeslot.place,
+  //       // name: timeslot.organisation,
+  //       // free: timeslot.free === "yes",
+  //       // organisation: timeslot.organisation,
+  //       // address: timeslot.address,
+  //       // email: timeslot.email,
+  //       // websiteUrl: timeslot.website_url,
+  //       // telephone: timeslot.telephone,
+  //       // appointmentUrl: timeslot.appointment_url,
+  //       // onAppointment: timeslot.on_appointment === "yes",
+  //       // ...getOrganisationProps(timeslot.organisation), // temp
+  //     };
+  //     // organisation.openPeriods = {
+  //     //   ...defaultOpenPeriods,
+  //     //   // [openPeriods.weekday]: [openPeriods],
+  //     // };
+  //     // console.log(organisation.openPeriods);
+  //     orgs = [...orgs, organisation];
+  //   } else {
+  //     // const existingOrg = orgs[existingOrgIndex];
+  //     // existingOrg.openPeriods = {
+  //     //   ...existingOrg.openPeriods,
+  //     //   // [openPeriods.weekday]: [...existingOrg.openPeriods[openPeriods.weekday], openPeriods],
+  //     // };
+  //     // .sort((a, b) => (a.weekday > b.weekday ? 1 : -1));
+  //   }
 
-    return orgs;
-  }, []);
-
-  return organisations.map((org) => {
-    // org.openPeriods.reduce((prev, org, arr) => {});
-    return org;
-  });
+  //   return orgs;
+  // }, []);
+  return data2;
+  // return organisations.map((org) => {
+  //   // org.openPeriods.reduce((prev, org, arr) => {});
+  //   return org;
+  // });
 }
 
 function getProvinceProps(province) {
@@ -152,27 +154,27 @@ function getProvinceProps(province) {
   return null;
 }
 
-function getOrganisationProps(organisation) {
-  const organisationIndex = organisationProps.findIndex(
-    (pr) => pr.name === organisation
-  );
-  if (organisationIndex > -1) {
-    return organisationProps[organisationIndex];
-  }
-  return null;
-}
+// function getOrganisationProps(organisation) {
+//   const organisationIndex = organisationProps.findIndex(
+//     (pr) => pr.name === organisation
+//   );
+//   if (organisationIndex > -1) {
+//     return organisationProps[organisationIndex];
+//   }
+//   return null;
+// }
 
 function getProvinces(isRemoveSexProvinces: Boolean = true): [Provinces] {
-  const provinces = data.reduce((arr, curr, i) => {
-    if (arr.indexOf(curr.place) > -1) {
+  const provinces = data2.reduce((arr, curr, i) => {
+    if (arr.indexOf(curr.province) > -1) {
       return arr;
     }
-    return [curr.place, ...arr];
+    return [curr.province, ...arr];
   }, []);
 
-  if (isRemoveSexProvinces === true) {
-    return removeSexProvinces(provinces);
-  }
+  // if (isRemoveSexProvinces === true) {
+  //   return removeSexProvinces(provinces);
+  // }
   return provinces;
 }
 
@@ -196,9 +198,9 @@ const DataUtils: Timeslot = {
   getProvinceProps(province) {
     return getProvinceProps(province);
   },
-  organisationProps(organisation) {
-    return organisationProps(organisation);
-  },
+  // organisationProps(organisation) {
+  //   return organisationProps(organisation);
+  // },
 };
 
 export default DataUtils;

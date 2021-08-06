@@ -8,11 +8,11 @@ export default class OrganisationList extends Component {
     };
   }
   render() {
-    const { orgs } = this.state;
+    const { orgs } = this.props;
     return (
       <div>
         {orgs.map((org) => {
-          return <OrganisationCard {...org} />;
+          return <OrganisationCard key={org.name} {...org} />;
         })}
       </div>
     );

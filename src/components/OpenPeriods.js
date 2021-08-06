@@ -107,6 +107,7 @@ export class OpenPeriods extends Component {
             if (dayPeriods.length === 0) {
               return (
                 <Typography
+                  key={weekday}
                   variant="caption"
                   style={{
                     color: "gray",

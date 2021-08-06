@@ -65,6 +65,7 @@ export default class Search extends React.Component {
 
   render() {
     const { selectedProvinceProps, selectedProvince, orgs } = this.state;
+    console.log(this.props.data)
     return (
       <Container>
         <SearchBox style={{ textAlign: "center" }}>
