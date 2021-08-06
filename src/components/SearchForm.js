@@ -12,6 +12,12 @@ import OrganisationList from "./OrganisationList";
 
 var Container = styled.div``;
 
+const SearchBox = styled.div`
+  margin: 15px auto;
+`;
+const MapContainer = styled.div`
+  margin: 15px auto;
+`;
 export default class Search extends React.Component {
   constructor(props) {
     super(props);
@@ -54,7 +60,6 @@ export default class Search extends React.Component {
       }
       return orgs;
     }, []);
-    console.log("handleOptionsChange", newOrgs);
     this.setState({ orgs: newOrgs });
   };
 
@@ -62,7 +67,7 @@ export default class Search extends React.Component {
     const { selectedProvinceProps, selectedProvince, orgs } = this.state;
     return (
       <Container>
-        <div style={{ textAlign: "center" }}>
+        <SearchBox style={{ textAlign: "center" }}>
           <Box
             component="span"
             display={{ xs: "none", sm: "none", md: "inline" }}
@@ -88,15 +93,21 @@ export default class Search extends React.Component {
               return { title: val, year: val };
             })}
           />
-        </div>
-        <div>
-          {/* <Map {...selectedProvinceProps} orgs={orgs} language="nl-BE"></Map> */}
-        </div>
-        <SwitchesGroup
+        </SearchBox>
+        <MapContainer>
+          <Map {...selectedProvinceProps} orgs={orgs} language="nl-BE"></Map>
+        </MapContainer>
+        {/* <SwitchesGroup
           onOptionsChange={this.handleOptionsChange}
-        ></SwitchesGroup>
+        ></SwitchesGroup> */}
 
-        {selectedProvince && <OrganisationList orgs={orgs} {...selectedProvinceProps}></OrganisationList>}
+        {selectedProvince && (
+          <OrganisationList
+            orgs={orgs}
+            selectedProvince={selectedProvince}
+            {...selectedProvinceProps}
+          ></OrganisationList>
+        )}
       </Container>
     );
   }

@@ -88,6 +88,7 @@ export class OpenPeriods extends Component {
 
   render() {
     var { openPeriods, open } = this.props;
+    if (!openPeriods) return <div></div>;
     var relativeTime = this.getRelativeTime();
     const now = moment();
     return (
