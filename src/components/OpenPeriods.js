@@ -91,8 +91,8 @@ export class OpenPeriods extends Component {
     var relativeTime = this.getRelativeTime();
     const now = moment();
     return (
-      <Accordion variant="outlined" expanded={open}>
-        <AccordionSummary style={{ margin: 0 }} expandIcon={<ExpandMoreIcon />}>
+      <Accordion variant="outlined" expanded={open} key={this.props.name}>
+        <AccordionSummary style={{ margin: 0 }}  key={this.props.name} expandIcon={<ExpandMoreIcon />}>
           <Typography variant="subtitle2" style={{ textAlign: "left" }}>
             Openingstijden:
             <br />
@@ -106,7 +106,7 @@ export class OpenPeriods extends Component {
             if (dayPeriods.length === 0) {
               return (
                 <Typography
-                  key={weekday}
+                  key={this.props.org + `-nu-${i}`}
                   variant="caption"
                   style={{
                     color: "gray",
@@ -140,6 +140,7 @@ export class OpenPeriods extends Component {
                 {dayPeriods.map((period, i) => {
                   return (
                     <Typography
+                      key={this.props.org + `-${i}`}
                       variant="caption"
                       style={{
                         textAlign: "left",

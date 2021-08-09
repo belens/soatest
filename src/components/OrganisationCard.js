@@ -98,7 +98,7 @@ export default function OrganisationCard(props) {
         {extraInfo && (
           <div>
             <br />
-            <Typography className={classes.pos} variant="body">
+            <Typography className={classes.pos} variant="body1">
               {extraInfo}
             </Typography>
             <br />
@@ -111,7 +111,7 @@ export default function OrganisationCard(props) {
         <CheckMarkComp isTrue={isAnonymous}>Anoniem testen</CheckMarkComp>
 
         <div style={{ margin: "10px 0" }}>
-          <OpenPeriods openPeriods={openPeriods}></OpenPeriods>
+          <OpenPeriods org={name} openPeriods={openPeriods}></OpenPeriods>
         </div>
 
         <div>

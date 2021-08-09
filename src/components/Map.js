@@ -31,10 +31,9 @@ class MapComponent extends Component {
   render() {
     const { activeMarker, showingInfoWindow, selectedPlace } = this.state;
     const { google, zoom, coords, orgs } = this.props;
-    console.log(orgs)
+    console.log(orgs);
     return (
       <div
-      
         style={{
           height: 300,
           marginBottom: 20,
@@ -61,18 +60,21 @@ class MapComponent extends Component {
                 <Marker
                   onClick={this.onMarkerClick}
                   position={org.coords}
-                  name={org.organisation}
-                  key={org.organisation}
                   openPeriods={org.openPeriods}
                 />
               )
           )}
 
           <InfoWindow marker={activeMarker} visible={showingInfoWindow}>
-                <OpenPeriods
-                  open={true}
-                  openPeriods={selectedPlace.openPeriods}
-                ></OpenPeriods>
+            {showingInfoWindow ? (
+              <OpenPeriods
+                open={true}
+                org={"map-" + selectedPlace.name}
+                openPeriods={selectedPlace.openPeriods}
+              ></OpenPeriods>
+            ) : (
+              <div></div>
+            )}
           </InfoWindow>
         </Map>
       </div>
