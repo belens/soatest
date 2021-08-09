@@ -3,15 +3,22 @@ import React from "react";
 import TextField from "@material-ui/core/TextField";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 
-export default function ProvinceSelect(props) {
-  console.log(props)
+type Props = {
+  defaultValue: string,
+  data: any,
+  onChange: Function,
+};
+
+export default function ProvinceSelect(props: Props) {
+  const { defaultValue, data, onChange } = props;
   return (
     <Autocomplete
-      options={props.data}
+      options={data}
       onChange={(event, newValue) => {
-        props.onChange(newValue);
+        onChange(newValue);
       }}
-      getOptionLabel={(option) => option.title}
+      defaultValue={{ provinceName: defaultValue }}
+      getOptionLabel={(option) => option.provinceName}
       style={{ width: 210, display: "inline-block", verticalAlign: "middle" }}
       renderInput={(params) => (
         <TextField autoFocus {...params} variant="outlined" label="Provincie" />

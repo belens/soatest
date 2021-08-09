@@ -4,17 +4,9 @@ import { createTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import blue from "@material-ui/core/colors/blue";
-
-import dataUtils from "./utils/dataUtils";
-import SearchForm from "./components/SearchForm";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./Pages/Home";
 import AppBar from "./components/AppBar";
-import { palette, spacing } from "@material-ui/system";
-import styled from "styled-components";
-
-const Box = styled.div`
-  ${palette}
-  ${spacing}
-`;
 
 const values = {
   xs: 0,
@@ -24,7 +16,7 @@ const values = {
   xl: 1920,
 };
 
-function App() {
+export default function App() {
   const theme = React.useMemo(
     () =>
       createTheme({
@@ -42,14 +34,36 @@ function App() {
     []
   );
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <AppBar />
-      <Box p={3}>
-        <SearchForm data={dataUtils.getProvinces()} />
-      </Box>
-    </ThemeProvider>
+    <Router>
+      <ThemeProvider theme={theme}>
+        <div>
+          <AppBar />
+          {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/users">
+              <Users />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+
+            {/* <Route path="/:id" children={<Child />} /> */}
+          </Switch>
+        </div>
+        <CssBaseline />
+      </ThemeProvider>
+    </Router>
   );
 }
 
-export default App;
+function About() {
+  return <h2>About</h2>;
+}
+
+function Users() {
+  return <h2>Users</h2>;
+}

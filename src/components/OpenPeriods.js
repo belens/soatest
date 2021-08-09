@@ -9,7 +9,6 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import moment from "moment";
 import "moment/locale/nl-be";
 import "moment/locale/fr";
-import { CloudSharp } from "@material-ui/icons";
 
 moment.locale("nl-be");
 
@@ -48,7 +47,7 @@ export class OpenPeriods extends Component {
       }
       return false;
     });
-  
+
     if (closesAt) {
       return (
         <span>

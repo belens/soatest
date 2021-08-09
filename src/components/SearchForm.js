@@ -4,11 +4,12 @@ import ProvinceSelect from "./ProvinceSelect";
 import data from "../utils/dataUtils";
 import SwitchesGroup from "./SwitchesGroup";
 import TimeAutocomplete from "./TimeAutocomplete";
-import OrganisationCard from "./OrganisationCard";
 import Map from "./Map";
 import styled from "styled-components";
 import Box from "@material-ui/core/Box";
 import OrganisationList from "./OrganisationList";
+import { withRouter } from "react-router";
+import qs from "query-string";
 
 var Container = styled.div``;
 
@@ -18,21 +19,26 @@ const SearchBox = styled.div`
 const MapContainer = styled.div`
   margin: 15px auto;
 `;
-export default class Search extends React.Component {
+class Search extends React.Component {
   constructor(props) {
     super(props);
+    let q = qs.parse(props.location.search).q;
     this.state = {
-      selectedProvince: null,
-      selectedProvinceProps: {},
-      orgs: [],
+      selectedProvince: q || null,
+      selectedProvinceProps: data.getProvinceProps(q) || {},
+      orgs: data.getOrganisationsByProvince(q) || [],
     };
-    // this.state = { province: "Brussels" };
   }
 
-  componentDidMount() {}
+  componentDidUpdate(prevProps, prevState) {
+    const { selectedProvince } = this.state;
+    if (prevState.selectedProvince !== selectedProvince) {
+      this.addQuery("q", selectedProvince);
+    }
+  }
 
-  handleChange = (selectedItem, b) => {
-    const selectedProvince = selectedItem && selectedItem.title;
+  handleProvinceChange = (selectedItem, b) => {
+    const selectedProvince = selectedItem && selectedItem.provinceName;
     if (selectedProvince) {
       this.setState({
         selectedProvince,
@@ -48,8 +54,16 @@ export default class Search extends React.Component {
     }
   };
 
+  addQuery = (key, value) => {
+    const { location } = this.props;
+    const params = new URLSearchParams({ [key]: value || "" });
+    this.props.history.replace({
+      pathname: location.pathname,
+      search: value ? params.toString() : "",
+    });
+  };
+
   handleOptionsChange = (state) => {
-    // console.log("handleOptionsChange", state);
     const { orgs } = this.state;
     const newOrgs = orgs.reduce((arr, org) => {
       if (
@@ -65,7 +79,8 @@ export default class Search extends React.Component {
 
   render() {
     const { selectedProvinceProps, selectedProvince, orgs } = this.state;
-    console.log(this.props.data)
+    const { data } = this.props;
+
     return (
       <Container>
         <SearchBox style={{ textAlign: "center" }}>
@@ -89,9 +104,10 @@ export default class Search extends React.Component {
             style={{ height: 10 }}
           ></Box>
           <ProvinceSelect
-            onChange={this.handleChange}
-            data={this.props.data.map((val, i) => {
-              return { title: val, year: val };
+            onChange={this.handleProvinceChange}
+            defaultValue={selectedProvince}
+            data={data.map((val) => {
+              return { provinceName: val };
             })}
           />
         </SearchBox>
@@ -113,3 +129,7 @@ export default class Search extends React.Component {
     );
   }
 }
+
+const SearchWithRouter = withRouter(Search);
+
+export default SearchWithRouter;
