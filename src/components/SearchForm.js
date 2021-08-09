@@ -2,7 +2,6 @@
 import React from "react";
 import ProvinceSelect from "./ProvinceSelect";
 import data from "../utils/dataUtils";
-import SwitchesGroup from "./SwitchesGroup";
 import TimeAutocomplete from "./TimeAutocomplete";
 import Map from "./Map";
 import styled from "styled-components";
@@ -114,9 +113,6 @@ class Search extends React.Component {
         <MapContainer>
           <Map {...selectedProvinceProps} orgs={orgs} language="nl-BE"></Map>
         </MapContainer>
-        {/* <SwitchesGroup
-          onOptionsChange={this.handleOptionsChange}
-        ></SwitchesGroup> */}
 
         {selectedProvince && (
           <OrganisationList

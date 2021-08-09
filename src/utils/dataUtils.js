@@ -1,5 +1,4 @@
 // @flow
-import data1 from "../data/soatest-1.0.json";
 import data2 from "../data/soatest-2.0.json";
 
 type RawTimeslot = {
@@ -30,44 +29,6 @@ type Organisation = {
 
 const timeslots: [RawTimeslot] = data2;
 
-function removeSexProvinces(provinces: Provinces): [Provinces] {
-  return provinces.reduce((arr, curr, i) => {
-    if (curr.toLowerCase().includes("sex")) {
-      return arr;
-    }
-    return [...arr, curr];
-  }, []);
-}
-function getWeekDays(locale) {
-  const baseDate = new Date(Date.UTC(2017, 0, 2)); // just a Monday
-  const weekDays = [];
-  for (var i = 0; i < 7; i++) {
-    weekDays.push(baseDate.toLocaleDateString(locale, { weekday: "long" }));
-    baseDate.setDate(baseDate.getDate() + 1);
-  }
-  return weekDays;
-}
-const weekDays = getWeekDays("en-EN");
-
-// const organisationProps = [
-//   {
-//     name: "Help Centre",
-//     coords: { lat: 51.2123091, lng: 4.3982703 },
-//   },
-//   {
-//     name: "S-Clinic",
-//     coords: { lat: 50.8433062, lng: 4.3476145 },
-//   },
-//   {
-//     name: "Elisa Centre",
-//     coords: { lat: 50.8435197, lng: 4.3487171 },
-//   },
-//   {
-//     name: "Erasmusziekenhuis",
-//     coords: { lat: 50.8132361, lng: 4.2662406 },
-//   },
-// ];
-
 const provinceProps = [
   {
     name: "Brussels",
@@ -81,15 +42,6 @@ const provinceProps = [
   },
 ];
 
-const defaultOpenPeriods = {
-  0: [],
-  1: [],
-  2: [],
-  3: [],
-  4: [],
-  5: [],
-  6: [],
-};
 
 export function getOrganisations(): [Organisation] {
   // const organisations = timeslots.reduce((orgs, timeslot, i) => {

@@ -7,9 +7,13 @@
       "lat": 50.8433062,
       "lng": 4.3476145
     },
+    "on_appointment": "yes",
+    "free": "no",
     "province": "Brussels",
     "name": "S-Clinic",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": true,
+    "isFree": false,
     "extraInfo": "Hospital",
     "appointmentUrl": "https://www.stpierre-bru.be/fr/consultations/prendre-un-rendez-vous",
     "websiteUrl": "https://www.stpierre-bru.be/fr/services-medicaux/maladies-infectieuses-2/s-clinic/en-bref-332",
@@ -20,8 +24,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T11:30:06.084Z",
-          "endTime": "2021-08-03T14:00:06.085Z"
+          "startTime": "2021-08-10T11:30:44.841Z",
+          "endTime": "2021-08-10T14:00:44.842Z"
         }
       ],
       "2": [],
@@ -31,15 +35,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T06:30:06.085Z",
-          "endTime": "2021-08-06T09:00:06.085Z"
+          "startTime": "2021-08-13T06:30:44.842Z",
+          "endTime": "2021-08-13T09:00:44.842Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T11:30:06.086Z",
-          "endTime": "2021-08-06T13:30:06.086Z"
+          "startTime": "2021-08-13T11:30:44.843Z",
+          "endTime": "2021-08-13T13:30:44.843Z"
         }
       ],
       "5": [],
@@ -54,9 +58,13 @@
       "lat": 50.8433924,
       "lng": 4.3494567
     },
+    "on_appointment": "no",
+    "free": "yes",
     "province": "Brussels",
     "name": "Elisa Centre",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": true,
     "extraInfo": "Wednesday afternoon only for 15-29 year",
     "appointmentUrl": "https://www.stpierre-bru.be/nl/raadplegingen/een-afspraak-maken",
     "websiteUrl": "https://www.stpierre-bru.be/fr/services-medicaux/maladies-infectieuses-2/centre-elisa-vih/en-bref-331",
@@ -66,15 +74,15 @@
           "free": "yes",
           "onAppointment": "no",
           "weekday": 0,
-          "startTime": "2021-08-02T06:00:06.088Z",
-          "endTime": "2021-08-02T10:00:06.089Z"
+          "startTime": "2021-08-09T06:00:44.845Z",
+          "endTime": "2021-08-09T10:00:44.845Z"
         },
         {
           "free": "yes",
           "onAppointment": "no",
           "weekday": 0,
-          "startTime": "2021-08-02T10:00:06.089Z",
-          "endTime": "2021-08-02T11:00:06.089Z"
+          "startTime": "2021-08-09T10:00:44.846Z",
+          "endTime": "2021-08-09T11:00:44.846Z"
         }
       ],
       "1": [],
@@ -83,8 +91,8 @@
           "free": "yes",
           "onAppointment": "no",
           "weekday": 2,
-          "startTime": "2021-08-04T10:15:06.089Z",
-          "endTime": "2021-08-04T13:00:06.089Z"
+          "startTime": "2021-08-11T10:15:44.846Z",
+          "endTime": "2021-08-11T13:00:44.846Z"
         }
       ],
       "3": [
@@ -107,9 +115,13 @@
       "lat": 50.8460974,
       "lng": 4.3315067
     },
+    "on_appointment": "yes",
+    "free": "yes",
     "province": "Brussels",
     "name": "CPF Midi",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": true,
+    "isFree": true,
     "extraInfo": "fast hiv test is free, anonymous and no appointment",
     "appointmentUrl": "",
     "websiteUrl": "https://www.cpfmidi.be/consultations-medicales/",
@@ -121,8 +133,8 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T10:00:06.090Z",
-          "endTime": "2021-08-04T16:00:06.091Z"
+          "startTime": "2021-08-11T10:00:44.847Z",
+          "endTime": "2021-08-11T16:00:44.847Z"
         }
       ],
       "3": [],
@@ -139,9 +151,13 @@
       "lat": 50.8133637,
       "lng": 4.265565
     },
+    "on_appointment": "yes",
+    "free": "no",
     "province": "Brussels",
     "name": "Erasmusziekenhuis",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": true,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "https://www.erasme.ulb.ac.be/fr/formulaires/formulaire-rendez-vous-en-ligne",
     "websiteUrl": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
@@ -151,15 +167,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T07:00:06.091Z",
-          "endTime": "2021-08-02T10:00:06.091Z"
+          "startTime": "2021-08-09T07:00:44.848Z",
+          "endTime": "2021-08-09T10:00:44.848Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T11:00:06.091Z",
-          "endTime": "2021-08-02T15:00:06.091Z"
+          "startTime": "2021-08-09T11:00:44.848Z",
+          "endTime": "2021-08-09T15:00:44.848Z"
         }
       ],
       "1": [
@@ -167,15 +183,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T07:00:06.091Z",
-          "endTime": "2021-08-03T10:00:06.091Z"
+          "startTime": "2021-08-10T07:00:44.848Z",
+          "endTime": "2021-08-10T10:00:44.848Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T11:00:06.091Z",
-          "endTime": "2021-08-03T15:00:06.091Z"
+          "startTime": "2021-08-10T11:00:44.848Z",
+          "endTime": "2021-08-10T15:00:44.848Z"
         }
       ],
       "2": [
@@ -183,15 +199,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T07:00:06.091Z",
-          "endTime": "2021-08-04T10:00:06.091Z"
+          "startTime": "2021-08-11T07:00:44.848Z",
+          "endTime": "2021-08-11T10:00:44.848Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T11:00:06.092Z",
-          "endTime": "2021-08-04T15:00:06.092Z"
+          "startTime": "2021-08-11T11:00:44.849Z",
+          "endTime": "2021-08-11T15:00:44.849Z"
         }
       ],
       "3": [
@@ -199,15 +215,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T07:00:06.092Z",
-          "endTime": "2021-08-05T10:00:06.092Z"
+          "startTime": "2021-08-12T07:00:44.849Z",
+          "endTime": "2021-08-12T10:00:44.849Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T11:00:06.092Z",
-          "endTime": "2021-08-05T15:00:06.092Z"
+          "startTime": "2021-08-12T11:00:44.849Z",
+          "endTime": "2021-08-12T15:00:44.849Z"
         }
       ],
       "4": [
@@ -215,15 +231,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T07:00:06.093Z",
-          "endTime": "2021-08-06T10:00:06.093Z"
+          "startTime": "2021-08-13T07:00:44.849Z",
+          "endTime": "2021-08-13T10:00:44.849Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T11:00:06.093Z",
-          "endTime": "2021-08-06T15:00:06.093Z"
+          "startTime": "2021-08-13T11:00:44.850Z",
+          "endTime": "2021-08-13T15:00:44.850Z"
         }
       ],
       "5": [],
@@ -238,9 +254,13 @@
       "lat": 50.8448468,
       "lng": 4.3532802
     },
+    "on_appointment": "no",
+    "free": "yes",
     "province": "Brussels",
     "name": "Aide Info Sida",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": true,
     "extraInfo": "only the 2nd and 4th monday of the month. Check the website for more info.",
     "appointmentUrl": "",
     "websiteUrl": "http://www.aideinfosida.be/tests_ais.php",
@@ -250,8 +270,8 @@
           "free": "yes",
           "onAppointment": "no",
           "weekday": 0,
-          "startTime": "2021-08-02T16:00:06.095Z",
-          "endTime": "2021-08-02T19:00:06.095Z"
+          "startTime": "2021-08-09T16:00:44.857Z",
+          "endTime": "2021-08-09T19:00:44.857Z"
         }
       ],
       "1": [],
@@ -270,9 +290,13 @@
       "lat": 50.8151813,
       "lng": 4.3807739
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "Aimer à L’ULB",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "saturdays: only last two of the month. Only appointments by telephone.",
     "appointmentUrl": "",
     "websiteUrl": "http://www.aimeralulb.be/",
@@ -282,15 +306,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T07:00:06.096Z",
-          "endTime": "2021-08-02T10:00:06.096Z"
+          "startTime": "2021-08-09T07:00:44.858Z",
+          "endTime": "2021-08-09T10:00:44.858Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T10:30:06.096Z",
-          "endTime": "2021-08-02T16:00:06.096Z"
+          "startTime": "2021-08-09T10:30:44.858Z",
+          "endTime": "2021-08-09T16:00:44.858Z"
         }
       ],
       "1": [
@@ -298,15 +322,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T07:00:06.097Z",
-          "endTime": "2021-08-03T10:00:06.097Z"
+          "startTime": "2021-08-10T07:00:44.859Z",
+          "endTime": "2021-08-10T10:00:44.859Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T10:30:06.097Z",
-          "endTime": "2021-08-03T16:00:06.097Z"
+          "startTime": "2021-08-10T10:30:44.859Z",
+          "endTime": "2021-08-10T16:00:44.859Z"
         }
       ],
       "2": [
@@ -314,15 +338,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T07:00:06.097Z",
-          "endTime": "2021-08-04T10:00:06.097Z"
+          "startTime": "2021-08-11T07:00:44.859Z",
+          "endTime": "2021-08-11T10:00:44.859Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T10:30:06.097Z",
-          "endTime": "2021-08-04T16:00:06.097Z"
+          "startTime": "2021-08-11T10:30:44.859Z",
+          "endTime": "2021-08-11T16:00:44.859Z"
         }
       ],
       "3": [
@@ -330,15 +354,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T07:00:06.096Z",
-          "endTime": "2021-08-05T10:00:06.097Z"
+          "startTime": "2021-08-12T07:00:44.859Z",
+          "endTime": "2021-08-12T10:00:44.859Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T10:30:06.097Z",
-          "endTime": "2021-08-05T16:00:06.097Z"
+          "startTime": "2021-08-12T10:30:44.859Z",
+          "endTime": "2021-08-12T16:00:44.859Z"
         }
       ],
       "4": [
@@ -346,15 +370,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T07:00:06.096Z",
-          "endTime": "2021-08-06T10:00:06.096Z"
+          "startTime": "2021-08-13T07:00:44.858Z",
+          "endTime": "2021-08-13T10:00:44.858Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T10:30:06.096Z",
-          "endTime": "2021-08-06T16:00:06.096Z"
+          "startTime": "2021-08-13T10:30:44.858Z",
+          "endTime": "2021-08-13T16:00:44.858Z"
         }
       ],
       "5": [
@@ -362,8 +386,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 5,
-          "startTime": "2021-08-07T07:30:06.096Z",
-          "endTime": "2021-08-07T10:30:06.096Z"
+          "startTime": "2021-08-14T07:30:44.859Z",
+          "endTime": "2021-08-14T10:30:44.859Z"
         }
       ],
       "6": []
@@ -377,9 +401,13 @@
       "lat": 50.8878094,
       "lng": 4.3086096
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "HRC UZ VUB Brussels",
-    "isAnonymous": "no",
+    "isAnonymous": false,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "Hospital",
     "appointmentUrl": "https://www.uzbrussel.be/web/infectiologie/afspraak-maken",
     "websiteUrl": "https://www.uzbrussel.be/web/infectiologie/afspraak-maken",
@@ -403,15 +431,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T06:00:06.101Z",
-          "endTime": "2021-08-05T10:00:06.101Z"
+          "startTime": "2021-08-12T06:00:44.861Z",
+          "endTime": "2021-08-12T10:00:44.861Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T06:00:06.101Z",
-          "endTime": "2021-08-05T10:00:06.101Z"
+          "startTime": "2021-08-12T06:00:44.861Z",
+          "endTime": "2021-08-12T10:00:44.861Z"
         }
       ],
       "4": [],
@@ -427,9 +455,13 @@
       "lat": 50.8378962,
       "lng": 4.394949
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "Collectif Contraception",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "http://collectifcontraception.be/?id=20",
@@ -451,9 +483,13 @@
       "lat": 50.855707,
       "lng": 4.3510533
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Aimer Jeunes",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "http://aimer-jeunes.be/?Permanences-medicales-et",
@@ -463,8 +499,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T12:00:06.103Z",
-          "endTime": "2021-08-02T14:00:06.103Z"
+          "startTime": "2021-08-09T12:00:44.862Z",
+          "endTime": "2021-08-09T14:00:44.862Z"
         }
       ],
       "1": [
@@ -472,8 +508,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T11:00:06.103Z",
-          "endTime": "2021-08-03T13:00:06.103Z"
+          "startTime": "2021-08-10T11:00:44.862Z",
+          "endTime": "2021-08-10T13:00:44.862Z"
         }
       ],
       "2": [
@@ -481,8 +517,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T12:00:06.103Z",
-          "endTime": "2021-08-04T16:00:06.103Z"
+          "startTime": "2021-08-11T12:00:44.862Z",
+          "endTime": "2021-08-11T16:00:44.862Z"
         }
       ],
       "3": [
@@ -490,8 +526,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T08:00:06.103Z",
-          "endTime": "2021-08-05T10:00:06.103Z"
+          "startTime": "2021-08-12T08:00:44.862Z",
+          "endTime": "2021-08-12T10:00:44.862Z"
         }
       ],
       "4": [
@@ -499,8 +535,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T12:30:06.103Z",
-          "endTime": "2021-08-06T14:30:06.103Z"
+          "startTime": "2021-08-13T12:30:44.863Z",
+          "endTime": "2021-08-13T14:30:44.863Z"
         }
       ],
       "5": [],
@@ -515,9 +551,13 @@
       "lat": 50.843787,
       "lng": 4.395993
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Bureaux de Quartiers",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "http://www.bureauxdequartiers.be/",
@@ -529,8 +569,8 @@
           "free": "no",
           "onAppointment": "no",
           "weekday": 2,
-          "startTime": "2021-08-04T14:45:06.104Z",
-          "endTime": "2021-08-04T16:30:06.105Z"
+          "startTime": "2021-08-11T14:45:44.864Z",
+          "endTime": "2021-08-11T16:30:44.864Z"
         }
       ],
       "3": [
@@ -538,8 +578,8 @@
           "free": "no",
           "onAppointment": "no",
           "weekday": 3,
-          "startTime": "2021-08-05T14:00:06.105Z",
-          "endTime": "2021-08-05T15:45:06.105Z"
+          "startTime": "2021-08-12T14:00:44.864Z",
+          "endTime": "2021-08-12T15:45:44.864Z"
         }
       ],
       "4": [
@@ -547,8 +587,8 @@
           "free": "no",
           "onAppointment": "no",
           "weekday": 4,
-          "startTime": "2021-08-06T13:00:06.105Z",
-          "endTime": "2021-08-06T14:45:06.105Z"
+          "startTime": "2021-08-13T13:00:44.864Z",
+          "endTime": "2021-08-13T14:45:44.864Z"
         }
       ],
       "5": [],
@@ -563,9 +603,13 @@
       "lat": 50.8695816,
       "lng": 4.3993141
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Evere",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "https://www.guidesocial.be/pf-evere/?page=3",
@@ -575,15 +619,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T14:00:06.106Z",
-          "endTime": "2021-08-02T15:00:06.106Z"
+          "startTime": "2021-08-09T14:00:44.865Z",
+          "endTime": "2021-08-09T15:00:44.865Z"
         },
         {
           "free": "no",
           "onAppointment": "no",
           "weekday": 0,
-          "startTime": "2021-08-02T15:00:06.106Z",
-          "endTime": "2021-08-02T16:00:06.106Z"
+          "startTime": "2021-08-09T15:00:44.865Z",
+          "endTime": "2021-08-09T16:00:44.865Z"
         }
       ],
       "1": [],
@@ -592,15 +636,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T12:00:06.106Z",
-          "endTime": "2021-08-04T14:00:06.106Z"
+          "startTime": "2021-08-11T12:00:44.865Z",
+          "endTime": "2021-08-11T14:00:44.865Z"
         },
         {
           "free": "no",
           "onAppointment": "no",
           "weekday": 2,
-          "startTime": "2021-08-04T14:00:06.106Z",
-          "endTime": "2021-08-04T15:00:06.106Z"
+          "startTime": "2021-08-11T14:00:44.865Z",
+          "endTime": "2021-08-11T15:00:44.866Z"
         }
       ],
       "3": [],
@@ -617,9 +661,13 @@
       "lat": 50.8324886,
       "lng": 4.3780235
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Ixelles",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "http://www.planningixelles.be/index.php/fr/consultations-fr/medical-fr",
@@ -629,8 +677,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T11:30:06.107Z",
-          "endTime": "2021-08-02T15:30:06.107Z"
+          "startTime": "2021-08-09T11:30:44.867Z",
+          "endTime": "2021-08-09T15:30:44.867Z"
         }
       ],
       "1": [
@@ -638,8 +686,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T12:00:06.107Z",
-          "endTime": "2021-08-03T15:30:06.107Z"
+          "startTime": "2021-08-10T12:00:44.867Z",
+          "endTime": "2021-08-10T15:30:44.867Z"
         }
       ],
       "2": [
@@ -647,8 +695,8 @@
           "free": "no",
           "onAppointment": "no",
           "weekday": 2,
-          "startTime": "2021-08-04T10:30:06.107Z",
-          "endTime": "2021-08-04T14:30:06.107Z"
+          "startTime": "2021-08-11T10:30:44.867Z",
+          "endTime": "2021-08-11T14:30:44.867Z"
         }
       ],
       "3": [
@@ -656,8 +704,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T10:50:06.107Z",
-          "endTime": "2021-08-05T13:30:06.107Z"
+          "startTime": "2021-08-12T10:50:44.867Z",
+          "endTime": "2021-08-12T13:30:44.867Z"
         }
       ],
       "4": [
@@ -665,15 +713,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T10:30:06.107Z",
-          "endTime": "2021-08-06T16:00:06.107Z"
+          "startTime": "2021-08-13T10:30:44.867Z",
+          "endTime": "2021-08-13T16:00:44.867Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T08:00:06.107Z",
-          "endTime": "2021-08-06T10:30:06.107Z"
+          "startTime": "2021-08-13T08:00:44.867Z",
+          "endTime": "2021-08-13T10:30:44.867Z"
         }
       ],
       "5": [],
@@ -688,9 +736,13 @@
       "lat": 50.875984,
       "lng": 4.325237
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Jette",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "Free fast hiv test, every day with appointment",
     "appointmentUrl": "",
     "websiteUrl": "https://www.planningdejette.be/services/consultation-medicale-2/",
@@ -701,8 +753,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T13:00:06.108Z",
-          "endTime": "2021-08-03T17:00:06.108Z"
+          "startTime": "2021-08-10T13:00:44.869Z",
+          "endTime": "2021-08-10T17:00:44.869Z"
         }
       ],
       "2": [
@@ -710,15 +762,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T08:00:06.108Z",
-          "endTime": "2021-08-04T10:30:06.108Z"
+          "startTime": "2021-08-11T08:00:44.869Z",
+          "endTime": "2021-08-11T10:30:44.869Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T11:00:06.108Z",
-          "endTime": "2021-08-04T13:00:06.108Z"
+          "startTime": "2021-08-11T11:00:44.869Z",
+          "endTime": "2021-08-11T13:00:44.869Z"
         }
       ],
       "3": [
@@ -726,8 +778,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T11:00:06.108Z",
-          "endTime": "2021-08-05T16:00:06.108Z"
+          "startTime": "2021-08-12T11:00:44.869Z",
+          "endTime": "2021-08-12T16:00:44.869Z"
         }
       ],
       "4": [],
@@ -743,9 +795,13 @@
       "lat": 50.8727979,
       "lng": 4.3458957
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Laken",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "http://www.planninglaeken.be/contact/",
@@ -758,8 +814,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T11:30:06.111Z",
-          "endTime": "2021-08-05T13:30:06.111Z"
+          "startTime": "2021-08-12T11:30:44.873Z",
+          "endTime": "2021-08-12T13:30:44.874Z"
         }
       ],
       "4": [
@@ -767,8 +823,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T07:30:06.111Z",
-          "endTime": "2021-08-06T11:30:06.111Z"
+          "startTime": "2021-08-13T07:30:44.874Z",
+          "endTime": "2021-08-13T11:30:44.874Z"
         }
       ],
       "5": [],
@@ -783,9 +839,13 @@
       "lat": 50.8368743,
       "lng": 4.3839864
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Leman",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "https://www.guidesocial.be/planningleman/?page=6",
@@ -796,8 +856,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T11:00:06.112Z",
-          "endTime": "2021-08-03T14:00:06.112Z"
+          "startTime": "2021-08-10T11:00:44.874Z",
+          "endTime": "2021-08-10T14:00:44.874Z"
         }
       ],
       "2": [],
@@ -807,8 +867,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T12:00:06.112Z",
-          "endTime": "2021-08-06T15:00:06.112Z"
+          "startTime": "2021-08-13T12:00:44.874Z",
+          "endTime": "2021-08-13T15:00:44.874Z"
         }
       ],
       "5": [],
@@ -823,9 +883,13 @@
       "lat": 50.848778,
       "lng": 4.37461
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Plan F",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "http://www.planf.be/Horaires",
@@ -835,15 +899,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T07:00:06.116Z",
-          "endTime": "2021-08-02T10:00:06.116Z"
+          "startTime": "2021-08-09T07:00:44.875Z",
+          "endTime": "2021-08-09T10:00:44.875Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T13:00:06.116Z",
-          "endTime": "2021-08-02T16:00:06.116Z"
+          "startTime": "2021-08-09T13:00:44.875Z",
+          "endTime": "2021-08-09T16:00:44.875Z"
         }
       ],
       "1": [
@@ -851,15 +915,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T07:00:06.116Z",
-          "endTime": "2021-08-03T11:00:06.116Z"
+          "startTime": "2021-08-10T07:00:44.875Z",
+          "endTime": "2021-08-10T11:00:44.875Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T12:00:06.116Z",
-          "endTime": "2021-08-03T16:00:06.117Z"
+          "startTime": "2021-08-10T12:00:44.875Z",
+          "endTime": "2021-08-10T16:00:44.875Z"
         }
       ],
       "2": [
@@ -867,15 +931,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T07:30:06.117Z",
-          "endTime": "2021-08-04T10:30:06.117Z"
+          "startTime": "2021-08-11T07:30:44.875Z",
+          "endTime": "2021-08-11T10:30:44.875Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T11:30:06.117Z",
-          "endTime": "2021-08-04T14:30:06.117Z"
+          "startTime": "2021-08-11T11:30:44.875Z",
+          "endTime": "2021-08-11T14:30:44.875Z"
         }
       ],
       "3": [
@@ -883,15 +947,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T07:00:06.117Z",
-          "endTime": "2021-08-05T11:00:06.117Z"
+          "startTime": "2021-08-12T07:00:44.875Z",
+          "endTime": "2021-08-12T11:00:44.875Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T12:30:06.117Z",
-          "endTime": "2021-08-05T16:30:06.117Z"
+          "startTime": "2021-08-12T12:30:44.875Z",
+          "endTime": "2021-08-12T16:30:44.875Z"
         }
       ],
       "4": [
@@ -899,15 +963,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T07:30:06.117Z",
-          "endTime": "2021-08-06T10:30:06.117Z"
+          "startTime": "2021-08-13T07:30:44.875Z",
+          "endTime": "2021-08-13T10:30:44.875Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T12:00:06.117Z",
-          "endTime": "2021-08-06T16:00:06.117Z"
+          "startTime": "2021-08-13T12:00:44.875Z",
+          "endTime": "2021-08-13T16:00:44.876Z"
         }
       ],
       "5": [],
@@ -922,9 +986,13 @@
       "lat": 50.841733,
       "lng": 4.3457875
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Marolles",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "http://planningmarolles.be/index.php/fr/nos-services",
@@ -935,15 +1003,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T07:00:06.121Z",
-          "endTime": "2021-08-03T11:00:06.121Z"
+          "startTime": "2021-08-10T07:00:44.878Z",
+          "endTime": "2021-08-10T11:00:44.878Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T12:00:06.122Z",
-          "endTime": "2021-08-03T15:30:06.122Z"
+          "startTime": "2021-08-10T12:00:44.879Z",
+          "endTime": "2021-08-10T15:30:44.879Z"
         }
       ],
       "2": [
@@ -951,15 +1019,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T07:00:06.121Z",
-          "endTime": "2021-08-04T10:00:06.121Z"
+          "startTime": "2021-08-11T07:00:44.878Z",
+          "endTime": "2021-08-11T10:00:44.878Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T10:00:06.122Z",
-          "endTime": "2021-08-04T15:00:06.122Z"
+          "startTime": "2021-08-11T10:00:44.879Z",
+          "endTime": "2021-08-11T15:00:44.879Z"
         }
       ],
       "3": [
@@ -967,15 +1035,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T07:00:06.121Z",
-          "endTime": "2021-08-05T10:00:06.122Z"
+          "startTime": "2021-08-12T07:00:44.878Z",
+          "endTime": "2021-08-12T10:00:44.878Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T10:00:06.122Z",
-          "endTime": "2021-08-05T17:00:06.122Z"
+          "startTime": "2021-08-12T10:00:44.879Z",
+          "endTime": "2021-08-12T17:00:44.879Z"
         }
       ],
       "4": [
@@ -983,15 +1051,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T07:00:06.122Z",
-          "endTime": "2021-08-06T10:00:06.122Z"
+          "startTime": "2021-08-13T07:00:44.878Z",
+          "endTime": "2021-08-13T10:00:44.878Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T10:00:06.122Z",
-          "endTime": "2021-08-06T11:00:06.122Z"
+          "startTime": "2021-08-13T10:00:44.879Z",
+          "endTime": "2021-08-13T11:00:44.879Z"
         }
       ],
       "5": [],
@@ -1006,9 +1074,13 @@
       "lat": 50.8446316,
       "lng": 4.3462336
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Rosa",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
@@ -1018,8 +1090,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T07:30:06.124Z",
-          "endTime": "2021-08-02T10:30:06.124Z"
+          "startTime": "2021-08-09T07:30:44.880Z",
+          "endTime": "2021-08-09T10:30:44.880Z"
         }
       ],
       "1": [
@@ -1027,8 +1099,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T12:00:06.124Z",
-          "endTime": "2021-08-03T16:00:06.124Z"
+          "startTime": "2021-08-10T12:00:44.880Z",
+          "endTime": "2021-08-10T16:00:44.880Z"
         }
       ],
       "2": [
@@ -1036,8 +1108,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T10:00:06.124Z",
-          "endTime": "2021-08-04T14:00:06.124Z"
+          "startTime": "2021-08-11T10:00:44.880Z",
+          "endTime": "2021-08-11T14:00:44.880Z"
         }
       ],
       "3": [],
@@ -1054,9 +1126,13 @@
       "lat": 50.825479,
       "lng": 4.3364458
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Saint-Gilles",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "https://www.planningfamilialstgilles.be/infos-pratiques",
@@ -1066,15 +1142,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T07:00:06.125Z",
-          "endTime": "2021-08-02T09:40:06.125Z"
+          "startTime": "2021-08-09T07:00:44.881Z",
+          "endTime": "2021-08-09T09:40:44.881Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T12:30:06.125Z",
-          "endTime": "2021-08-02T14:30:06.125Z"
+          "startTime": "2021-08-09T12:30:44.881Z",
+          "endTime": "2021-08-09T14:30:44.881Z"
         }
       ],
       "1": [
@@ -1082,15 +1158,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T07:00:06.125Z",
-          "endTime": "2021-08-03T10:00:06.125Z"
+          "startTime": "2021-08-10T07:00:44.881Z",
+          "endTime": "2021-08-10T10:00:44.881Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T11:30:06.125Z",
-          "endTime": "2021-08-03T15:00:06.125Z"
+          "startTime": "2021-08-10T11:30:44.881Z",
+          "endTime": "2021-08-10T15:00:44.881Z"
         }
       ],
       "2": [
@@ -1098,15 +1174,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T07:00:06.125Z",
-          "endTime": "2021-08-04T10:00:06.125Z"
+          "startTime": "2021-08-11T07:00:44.881Z",
+          "endTime": "2021-08-11T10:00:44.881Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T11:30:06.125Z",
-          "endTime": "2021-08-04T14:00:06.126Z"
+          "startTime": "2021-08-11T11:30:44.881Z",
+          "endTime": "2021-08-11T14:00:44.881Z"
         }
       ],
       "3": [
@@ -1114,15 +1190,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T07:30:06.126Z",
-          "endTime": "2021-08-05T10:15:06.126Z"
+          "startTime": "2021-08-12T07:30:44.881Z",
+          "endTime": "2021-08-12T10:15:44.882Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T11:40:06.127Z",
-          "endTime": "2021-08-05T14:45:06.127Z"
+          "startTime": "2021-08-12T11:40:44.882Z",
+          "endTime": "2021-08-12T14:45:44.882Z"
         }
       ],
       "4": [
@@ -1130,8 +1206,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T12:30:06.126Z",
-          "endTime": "2021-08-06T14:30:06.126Z"
+          "startTime": "2021-08-13T12:30:44.881Z",
+          "endTime": "2021-08-13T14:30:44.881Z"
         }
       ],
       "5": [],
@@ -1146,9 +1222,13 @@
       "lat": 50.852568,
       "lng": 4.3696103
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Saint-Josse",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "https://www.planningsaintjosse.com/gynecologie",
@@ -1158,8 +1238,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T10:00:06.131Z",
-          "endTime": "2021-08-02T15:00:06.131Z"
+          "startTime": "2021-08-09T10:00:44.885Z",
+          "endTime": "2021-08-09T15:00:44.885Z"
         }
       ],
       "1": [],
@@ -1168,15 +1248,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T08:00:06.131Z",
-          "endTime": "2021-08-04T10:00:06.131Z"
+          "startTime": "2021-08-11T08:00:44.885Z",
+          "endTime": "2021-08-11T10:00:44.886Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T10:00:06.131Z",
-          "endTime": "2021-08-04T15:00:06.131Z"
+          "startTime": "2021-08-11T10:00:44.886Z",
+          "endTime": "2021-08-11T15:00:44.886Z"
         }
       ],
       "3": [
@@ -1184,15 +1264,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T08:00:06.131Z",
-          "endTime": "2021-08-05T10:00:06.131Z"
+          "startTime": "2021-08-12T08:00:44.886Z",
+          "endTime": "2021-08-12T10:00:44.886Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T10:00:06.132Z",
-          "endTime": "2021-08-05T11:00:06.132Z"
+          "startTime": "2021-08-12T10:00:44.886Z",
+          "endTime": "2021-08-12T11:00:44.886Z"
         }
       ],
       "4": [
@@ -1200,15 +1280,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T07:30:06.132Z",
-          "endTime": "2021-08-06T10:00:06.132Z"
+          "startTime": "2021-08-13T07:30:44.886Z",
+          "endTime": "2021-08-13T10:00:44.886Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T10:00:06.132Z",
-          "endTime": "2021-08-06T14:00:06.132Z"
+          "startTime": "2021-08-13T10:00:44.886Z",
+          "endTime": "2021-08-13T14:00:44.886Z"
         }
       ],
       "5": [],
@@ -1223,9 +1303,13 @@
       "lat": 50.8468013,
       "lng": 4.3365089
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Senne",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "https://www.cpfsenne.be/spip.php?rubrique13",
@@ -1235,8 +1319,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T10:30:06.134Z",
-          "endTime": "2021-08-02T13:30:06.134Z"
+          "startTime": "2021-08-09T10:30:44.890Z",
+          "endTime": "2021-08-09T13:30:44.890Z"
         }
       ],
       "1": [],
@@ -1246,8 +1330,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T07:00:06.134Z",
-          "endTime": "2021-08-05T10:30:06.134Z"
+          "startTime": "2021-08-12T07:00:44.890Z",
+          "endTime": "2021-08-12T10:30:44.890Z"
         }
       ],
       "4": [],
@@ -1263,9 +1347,13 @@
       "lat": 50.8382242,
       "lng": 4.3111654
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Séverine",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "https://www.planning-severine.org/nos-services",
@@ -1287,8 +1375,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T10:30:06.135Z",
-          "endTime": "2021-08-03T14:00:06.135Z"
+          "startTime": "2021-08-10T10:30:44.891Z",
+          "endTime": "2021-08-10T14:00:44.891Z"
         }
       ],
       "2": [
@@ -1296,8 +1384,8 @@
           "free": "no",
           "onAppointment": "no",
           "weekday": 2,
-          "startTime": "2021-08-04T11:00:06.135Z",
-          "endTime": "2021-08-04T13:30:06.135Z"
+          "startTime": "2021-08-11T11:00:44.891Z",
+          "endTime": "2021-08-11T13:30:44.891Z"
         }
       ],
       "3": [
@@ -1310,8 +1398,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T10:00:06.135Z",
-          "endTime": "2021-08-05T11:00:06.135Z"
+          "startTime": "2021-08-12T10:00:44.891Z",
+          "endTime": "2021-08-12T11:00:44.891Z"
         }
       ],
       "4": [
@@ -1319,15 +1407,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T07:00:06.135Z",
-          "endTime": "2021-08-06T10:00:06.135Z"
+          "startTime": "2021-08-13T07:00:44.891Z",
+          "endTime": "2021-08-13T10:00:44.891Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T10:00:06.135Z",
-          "endTime": "2021-08-06T11:00:06.136Z"
+          "startTime": "2021-08-13T10:00:44.891Z",
+          "endTime": "2021-08-13T11:00:44.891Z"
         }
       ],
       "5": [],
@@ -1342,10 +1430,14 @@
       "lat": 50.7997045,
       "lng": 4.3331991
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Uccle",
-    "isAnonymous": "yes",
-    "extraInfo": "Opening hours change frequently. Call for latest update",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "Opening hours change frequently. Call for \"lat\"est update",
     "appointmentUrl": "",
     "websiteUrl": "https://www.guidesocial.be/planning-uccle/?page=3",
     "openPeriods": {
@@ -1355,8 +1447,8 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T14:00:06.137Z",
-          "endTime": "2021-08-03T15:30:06.137Z"
+          "startTime": "2021-08-10T14:00:44.892Z",
+          "endTime": "2021-08-10T15:30:44.893Z"
         }
       ],
       "2": [],
@@ -1374,9 +1466,13 @@
       "lat": 50.8059225,
       "lng": 4.406272
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Watermael-Boitsfort",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "http://planningfamilialdeboitsfort.be/Consultations-medicales-2",
@@ -1386,8 +1482,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T07:00:06.138Z",
-          "endTime": "2021-08-02T10:00:06.138Z"
+          "startTime": "2021-08-09T07:00:44.893Z",
+          "endTime": "2021-08-09T10:00:44.893Z"
         }
       ],
       "1": [
@@ -1395,8 +1491,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T07:00:06.138Z",
-          "endTime": "2021-08-03T10:00:06.138Z"
+          "startTime": "2021-08-10T07:00:44.893Z",
+          "endTime": "2021-08-10T10:00:44.893Z"
         }
       ],
       "2": [
@@ -1404,8 +1500,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T10:10:06.138Z",
-          "endTime": "2021-08-04T14:00:06.138Z"
+          "startTime": "2021-08-11T10:10:44.893Z",
+          "endTime": "2021-08-11T14:00:44.893Z"
         }
       ],
       "3": [
@@ -1413,8 +1509,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T10:00:06.138Z",
-          "endTime": "2021-08-05T16:00:06.138Z"
+          "startTime": "2021-08-12T10:00:44.893Z",
+          "endTime": "2021-08-12T16:00:44.893Z"
         }
       ],
       "4": [
@@ -1422,8 +1518,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T07:00:06.138Z",
-          "endTime": "2021-08-06T10:00:06.138Z"
+          "startTime": "2021-08-13T07:00:44.893Z",
+          "endTime": "2021-08-13T10:00:44.893Z"
         }
       ],
       "5": [],
@@ -1438,9 +1534,13 @@
       "lat": 50.8425591,
       "lng": 4.4232509
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Woluwé-Saint-Lambert CCFS",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "http://www.planning-familial-wsl.be/index.php/infos-generales/horaires/medicales",
@@ -1451,8 +1551,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T13:00:06.149Z",
-          "endTime": "2021-08-03T16:00:06.149Z"
+          "startTime": "2021-08-10T13:00:44.894Z",
+          "endTime": "2021-08-10T16:00:44.894Z"
         }
       ],
       "2": [
@@ -1460,8 +1560,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T11:00:06.149Z",
-          "endTime": "2021-08-04T16:00:06.149Z"
+          "startTime": "2021-08-11T11:00:44.894Z",
+          "endTime": "2021-08-11T16:00:44.894Z"
         }
       ],
       "3": [
@@ -1469,8 +1569,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T13:00:06.149Z",
-          "endTime": "2021-08-05T16:00:06.149Z"
+          "startTime": "2021-08-12T13:00:44.894Z",
+          "endTime": "2021-08-12T16:00:44.894Z"
         }
       ],
       "4": [],
@@ -1486,9 +1586,13 @@
       "lat": 50.8386762,
       "lng": 4.4302288
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Woluwé-St-Pierre",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "https://www.guidesocial.be/planningwoluwe/?page=5",
@@ -1498,15 +1602,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T08:00:06.155Z",
-          "endTime": "2021-08-02T10:00:06.155Z"
+          "startTime": "2021-08-09T08:00:44.895Z",
+          "endTime": "2021-08-09T10:00:44.895Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T10:00:06.155Z",
-          "endTime": "2021-08-02T12:00:06.155Z"
+          "startTime": "2021-08-09T10:00:44.895Z",
+          "endTime": "2021-08-09T12:00:44.895Z"
         }
       ],
       "1": [
@@ -1523,8 +1627,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T12:00:06.155Z",
-          "endTime": "2021-08-06T14:00:06.156Z"
+          "startTime": "2021-08-13T12:00:44.895Z",
+          "endTime": "2021-08-13T14:00:44.895Z"
         }
       ],
       "5": [],
@@ -1539,9 +1643,13 @@
       "lat": 50.855707,
       "lng": 4.3510533
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "CPF Yser Aimer Jeunes",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "http://aimer-jeunes.be/?-Accueil-et-consultation-",
@@ -1551,15 +1659,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T09:00:06.168Z",
-          "endTime": "2021-08-02T10:00:06.168Z"
+          "startTime": "2021-08-09T09:00:44.897Z",
+          "endTime": "2021-08-09T10:00:44.897Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T10:00:06.168Z",
-          "endTime": "2021-08-06T21:00:06.168Z"
+          "startTime": "2021-08-09T10:00:44.897Z",
+          "endTime": "2021-08-13T21:00:44.898Z"
         }
       ],
       "1": [
@@ -1567,15 +1675,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T08:00:06.168Z",
-          "endTime": "2021-08-03T10:00:06.168Z"
+          "startTime": "2021-08-10T08:00:44.898Z",
+          "endTime": "2021-08-10T10:00:44.898Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T10:00:06.168Z",
-          "endTime": "2021-08-03T14:00:06.168Z"
+          "startTime": "2021-08-10T10:00:44.898Z",
+          "endTime": "2021-08-10T14:00:44.898Z"
         }
       ],
       "2": [
@@ -1583,15 +1691,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T07:00:06.168Z",
-          "endTime": "2021-08-04T11:49:06.168Z"
+          "startTime": "2021-08-11T07:00:44.898Z",
+          "endTime": "2021-08-11T11:14:44.898Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T12:00:06.168Z",
-          "endTime": "2021-08-04T17:00:06.168Z"
+          "startTime": "2021-08-11T12:00:44.898Z",
+          "endTime": "2021-08-11T17:00:44.899Z"
         }
       ],
       "3": [
@@ -1599,15 +1707,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T07:00:06.169Z",
-          "endTime": "2021-08-05T10:00:06.169Z"
+          "startTime": "2021-08-12T07:00:44.899Z",
+          "endTime": "2021-08-12T10:00:44.899Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T10:00:06.169Z",
-          "endTime": "2021-08-05T15:00:06.169Z"
+          "startTime": "2021-08-12T10:00:44.899Z",
+          "endTime": "2021-08-12T15:00:44.899Z"
         }
       ],
       "4": [
@@ -1615,8 +1723,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T10:00:06.169Z",
-          "endTime": "2021-08-06T16:00:06.169Z"
+          "startTime": "2021-08-13T10:00:44.899Z",
+          "endTime": "2021-08-13T16:00:44.899Z"
         }
       ],
       "5": [],
@@ -1631,9 +1739,13 @@
       "lat": 50.8471267,
       "lng": 4.3478351
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "Ex Aequo",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "www.exaequo.be",
@@ -1643,15 +1755,15 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T07:30:06.293Z",
-          "endTime": "2021-08-02T10:30:06.293Z"
+          "startTime": "2021-08-09T07:30:44.903Z",
+          "endTime": "2021-08-09T10:30:44.903Z"
         },
         {
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T12:00:06.293Z",
-          "endTime": "2021-08-02T15:00:06.293Z"
+          "startTime": "2021-08-09T12:00:44.903Z",
+          "endTime": "2021-08-09T15:00:44.904Z"
         }
       ],
       "1": [
@@ -1659,15 +1771,15 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T07:30:06.294Z",
-          "endTime": "2021-08-03T10:30:06.294Z"
+          "startTime": "2021-08-10T07:30:44.905Z",
+          "endTime": "2021-08-10T10:30:44.905Z"
         },
         {
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T12:00:06.294Z",
-          "endTime": "2021-08-03T15:00:06.294Z"
+          "startTime": "2021-08-10T12:00:44.905Z",
+          "endTime": "2021-08-10T15:00:44.905Z"
         }
       ],
       "2": [
@@ -1675,22 +1787,22 @@
           "free": "yes",
           "onAppointment": "no",
           "weekday": 2,
-          "startTime": "2021-08-04T17:00:06.294Z",
-          "endTime": "2021-08-04T19:30:06.294Z"
+          "startTime": "2021-08-11T17:00:44.905Z",
+          "endTime": "2021-08-11T19:30:44.905Z"
         },
         {
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T07:30:06.294Z",
-          "endTime": "2021-08-04T10:30:06.294Z"
+          "startTime": "2021-08-11T07:30:44.905Z",
+          "endTime": "2021-08-11T10:30:44.905Z"
         },
         {
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T12:00:06.294Z",
-          "endTime": "2021-08-04T15:00:06.294Z"
+          "startTime": "2021-08-11T12:00:44.905Z",
+          "endTime": "2021-08-11T15:00:44.905Z"
         }
       ],
       "3": [
@@ -1698,22 +1810,22 @@
           "free": "yes",
           "onAppointment": "no",
           "weekday": 3,
-          "startTime": "2021-08-05T17:00:06.293Z",
-          "endTime": "2021-08-05T19:30:06.293Z"
+          "startTime": "2021-08-12T17:00:44.904Z",
+          "endTime": "2021-08-12T19:30:44.904Z"
         },
         {
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T07:30:06.293Z",
-          "endTime": "2021-08-05T10:30:06.294Z"
+          "startTime": "2021-08-12T07:30:44.904Z",
+          "endTime": "2021-08-12T10:30:44.904Z"
         },
         {
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T12:00:06.294Z",
-          "endTime": "2021-08-05T15:00:06.294Z"
+          "startTime": "2021-08-12T12:00:44.904Z",
+          "endTime": "2021-08-12T15:00:44.905Z"
         }
       ],
       "4": [
@@ -1721,15 +1833,15 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T08:00:06.293Z",
-          "endTime": "2021-08-06T10:30:06.293Z"
+          "startTime": "2021-08-13T08:00:44.902Z",
+          "endTime": "2021-08-13T10:30:44.903Z"
         },
         {
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T12:00:06.293Z",
-          "endTime": "2021-08-06T15:00:06.293Z"
+          "startTime": "2021-08-13T12:00:44.903Z",
+          "endTime": "2021-08-13T15:00:44.903Z"
         }
       ],
       "5": [],
@@ -1744,9 +1856,13 @@
       "lat": 51.212166,
       "lng": 4.3960773
     },
+    "on_appointment": "yes",
+    "free": "yes",
     "province": "Antwerp",
     "name": "Help Centre",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": true,
+    "isFree": true,
     "extraInfo": "Only for men who have sex with men and other risk groups",
     "appointmentUrl": "https://www.itg.be/e/make-an-appointment",
     "websiteUrl": "https://www.itg.be/E/helpcenter",
@@ -1756,8 +1872,8 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T11:30:06.298Z",
-          "endTime": "2021-08-02T14:00:06.298Z"
+          "startTime": "2021-08-09T11:30:45.002Z",
+          "endTime": "2021-08-09T14:00:45.002Z"
         }
       ],
       "1": [
@@ -1765,8 +1881,8 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T11:30:06.297Z",
-          "endTime": "2021-08-03T14:00:06.297Z"
+          "startTime": "2021-08-10T11:30:45.002Z",
+          "endTime": "2021-08-10T14:00:45.002Z"
         }
       ],
       "2": [
@@ -1774,8 +1890,8 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T11:30:06.298Z",
-          "endTime": "2021-08-04T14:00:06.298Z"
+          "startTime": "2021-08-11T11:30:45.002Z",
+          "endTime": "2021-08-11T14:00:45.002Z"
         }
       ],
       "3": [
@@ -1783,8 +1899,8 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T11:30:06.298Z",
-          "endTime": "2021-08-05T14:00:06.298Z"
+          "startTime": "2021-08-12T11:30:45.002Z",
+          "endTime": "2021-08-12T14:00:45.003Z"
         }
       ],
       "4": [
@@ -1792,8 +1908,8 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T11:30:06.298Z",
-          "endTime": "2021-08-06T14:00:06.298Z"
+          "startTime": "2021-08-13T11:30:45.003Z",
+          "endTime": "2021-08-13T14:00:45.003Z"
         }
       ],
       "5": [],
@@ -1808,9 +1924,13 @@
       "lat": 50.8411538,
       "lng": 4.3288798
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "Action Test",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "1st and 4th monday of the month. Only subsaharan Africans. Restart in September",
     "appointmentUrl": "",
     "websiteUrl": "https://preventionsida.org/fr/ressources/action-test-un-projet-de-depistage-du-vih-et-de-lhepatite-c/",
@@ -1820,8 +1940,8 @@
           "free": "yes",
           "onAppointment": "no",
           "weekday": 0,
-          "startTime": "2021-08-02T15:45:06.299Z",
-          "endTime": "2021-08-02T17:45:06.299Z"
+          "startTime": "2021-08-09T15:45:45.003Z",
+          "endTime": "2021-08-09T17:45:45.004Z"
         }
       ],
       "1": [],
@@ -1840,9 +1960,13 @@
       "lat": 50.8386435,
       "lng": 4.3620624
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "Action Test Siréas",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "Only Subsaharan Africans",
     "appointmentUrl": "",
     "websiteUrl": "",
@@ -1864,9 +1988,13 @@
       "lat": 50.8529013,
       "lng": 4.4498347
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "UCL Saint-Luc",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "",
     "appointmentUrl": "",
     "websiteUrl": "https://www.saintluc.be/fr/centre-de-prise-en-charge-vih-depistage",
@@ -1876,8 +2004,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T16:49:06.299Z",
-          "endTime": "2021-08-02T15:00:06.299Z"
+          "startTime": "2021-08-09T17:14:45.004Z",
+          "endTime": "2021-08-09T15:00:45.004Z"
         }
       ],
       "1": [],
@@ -1886,15 +2014,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T09:00:06.300Z",
-          "endTime": "2021-08-04T10:00:06.300Z"
+          "startTime": "2021-08-11T09:00:45.004Z",
+          "endTime": "2021-08-11T10:00:45.004Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T10:00:06.300Z",
-          "endTime": "2021-08-04T11:00:06.300Z"
+          "startTime": "2021-08-11T10:00:45.004Z",
+          "endTime": "2021-08-11T11:00:45.004Z"
         }
       ],
       "3": [],
@@ -1907,9 +2035,13 @@
     "address": "",
     "telephone": "03 345 57 85",
     "email": "info@swab2know.be",
+    "on_appointment": "",
+    "free": "",
     "province": "Selftest",
     "name": "Swab2Know",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "Hiv self-test kit with saliva. Will be delivered by post. Free. Follow-up by Tropical Institute in Antwerp, Help Center.",
     "appointmentUrl": "https://swab2know.eu/BE/E/login/?returnUrl=%2fBE%2fE%2fMyAccount%2f",
     "websiteUrl": "https://www.swab2know.eu/BE/e",
@@ -1931,9 +2063,13 @@
       "lat": 51.226262,
       "lng": 4.4033349
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Antwerp",
     "name": "Violett Antwerp",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "Sexworkers only",
     "appointmentUrl": "",
     "websiteUrl": "https://www.violett.be/nl/laat-je-testen/",
@@ -1943,8 +2079,8 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T12:00:06.303Z",
-          "endTime": "2021-08-02T14:00:06.303Z"
+          "startTime": "2021-08-09T12:00:45.005Z",
+          "endTime": "2021-08-09T14:00:45.005Z"
         }
       ],
       "1": [],
@@ -1953,22 +2089,22 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T08:00:06.303Z",
-          "endTime": "2021-08-04T10:00:06.303Z"
+          "startTime": "2021-08-11T08:00:45.005Z",
+          "endTime": "2021-08-11T10:00:45.005Z"
         },
         {
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T16:00:06.303Z",
-          "endTime": "2021-08-04T18:00:06.303Z"
+          "startTime": "2021-08-11T16:00:45.005Z",
+          "endTime": "2021-08-11T18:00:45.005Z"
         },
         {
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T16:30:06.303Z",
-          "endTime": "2021-08-04T17:30:06.304Z"
+          "startTime": "2021-08-11T16:30:45.005Z",
+          "endTime": "2021-08-11T17:30:45.005Z"
         }
       ],
       "3": [],
@@ -1977,8 +2113,8 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T08:00:06.303Z",
-          "endTime": "2021-08-06T10:00:06.303Z"
+          "startTime": "2021-08-13T08:00:45.005Z",
+          "endTime": "2021-08-13T10:00:45.005Z"
         }
       ],
       "5": [],
@@ -1993,9 +2129,13 @@
       "lat": 51.049724,
       "lng": 3.7294227
     },
+    "on_appointment": "",
+    "free": "",
     "province": "East-Flanders",
     "name": "Violett Gent",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "Sexworkers only",
     "appointmentUrl": "",
     "websiteUrl": "https://www.violett.be/nl/laat-je-testen/",
@@ -2009,15 +2149,15 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T09:00:06.305Z",
-          "endTime": "2021-08-06T10:00:06.305Z"
+          "startTime": "2021-08-13T09:00:45.006Z",
+          "endTime": "2021-08-13T10:00:45.007Z"
         },
         {
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T10:00:06.305Z",
-          "endTime": "2021-08-06T11:00:06.305Z"
+          "startTime": "2021-08-13T10:00:45.007Z",
+          "endTime": "2021-08-13T11:00:45.007Z"
         }
       ],
       "5": [],
@@ -2032,9 +2172,13 @@
       "lat": 50.9290863,
       "lng": 5.3253702
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Limburg",
     "name": "Violett Hasselt",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "Sexworkers only",
     "appointmentUrl": "",
     "websiteUrl": "https://www.violett.be/nl/laat-je-testen/",
@@ -2044,8 +2188,8 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T08:00:06.306Z",
-          "endTime": "2021-08-02T10:00:06.306Z"
+          "startTime": "2021-08-09T08:00:45.007Z",
+          "endTime": "2021-08-09T10:00:45.007Z"
         }
       ],
       "1": [],
@@ -2064,10 +2208,14 @@
       "lat": 50.8465989,
       "lng": 4.3473567
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "Alias",
-    "isAnonymous": "yes",
-    "extraInfo": "Sexworkers only",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "Male and trans sexworkers only",
     "appointmentUrl": "",
     "websiteUrl": "http://www.alias-bru.be/alias-works-with-men-who-have-sex-with-men-for-money/",
     "openPeriods": {
@@ -2077,8 +2225,8 @@
           "free": "yes",
           "onAppointment": "no",
           "weekday": 1,
-          "startTime": "2021-08-03T17:00:06.307Z",
-          "endTime": "2021-08-03T19:00:06.307Z"
+          "startTime": "2021-08-10T17:00:45.007Z",
+          "endTime": "2021-08-10T19:00:45.007Z"
         }
       ],
       "2": [],
@@ -2096,10 +2244,14 @@
       "lat": 51.2167661,
       "lng": 4.4150269
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Antwerp",
     "name": "Boysproject",
-    "isAnonymous": "yes",
-    "extraInfo": "Sexworkers only",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "Male and trans sexworkers only",
     "appointmentUrl": "",
     "websiteUrl": "https://boysproject.be/en/our-offer/",
     "openPeriods": {
@@ -2110,15 +2262,15 @@
           "free": "yes",
           "onAppointment": "no",
           "weekday": 2,
-          "startTime": "2021-08-04T12:30:06.308Z",
-          "endTime": "2021-08-04T14:30:06.308Z"
+          "startTime": "2021-08-11T12:30:45.008Z",
+          "endTime": "2021-08-11T14:30:45.008Z"
         },
         {
           "free": "yes",
           "onAppointment": "no",
           "weekday": 2,
-          "startTime": "2021-08-04T16:00:06.308Z",
-          "endTime": "2021-08-04T18:00:06.308Z"
+          "startTime": "2021-08-11T16:00:45.008Z",
+          "endTime": "2021-08-11T18:00:45.008Z"
         }
       ],
       "3": [],
@@ -2135,9 +2287,13 @@
       "lat": 50.8591985,
       "lng": 4.3612648
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Brussels",
     "name": "Espace P",
-    "isAnonymous": "yes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "Sexworkers only",
     "appointmentUrl": "",
     "websiteUrl": "http://espacep.be/contact/bruxelles/",
@@ -2148,8 +2304,8 @@
           "free": "yes",
           "onAppointment": "no",
           "weekday": 1,
-          "startTime": "2021-08-03T17:00:06.308Z",
-          "endTime": "2021-08-03T18:00:06.309Z"
+          "startTime": "2021-08-10T17:00:45.008Z",
+          "endTime": "2021-08-10T18:00:45.008Z"
         }
       ],
       "2": [
@@ -2157,8 +2313,8 @@
           "free": "yes",
           "onAppointment": "no",
           "weekday": 2,
-          "startTime": "2021-08-04T11:00:06.309Z",
-          "endTime": "2021-08-04T12:00:06.309Z"
+          "startTime": "2021-08-11T11:00:45.008Z",
+          "endTime": "2021-08-11T12:00:45.008Z"
         }
       ],
       "3": [],
@@ -2175,9 +2331,13 @@
       "lat": 50.9259226,
       "lng": 5.3424498
     },
+    "on_appointment": "",
+    "free": "",
     "province": "Limburg",
     "name": "HRC Virga Jesse",
-    "isAnonymous": "no",
+    "isAnonymous": false,
+    "onAppointment": false,
+    "isFree": false,
     "extraInfo": "Hospital",
     "appointmentUrl": "",
     "websiteUrl": "https://www.jessazh.be/patienten/raadplegingsgids/volgens-specialisme/raadpleging-infectieziekten-en-immuniteit",
@@ -2187,15 +2347,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T07:00:06.309Z",
-          "endTime": "2021-08-02T10:00:06.309Z"
+          "startTime": "2021-08-09T07:00:45.009Z",
+          "endTime": "2021-08-09T10:00:45.009Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-02T12:00:06.310Z",
-          "endTime": "2021-08-02T14:30:06.310Z"
+          "startTime": "2021-08-09T12:00:45.009Z",
+          "endTime": "2021-08-09T14:30:45.009Z"
         }
       ],
       "1": [
@@ -2203,15 +2363,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T07:00:06.310Z",
-          "endTime": "2021-08-03T10:00:06.310Z"
+          "startTime": "2021-08-10T07:00:45.009Z",
+          "endTime": "2021-08-10T10:00:45.009Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-03T12:00:06.310Z",
-          "endTime": "2021-08-03T14:30:06.310Z"
+          "startTime": "2021-08-10T12:00:45.009Z",
+          "endTime": "2021-08-10T14:30:45.009Z"
         }
       ],
       "2": [
@@ -2219,8 +2379,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-04T07:00:06.310Z",
-          "endTime": "2021-08-04T10:00:06.310Z"
+          "startTime": "2021-08-11T07:00:45.009Z",
+          "endTime": "2021-08-11T10:00:45.009Z"
         }
       ],
       "3": [
@@ -2228,8 +2388,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-05T07:00:06.310Z",
-          "endTime": "2021-08-05T10:00:06.310Z"
+          "startTime": "2021-08-12T07:00:45.009Z",
+          "endTime": "2021-08-12T10:00:45.009Z"
         }
       ],
       "4": [
@@ -2237,15 +2397,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T07:00:06.310Z",
-          "endTime": "2021-08-06T10:00:06.310Z"
+          "startTime": "2021-08-13T07:00:45.009Z",
+          "endTime": "2021-08-13T10:00:45.009Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-06T12:00:06.310Z",
-          "endTime": "2021-08-06T14:30:06.310Z"
+          "startTime": "2021-08-13T12:00:45.009Z",
+          "endTime": "2021-08-13T14:30:45.009Z"
         }
       ],
       "5": [],

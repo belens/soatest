@@ -53,7 +53,6 @@ export function csvJSON(csv) {
 
 export function getMomentHours(timeslot) {
   var hour = timeslot.hour;
-  // delete timeslot.hour;
   const openingTime = hour.split(" - ").map((value, i) => {
     return value.toLowerCase();
   });
@@ -66,7 +65,6 @@ export function getMomentHours(timeslot) {
     return value || "00";
   });
 
-  // var mDay = moment().set({'day': timeslot.day, 'hour': 3});
   const hours = {
     startTime: moment()
       .set({
@@ -110,16 +108,8 @@ export function getOpenPeriods(organisation, rawTimeslots) {
     return openPeriod;
   });
 
-  // console.log(orgOpenPeriods);
-
   const openPeriods = defaultOpenPeriods;
 
-  // return Object.values(openPeriods).map((period, i) => {
-
-  //   return orgOpenPeriods.filter((period) => {
-  //     return i === period.weekday;
-  //   });
-  // });
   var p = {};
   for (const [weekday, arr] of Object.entries(openPeriods)) {
     if (!p[weekday]) {
@@ -128,12 +118,10 @@ export function getOpenPeriods(organisation, rawTimeslots) {
     console.log(weekday);
 
     const orgWeekdayOpenPeriods = orgOpenPeriods.filter((period) => {
-      // console.log(period.weekday)
       return weekday + '' === period.weekday + '';
     });
     p[weekday] = orgWeekdayOpenPeriods;
     console.log(p);
-    // });
   }
 
   return p;
@@ -147,7 +135,9 @@ export function sanitizeJson(rawOrganisations, rawTimeslots) {
       ...org,
       province: org.place,
       name: org.organisation,
-      isAnonymous: org.is_anonymous,
+      isAnonymous: org.is_anonymous === 'yes',
+      onAppointment: org.on_appointment === 'yes',
+      isFree: org.free === 'yes',
       extraInfo: org.extra_info,
       appointmentUrl: org.appointment_url,
       websiteUrl: org.website_url,
@@ -176,18 +166,6 @@ console.log(`${rawOrganisations.length} Organisations;`);
 console.log(`${rawTimeslots.length} Timeslots;`);
 
 const sanitizedJson = sanitizeJson(rawOrganisations, rawTimeslots);
-
-// function refactorJSON(json) {
-
-//   return rJson;
-// }
-
-// var rawJson = csvJSON(text);
-
-// var sanitizedJson = refactorJSON(JSON.parse(rawJson));
-// sanitizedJson = sanitizedJson.filter(function (el) {
-//   return el != null;
-// });
 
 fs.writeFile(
   "./src/data/soatest-2.0.json",

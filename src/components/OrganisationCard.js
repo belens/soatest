@@ -64,48 +64,54 @@ class CloseIconComp extends PureComponent {
   }
 }
 
+function CheckMarkComp({ isTrue, children }) {
+  return (
+    <Typography variant="subtitle2">
+      {isTrue ? <CheckIconComp /> : <CloseIconComp />} {children}
+    </Typography>
+  );
+}
+
 export default function OrganisationCard(props) {
   const classes = useStyles();
-  console.log(props)
+  const {
+    isFree,
+    isAnonymous,
+    onAppointment,
+    openPeriods,
+    name,
+    telephone,
+    address,
+    extraInfo,
+    websiteUrl,
+    appointmentUrl,
+  } = props;
   return (
     <Card className={classes.root} variant="outlined">
       <CardContent>
         <Typography variant="h5" component="h2">
-          {props.name}
+          {name}
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
-          {props.address} · <span>{props.telephone}</span>
+          {address} · <span>{telephone}</span>
         </Typography>
-        {props.extraInfo && (
+        {extraInfo && (
           <div>
             <br />
             <Typography className={classes.pos} variant="body">
-              {props.extraInfo}
+              {extraInfo}
             </Typography>
             <br />
           </div>
         )}
         <br />
 
-        <Typography variant="subtitle2">
-          {props.free ? (
-            <CheckIconComp></CheckIconComp>
-          ) : (
-            <CloseIconComp></CloseIconComp>
-          )}{" "}
-          Gratis consultatie
-        </Typography>
-        <Typography variant="subtitle2">
-          {props.onAppointment ? (
-            <CheckIconComp></CheckIconComp>
-          ) : (
-            <CloseIconComp></CloseIconComp>
-          )}{" "}
-          Zonder afspraak
-        </Typography>
+        <CheckMarkComp isTrue={isFree}>Gratis consultatie</CheckMarkComp>
+        <CheckMarkComp isTrue={onAppointment}>Enkel op afspraak</CheckMarkComp>
+        <CheckMarkComp isTrue={isAnonymous}>Anoniem testen</CheckMarkComp>
 
         <div style={{ margin: "10px 0" }}>
-          <OpenPeriods openPeriods={props.openPeriods}></OpenPeriods>
+          <OpenPeriods openPeriods={openPeriods}></OpenPeriods>
         </div>
 
         <div>
@@ -113,39 +119,39 @@ export default function OrganisationCard(props) {
             size="small"
             target="_blank"
             startIcon={<LocationOnIcon />}
-            href={"https://maps.google.com/?q=" + props.address}
+            href={"https://maps.google.com/?q=" + address} // TODO: test href={`geo:${coords.lat},${coords.lng},u=35`}
           >
             Toon locatie
           </Button>
-          {props.appointmentUrl && (
+          {appointmentUrl && (
             <Button
               size="small"
               target="_blank"
               style={{ float: "right" }}
               startIcon={<EventIcon />}
-              href={props.appointmentUrl}
+              href={appointmentUrl}
             >
               Maak afspraak
             </Button>
           )}
         </div>
         <div>
-          {props.websiteUrl && (
+          {websiteUrl && (
             <Button
               size="small"
               target="_blank"
               startIcon={<LinkIcon />}
-              href={props.websiteUrl}
+              href={websiteUrl}
             >
               Bezoek website
             </Button>
           )}
-          {props.appointmentUrl && (
+          {telephone && (
             <Button
               size="small"
               style={{ float: "right" }}
               startIcon={<CallIcon />}
-              href={`tel:${props.telephone}`}
+              href={`tel:${telephone}`}
             >
               Bel organisatie
             </Button>
