@@ -2,7 +2,7 @@
 import React from "react";
 import ProvinceSelect from "./ProvinceSelect";
 import data from "../utils/dataUtils";
-import SwitchesGroup from "./SwitchesGroup";
+// import SwitchesGroup from "./SwitchesGroup";
 import TimeAutocomplete from "./TimeAutocomplete";
 import Map from "./Map";
 import styled from "styled-components";
@@ -66,10 +66,7 @@ class Search extends React.Component {
   handleOptionsChange = (state) => {
     const { orgs } = this.state;
     const newOrgs = orgs.reduce((arr, org) => {
-      if (
-        org.free === state.free &&
-        org.onAppointment === state.onAppointment
-      ) {
+      if (org.free === state.free && org.onAppointment === state.onAppointment) {
         return [...orgs, org];
       }
       return orgs;
@@ -84,17 +81,11 @@ class Search extends React.Component {
     return (
       <Container>
         <SearchBox style={{ textAlign: "center" }}>
-          <Box
-            component="span"
-            display={{ xs: "none", sm: "none", md: "inline" }}
-          >
+          <Box component="span" display={{ xs: "none", sm: "none", md: "inline" }}>
             Ik wil me{" "}
           </Box>
           <TimeAutocomplete />
-          <Box
-            component="div"
-            display={{ xs: "none", sm: "none", md: "inline" }}
-          >
+          <Box component="div" display={{ xs: "none", sm: "none", md: "inline" }}>
             {" "}
             laten testen in regio{" "}
           </Box>
@@ -105,7 +96,7 @@ class Search extends React.Component {
           ></Box>
           <ProvinceSelect
             onChange={this.handleProvinceChange}
-            defaultValue={selectedProvince}
+            defaultValue={qs.parse(this.props.location.search).q}
             data={data.map((val) => {
               return { provinceName: val };
             })}
