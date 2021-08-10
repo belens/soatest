@@ -54,27 +54,29 @@ class MapComponent extends Component {
           onClick={this.onMapClicked}
         >
           {orgs.map(
-            (org) =>
+            (org, i) =>
               org && (
                 <Marker
+                  key={i}
+                  name={org.name}
                   onClick={this.onMarkerClick}
                   position={org.coords}
                   openPeriods={org.openPeriods}
-                />
+                ></Marker>
               )
           )}
-
-          <InfoWindow marker={activeMarker} visible={showingInfoWindow}>
-            {showingInfoWindow ? (
-              <OpenPeriods
-                open={true}
-                org={"map-" + selectedPlace.name}
-                openPeriods={selectedPlace.openPeriods}
-              ></OpenPeriods>
-            ) : (
-              <div></div>
-            )}
-          </InfoWindow>
+          {activeMarker && (
+            <InfoWindow marker={activeMarker} visible={showingInfoWindow}>
+              <div>
+                <h3>{activeMarker.name}</h3>
+                <OpenPeriods
+                  open={true}
+                  org={"map-" + activeMarker.name}
+                  openPeriods={activeMarker.openPeriods}
+                ></OpenPeriods>
+              </div>
+            </InfoWindow>
+          )}
         </Map>
       </div>
     );

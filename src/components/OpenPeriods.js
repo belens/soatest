@@ -60,8 +60,8 @@ export class OpenPeriods extends Component {
     return (
       (nOpen && nOpen[0] && (
         <span>
-          <span style={{ color: "darkred", fontWeight: 700 }}>gesloten.</span>{" "}
-          Open op {moment(nOpen[0].startTime).format("ddd H:mm")}
+          <span style={{ color: "darkred", fontWeight: 700 }}>gesloten.</span> Open op{" "}
+          {moment(nOpen[0].startTime).format("ddd H:mm")}
         </span>
       )) ||
       "onbekend"
@@ -91,8 +91,8 @@ export class OpenPeriods extends Component {
     var relativeTime = this.getRelativeTime();
     const now = moment();
     return (
-      <Accordion variant="outlined" expanded={open} key={this.props.name}>
-        <AccordionSummary style={{ margin: 0 }}  key={this.props.name} expandIcon={<ExpandMoreIcon />}>
+      <Accordion variant="outlined" expanded={open}>
+        <AccordionSummary style={{ margin: 0 }} expandIcon={<ExpandMoreIcon />}>
           <Typography variant="subtitle2" style={{ textAlign: "left" }}>
             Openingstijden:
             <br />
@@ -106,7 +106,7 @@ export class OpenPeriods extends Component {
             if (dayPeriods.length === 0) {
               return (
                 <Typography
-                  key={this.props.org + `-nu-${i}`}
+                  key={`-d${weekday}-nu-${i}` + this.props.org}
                   variant="caption"
                   style={{
                     color: "gray",
@@ -136,18 +136,15 @@ export class OpenPeriods extends Component {
             } else {
             }
             return (
-              <div style={{ marginBottom: 5 }}>
+              <div key={i} style={{ marginBottom: 5 }}>
                 {dayPeriods.map((period, i) => {
                   return (
                     <Typography
-                      key={this.props.org + `-${i}`}
+                      key={`-d${period.weekday}-${i}` + this.props.org}
                       variant="caption"
                       style={{
                         textAlign: "left",
-                        fontWeight:
-                          now.weekday() === moment(period.startTime).weekday()
-                            ? 700
-                            : "",
+                        fontWeight: now.weekday() === moment(period.startTime).weekday() ? 700 : "",
                       }}
                     >
                       {i === 0 && this.renderWeekday(moment(period.startTime))}
@@ -156,8 +153,7 @@ export class OpenPeriods extends Component {
                         variant="caption"
                         style={{
                           float: "right",
-                          fontWeight:
-                            now.weekday() === period.weekday ? 700 : "",
+                          fontWeight: now.weekday() === period.weekday ? 700 : "",
                         }}
                         className="periodSlot"
                       >
