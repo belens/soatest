@@ -31,7 +31,6 @@ class MapComponent extends Component {
   render() {
     const { activeMarker, showingInfoWindow, selectedPlace } = this.state;
     const { google, zoom, coords, orgs } = this.props;
-    console.log(orgs);
     return (
       <div
         style={{

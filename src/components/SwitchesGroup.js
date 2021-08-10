@@ -21,7 +21,6 @@ export default function SwitchesGroup(props) {
     const newState = { ...state, [event.target.name]: event.target.checked }
     setState(newState);
     if (props.onOptionsChange) {
-      console.log(props);
       props.onOptionsChange(newState);
     }
   };

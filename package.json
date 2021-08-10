@@ -25,7 +25,8 @@
     "flow": "flow",
     "start-public": "PORT=80 react-scripts start",
     "start": "react-scripts start",
-    "build": "PUBLIC_URL='https://s3.eu-west-1.amazonaws.com/www.soatest.be' && react-scripts build",
+    "build": "PUBLIC_URL=process.env.PUBLIC_URL && react-scripts build",
+    "postbuild": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -49,6 +50,7 @@
   },
   "devDependencies": {
     "@babel/preset-flow": "^7.14.5",
-    "flow-bin": "^0.156.0"
+    "flow-bin": "^0.156.0",
+    "react-snap": "^1.23.0"
   }
 }

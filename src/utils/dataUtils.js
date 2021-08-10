@@ -42,7 +42,6 @@ const provinceProps = [
   },
 ];
 
-
 export function getOrganisations(): [Organisation] {
   // const organisations = timeslots.reduce((orgs, timeslot, i) => {
   //   const existingOrgIndex = orgs.findIndex(
