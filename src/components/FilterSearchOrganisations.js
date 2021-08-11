@@ -14,7 +14,7 @@ const FC = styled(FormControl)`
 export default function SwitchesGroup(props) {
   const [state, setState] = React.useState({
     isFree: false,
-    onAppointment: true,
+    onAppointment: false,
   });
 
   const handleChange = (event) => {
