@@ -1,35 +1,44 @@
 // @flow
-import data from "../data/organisations-2.0.json";
+import organisationsJson from "../data/organisations-2.0.json";
 
-type RawTimeslot = {
-  place: string, // province
-  on_appointment: string,
-  free: string,
-  day: string,
-  daypart: string,
-  hour: string,
-  organisation: string, // testcenter
+type Period = {
+  weekday: number,
+  startTime: string,
+  endTime: string,
+};
+type Organisation = {
   address: string,
   telephone: string,
   email: string,
-  website_url: string,
-  appointment_url: string,
+  coords: {
+    lat: number,
+    lng: number,
+  },
+  free: boolean,
+  province: string,
+  name: string,
+  isAnonymous: true,
+  onAppointment: true,
+  isFree: false,
+  extraInfo: string,
+  appointmentUrl: string,
+  websiteUrl: string,
+  openPeriods: {
+    "0": [Period],
+    "1": [Period],
+    "2": [Period],
+    "3": [Period],
+    "4": [Period],
+    "5": [Period],
+    "6": [Period],
+  },
 };
-
-type Organisation = {
-  province: string, // province
+type Province = {
   name: String,
-  free: Boolean,
-  onAppointment: String,
-  organisation: String,
-  address: String,
-  email: String,
-  website: String,
+  zoom: number,
+  coords: { lat: number, lng: number },
 };
-
-const timeslots: [RawTimeslot] = data;
-
-const provinceProps = [
+const provinceProps: [Province] = [
   {
     name: "Brussels",
     zoom: 11,
@@ -43,7 +52,7 @@ const provinceProps = [
 ];
 
 export function getOrganisations(): [Organisation] {
-  return data;
+  return organisationsJson;
 }
 
 export function getOrganisationByName(name): Organisation {
@@ -61,7 +70,7 @@ function getProvinceProps(province) {
 }
 
 function getProvinces(isRemoveSexProvinces: Boolean = true): [Provinces] {
-  const provinces = data.reduce((arr, curr, i) => {
+  const provinces = organisationsJson.reduce((arr, curr, i) => {
     if (arr.indexOf(curr.province) > -1) {
       return arr;
     }
@@ -71,25 +80,27 @@ function getProvinces(isRemoveSexProvinces: Boolean = true): [Provinces] {
   return provinces;
 }
 
-const DataUtils: Timeslot = {
+const DataUtils = {
   getData: () => {
-    return timeslots;
+    return organisationsJson;
   },
 
-  getProvinces: (): [Provinces] => {
+  getProvinces: (): [Province] => {
     return getProvinces(true);
   },
 
-  getOrganisationsByProvince: (province): [Organisation] => {
+  getOrganisationsByProvince: (provinceName): [Organisation] => {
+    if (!provinceName) return [];
     const organisations = getOrganisations();
 
     const provinceOrganisations = organisations.filter(function (org) {
-      return org.province === province;
+      return org.province === provinceName;
     });
     return provinceOrganisations;
   },
-  getProvinceProps(province) {
-    return getProvinceProps(province);
+  getProvinceProps(provinceName) {
+    if (!provinceName) return null;
+    return getProvinceProps(provinceName);
   },
 };
 
