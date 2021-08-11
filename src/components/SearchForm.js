@@ -80,6 +80,12 @@ class Search extends React.Component {
       });
     }
 
+    if (typeof options.isAnonymous === "boolean" && options.isAnonymous === true) {
+      organisations = organisations.filter((org) => {
+        return org.isAnonymous === options.isAnonymous;
+      });
+    }
+
     return organisations;
   };
 

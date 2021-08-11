@@ -40,6 +40,12 @@ export default function SwitchesGroup(props) {
           }
           label="Op afspraak"
         />
+        <FormControlLabel
+          control={
+            <Checkbox checked={state.isAnonymous} onChange={handleChange} name="isAnonymous" />
+          }
+          label="Anoniem testen"
+        />
       </FormGroup>
     </FC>
   );
