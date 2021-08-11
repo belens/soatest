@@ -89,7 +89,11 @@ export default function OrganisationCard(props) {
   } = props;
   return (
     <Card className={classes.root} variant="outlined">
-      <CardMedia type="src" image={`${process.env.PUBLIC_URL}/img/organisations/${name}.jpg`} />
+      <CardMedia
+        type="image"
+        style={{ height: 150 }}
+        image={`${process.env.PUBLIC_URL}/img/organisations/${name}.jpg`}
+      />
 
       <CardContent>
         <Typography variant="h5" component="h2">
