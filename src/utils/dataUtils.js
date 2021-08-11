@@ -43,58 +43,13 @@ const provinceProps = [
 ];
 
 export function getOrganisations(): [Organisation] {
-  // const organisations = timeslots.reduce((orgs, timeslot, i) => {
-  //   const existingOrgIndex = orgs.findIndex(
-  //     (ts) =>
-  //       timeslot.organisation.toLocaleLowerCase() ===
-  //       ts.organisation.toLocaleLowerCase()
-  //   );
-  //   // const openPeriods = {
-  //   //   day: timeslot.day,
-  //   //   weekday: weekDays.indexOf(timeslot.day),
-  //   //   daypart: timeslot.daypart,
-  //   //   hour: timeslot.hour,
-  //   //   startTime: timeslot.startTime,
-  //   //   endTime: timeslot.endTime,
-  //   //   free: timeslot.free === "yes",
-  //   // };
-  //   if (existingOrgIndex < 0) {
-  //     const organisation = {
-  //       ...timeslot,
-  //       // province: timeslot.place,
-  //       // name: timeslot.organisation,
-  //       // free: timeslot.free === "yes",
-  //       // organisation: timeslot.organisation,
-  //       // address: timeslot.address,
-  //       // email: timeslot.email,
-  //       // websiteUrl: timeslot.website_url,
-  //       // telephone: timeslot.telephone,
-  //       // appointmentUrl: timeslot.appointment_url,
-  //       // onAppointment: timeslot.on_appointment === "yes",
-  //       // ...getOrganisationProps(timeslot.organisation), // temp
-  //     };
-  //     // organisation.openPeriods = {
-  //     //   ...defaultOpenPeriods,
-  //     //   // [openPeriods.weekday]: [openPeriods],
-  //     // };
-  //     // console.log(organisation.openPeriods);
-  //     orgs = [...orgs, organisation];
-  //   } else {
-  //     // const existingOrg = orgs[existingOrgIndex];
-  //     // existingOrg.openPeriods = {
-  //     //   ...existingOrg.openPeriods,
-  //     //   // [openPeriods.weekday]: [...existingOrg.openPeriods[openPeriods.weekday], openPeriods],
-  //     // };
-  //     // .sort((a, b) => (a.weekday > b.weekday ? 1 : -1));
-  //   }
-
-  //   return orgs;
-  // }, []);
   return data2;
-  // return organisations.map((org) => {
-  //   // org.openPeriods.reduce((prev, org, arr) => {});
-  //   return org;
-  // });
+}
+
+export function getOrganisationByName(name): Organisation {
+  const organisations = getOrganisations();
+  console.log(organisations);
+  return organisations.find((org) => org.name === name);
 }
 
 function getProvinceProps(province) {
@@ -105,16 +60,6 @@ function getProvinceProps(province) {
   return null;
 }
 
-// function getOrganisationProps(organisation) {
-//   const organisationIndex = organisationProps.findIndex(
-//     (pr) => pr.name === organisation
-//   );
-//   if (organisationIndex > -1) {
-//     return organisationProps[organisationIndex];
-//   }
-//   return null;
-// }
-
 function getProvinces(isRemoveSexProvinces: Boolean = true): [Provinces] {
   const provinces = data2.reduce((arr, curr, i) => {
     if (arr.indexOf(curr.province) > -1) {
@@ -123,9 +68,6 @@ function getProvinces(isRemoveSexProvinces: Boolean = true): [Provinces] {
     return [curr.province, ...arr];
   }, []);
 
-  // if (isRemoveSexProvinces === true) {
-  //   return removeSexProvinces(provinces);
-  // }
   return provinces;
 }
 
@@ -149,9 +91,6 @@ const DataUtils: Timeslot = {
   getProvinceProps(province) {
     return getProvinceProps(province);
   },
-  // organisationProps(organisation) {
-  //   return organisationProps(organisation);
-  // },
 };
 
 export default DataUtils;
