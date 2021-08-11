@@ -1,5 +1,5 @@
 // @flow
-import data from "../data/soatest-2.0.json";
+import data from "../data/organisations-2.0.json";
 
 type RawTimeslot = {
   place: string, // province

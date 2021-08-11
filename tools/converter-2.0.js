@@ -118,7 +118,7 @@ export function getOpenPeriods(organisation, rawTimeslots) {
     console.log(weekday);
 
     const orgWeekdayOpenPeriods = orgOpenPeriods.filter((period) => {
-      return weekday + '' === period.weekday + '';
+      return weekday + "" === period.weekday + "";
     });
     p[weekday] = orgWeekdayOpenPeriods;
     console.log(p);
@@ -135,9 +135,9 @@ export function sanitizeJson(rawOrganisations, rawTimeslots) {
       ...org,
       province: org.place,
       name: org.organisation,
-      isAnonymous: org.is_anonymous === 'yes',
-      onAppointment: org.on_appointment === 'yes',
-      isFree: org.free === 'yes',
+      isAnonymous: org.is_anonymous === "yes",
+      onAppointment: org.on_appointment === "yes",
+      isFree: org.free === "yes",
       extraInfo: org.extra_info,
       appointmentUrl: org.appointment_url,
       websiteUrl: org.website_url,
@@ -168,7 +168,7 @@ console.log(`${rawTimeslots.length} Timeslots;`);
 const sanitizedJson = sanitizeJson(rawOrganisations, rawTimeslots);
 
 fs.writeFile(
-  "./src/data/soatest-2.0.json",
+  "./src/data/organisations-2.0.json",
   JSON.stringify(sanitizedJson, null, 2),
   "utf8",
   () => {}
