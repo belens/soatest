@@ -1,5 +1,5 @@
 // @flow
-import data2 from "../data/soatest-2.0.json";
+import data from "../data/soatest-2.0.json";
 
 type RawTimeslot = {
   place: string, // province
@@ -27,7 +27,7 @@ type Organisation = {
   website: String,
 };
 
-const timeslots: [RawTimeslot] = data2;
+const timeslots: [RawTimeslot] = data;
 
 const provinceProps = [
   {
@@ -43,7 +43,7 @@ const provinceProps = [
 ];
 
 export function getOrganisations(): [Organisation] {
-  return data2;
+  return data;
 }
 
 export function getOrganisationByName(name): Organisation {
@@ -61,7 +61,7 @@ function getProvinceProps(province) {
 }
 
 function getProvinces(isRemoveSexProvinces: Boolean = true): [Provinces] {
-  const provinces = data2.reduce((arr, curr, i) => {
+  const provinces = data.reduce((arr, curr, i) => {
     if (arr.indexOf(curr.province) > -1) {
       return arr;
     }
