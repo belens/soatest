@@ -1,142 +1,35 @@
 [
   {
-    "address": "Rue des Alexiens 13, 1000 Brussels",
-    "telephone": "02 535 37 32",
-    "email": "",
+    "address": "chaussée de Mons, 192, 1070 Brussels",
+    "telephone": "",
+    "email": "t.kouadio@preventionsida.org",
     "coords": {
-      "lat": 50.8433062,
-      "lng": 4.3476145
-    },
-    "on_appointment": "yes",
-    "free": "no",
-    "province": "Brussels",
-    "name": "S-Clinic",
-    "isAnonymous": true,
-    "onAppointment": true,
-    "isFree": false,
-    "extraInfo": "Hospital",
-    "appointmentUrl": "https://www.stpierre-bru.be/fr/consultations/prendre-un-rendez-vous",
-    "websiteUrl": "https://www.stpierre-bru.be/fr/services-medicaux/maladies-infectieuses-2/s-clinic/en-bref-332",
-    "openPeriods": {
-      "0": [],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T11:30:44.841Z",
-          "endTime": "2021-08-10T14:00:44.842Z"
-        }
-      ],
-      "2": [],
-      "3": [],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T06:30:44.842Z",
-          "endTime": "2021-08-13T09:00:44.842Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T11:30:44.843Z",
-          "endTime": "2021-08-13T13:30:44.843Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Cellebroersstraat 11, 1000 Brussels",
-    "telephone": "02 535 30 03",
-    "email": "",
-    "coords": {
-      "lat": 50.8433924,
-      "lng": 4.3494567
+      "lat": 50.8411538,
+      "lng": 4.3288798
     },
     "on_appointment": "no",
     "free": "yes",
+    "languages": "en, fr",
     "province": "Brussels",
-    "name": "Elisa Centre",
+    "name": "Action Test",
     "isAnonymous": true,
     "onAppointment": false,
     "isFree": true,
-    "extraInfo": "Wednesday afternoon only for 15-29 year",
-    "appointmentUrl": "https://www.stpierre-bru.be/nl/raadplegingen/een-afspraak-maken",
-    "websiteUrl": "https://www.stpierre-bru.be/fr/services-medicaux/maladies-infectieuses-2/centre-elisa-vih/en-bref-331",
+    "extraInfo": "no appointment. Free. 1st and 4th monday of the month. Only subsaharan Africans. Restart in September",
+    "appointmentUrl": "",
+    "websiteUrl": "https://preventionsida.org/fr/ressources/action-test-un-projet-de-depistage-du-vih-et-de-lhepatite-c/",
     "openPeriods": {
       "0": [
         {
           "free": "yes",
           "onAppointment": "no",
           "weekday": 0,
-          "startTime": "2021-08-09T06:00:44.845Z",
-          "endTime": "2021-08-09T10:00:44.845Z"
-        },
-        {
-          "free": "yes",
-          "onAppointment": "no",
-          "weekday": 0,
-          "startTime": "2021-08-09T10:00:44.846Z",
-          "endTime": "2021-08-09T11:00:44.846Z"
+          "startTime": "2021-08-09T15:45:48.536Z",
+          "endTime": "2021-08-09T17:45:48.537Z"
         }
       ],
       "1": [],
-      "2": [
-        {
-          "free": "yes",
-          "onAppointment": "no",
-          "weekday": 2,
-          "startTime": "2021-08-11T10:15:44.846Z",
-          "endTime": "2021-08-11T13:00:44.846Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "yes",
-          "onAppointment": "no",
-          "weekday": 3
-        }
-      ],
-      "4": [],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Avenue Clemenceau 23, 1070 Bruxelles",
-    "telephone": "02 511 38 38",
-    "email": "accueil@cpfmidi.be",
-    "coords": {
-      "lat": 50.8460974,
-      "lng": 4.3315067
-    },
-    "on_appointment": "yes",
-    "free": "yes",
-    "province": "Brussels",
-    "name": "CPF Midi",
-    "isAnonymous": true,
-    "onAppointment": true,
-    "isFree": true,
-    "extraInfo": "fast hiv test is free, anonymous and no appointment",
-    "appointmentUrl": "",
-    "websiteUrl": "https://www.cpfmidi.be/consultations-medicales/",
-    "openPeriods": {
-      "0": [],
-      "1": [],
-      "2": [
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T10:00:44.847Z",
-          "endTime": "2021-08-11T16:00:44.847Z"
-        }
-      ],
+      "2": [],
       "3": [],
       "4": [],
       "5": [],
@@ -144,104 +37,38 @@
     }
   },
   {
-    "address": "Lenniksebaan 808, 1070 Brussels",
-    "telephone": "02 555 4688",
-    "email": "CRSida@erasme.ulb.ac.be",
+    "address": "rue du Champ de Mars 5, 1050 Brussels",
+    "telephone": "02.733.72.99",
+    "email": "",
     "coords": {
-      "lat": 50.8133637,
-      "lng": 4.265565
+      "lat": 50.8386435,
+      "lng": 4.3620624
     },
-    "on_appointment": "yes",
-    "free": "no",
+    "on_appointment": "no",
+    "free": "yes",
+    "languages": "en, fr",
     "province": "Brussels",
-    "name": "Erasmusziekenhuis",
+    "name": "Action Test Siréas",
     "isAnonymous": true,
-    "onAppointment": true,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "https://www.erasme.ulb.ac.be/fr/formulaires/formulaire-rendez-vous-en-ligne",
-    "websiteUrl": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
+    "onAppointment": false,
+    "isFree": true,
+    "extraInfo": "Only Subsaharan Africans. No appointment. Free.",
+    "appointmentUrl": "",
+    "websiteUrl": "",
     "openPeriods": {
-      "0": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T07:00:44.848Z",
-          "endTime": "2021-08-09T10:00:44.848Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T11:00:44.848Z",
-          "endTime": "2021-08-09T15:00:44.848Z"
-        }
-      ],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T07:00:44.848Z",
-          "endTime": "2021-08-10T10:00:44.848Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T11:00:44.848Z",
-          "endTime": "2021-08-10T15:00:44.848Z"
-        }
-      ],
+      "0": [],
+      "1": [],
       "2": [
         {
-          "free": "no",
-          "onAppointment": "yes",
+          "free": "yes",
+          "onAppointment": "no",
           "weekday": 2,
-          "startTime": "2021-08-11T07:00:44.848Z",
-          "endTime": "2021-08-11T10:00:44.848Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T11:00:44.849Z",
-          "endTime": "2021-08-11T15:00:44.849Z"
+          "startTime": "2021-08-11T13:40:48.539Z",
+          "endTime": "2021-08-11T15:45:48.539Z"
         }
       ],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T07:00:44.849Z",
-          "endTime": "2021-08-12T10:00:44.849Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T11:00:44.849Z",
-          "endTime": "2021-08-12T15:00:44.849Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T07:00:44.849Z",
-          "endTime": "2021-08-13T10:00:44.849Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T11:00:44.850Z",
-          "endTime": "2021-08-13T15:00:44.850Z"
-        }
-      ],
+      "3": [],
+      "4": [],
       "5": [],
       "6": []
     }
@@ -256,12 +83,13 @@
     },
     "on_appointment": "no",
     "free": "yes",
+    "languages": "en, fr",
     "province": "Brussels",
     "name": "Aide Info Sida",
     "isAnonymous": true,
     "onAppointment": false,
     "isFree": true,
-    "extraInfo": "only the 2nd and 4th monday of the month. Check the website for more info.",
+    "extraInfo": "only the 2nd and 4th monday of the month. Check the website for more info. No appointment. Free.",
     "appointmentUrl": "",
     "websiteUrl": "http://www.aideinfosida.be/tests_ais.php",
     "openPeriods": {
@@ -270,8 +98,8 @@
           "free": "yes",
           "onAppointment": "no",
           "weekday": 0,
-          "startTime": "2021-08-09T16:00:44.857Z",
-          "endTime": "2021-08-09T19:00:44.857Z"
+          "startTime": "2021-08-09T16:00:48.540Z",
+          "endTime": "2021-08-09T19:00:48.540Z"
         }
       ],
       "1": [],
@@ -290,14 +118,15 @@
       "lat": 50.8151813,
       "lng": 4.3807739
     },
-    "on_appointment": "",
-    "free": "",
+    "on_appointment": "yes",
+    "free": "no",
+    "languages": "en fr, es, pt",
     "province": "Brussels",
     "name": "Aimer à L’ULB",
     "isAnonymous": true,
-    "onAppointment": false,
+    "onAppointment": true,
     "isFree": false,
-    "extraInfo": "saturdays: only last two of the month. Only appointments by telephone.",
+    "extraInfo": "saturdays: only last two of the month. Only appointments by telephone. On appointment. Paid.",
     "appointmentUrl": "",
     "websiteUrl": "http://www.aimeralulb.be/",
     "openPeriods": {
@@ -306,15 +135,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-09T07:00:44.858Z",
-          "endTime": "2021-08-09T10:00:44.858Z"
+          "startTime": "2021-08-09T07:00:48.541Z",
+          "endTime": "2021-08-09T10:00:48.541Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-09T10:30:44.858Z",
-          "endTime": "2021-08-09T16:00:44.858Z"
+          "startTime": "2021-08-09T10:30:48.541Z",
+          "endTime": "2021-08-09T16:00:48.541Z"
         }
       ],
       "1": [
@@ -322,15 +151,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-10T07:00:44.859Z",
-          "endTime": "2021-08-10T10:00:44.859Z"
+          "startTime": "2021-08-10T07:00:48.541Z",
+          "endTime": "2021-08-10T10:00:48.542Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 1,
-          "startTime": "2021-08-10T10:30:44.859Z",
-          "endTime": "2021-08-10T16:00:44.859Z"
+          "startTime": "2021-08-10T10:30:48.542Z",
+          "endTime": "2021-08-10T16:00:48.542Z"
         }
       ],
       "2": [
@@ -338,15 +167,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-11T07:00:44.859Z",
-          "endTime": "2021-08-11T10:00:44.859Z"
+          "startTime": "2021-08-11T07:00:48.542Z",
+          "endTime": "2021-08-11T10:00:48.542Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-11T10:30:44.859Z",
-          "endTime": "2021-08-11T16:00:44.859Z"
+          "startTime": "2021-08-11T10:30:48.542Z",
+          "endTime": "2021-08-11T16:00:48.542Z"
         }
       ],
       "3": [
@@ -354,15 +183,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-12T07:00:44.859Z",
-          "endTime": "2021-08-12T10:00:44.859Z"
+          "startTime": "2021-08-12T07:00:48.541Z",
+          "endTime": "2021-08-12T10:00:48.541Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-12T10:30:44.859Z",
-          "endTime": "2021-08-12T16:00:44.859Z"
+          "startTime": "2021-08-12T10:30:48.541Z",
+          "endTime": "2021-08-12T16:00:48.541Z"
         }
       ],
       "4": [
@@ -370,15 +199,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-13T07:00:44.858Z",
-          "endTime": "2021-08-13T10:00:44.858Z"
+          "startTime": "2021-08-13T07:00:48.540Z",
+          "endTime": "2021-08-13T10:00:48.541Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-13T10:30:44.858Z",
-          "endTime": "2021-08-13T16:00:44.858Z"
+          "startTime": "2021-08-13T10:30:48.541Z",
+          "endTime": "2021-08-13T16:00:48.541Z"
         }
       ],
       "5": [
@@ -386,10 +215,1842 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 5,
-          "startTime": "2021-08-14T07:30:44.859Z",
-          "endTime": "2021-08-14T10:30:44.859Z"
+          "startTime": "2021-08-14T07:30:48.541Z",
+          "endTime": "2021-08-14T10:30:48.541Z"
         }
       ],
+      "6": []
+    }
+  },
+  {
+    "address": "Rue du Marché au charbon 33, Brussels",
+    "telephone": "0485 547 278",
+    "email": "aure@alias-bru.be",
+    "coords": {
+      "lat": 50.8465989,
+      "lng": 4.3473567
+    },
+    "on_appointment": "no",
+    "free": "yes",
+    "languages": "en, nl, fr, es, ar, pt",
+    "province": "Brussels",
+    "name": "Alias",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": true,
+    "extraInfo": "Male and trans sexworkers only. No appointment. Free.",
+    "appointmentUrl": "",
+    "websiteUrl": "http://www.alias-bru.be/alias-works-with-men-who-have-sex-with-men-for-money/",
+    "openPeriods": {
+      "0": [],
+      "1": [
+        {
+          "free": "yes",
+          "onAppointment": "no",
+          "weekday": 1,
+          "startTime": "2021-08-10T17:00:48.545Z",
+          "endTime": "2021-08-10T19:00:48.545Z"
+        }
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Appelmansstraat 12, 2018 Antwerp",
+    "telephone": "03 293 95 90",
+    "email": "info@boysproject.be",
+    "coords": {
+      "lat": 51.2167661,
+      "lng": 4.4150269
+    },
+    "on_appointment": "no",
+    "free": "yes",
+    "languages": "en, nl, fr, es",
+    "province": "Antwerp",
+    "name": "Boysproject",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": true,
+    "extraInfo": "Male and trans sexworkers only. No appointment. Free.",
+    "appointmentUrl": "",
+    "websiteUrl": "https://boysproject.be/en/our-offer/",
+    "openPeriods": {
+      "0": [],
+      "1": [],
+      "2": [
+        {
+          "free": "yes",
+          "onAppointment": "no",
+          "weekday": 2,
+          "startTime": "2021-08-11T12:30:48.546Z",
+          "endTime": "2021-08-11T14:30:48.546Z"
+        },
+        {
+          "free": "yes",
+          "onAppointment": "no",
+          "weekday": 2,
+          "startTime": "2021-08-11T16:00:48.546Z",
+          "endTime": "2021-08-11T18:00:48.546Z"
+        }
+      ],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Av. des Celtes 50, 1040 Brussels",
+    "telephone": "02 736 13 14",
+    "email": "etterbeekcc@planningfamilial.net",
+    "coords": {
+      "lat": 50.8378962,
+      "lng": 4.394949
+    },
+    "on_appointment": "yes",
+    "free": "no",
+    "languages": "en, fr, es, de",
+    "province": "Brussels",
+    "name": "Collectif Contraception",
+    "isAnonymous": true,
+    "onAppointment": true,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "http://collectifcontraception.be/?id=20",
+    "openPeriods": {
+      "0": [],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T11:00:48.546Z",
+          "endTime": "2021-08-10T15:00:48.546Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T11:30:48.546Z",
+          "endTime": "2021-08-11T16:30:48.546Z"
+        }
+      ],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Rue Saint-Jean Népomucène 28, 1000 Brusselss",
+    "telephone": "02 511 32 20",
+    "email": "aimer.jeunes@skynet.be",
+    "coords": {
+      "lat": 50.855707,
+      "lng": 4.3510533
+    },
+    "on_appointment": "yes",
+    "free": "no",
+    "languages": "en, nl, fr, pt",
+    "province": "Brussels",
+    "name": "CPF Aimer Jeunes",
+    "isAnonymous": true,
+    "onAppointment": true,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "http://aimer-jeunes.be/?Permanences-medicales-et",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T12:00:48.547Z",
+          "endTime": "2021-08-09T14:00:48.547Z"
+        }
+      ],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T11:00:48.547Z",
+          "endTime": "2021-08-10T13:00:48.547Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T12:00:48.547Z",
+          "endTime": "2021-08-11T16:00:48.547Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T08:00:48.547Z",
+          "endTime": "2021-08-12T10:00:48.547Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T12:30:48.547Z",
+          "endTime": "2021-08-13T14:30:48.547Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Rue du Noyer 344,1030 Bruxelles",
+    "telephone": "02 733 43 95",
+    "email": "planning.bq@gmail.com",
+    "coords": {
+      "lat": 50.843787,
+      "lng": 4.395993
+    },
+    "on_appointment": "no",
+    "free": "no",
+    "languages": "en, fr, gr, it",
+    "province": "Brussels",
+    "name": "CPF Bureaux de Quartiers",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "No appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "http://www.bureauxdequartiers.be/",
+    "openPeriods": {
+      "0": [],
+      "1": [],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "no",
+          "weekday": 2,
+          "startTime": "2021-08-11T14:45:48.549Z",
+          "endTime": "2021-08-11T16:30:48.549Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "no",
+          "weekday": 3,
+          "startTime": "2021-08-12T14:00:48.549Z",
+          "endTime": "2021-08-12T15:45:48.549Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "no",
+          "weekday": 4,
+          "startTime": "2021-08-13T13:00:48.549Z",
+          "endTime": "2021-08-13T14:45:48.549Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "rue Adolphe De Brandt 70 , 1140 Brussels",
+    "telephone": "02 216 20 04",
+    "email": "planning.familial.evere@brutele.be",
+    "coords": {
+      "lat": 50.8695816,
+      "lng": 4.3993141
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "fr",
+    "province": "Brussels",
+    "name": "CPF Evere",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment Monday 16h-17h and Wednesday 14h - 15h. Free.",
+    "appointmentUrl": "",
+    "websiteUrl": "https://www.guidesocial.be/pf-evere/?page=3",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T14:00:48.549Z",
+          "endTime": "2021-08-09T15:00:48.549Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "no",
+          "weekday": 0,
+          "startTime": "2021-08-09T15:00:48.550Z",
+          "endTime": "2021-08-09T16:00:48.550Z"
+        }
+      ],
+      "1": [],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T12:00:48.550Z",
+          "endTime": "2021-08-11T14:00:48.550Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "no",
+          "weekday": 2,
+          "startTime": "2021-08-11T14:00:48.550Z",
+          "endTime": "2021-08-11T15:00:48.550Z"
+        }
+      ],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "rue du Vivier 89, Brussels",
+    "telephone": "02 646 42 73",
+    "email": "ixelles.cps@belgacom.net",
+    "coords": {
+      "lat": 50.8324886,
+      "lng": 4.3780235
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, nl, fr",
+    "province": "Brussels",
+    "name": "CPF Ixelles",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "No appointment on Wednesday afternoon. Free.",
+    "appointmentUrl": "",
+    "websiteUrl": "http://www.planningixelles.be/index.php/fr/consultations-fr/medical-fr",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T11:30:48.551Z",
+          "endTime": "2021-08-09T15:30:48.551Z"
+        }
+      ],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T12:00:48.551Z",
+          "endTime": "2021-08-10T15:30:48.551Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "no",
+          "weekday": 2,
+          "startTime": "2021-08-11T10:30:48.551Z",
+          "endTime": "2021-08-11T14:30:48.551Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T10:50:48.551Z",
+          "endTime": "2021-08-12T13:30:48.551Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T10:30:48.551Z",
+          "endTime": "2021-08-13T16:00:48.551Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T08:00:48.551Z",
+          "endTime": "2021-08-13T10:30:48.551Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Rue Léon Théodor 108, 1090 Brussels",
+    "telephone": "02 426 06 27",
+    "email": "info@planningdejette.be",
+    "coords": {
+      "lat": 50.875984,
+      "lng": 4.325237
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, nl, fr, it",
+    "province": "Brussels",
+    "name": "CPF Jette",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid. Free fast hiv test.",
+    "appointmentUrl": "",
+    "websiteUrl": "https://www.planningdejette.be/services/consultation-medicale-2/",
+    "openPeriods": {
+      "0": [],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T13:00:48.552Z",
+          "endTime": "2021-08-10T17:00:48.552Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T08:00:48.552Z",
+          "endTime": "2021-08-11T10:30:48.552Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T11:00:48.552Z",
+          "endTime": "2021-08-11T13:00:48.552Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T11:00:48.552Z",
+          "endTime": "2021-08-12T16:00:48.552Z"
+        }
+      ],
+      "4": [],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Boulevard Émile Bockstael 91, 1020 Brussels",
+    "telephone": "02 325 46 40",
+    "email": "laeken@planningfamilial.net",
+    "coords": {
+      "lat": 50.8727979,
+      "lng": 4.3458957
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, fr",
+    "province": "Brussels",
+    "name": "CPF Laken",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "http://www.planninglaeken.be/contact/",
+    "openPeriods": {
+      "0": [],
+      "1": [],
+      "2": [],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T11:30:48.553Z",
+          "endTime": "2021-08-12T13:30:48.553Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T07:30:48.553Z",
+          "endTime": "2021-08-13T11:30:48.553Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "rue Général Leman 110, 1040 Brussels",
+    "telephone": "02 230 10 30",
+    "email": "info@pfleman.be",
+    "coords": {
+      "lat": 50.8368743,
+      "lng": 4.3839864
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, fr, es",
+    "province": "Brussels",
+    "name": "CPF Leman",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "https://www.guidesocial.be/planningleman/?page=6",
+    "openPeriods": {
+      "0": [],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T11:00:48.554Z",
+          "endTime": "2021-08-10T14:00:48.554Z"
+        }
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T12:00:48.554Z",
+          "endTime": "2021-08-13T15:00:48.554Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Rue de la Roue 21, 1000 Brusselss",
+    "telephone": "02 426 06 27",
+    "email": "planningmarolles@hotmail.com",
+    "coords": {
+      "lat": 50.841733,
+      "lng": 4.3457875
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, nl, fr, es, ar, tr",
+    "province": "Brussels",
+    "name": "CPF Marolles",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "http://planningmarolles.be/index.php/fr/nos-services",
+    "openPeriods": {
+      "0": [],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T07:00:48.554Z",
+          "endTime": "2021-08-10T11:00:48.554Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T12:00:48.555Z",
+          "endTime": "2021-08-10T15:30:48.555Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T07:00:48.554Z",
+          "endTime": "2021-08-11T10:00:48.554Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T10:00:48.555Z",
+          "endTime": "2021-08-11T15:00:48.555Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T07:00:48.554Z",
+          "endTime": "2021-08-12T10:00:48.554Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T10:00:48.555Z",
+          "endTime": "2021-08-12T17:00:48.555Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T07:00:48.555Z",
+          "endTime": "2021-08-13T10:00:48.555Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T10:00:48.555Z",
+          "endTime": "2021-08-13T11:00:48.555Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Avenue Clemenceau 23, 1070 Bruxelles",
+    "telephone": "02 511 38 38",
+    "email": "accueil@cpfmidi.be",
+    "coords": {
+      "lat": 50.8460974,
+      "lng": 4.3315067
+    },
+    "on_appointment": "yes",
+    "free": "yes",
+    "languages": "en, fr, ar, bu",
+    "province": "Brussels",
+    "name": "CPF Midi",
+    "isAnonymous": true,
+    "onAppointment": true,
+    "isFree": true,
+    "extraInfo": "On appointment. Free.",
+    "appointmentUrl": "",
+    "websiteUrl": "https://www.cpfmidi.be/consultations-medicales/",
+    "openPeriods": {
+      "0": [],
+      "1": [],
+      "2": [
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T10:00:48.557Z",
+          "endTime": "2021-08-11T16:00:48.557Z"
+        }
+      ],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Rue des Guildes 22, 1000 Brussels",
+    "telephone": "02 230 04 62",
+    "email": "info@planf.be",
+    "coords": {
+      "lat": 50.848778,
+      "lng": 4.37461
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, nl, fr, ar, gr",
+    "province": "Brussels",
+    "name": "CPF Plan F",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "http://www.planf.be/Horaires",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T07:00:48.557Z",
+          "endTime": "2021-08-09T10:00:48.557Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T13:00:48.558Z",
+          "endTime": "2021-08-09T16:00:48.558Z"
+        }
+      ],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T07:00:48.558Z",
+          "endTime": "2021-08-10T11:00:48.558Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T12:00:48.558Z",
+          "endTime": "2021-08-10T16:00:48.558Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T07:30:48.558Z",
+          "endTime": "2021-08-11T10:30:48.558Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T11:30:48.558Z",
+          "endTime": "2021-08-11T14:30:48.558Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T07:00:48.558Z",
+          "endTime": "2021-08-12T11:00:48.558Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T12:30:48.558Z",
+          "endTime": "2021-08-12T16:30:48.558Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T07:30:48.558Z",
+          "endTime": "2021-08-13T10:30:48.558Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T12:00:48.558Z",
+          "endTime": "2021-08-13T16:00:48.558Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Rue du Midi 120, 1000 Brussels",
+    "telephone": "02 546 14 33",
+    "email": "planningrosa@fmsb.be",
+    "coords": {
+      "lat": 50.8446316,
+      "lng": 4.3462336
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, fr, de, pl",
+    "province": "Brussels",
+    "name": "CPF Rosa",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T07:30:48.561Z",
+          "endTime": "2021-08-09T10:30:48.561Z"
+        }
+      ],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T12:00:48.561Z",
+          "endTime": "2021-08-10T16:00:48.562Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T10:00:48.562Z",
+          "endTime": "2021-08-11T14:00:48.562Z"
+        }
+      ],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Avenue du Parc 89, 1060 Brussels",
+    "telephone": "02 537 11 08",
+    "email": "saintgilles@planningfamilial.net",
+    "coords": {
+      "lat": 50.825479,
+      "lng": 4.3364458
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, fr, gr",
+    "province": "Brussels",
+    "name": "CPF Saint-Gilles",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "https://www.planningfamilialstgilles.be/infos-pratiques",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T07:00:48.563Z",
+          "endTime": "2021-08-09T09:40:48.563Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T12:30:48.563Z",
+          "endTime": "2021-08-09T14:30:48.563Z"
+        }
+      ],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T07:00:48.563Z",
+          "endTime": "2021-08-10T10:00:48.563Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T11:30:48.563Z",
+          "endTime": "2021-08-10T15:00:48.563Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T07:00:48.563Z",
+          "endTime": "2021-08-11T10:00:48.563Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T11:30:48.563Z",
+          "endTime": "2021-08-11T14:00:48.563Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T07:30:48.563Z",
+          "endTime": "2021-08-12T10:15:48.563Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T11:40:48.563Z",
+          "endTime": "2021-08-12T14:45:48.564Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T12:30:48.563Z",
+          "endTime": "2021-08-13T14:30:48.563Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Place Quetelet 4, 1210 Brussels",
+    "telephone": "02 217 44 50",
+    "email": "accueil@lafamilleheureuse.be",
+    "coords": {
+      "lat": 50.852568,
+      "lng": 4.3696103
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, nl, fr, ar, it, pl",
+    "province": "Brussels",
+    "name": "CPF Saint-Josse",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "https://www.planningsaintjosse.com/gynecologie",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T10:00:48.565Z",
+          "endTime": "2021-08-09T15:00:48.565Z"
+        }
+      ],
+      "1": [],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T08:00:48.565Z",
+          "endTime": "2021-08-11T10:00:48.565Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T10:00:48.565Z",
+          "endTime": "2021-08-11T15:00:48.565Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T08:00:48.565Z",
+          "endTime": "2021-08-12T10:00:48.565Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T10:00:48.565Z",
+          "endTime": "2021-08-12T11:00:48.565Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T07:30:48.565Z",
+          "endTime": "2021-08-13T10:00:48.565Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T10:00:48.565Z",
+          "endTime": "2021-08-13T14:00:48.565Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Boulevard de l'Abattoir 27, Brussels",
+    "telephone": "02 548 98 18",
+    "email": "planning@tele-service.be",
+    "coords": {
+      "lat": 50.8468013,
+      "lng": 4.3365089
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "fr",
+    "province": "Brussels",
+    "name": "CPF Senne",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "https://www.cpfsenne.be/spip.php?rubrique13",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T10:30:48.566Z",
+          "endTime": "2021-08-09T13:30:48.566Z"
+        }
+      ],
+      "1": [],
+      "2": [],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T07:00:48.566Z",
+          "endTime": "2021-08-12T10:30:48.566Z"
+        }
+      ],
+      "4": [],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Raymond Vander Bruggen 84, 1070 Brussels",
+    "telephone": "02 524 33 14",
+    "email": "info@planning-severine.org",
+    "coords": {
+      "lat": 50.8382242,
+      "lng": 4.3111654
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, nl, fr, es, ar",
+    "province": "Brussels",
+    "name": "CPF Séverine",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "No appointment on Wednesday afternoon. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "https://www.planning-severine.org/nos-services",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0
+        }
+      ],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T10:30:48.567Z",
+          "endTime": "2021-08-10T14:00:48.567Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "no",
+          "weekday": 2,
+          "startTime": "2021-08-11T11:00:48.567Z",
+          "endTime": "2021-08-11T13:30:48.568Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T10:00:48.568Z",
+          "endTime": "2021-08-12T11:00:48.568Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T07:00:48.568Z",
+          "endTime": "2021-08-13T10:00:48.568Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T10:00:48.568Z",
+          "endTime": "2021-08-13T11:00:48.568Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Rue de Stalle 24, 1180 Brussels",
+    "telephone": "02 376 10 00",
+    "email": "cpf.uccle@skynet.be",
+    "coords": {
+      "lat": 50.7997045,
+      "lng": 4.3331991
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "fr",
+    "province": "Brussels",
+    "name": "CPF Uccle",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Free. Opening hours change frequently. Call for latest update",
+    "appointmentUrl": "",
+    "websiteUrl": "https://www.guidesocial.be/planning-uccle/?page=3",
+    "openPeriods": {
+      "0": [],
+      "1": [
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T14:00:48.571Z",
+          "endTime": "2021-08-10T15:30:48.571Z"
+        }
+      ],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Avenue Léopold Wiener 64, 1170 Brussels",
+    "telephone": "02 673 39 34",
+    "email": "planningdeboitsfort@gmail.com",
+    "coords": {
+      "lat": 50.8059225,
+      "lng": 4.406272
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "fr, es, ar",
+    "province": "Brussels",
+    "name": "CPF Watermael-Boitsfort",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "http://planningfamilialdeboitsfort.be/Consultations-medicales-2",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T07:00:48.573Z",
+          "endTime": "2021-08-09T10:00:48.573Z"
+        }
+      ],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T07:00:48.573Z",
+          "endTime": "2021-08-10T10:00:48.573Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T10:10:48.573Z",
+          "endTime": "2021-08-11T14:00:48.573Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T10:00:48.573Z",
+          "endTime": "2021-08-12T16:00:48.573Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T07:00:48.573Z",
+          "endTime": "2021-08-13T10:00:48.573Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Avenue de Broqueville 270, 1200 Brussels",
+    "telephone": "02 736 41 50",
+    "email": "ccfs@skynet.be",
+    "coords": {
+      "lat": 50.8425591,
+      "lng": 4.4232509
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "fr, es",
+    "province": "Brussels",
+    "name": "CPF Woluwé-Saint-Lambert CCFS",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "http://www.planning-familial-wsl.be/index.php/infos-generales/horaires/medicales",
+    "openPeriods": {
+      "0": [],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T13:00:48.698Z",
+          "endTime": "2021-08-10T16:00:48.698Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T11:00:48.698Z",
+          "endTime": "2021-08-11T16:00:48.698Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T13:00:48.698Z",
+          "endTime": "2021-08-12T16:00:48.698Z"
+        }
+      ],
+      "4": [],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Rue Jean Deraeck 14, 1150 Brussels",
+    "telephone": "02 762 00 67",
+    "email": "planningwoluwe@skynet.be",
+    "coords": {
+      "lat": 50.8386762,
+      "lng": 4.4302288
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, fr",
+    "province": "Brussels",
+    "name": "CPF Woluwé-St-Pierre",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "https://www.guidesocial.be/planningwoluwe/?page=5",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T08:00:48.700Z",
+          "endTime": "2021-08-09T10:00:48.700Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T10:00:48.700Z",
+          "endTime": "2021-08-09T12:00:48.700Z"
+        }
+      ],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1
+        }
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T12:00:48.700Z",
+          "endTime": "2021-08-13T14:00:48.700Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Rue Saint-Jean Népomucène 28, 1000 Brusselss",
+    "telephone": "02 511 32 20",
+    "email": "aimer.jeunes@skynet.be",
+    "coords": {
+      "lat": 50.855707,
+      "lng": 4.3510533
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, fr, pt",
+    "province": "Brussels",
+    "name": "CPF Yser Aimer Jeunes",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "",
+    "websiteUrl": "http://aimer-jeunes.be/?-Accueil-et-consultation-",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T09:00:48.701Z",
+          "endTime": "2021-08-09T10:00:48.702Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T10:00:48.702Z",
+          "endTime": "2021-08-13T21:00:48.702Z"
+        }
+      ],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T08:00:48.702Z",
+          "endTime": "2021-08-10T10:00:48.702Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T10:00:48.702Z",
+          "endTime": "2021-08-10T14:00:48.702Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T07:00:48.702Z",
+          "endTime": "2021-08-11T11:56:48.702Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T12:00:48.702Z",
+          "endTime": "2021-08-11T17:00:48.702Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T07:00:48.702Z",
+          "endTime": "2021-08-12T10:00:48.702Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T10:00:48.703Z",
+          "endTime": "2021-08-12T15:00:48.703Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T10:00:48.703Z",
+          "endTime": "2021-08-13T16:00:48.703Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Cellebroersstraat 11, 1000 Brussels",
+    "telephone": "02 535 30 03",
+    "email": "",
+    "coords": {
+      "lat": 50.8433924,
+      "lng": 4.3494567
+    },
+    "on_appointment": "no",
+    "free": "yes",
+    "languages": "en, nl, fr",
+    "province": "Brussels",
+    "name": "Elisa Centre",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": true,
+    "extraInfo": "No appointment. Free. Wednesday afternoon only for 15-29 year",
+    "appointmentUrl": "https://www.stpierre-bru.be/nl/raadplegingen/een-afspraak-maken",
+    "websiteUrl": "https://www.stpierre-bru.be/fr/services-medicaux/maladies-infectieuses-2/centre-elisa-vih/en-bref-331",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "yes",
+          "onAppointment": "no",
+          "weekday": 0,
+          "startTime": "2021-08-09T06:00:48.706Z",
+          "endTime": "2021-08-09T10:00:48.706Z"
+        },
+        {
+          "free": "yes",
+          "onAppointment": "no",
+          "weekday": 0,
+          "startTime": "2021-08-09T10:00:48.707Z",
+          "endTime": "2021-08-09T11:00:48.707Z"
+        }
+      ],
+      "1": [],
+      "2": [
+        {
+          "free": "yes",
+          "onAppointment": "no",
+          "weekday": 2,
+          "startTime": "2021-08-11T10:15:48.707Z",
+          "endTime": "2021-08-11T13:00:48.707Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "yes",
+          "onAppointment": "no",
+          "weekday": 3
+        }
+      ],
+      "4": [],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Lenniksebaan 808, 1070 Brussels",
+    "telephone": "02 555 4688",
+    "email": "CRSida@erasme.ulb.ac.be",
+    "coords": {
+      "lat": 50.8133637,
+      "lng": 4.265565
+    },
+    "on_appointment": "yes",
+    "free": "no",
+    "languages": "en, nl, fr",
+    "province": "Brussels",
+    "name": "Erasmusziekenhuis",
+    "isAnonymous": true,
+    "onAppointment": true,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid.",
+    "appointmentUrl": "https://www.erasme.ulb.ac.be/fr/formulaires/formulaire-rendez-vous-en-ligne",
+    "websiteUrl": "https://www.erasme.ulb.ac.be/fr/services-de-soins/services-multidisciplinaires/centre-de-reference-sida",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T07:00:48.708Z",
+          "endTime": "2021-08-09T10:00:48.708Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T11:00:48.708Z",
+          "endTime": "2021-08-09T15:00:48.708Z"
+        }
+      ],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T07:00:48.708Z",
+          "endTime": "2021-08-10T10:00:48.708Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T11:00:48.708Z",
+          "endTime": "2021-08-10T15:00:48.708Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T07:00:48.708Z",
+          "endTime": "2021-08-11T10:00:48.708Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T11:00:48.708Z",
+          "endTime": "2021-08-11T15:00:48.708Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T07:00:48.708Z",
+          "endTime": "2021-08-12T10:00:48.708Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T11:00:48.708Z",
+          "endTime": "2021-08-12T15:00:48.708Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T07:00:48.708Z",
+          "endTime": "2021-08-13T10:00:48.708Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T11:00:48.708Z",
+          "endTime": "2021-08-13T15:00:48.708Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "rue des Plantes 116, 1030 Brussels",
+    "telephone": "02 219 98 74",
+    "email": "bruxelles@espacep.be",
+    "coords": {
+      "lat": 50.8591985,
+      "lng": 4.3612648
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, fr",
+    "province": "Brussels",
+    "name": "Espace P",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "Sexworkers only. No appointment. Free.",
+    "appointmentUrl": "",
+    "websiteUrl": "http://espacep.be/contact/bruxelles/",
+    "openPeriods": {
+      "0": [],
+      "1": [
+        {
+          "free": "yes",
+          "onAppointment": "no",
+          "weekday": 1,
+          "startTime": "2021-08-10T17:00:48.711Z",
+          "endTime": "2021-08-10T18:00:48.711Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "yes",
+          "onAppointment": "no",
+          "weekday": 2,
+          "startTime": "2021-08-11T11:00:48.712Z",
+          "endTime": "2021-08-11T12:00:48.712Z"
+        }
+      ],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Steenstraat 29, 1000 Brussels",
+    "telephone": "02 736 28 61",
+    "email": "info@exaequo.be",
+    "coords": {
+      "lat": 50.8471267,
+      "lng": 4.3478351
+    },
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, nl, fr",
+    "province": "Brussels",
+    "name": "Ex Aequo",
+    "isAnonymous": true,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "No appointment on Wednesday and Thursday evening. Free.",
+    "appointmentUrl": "",
+    "websiteUrl": "www.exaequo.be",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T07:30:48.714Z",
+          "endTime": "2021-08-09T10:30:48.714Z"
+        },
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T12:00:48.714Z",
+          "endTime": "2021-08-09T15:00:48.714Z"
+        }
+      ],
+      "1": [
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T07:30:48.714Z",
+          "endTime": "2021-08-10T10:30:48.714Z"
+        },
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T12:00:48.714Z",
+          "endTime": "2021-08-10T15:00:48.714Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "yes",
+          "onAppointment": "no",
+          "weekday": 2,
+          "startTime": "2021-08-11T17:00:48.714Z",
+          "endTime": "2021-08-11T19:30:48.714Z"
+        },
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T07:30:48.714Z",
+          "endTime": "2021-08-11T10:30:48.714Z"
+        },
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T12:00:48.714Z",
+          "endTime": "2021-08-11T15:00:48.714Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "yes",
+          "onAppointment": "no",
+          "weekday": 3,
+          "startTime": "2021-08-12T17:00:48.714Z",
+          "endTime": "2021-08-12T19:30:48.714Z"
+        },
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T07:30:48.714Z",
+          "endTime": "2021-08-12T10:30:48.714Z"
+        },
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T12:00:48.714Z",
+          "endTime": "2021-08-12T15:00:48.714Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T08:00:48.713Z",
+          "endTime": "2021-08-13T10:30:48.713Z"
+        },
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T12:00:48.713Z",
+          "endTime": "2021-08-13T15:00:48.713Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Kronenburgstraat 43, 2000 Antwerp",
+    "telephone": "03 216 02 88",
+    "email": "helpcenter@itg.be",
+    "coords": {
+      "lat": 51.212166,
+      "lng": 4.3960773
+    },
+    "on_appointment": "yes",
+    "free": "yes",
+    "languages": "en, nl, fr",
+    "province": "Antwerp",
+    "name": "Help Centre",
+    "isAnonymous": true,
+    "onAppointment": true,
+    "isFree": true,
+    "extraInfo": "On appointment. Free. Only for men who have sex with men and other risk groups",
+    "appointmentUrl": "https://www.itg.be/e/make-an-appointment",
+    "websiteUrl": "https://www.itg.be/E/helpcenter",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T11:30:48.716Z",
+          "endTime": "2021-08-09T14:00:48.716Z"
+        }
+      ],
+      "1": [
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T11:30:48.716Z",
+          "endTime": "2021-08-10T14:00:48.716Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T11:30:48.716Z",
+          "endTime": "2021-08-11T14:00:48.716Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T11:30:48.717Z",
+          "endTime": "2021-08-12T14:00:48.717Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "yes",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T11:30:48.717Z",
+          "endTime": "2021-08-13T14:00:48.717Z"
+        }
+      ],
+      "5": [],
       "6": []
     }
   },
@@ -403,12 +2064,13 @@
     },
     "on_appointment": "",
     "free": "",
+    "languages": "en, nl, fr",
     "province": "Brussels",
     "name": "HRC UZ VUB Brussels",
     "isAnonymous": false,
     "onAppointment": false,
     "isFree": false,
-    "extraInfo": "Hospital",
+    "extraInfo": "On appointment. Paid. Hospital.",
     "appointmentUrl": "https://www.uzbrussel.be/web/infectiologie/afspraak-maken",
     "websiteUrl": "https://www.uzbrussel.be/web/infectiologie/afspraak-maken",
     "openPeriods": {
@@ -431,15 +2093,15 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-12T06:00:44.861Z",
-          "endTime": "2021-08-12T10:00:44.861Z"
+          "startTime": "2021-08-12T06:00:48.718Z",
+          "endTime": "2021-08-12T10:00:48.718Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 3,
-          "startTime": "2021-08-12T06:00:44.861Z",
-          "endTime": "2021-08-12T10:00:44.861Z"
+          "startTime": "2021-08-12T06:00:48.718Z",
+          "endTime": "2021-08-12T10:00:48.718Z"
         }
       ],
       "4": [],
@@ -448,1528 +2110,162 @@
     }
   },
   {
-    "address": "Av. des Celtes 50, 1040 Brussels",
-    "telephone": "02 736 13 14",
-    "email": "etterbeekcc@planningfamilial.net",
-    "coords": {
-      "lat": 50.8378962,
-      "lng": 4.394949
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "Collectif Contraception",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "http://collectifcontraception.be/?id=20",
-    "openPeriods": {
-      "0": [],
-      "1": [],
-      "2": [],
-      "3": [],
-      "4": [],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Rue Saint-Jean Népomucène 28, 1000 Brusselss",
-    "telephone": "02 511 32 20",
-    "email": "aimer.jeunes@skynet.be",
-    "coords": {
-      "lat": 50.855707,
-      "lng": 4.3510533
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Aimer Jeunes",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "http://aimer-jeunes.be/?Permanences-medicales-et",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T12:00:44.862Z",
-          "endTime": "2021-08-09T14:00:44.862Z"
-        }
-      ],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T11:00:44.862Z",
-          "endTime": "2021-08-10T13:00:44.862Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T12:00:44.862Z",
-          "endTime": "2021-08-11T16:00:44.862Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T08:00:44.862Z",
-          "endTime": "2021-08-12T10:00:44.862Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T12:30:44.863Z",
-          "endTime": "2021-08-13T14:30:44.863Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Rue du Noyer 344,1030 Bruxelles",
-    "telephone": "02 733 43 95",
-    "email": "planning.bq@gmail.com",
-    "coords": {
-      "lat": 50.843787,
-      "lng": 4.395993
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Bureaux de Quartiers",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "http://www.bureauxdequartiers.be/",
-    "openPeriods": {
-      "0": [],
-      "1": [],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "no",
-          "weekday": 2,
-          "startTime": "2021-08-11T14:45:44.864Z",
-          "endTime": "2021-08-11T16:30:44.864Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "no",
-          "weekday": 3,
-          "startTime": "2021-08-12T14:00:44.864Z",
-          "endTime": "2021-08-12T15:45:44.864Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "no",
-          "weekday": 4,
-          "startTime": "2021-08-13T13:00:44.864Z",
-          "endTime": "2021-08-13T14:45:44.864Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "rue Adolphe De Brandt 70 , 1140 Brussels",
-    "telephone": "02 216 20 04",
-    "email": "planning.familial.evere@brutele.be",
-    "coords": {
-      "lat": 50.8695816,
-      "lng": 4.3993141
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Evere",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "https://www.guidesocial.be/pf-evere/?page=3",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T14:00:44.865Z",
-          "endTime": "2021-08-09T15:00:44.865Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "no",
-          "weekday": 0,
-          "startTime": "2021-08-09T15:00:44.865Z",
-          "endTime": "2021-08-09T16:00:44.865Z"
-        }
-      ],
-      "1": [],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T12:00:44.865Z",
-          "endTime": "2021-08-11T14:00:44.865Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "no",
-          "weekday": 2,
-          "startTime": "2021-08-11T14:00:44.865Z",
-          "endTime": "2021-08-11T15:00:44.866Z"
-        }
-      ],
-      "3": [],
-      "4": [],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "rue du Vivier 89, Brussels",
-    "telephone": "02 646 42 73",
-    "email": "ixelles.cps@belgacom.net",
-    "coords": {
-      "lat": 50.8324886,
-      "lng": 4.3780235
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Ixelles",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "http://www.planningixelles.be/index.php/fr/consultations-fr/medical-fr",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T11:30:44.867Z",
-          "endTime": "2021-08-09T15:30:44.867Z"
-        }
-      ],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T12:00:44.867Z",
-          "endTime": "2021-08-10T15:30:44.867Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "no",
-          "weekday": 2,
-          "startTime": "2021-08-11T10:30:44.867Z",
-          "endTime": "2021-08-11T14:30:44.867Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T10:50:44.867Z",
-          "endTime": "2021-08-12T13:30:44.867Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T10:30:44.867Z",
-          "endTime": "2021-08-13T16:00:44.867Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T08:00:44.867Z",
-          "endTime": "2021-08-13T10:30:44.867Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Rue Léon Théodor 108, 1090 Brussels",
-    "telephone": "02 426 06 27",
-    "email": "info@planningdejette.be",
-    "coords": {
-      "lat": 50.875984,
-      "lng": 4.325237
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Jette",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "Free fast hiv test, every day with appointment",
-    "appointmentUrl": "",
-    "websiteUrl": "https://www.planningdejette.be/services/consultation-medicale-2/",
-    "openPeriods": {
-      "0": [],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T13:00:44.869Z",
-          "endTime": "2021-08-10T17:00:44.869Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T08:00:44.869Z",
-          "endTime": "2021-08-11T10:30:44.869Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T11:00:44.869Z",
-          "endTime": "2021-08-11T13:00:44.869Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T11:00:44.869Z",
-          "endTime": "2021-08-12T16:00:44.869Z"
-        }
-      ],
-      "4": [],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Boulevard Émile Bockstael 91, 1020 Brussels",
-    "telephone": "02 325 46 40",
-    "email": "laeken@planningfamilial.net",
-    "coords": {
-      "lat": 50.8727979,
-      "lng": 4.3458957
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Laken",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "http://www.planninglaeken.be/contact/",
-    "openPeriods": {
-      "0": [],
-      "1": [],
-      "2": [],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T11:30:44.873Z",
-          "endTime": "2021-08-12T13:30:44.874Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T07:30:44.874Z",
-          "endTime": "2021-08-13T11:30:44.874Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "rue Général Leman 110, 1040 Brussels",
-    "telephone": "02 230 10 30",
-    "email": "info@pfleman.be",
-    "coords": {
-      "lat": 50.8368743,
-      "lng": 4.3839864
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Leman",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "https://www.guidesocial.be/planningleman/?page=6",
-    "openPeriods": {
-      "0": [],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T11:00:44.874Z",
-          "endTime": "2021-08-10T14:00:44.874Z"
-        }
-      ],
-      "2": [],
-      "3": [],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T12:00:44.874Z",
-          "endTime": "2021-08-13T15:00:44.874Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Rue des Guildes 22, 1000 Brussels",
-    "telephone": "02 230 04 62",
-    "email": "info@planf.be",
-    "coords": {
-      "lat": 50.848778,
-      "lng": 4.37461
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Plan F",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "http://www.planf.be/Horaires",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T07:00:44.875Z",
-          "endTime": "2021-08-09T10:00:44.875Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T13:00:44.875Z",
-          "endTime": "2021-08-09T16:00:44.875Z"
-        }
-      ],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T07:00:44.875Z",
-          "endTime": "2021-08-10T11:00:44.875Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T12:00:44.875Z",
-          "endTime": "2021-08-10T16:00:44.875Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T07:30:44.875Z",
-          "endTime": "2021-08-11T10:30:44.875Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T11:30:44.875Z",
-          "endTime": "2021-08-11T14:30:44.875Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T07:00:44.875Z",
-          "endTime": "2021-08-12T11:00:44.875Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T12:30:44.875Z",
-          "endTime": "2021-08-12T16:30:44.875Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T07:30:44.875Z",
-          "endTime": "2021-08-13T10:30:44.875Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T12:00:44.875Z",
-          "endTime": "2021-08-13T16:00:44.876Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Rue de la Roue 21, 1000 Brusselss",
-    "telephone": "02 426 06 27",
-    "email": "planningmarolles@hotmail.com",
-    "coords": {
-      "lat": 50.841733,
-      "lng": 4.3457875
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Marolles",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "http://planningmarolles.be/index.php/fr/nos-services",
-    "openPeriods": {
-      "0": [],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T07:00:44.878Z",
-          "endTime": "2021-08-10T11:00:44.878Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T12:00:44.879Z",
-          "endTime": "2021-08-10T15:30:44.879Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T07:00:44.878Z",
-          "endTime": "2021-08-11T10:00:44.878Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T10:00:44.879Z",
-          "endTime": "2021-08-11T15:00:44.879Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T07:00:44.878Z",
-          "endTime": "2021-08-12T10:00:44.878Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T10:00:44.879Z",
-          "endTime": "2021-08-12T17:00:44.879Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T07:00:44.878Z",
-          "endTime": "2021-08-13T10:00:44.878Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T10:00:44.879Z",
-          "endTime": "2021-08-13T11:00:44.879Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Rue du Midi 120, 1000 Brussels",
-    "telephone": "02 546 14 33",
-    "email": "planningrosa@fmsb.be",
-    "coords": {
-      "lat": 50.8446316,
-      "lng": 4.3462336
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Rosa",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "https://www.planningsfps.be/nos-centres/cpf-bruxelles/",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T07:30:44.880Z",
-          "endTime": "2021-08-09T10:30:44.880Z"
-        }
-      ],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T12:00:44.880Z",
-          "endTime": "2021-08-10T16:00:44.880Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T10:00:44.880Z",
-          "endTime": "2021-08-11T14:00:44.880Z"
-        }
-      ],
-      "3": [],
-      "4": [],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Avenue du Parc 89, 1060 Brussels",
-    "telephone": "02 537 11 08",
-    "email": "saintgilles@planningfamilial.net",
-    "coords": {
-      "lat": 50.825479,
-      "lng": 4.3364458
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Saint-Gilles",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "https://www.planningfamilialstgilles.be/infos-pratiques",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T07:00:44.881Z",
-          "endTime": "2021-08-09T09:40:44.881Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T12:30:44.881Z",
-          "endTime": "2021-08-09T14:30:44.881Z"
-        }
-      ],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T07:00:44.881Z",
-          "endTime": "2021-08-10T10:00:44.881Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T11:30:44.881Z",
-          "endTime": "2021-08-10T15:00:44.881Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T07:00:44.881Z",
-          "endTime": "2021-08-11T10:00:44.881Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T11:30:44.881Z",
-          "endTime": "2021-08-11T14:00:44.881Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T07:30:44.881Z",
-          "endTime": "2021-08-12T10:15:44.882Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T11:40:44.882Z",
-          "endTime": "2021-08-12T14:45:44.882Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T12:30:44.881Z",
-          "endTime": "2021-08-13T14:30:44.881Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Place Quetelet 4, 1210 Brussels",
-    "telephone": "02 217 44 50",
-    "email": "accueil@lafamilleheureuse.be",
-    "coords": {
-      "lat": 50.852568,
-      "lng": 4.3696103
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Saint-Josse",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "https://www.planningsaintjosse.com/gynecologie",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T10:00:44.885Z",
-          "endTime": "2021-08-09T15:00:44.885Z"
-        }
-      ],
-      "1": [],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T08:00:44.885Z",
-          "endTime": "2021-08-11T10:00:44.886Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T10:00:44.886Z",
-          "endTime": "2021-08-11T15:00:44.886Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T08:00:44.886Z",
-          "endTime": "2021-08-12T10:00:44.886Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T10:00:44.886Z",
-          "endTime": "2021-08-12T11:00:44.886Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T07:30:44.886Z",
-          "endTime": "2021-08-13T10:00:44.886Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T10:00:44.886Z",
-          "endTime": "2021-08-13T14:00:44.886Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Boulevard de l'Abattoir 27, Brussels",
-    "telephone": "02 548 98 18",
-    "email": "planning@tele-service.be",
-    "coords": {
-      "lat": 50.8468013,
-      "lng": 4.3365089
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Senne",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "https://www.cpfsenne.be/spip.php?rubrique13",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T10:30:44.890Z",
-          "endTime": "2021-08-09T13:30:44.890Z"
-        }
-      ],
-      "1": [],
-      "2": [],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T07:00:44.890Z",
-          "endTime": "2021-08-12T10:30:44.890Z"
-        }
-      ],
-      "4": [],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Raymond Vander Bruggen 84, 1070 Brussels",
-    "telephone": "02 524 33 14",
-    "email": "info@planning-severine.org",
-    "coords": {
-      "lat": 50.8382242,
-      "lng": 4.3111654
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Séverine",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "https://www.planning-severine.org/nos-services",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0
-        }
-      ],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T10:30:44.891Z",
-          "endTime": "2021-08-10T14:00:44.891Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "no",
-          "weekday": 2,
-          "startTime": "2021-08-11T11:00:44.891Z",
-          "endTime": "2021-08-11T13:30:44.891Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T10:00:44.891Z",
-          "endTime": "2021-08-12T11:00:44.891Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T07:00:44.891Z",
-          "endTime": "2021-08-13T10:00:44.891Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T10:00:44.891Z",
-          "endTime": "2021-08-13T11:00:44.891Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Rue de Stalle 24, 1180 Brussels",
-    "telephone": "02 376 10 00",
-    "email": "cpf.uccle@skynet.be",
-    "coords": {
-      "lat": 50.7997045,
-      "lng": 4.3331991
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Uccle",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "Opening hours change frequently. Call for \"lat\"est update",
-    "appointmentUrl": "",
-    "websiteUrl": "https://www.guidesocial.be/planning-uccle/?page=3",
-    "openPeriods": {
-      "0": [],
-      "1": [
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T14:00:44.892Z",
-          "endTime": "2021-08-10T15:30:44.893Z"
-        }
-      ],
-      "2": [],
-      "3": [],
-      "4": [],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Avenue Léopold Wiener 64, 1170 Brussels",
-    "telephone": "02 673 39 34",
-    "email": "planningdeboitsfort@gmail.com",
-    "coords": {
-      "lat": 50.8059225,
-      "lng": 4.406272
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Watermael-Boitsfort",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "http://planningfamilialdeboitsfort.be/Consultations-medicales-2",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T07:00:44.893Z",
-          "endTime": "2021-08-09T10:00:44.893Z"
-        }
-      ],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T07:00:44.893Z",
-          "endTime": "2021-08-10T10:00:44.893Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T10:10:44.893Z",
-          "endTime": "2021-08-11T14:00:44.893Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T10:00:44.893Z",
-          "endTime": "2021-08-12T16:00:44.893Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T07:00:44.893Z",
-          "endTime": "2021-08-13T10:00:44.893Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Avenue de Broqueville 270, 1200 Brussels",
-    "telephone": "02 736 41 50",
-    "email": "ccfs@skynet.be",
-    "coords": {
-      "lat": 50.8425591,
-      "lng": 4.4232509
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Woluwé-Saint-Lambert CCFS",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "http://www.planning-familial-wsl.be/index.php/infos-generales/horaires/medicales",
-    "openPeriods": {
-      "0": [],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T13:00:44.894Z",
-          "endTime": "2021-08-10T16:00:44.894Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T11:00:44.894Z",
-          "endTime": "2021-08-11T16:00:44.894Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T13:00:44.894Z",
-          "endTime": "2021-08-12T16:00:44.894Z"
-        }
-      ],
-      "4": [],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Rue Jean Deraeck 14, 1150 Brussels",
-    "telephone": "02 762 00 67",
-    "email": "planningwoluwe@skynet.be",
-    "coords": {
-      "lat": 50.8386762,
-      "lng": 4.4302288
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Woluwé-St-Pierre",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "https://www.guidesocial.be/planningwoluwe/?page=5",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T08:00:44.895Z",
-          "endTime": "2021-08-09T10:00:44.895Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T10:00:44.895Z",
-          "endTime": "2021-08-09T12:00:44.895Z"
-        }
-      ],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1
-        }
-      ],
-      "2": [],
-      "3": [],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T12:00:44.895Z",
-          "endTime": "2021-08-13T14:00:44.895Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Rue Saint-Jean Népomucène 28, 1000 Brusselss",
-    "telephone": "02 511 32 20",
-    "email": "aimer.jeunes@skynet.be",
-    "coords": {
-      "lat": 50.855707,
-      "lng": 4.3510533
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "CPF Yser Aimer Jeunes",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "http://aimer-jeunes.be/?-Accueil-et-consultation-",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T09:00:44.897Z",
-          "endTime": "2021-08-09T10:00:44.897Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T10:00:44.897Z",
-          "endTime": "2021-08-13T21:00:44.898Z"
-        }
-      ],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T08:00:44.898Z",
-          "endTime": "2021-08-10T10:00:44.898Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T10:00:44.898Z",
-          "endTime": "2021-08-10T14:00:44.898Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T07:00:44.898Z",
-          "endTime": "2021-08-11T11:14:44.898Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T12:00:44.898Z",
-          "endTime": "2021-08-11T17:00:44.899Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T07:00:44.899Z",
-          "endTime": "2021-08-12T10:00:44.899Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T10:00:44.899Z",
-          "endTime": "2021-08-12T15:00:44.899Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T10:00:44.899Z",
-          "endTime": "2021-08-13T16:00:44.899Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Steenstraat 29, 1000 Brussels",
-    "telephone": "02 736 28 61",
-    "email": "info@exaequo.be",
-    "coords": {
-      "lat": 50.8471267,
-      "lng": 4.3478351
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "Ex Aequo",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "",
-    "appointmentUrl": "",
-    "websiteUrl": "www.exaequo.be",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T07:30:44.903Z",
-          "endTime": "2021-08-09T10:30:44.903Z"
-        },
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T12:00:44.903Z",
-          "endTime": "2021-08-09T15:00:44.904Z"
-        }
-      ],
-      "1": [
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T07:30:44.905Z",
-          "endTime": "2021-08-10T10:30:44.905Z"
-        },
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T12:00:44.905Z",
-          "endTime": "2021-08-10T15:00:44.905Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "yes",
-          "onAppointment": "no",
-          "weekday": 2,
-          "startTime": "2021-08-11T17:00:44.905Z",
-          "endTime": "2021-08-11T19:30:44.905Z"
-        },
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T07:30:44.905Z",
-          "endTime": "2021-08-11T10:30:44.905Z"
-        },
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T12:00:44.905Z",
-          "endTime": "2021-08-11T15:00:44.905Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "yes",
-          "onAppointment": "no",
-          "weekday": 3,
-          "startTime": "2021-08-12T17:00:44.904Z",
-          "endTime": "2021-08-12T19:30:44.904Z"
-        },
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T07:30:44.904Z",
-          "endTime": "2021-08-12T10:30:44.904Z"
-        },
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T12:00:44.904Z",
-          "endTime": "2021-08-12T15:00:44.905Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T08:00:44.902Z",
-          "endTime": "2021-08-13T10:30:44.903Z"
-        },
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T12:00:44.903Z",
-          "endTime": "2021-08-13T15:00:44.903Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Kronenburgstraat 43, 2000 Antwerp",
-    "telephone": "03 216 02 88",
-    "email": "helpcenter@itg.be",
-    "coords": {
-      "lat": 51.212166,
-      "lng": 4.3960773
-    },
-    "on_appointment": "yes",
-    "free": "yes",
-    "province": "Antwerp",
-    "name": "Help Centre",
-    "isAnonymous": true,
-    "onAppointment": true,
-    "isFree": true,
-    "extraInfo": "Only for men who have sex with men and other risk groups",
-    "appointmentUrl": "https://www.itg.be/e/make-an-appointment",
-    "websiteUrl": "https://www.itg.be/E/helpcenter",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T11:30:45.002Z",
-          "endTime": "2021-08-09T14:00:45.002Z"
-        }
-      ],
-      "1": [
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T11:30:45.002Z",
-          "endTime": "2021-08-10T14:00:45.002Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T11:30:45.002Z",
-          "endTime": "2021-08-11T14:00:45.002Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T11:30:45.002Z",
-          "endTime": "2021-08-12T14:00:45.003Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "yes",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T11:30:45.003Z",
-          "endTime": "2021-08-13T14:00:45.003Z"
-        }
-      ],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "chaussée de Mons, 192, 1070 Brussels",
-    "telephone": "",
-    "email": "t.kouadio@preventionsida.org",
-    "coords": {
-      "lat": 50.8411538,
-      "lng": 4.3288798
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "Action Test",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "1st and 4th monday of the month. Only subsaharan Africans. Restart in September",
-    "appointmentUrl": "",
-    "websiteUrl": "https://preventionsida.org/fr/ressources/action-test-un-projet-de-depistage-du-vih-et-de-lhepatite-c/",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "yes",
-          "onAppointment": "no",
-          "weekday": 0,
-          "startTime": "2021-08-09T15:45:45.003Z",
-          "endTime": "2021-08-09T17:45:45.004Z"
-        }
-      ],
-      "1": [],
-      "2": [],
-      "3": [],
-      "4": [],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "rue du Champ de Mars 5, 1050 Brussels",
-    "telephone": "02.733.72.99",
+    "address": "Stadsomvaart 11, 3500 Hasselt",
+    "telephone": "011 33 76 50",
     "email": "",
     "coords": {
-      "lat": 50.8386435,
-      "lng": 4.3620624
+      "lat": 50.9259226,
+      "lng": 5.3424498
     },
     "on_appointment": "",
     "free": "",
+    "languages": "en, nl, fr",
+    "province": "Limburg",
+    "name": "HRC Virga Jesse",
+    "isAnonymous": false,
+    "onAppointment": false,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid. Hospital.",
+    "appointmentUrl": "",
+    "websiteUrl": "https://www.jessazh.be/patienten/raadplegingsgids/volgens-specialisme/raadpleging-infectieziekten-en-immuniteit",
+    "openPeriods": {
+      "0": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T07:00:48.718Z",
+          "endTime": "2021-08-09T10:00:48.718Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 0,
+          "startTime": "2021-08-09T12:00:48.718Z",
+          "endTime": "2021-08-09T14:30:48.718Z"
+        }
+      ],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T07:00:48.718Z",
+          "endTime": "2021-08-10T10:00:48.718Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T12:00:48.718Z",
+          "endTime": "2021-08-10T14:30:48.718Z"
+        }
+      ],
+      "2": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 2,
+          "startTime": "2021-08-11T07:00:48.718Z",
+          "endTime": "2021-08-11T10:00:48.718Z"
+        }
+      ],
+      "3": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 3,
+          "startTime": "2021-08-12T07:00:48.718Z",
+          "endTime": "2021-08-12T10:00:48.719Z"
+        }
+      ],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T07:00:48.719Z",
+          "endTime": "2021-08-13T10:00:48.719Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T12:00:48.719Z",
+          "endTime": "2021-08-13T14:30:48.719Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "Rue des Alexiens 13, 1000 Brussels",
+    "telephone": "02 535 37 32",
+    "email": "",
+    "coords": {
+      "lat": 50.8433062,
+      "lng": 4.3476145
+    },
+    "on_appointment": "yes",
+    "free": "no",
+    "languages": "en, nl, fr",
     "province": "Brussels",
-    "name": "Action Test Siréas",
+    "name": "S-Clinic",
+    "isAnonymous": true,
+    "onAppointment": true,
+    "isFree": false,
+    "extraInfo": "On appointment. Paid. Hospital.",
+    "appointmentUrl": "https://www.stpierre-bru.be/fr/consultations/prendre-un-rendez-vous",
+    "websiteUrl": "https://www.stpierre-bru.be/fr/services-medicaux/maladies-infectieuses-2/s-clinic/en-bref-332",
+    "openPeriods": {
+      "0": [],
+      "1": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 1,
+          "startTime": "2021-08-10T11:30:48.720Z",
+          "endTime": "2021-08-10T14:00:48.720Z"
+        }
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T06:30:48.720Z",
+          "endTime": "2021-08-13T09:00:48.720Z"
+        },
+        {
+          "free": "no",
+          "onAppointment": "yes",
+          "weekday": 4,
+          "startTime": "2021-08-13T11:30:48.720Z",
+          "endTime": "2021-08-13T13:30:48.720Z"
+        }
+      ],
+      "5": [],
+      "6": []
+    }
+  },
+  {
+    "address": "",
+    "telephone": "03 345 57 85",
+    "email": "info@swab2know.be",
+    "on_appointment": "",
+    "free": "",
+    "languages": "en, nl, fr, es, pt, de",
+    "province": "Selftest",
+    "name": "Swab2Know",
     "isAnonymous": true,
     "onAppointment": false,
     "isFree": false,
-    "extraInfo": "Only Subsaharan Africans",
-    "appointmentUrl": "",
-    "websiteUrl": "",
+    "extraInfo": "Free Hiv self-test kit with saliva. Will be delivered by post. Follow-up by Tropical Institute in Antwerp, Help Center.",
+    "appointmentUrl": "https://swab2know.eu/BE/E/login/?returnUrl=%2fBE%2fE%2fMyAccount%2f",
+    "websiteUrl": "https://www.swab2know.eu/BE/e",
     "openPeriods": {
       "0": [],
       "1": [],
@@ -1990,12 +2286,13 @@
     },
     "on_appointment": "",
     "free": "",
+    "languages": "en, fr",
     "province": "Brussels",
     "name": "UCL Saint-Luc",
     "isAnonymous": true,
     "onAppointment": false,
     "isFree": false,
-    "extraInfo": "",
+    "extraInfo": "On appointment. Paid.",
     "appointmentUrl": "",
     "websiteUrl": "https://www.saintluc.be/fr/centre-de-prise-en-charge-vih-depistage",
     "openPeriods": {
@@ -2004,8 +2301,8 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-09T17:14:45.004Z",
-          "endTime": "2021-08-09T15:00:45.004Z"
+          "startTime": "2021-08-09T12:56:48.721Z",
+          "endTime": "2021-08-09T15:00:48.721Z"
         }
       ],
       "1": [],
@@ -2014,41 +2311,17 @@
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-11T09:00:45.004Z",
-          "endTime": "2021-08-11T10:00:45.004Z"
+          "startTime": "2021-08-11T09:00:48.721Z",
+          "endTime": "2021-08-11T10:00:48.721Z"
         },
         {
           "free": "no",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-11T10:00:45.004Z",
-          "endTime": "2021-08-11T11:00:45.004Z"
+          "startTime": "2021-08-11T10:00:48.721Z",
+          "endTime": "2021-08-11T11:00:48.721Z"
         }
       ],
-      "3": [],
-      "4": [],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "",
-    "telephone": "03 345 57 85",
-    "email": "info@swab2know.be",
-    "on_appointment": "",
-    "free": "",
-    "province": "Selftest",
-    "name": "Swab2Know",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "Hiv self-test kit with saliva. Will be delivered by post. Free. Follow-up by Tropical Institute in Antwerp, Help Center.",
-    "appointmentUrl": "https://swab2know.eu/BE/E/login/?returnUrl=%2fBE%2fE%2fMyAccount%2f",
-    "websiteUrl": "https://www.swab2know.eu/BE/e",
-    "openPeriods": {
-      "0": [],
-      "1": [],
-      "2": [],
       "3": [],
       "4": [],
       "5": [],
@@ -2065,12 +2338,13 @@
     },
     "on_appointment": "",
     "free": "",
+    "languages": "en, nl, fr, es",
     "province": "Antwerp",
     "name": "Violett Antwerp",
     "isAnonymous": true,
     "onAppointment": false,
     "isFree": false,
-    "extraInfo": "Sexworkers only",
+    "extraInfo": "Sexworkers only. On appointment. Free.",
     "appointmentUrl": "",
     "websiteUrl": "https://www.violett.be/nl/laat-je-testen/",
     "openPeriods": {
@@ -2079,8 +2353,8 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-09T12:00:45.005Z",
-          "endTime": "2021-08-09T14:00:45.005Z"
+          "startTime": "2021-08-09T12:00:48.722Z",
+          "endTime": "2021-08-09T14:00:48.722Z"
         }
       ],
       "1": [],
@@ -2089,22 +2363,22 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-11T08:00:45.005Z",
-          "endTime": "2021-08-11T10:00:45.005Z"
+          "startTime": "2021-08-11T08:00:48.722Z",
+          "endTime": "2021-08-11T10:00:48.722Z"
         },
         {
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-11T16:00:45.005Z",
-          "endTime": "2021-08-11T18:00:45.005Z"
+          "startTime": "2021-08-11T16:00:48.722Z",
+          "endTime": "2021-08-11T18:00:48.722Z"
         },
         {
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 2,
-          "startTime": "2021-08-11T16:30:45.005Z",
-          "endTime": "2021-08-11T17:30:45.005Z"
+          "startTime": "2021-08-11T16:30:48.722Z",
+          "endTime": "2021-08-11T17:30:48.722Z"
         }
       ],
       "3": [],
@@ -2113,8 +2387,8 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-13T08:00:45.005Z",
-          "endTime": "2021-08-13T10:00:45.005Z"
+          "startTime": "2021-08-13T08:00:48.722Z",
+          "endTime": "2021-08-13T10:00:48.722Z"
         }
       ],
       "5": [],
@@ -2131,12 +2405,13 @@
     },
     "on_appointment": "",
     "free": "",
+    "languages": "en, nl, fr, es",
     "province": "East-Flanders",
     "name": "Violett Gent",
     "isAnonymous": true,
     "onAppointment": false,
     "isFree": false,
-    "extraInfo": "Sexworkers only",
+    "extraInfo": "Sexworkers only. On appointment. Free.",
     "appointmentUrl": "",
     "websiteUrl": "https://www.violett.be/nl/laat-je-testen/",
     "openPeriods": {
@@ -2149,15 +2424,15 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-13T09:00:45.006Z",
-          "endTime": "2021-08-13T10:00:45.007Z"
+          "startTime": "2021-08-13T09:00:48.724Z",
+          "endTime": "2021-08-13T10:00:48.724Z"
         },
         {
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 4,
-          "startTime": "2021-08-13T10:00:45.007Z",
-          "endTime": "2021-08-13T11:00:45.007Z"
+          "startTime": "2021-08-13T10:00:48.724Z",
+          "endTime": "2021-08-13T11:00:48.724Z"
         }
       ],
       "5": [],
@@ -2174,12 +2449,13 @@
     },
     "on_appointment": "",
     "free": "",
+    "languages": "en, nl, fr, es",
     "province": "Limburg",
     "name": "Violett Hasselt",
     "isAnonymous": true,
     "onAppointment": false,
     "isFree": false,
-    "extraInfo": "Sexworkers only",
+    "extraInfo": "Sexworkers only. On appointment. Free.",
     "appointmentUrl": "",
     "websiteUrl": "https://www.violett.be/nl/laat-je-testen/",
     "openPeriods": {
@@ -2188,226 +2464,14 @@
           "free": "yes",
           "onAppointment": "yes",
           "weekday": 0,
-          "startTime": "2021-08-09T08:00:45.007Z",
-          "endTime": "2021-08-09T10:00:45.007Z"
+          "startTime": "2021-08-09T08:00:48.724Z",
+          "endTime": "2021-08-09T10:00:48.724Z"
         }
       ],
       "1": [],
       "2": [],
       "3": [],
       "4": [],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Rue du Marché au charbon 33, Brussels",
-    "telephone": "0485 547 278",
-    "email": "aure@alias-bru.be",
-    "coords": {
-      "lat": 50.8465989,
-      "lng": 4.3473567
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "Alias",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "Male and trans sexworkers only",
-    "appointmentUrl": "",
-    "websiteUrl": "http://www.alias-bru.be/alias-works-with-men-who-have-sex-with-men-for-money/",
-    "openPeriods": {
-      "0": [],
-      "1": [
-        {
-          "free": "yes",
-          "onAppointment": "no",
-          "weekday": 1,
-          "startTime": "2021-08-10T17:00:45.007Z",
-          "endTime": "2021-08-10T19:00:45.007Z"
-        }
-      ],
-      "2": [],
-      "3": [],
-      "4": [],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Appelmansstraat 12, 2018 Antwerp",
-    "telephone": "03 293 95 90",
-    "email": "info@boysproject.be",
-    "coords": {
-      "lat": 51.2167661,
-      "lng": 4.4150269
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Antwerp",
-    "name": "Boysproject",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "Male and trans sexworkers only",
-    "appointmentUrl": "",
-    "websiteUrl": "https://boysproject.be/en/our-offer/",
-    "openPeriods": {
-      "0": [],
-      "1": [],
-      "2": [
-        {
-          "free": "yes",
-          "onAppointment": "no",
-          "weekday": 2,
-          "startTime": "2021-08-11T12:30:45.008Z",
-          "endTime": "2021-08-11T14:30:45.008Z"
-        },
-        {
-          "free": "yes",
-          "onAppointment": "no",
-          "weekday": 2,
-          "startTime": "2021-08-11T16:00:45.008Z",
-          "endTime": "2021-08-11T18:00:45.008Z"
-        }
-      ],
-      "3": [],
-      "4": [],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "rue des Plantes 116, 1030 Brussels",
-    "telephone": "02 219 98 74",
-    "email": "bruxelles@espacep.be",
-    "coords": {
-      "lat": 50.8591985,
-      "lng": 4.3612648
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Brussels",
-    "name": "Espace P",
-    "isAnonymous": true,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "Sexworkers only",
-    "appointmentUrl": "",
-    "websiteUrl": "http://espacep.be/contact/bruxelles/",
-    "openPeriods": {
-      "0": [],
-      "1": [
-        {
-          "free": "yes",
-          "onAppointment": "no",
-          "weekday": 1,
-          "startTime": "2021-08-10T17:00:45.008Z",
-          "endTime": "2021-08-10T18:00:45.008Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "yes",
-          "onAppointment": "no",
-          "weekday": 2,
-          "startTime": "2021-08-11T11:00:45.008Z",
-          "endTime": "2021-08-11T12:00:45.008Z"
-        }
-      ],
-      "3": [],
-      "4": [],
-      "5": [],
-      "6": []
-    }
-  },
-  {
-    "address": "Stadsomvaart 11, 3500 Hasselt",
-    "telephone": "011 33 76 50",
-    "email": "",
-    "coords": {
-      "lat": 50.9259226,
-      "lng": 5.3424498
-    },
-    "on_appointment": "",
-    "free": "",
-    "province": "Limburg",
-    "name": "HRC Virga Jesse",
-    "isAnonymous": false,
-    "onAppointment": false,
-    "isFree": false,
-    "extraInfo": "Hospital",
-    "appointmentUrl": "",
-    "websiteUrl": "https://www.jessazh.be/patienten/raadplegingsgids/volgens-specialisme/raadpleging-infectieziekten-en-immuniteit",
-    "openPeriods": {
-      "0": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T07:00:45.009Z",
-          "endTime": "2021-08-09T10:00:45.009Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 0,
-          "startTime": "2021-08-09T12:00:45.009Z",
-          "endTime": "2021-08-09T14:30:45.009Z"
-        }
-      ],
-      "1": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T07:00:45.009Z",
-          "endTime": "2021-08-10T10:00:45.009Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 1,
-          "startTime": "2021-08-10T12:00:45.009Z",
-          "endTime": "2021-08-10T14:30:45.009Z"
-        }
-      ],
-      "2": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 2,
-          "startTime": "2021-08-11T07:00:45.009Z",
-          "endTime": "2021-08-11T10:00:45.009Z"
-        }
-      ],
-      "3": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 3,
-          "startTime": "2021-08-12T07:00:45.009Z",
-          "endTime": "2021-08-12T10:00:45.009Z"
-        }
-      ],
-      "4": [
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T07:00:45.009Z",
-          "endTime": "2021-08-13T10:00:45.009Z"
-        },
-        {
-          "free": "no",
-          "onAppointment": "yes",
-          "weekday": 4,
-          "startTime": "2021-08-13T12:00:45.009Z",
-          "endTime": "2021-08-13T14:30:45.009Z"
-        }
-      ],
       "5": [],
       "6": []
     }

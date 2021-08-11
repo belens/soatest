@@ -1,5 +1,6 @@
 organisation	day	hour	on_appointment	free
 Action Test	Monday	17h45 - 19h45	no	yes
+Action Test Siréas	Wednesday	15h40 - 17h45	no	yes
 Aide Info Sida	Monday	18h - 21h	no	yes
 Aimer à L’ULB	Friday	9h - 12h	yes	no
 Aimer à L’ULB	Friday	12h30 - 18h	yes	no
@@ -13,10 +14,10 @@ Aimer à L’ULB	Tuesday	12h30 - 18h	yes	no
 Aimer à L’ULB	Wednesday	9h - 12h	yes	no
 Aimer à L’ULB	Wednesday	12h30 - 18h	yes	no
 Alias	Tuesday	19h - 21h	no	yes
-HRC UZ VUB Brussels	Tuesday	13h-17h30	yes	no
-HRC UZ VUB Brussels	Thursday	8h - 12h	yes	no
 Boysproject	Wednesday	14h30 - 16h30	no	yes
 Boysproject	Wednesday	18h - 20h	no	yes
+Collectif Contraception	Tuesday	13h - 17h	yes	no
+Collectif Contraception	Wednesday	13h30 - 18h30	yes	no
 CPF Aimer Jeunes	Monday	14h - 16h	yes	no
 CPF Aimer Jeunes	Tuesday	13h - 15h	yes	no
 CPF Aimer Jeunes	Wednesday	14h - 18h	yes	no
@@ -148,6 +149,16 @@ Help Centre	Thursday	13h30 - 16h	yes	yes
 Help Centre	Friday	13h30 - 16h	yes	yes
 HRC UZ VUB Brussels	Tuesday	13h-17h30	yes	no
 HRC UZ VUB Brussels	Thursday	8h - 12h	yes	no
+HRC UZ VUB Brussels	Tuesday	13h-17h30	yes	no
+HRC UZ VUB Brussels	Thursday	8h - 12h	yes	no
+HRC Virga Jesse	Monday	9h - 12h	yes	no
+HRC Virga Jesse	Monday	14h - 16h30	yes	no
+HRC Virga Jesse	Tuesday	9h - 12h	yes	no
+HRC Virga Jesse	Tuesday	14h - 16h30	yes	no
+HRC Virga Jesse	Wednesday	9h - 12h	yes	no
+HRC Virga Jesse	Thursday	9h - 12h	yes	no
+HRC Virga Jesse	Friday	9h - 12h	yes	no
+HRC Virga Jesse	Friday	14h - 16h30	yes	no
 S-Clinic	Tuesday	13h30 - 16h	yes	no
 S-Clinic	Friday	8h30 - 11h	yes	no
 S-Clinic	Friday	13h30 - 15h30	yes	no
@@ -163,11 +174,3 @@ Violett Antwerp	Wednesday	18h30 - 19h30	yes	yes
 Violett Gent	Friday	11h - 12h	yes	yes
 Violett Gent	Friday	12h - 13h	yes	yes
 Violett Hasselt	Monday	10h - 12h	yes	yes
-HRC Virga Jesse	Monday	9h - 12h	yes	no
-HRC Virga Jesse	Monday	14h - 16h30	yes	no
-HRC Virga Jesse	Tuesday	9h - 12h	yes	no
-HRC Virga Jesse	Tuesday	14h - 16h30	yes	no
-HRC Virga Jesse	Wednesday	9h - 12h	yes	no
-HRC Virga Jesse	Thursday	9h - 12h	yes	no
-HRC Virga Jesse	Friday	9h - 12h	yes	no
-HRC Virga Jesse	Friday	14h - 16h30	yes	no
