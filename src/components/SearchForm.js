@@ -93,7 +93,7 @@ class Search extends React.Component {
     const { activeProvinceName } = this.state;
     const provinceProps = dataUtils.getProvinceProps(activeProvinceName);
     const orgs = this.getOrganisations();
-    const { data } = this.props;
+    const provinces = dataUtils.getProvinces();
 
     return (
       <Container>
@@ -114,7 +114,7 @@ class Search extends React.Component {
           <ProvinceSelect
             onChange={this.handleProvinceChange}
             defaultValue={qs.parse(this.props.location.search).q}
-            data={data.map((val) => {
+            data={provinces.map((val) => {
               return { provinceName: val };
             })}
           />
@@ -132,6 +132,6 @@ class Search extends React.Component {
   }
 }
 
-const SearchWithRouter = withRouter(Search);
+const SearchWithRouter = withRouter((props) => <Search {...props}></Search>);
 
 export default SearchWithRouter;

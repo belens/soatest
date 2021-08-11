@@ -8,7 +8,7 @@ const Box = styled.div`
   ${spacing}
 `;
 
-export default class Home extends Component {
+export default class HomeAlt extends Component {
   render() {
     return (
       <div>

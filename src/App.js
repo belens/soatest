@@ -6,6 +6,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import blue from "@material-ui/core/colors/blue";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomePage from "./Pages/Home";
+import HomeAltPage from "./Pages/HomeAlt";
 import AboutPage from "./Pages/About";
 import OrganisationPage from "./Pages/Organisation";
 import AppBar from "./components/AppBar";
@@ -52,8 +53,9 @@ export default function App() {
             <Route path="/">
               <HomePage />
             </Route>
-
-            {/* <Route path="/:id" children={<Child />} /> */}
+            <Route path="/alt">
+              <HomeAltPage />
+            </Route>
           </Switch>
         </div>
         <CssBaseline />
