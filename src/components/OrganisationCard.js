@@ -75,6 +75,9 @@ function CheckMarkComp({ isTrue, children }) {
 
 export default function OrganisationCard(props) {
   const classes = useStyles();
+  function onError(el) {
+    el.target.style.display = "none";
+  }
   const {
     isFree,
     isAnonymous,
@@ -91,7 +94,9 @@ export default function OrganisationCard(props) {
     <Card className={classes.root} variant="outlined">
       <CardMedia
         type="image"
-        style={{ height: 150 }}
+        component="img"
+        onError={onError}
+        style={{ maxHeight: 150 }}
         image={`${process.env.PUBLIC_URL}/img/organisations/${name}.jpg`}
       />
 
