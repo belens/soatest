@@ -1,35 +1,44 @@
 // @flow
-import data2 from "../data/soatest-2.0.json";
+import organisationsJson from "../data/organisations-2.0.json";
 
-type RawTimeslot = {
-  place: string, // province
-  on_appointment: string,
-  free: string,
-  day: string,
-  daypart: string,
-  hour: string,
-  organisation: string, // testcenter
+type Period = {
+  weekday: number,
+  startTime: string,
+  endTime: string,
+};
+type Organisation = {
   address: string,
   telephone: string,
   email: string,
-  website_url: string,
-  appointment_url: string,
+  coords: {
+    lat: number,
+    lng: number,
+  },
+  free: boolean,
+  province: string,
+  name: string,
+  isAnonymous: true,
+  onAppointment: true,
+  isFree: false,
+  extraInfo: string,
+  appointmentUrl: string,
+  websiteUrl: string,
+  openPeriods: {
+    "0": [Period],
+    "1": [Period],
+    "2": [Period],
+    "3": [Period],
+    "4": [Period],
+    "5": [Period],
+    "6": [Period],
+  },
 };
-
-type Organisation = {
-  province: string, // province
+type Province = {
   name: String,
-  free: Boolean,
-  onAppointment: String,
-  organisation: String,
-  address: String,
-  email: String,
-  website: String,
+  zoom: number,
+  coords: { lat: number, lng: number },
 };
-
-const timeslots: [RawTimeslot] = data2;
-
-const provinceProps = [
+const provinceProps: [Province] = [
   {
     name: "Brussels",
     zoom: 11,
@@ -43,58 +52,13 @@ const provinceProps = [
 ];
 
 export function getOrganisations(): [Organisation] {
-  // const organisations = timeslots.reduce((orgs, timeslot, i) => {
-  //   const existingOrgIndex = orgs.findIndex(
-  //     (ts) =>
-  //       timeslot.organisation.toLocaleLowerCase() ===
-  //       ts.organisation.toLocaleLowerCase()
-  //   );
-  //   // const openPeriods = {
-  //   //   day: timeslot.day,
-  //   //   weekday: weekDays.indexOf(timeslot.day),
-  //   //   daypart: timeslot.daypart,
-  //   //   hour: timeslot.hour,
-  //   //   startTime: timeslot.startTime,
-  //   //   endTime: timeslot.endTime,
-  //   //   free: timeslot.free === "yes",
-  //   // };
-  //   if (existingOrgIndex < 0) {
-  //     const organisation = {
-  //       ...timeslot,
-  //       // province: timeslot.place,
-  //       // name: timeslot.organisation,
-  //       // free: timeslot.free === "yes",
-  //       // organisation: timeslot.organisation,
-  //       // address: timeslot.address,
-  //       // email: timeslot.email,
-  //       // websiteUrl: timeslot.website_url,
-  //       // telephone: timeslot.telephone,
-  //       // appointmentUrl: timeslot.appointment_url,
-  //       // onAppointment: timeslot.on_appointment === "yes",
-  //       // ...getOrganisationProps(timeslot.organisation), // temp
-  //     };
-  //     // organisation.openPeriods = {
-  //     //   ...defaultOpenPeriods,
-  //     //   // [openPeriods.weekday]: [openPeriods],
-  //     // };
-  //     // console.log(organisation.openPeriods);
-  //     orgs = [...orgs, organisation];
-  //   } else {
-  //     // const existingOrg = orgs[existingOrgIndex];
-  //     // existingOrg.openPeriods = {
-  //     //   ...existingOrg.openPeriods,
-  //     //   // [openPeriods.weekday]: [...existingOrg.openPeriods[openPeriods.weekday], openPeriods],
-  //     // };
-  //     // .sort((a, b) => (a.weekday > b.weekday ? 1 : -1));
-  //   }
+  return organisationsJson;
+}
 
-  //   return orgs;
-  // }, []);
-  return data2;
-  // return organisations.map((org) => {
-  //   // org.openPeriods.reduce((prev, org, arr) => {});
-  //   return org;
-  // });
+export function getOrganisationByName(name): Organisation {
+  const organisations = getOrganisations();
+  console.log(organisations);
+  return organisations.find((org) => org.name === name);
 }
 
 function getProvinceProps(province) {
@@ -105,53 +69,39 @@ function getProvinceProps(province) {
   return null;
 }
 
-// function getOrganisationProps(organisation) {
-//   const organisationIndex = organisationProps.findIndex(
-//     (pr) => pr.name === organisation
-//   );
-//   if (organisationIndex > -1) {
-//     return organisationProps[organisationIndex];
-//   }
-//   return null;
-// }
-
 function getProvinces(isRemoveSexProvinces: Boolean = true): [Provinces] {
-  const provinces = data2.reduce((arr, curr, i) => {
+  const provinces = organisationsJson.reduce((arr, curr, i) => {
     if (arr.indexOf(curr.province) > -1) {
       return arr;
     }
     return [curr.province, ...arr];
   }, []);
 
-  // if (isRemoveSexProvinces === true) {
-  //   return removeSexProvinces(provinces);
-  // }
   return provinces;
 }
 
-const DataUtils: Timeslot = {
+const DataUtils = {
   getData: () => {
-    return timeslots;
+    return organisationsJson;
   },
 
-  getProvinces: (): [Provinces] => {
+  getProvinces: (): [Province] => {
     return getProvinces(true);
   },
 
-  getOrganisationsByProvince: (province): [Organisation] => {
+  getOrganisationsByProvince: (provinceName): [Organisation] => {
+    if (!provinceName) return [];
     const organisations = getOrganisations();
 
     const provinceOrganisations = organisations.filter(function (org) {
-      return org.province === province;
+      return org.province === provinceName;
     });
     return provinceOrganisations;
   },
-  getProvinceProps(province) {
-    return getProvinceProps(province);
+  getProvinceProps(provinceName) {
+    if (!provinceName) return null;
+    return getProvinceProps(provinceName);
   },
-  // organisationProps(organisation) {
-  //   return organisationProps(organisation);
-  // },
 };
 
 export default DataUtils;

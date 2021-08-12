@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^12.1.10",
     "google-maps-react": "^2.0.6",
     "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
     "query-string": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -23,6 +24,7 @@
   },
   "scripts": {
     "flow": "flow",
+    "remove-flow": "babel src/utils -d tools/",
     "start-public": "PORT=80 react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -48,7 +50,10 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
     "@babel/preset-flow": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
     "flow-bin": "^0.156.0",
     "react-snap": "^1.23.0"
   }

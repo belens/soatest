@@ -5,7 +5,10 @@ import { ThemeProvider } from "@material-ui/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import blue from "@material-ui/core/colors/blue";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./Pages/Home";
+import HomePage from "./Pages/Home";
+import HomeAltPage from "./Pages/HomeAlt";
+import AboutPage from "./Pages/About";
+import OrganisationPage from "./Pages/Organisation";
 import AppBar from "./components/AppBar";
 
 const values = {
@@ -42,28 +45,21 @@ export default function App() {
             renders the first one that matches the current URL. */}
           <Switch>
             <Route path="/about">
-              <About />
+              <AboutPage />
             </Route>
-            <Route path="/users">
-              <Users />
+            <Route path="/organisations/:name">
+              <OrganisationPage />
             </Route>
             <Route path="/">
-              <Home />
+              <HomePage />
             </Route>
-
-            {/* <Route path="/:id" children={<Child />} /> */}
+            <Route path="/alt">
+              <HomeAltPage />
+            </Route>
           </Switch>
         </div>
         <CssBaseline />
       </ThemeProvider>
     </Router>
   );
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
 }
