@@ -8,20 +8,11 @@ export default function ComboBox(props) {
     <Autocomplete
       options={times}
       getOptionLabel={(option) => option.title}
-      defaultValue={times.find(v => v.title[0])} 
-      style={{ width: 210, display: "inline-block", verticalAlign: 'middle' }}
-      renderInput={(params) => (
-        <TextField
-          {...params}
-          variant="outlined"
-          label="Wanneer"
-        />
-      )}
+      defaultValue={times.find((v) => v.title[0])}
+      style={{ width: 210, display: "inline-block", verticalAlign: "middle" }}
+      renderInput={(params) => <TextField {...params} variant="outlined" placeholder="Wanneer" />}
     />
   );
 }
 
-var times = [
-  { title: "Zo snel mogelijk" },
-  { title: "Deze week" },
-];
+var times = [{ title: "Zo snel mogelijk" }, { title: "Deze week" }];

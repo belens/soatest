@@ -20,6 +20,8 @@ const SearchBox = styled.div`
 `;
 const MapContainer = styled.div`
   margin: 15px auto;
+  max-width: 500px;
+  height: 400px;
 `;
 class Search extends React.Component {
   constructor(props) {

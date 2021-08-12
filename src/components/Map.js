@@ -30,16 +30,18 @@ class MapComponent extends Component {
 
   render() {
     const { activeMarker, showingInfoWindow } = this.state;
-    const { google, zoom, coords, orgs } = this.props;
+    const { google, zoom, coords, orgs, style } = this.props;
     return (
       <div
         style={{
-          height: 300,
+          minHeight: "400px",
           marginBottom: 20,
+          padding: 0,
           position: "relative",
           width: "100%",
-          maxWidth: 600,
-          margin: "0 auto 20px",
+          // maxWidth: 600,
+          margin: "0 auto",
+          ...style,
         }}
       >
         <Map
@@ -84,6 +86,8 @@ class MapComponent extends Component {
 }
 
 MapComponent.defaultProps = {
+  orgs: [],
+  language: "nl-BE",
   zoom: 7, // flanders
   coords: { lat: 50.8999964, lng: 4.5333312 }, // flanders
 };

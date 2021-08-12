@@ -2,6 +2,7 @@
 import React from "react";
 import TextField from "@material-ui/core/TextField";
 import Autocomplete from "@material-ui/lab/Autocomplete";
+import DataUtils from "../utils/dataUtils";
 
 type Props = {
   defaultValue: string,
@@ -10,7 +11,11 @@ type Props = {
 };
 
 export default function ProvinceSelect(props: Props) {
-  const { defaultValue, data, onChange } = props;
+  const { defaultValue, onChange, style } = props;
+  const provinces = DataUtils.getProvinces();
+  const data = provinces.map((val) => {
+    return { provinceName: val };
+  });
   return (
     <Autocomplete
       options={[...data, { provinceName: "" }]}
@@ -21,9 +26,9 @@ export default function ProvinceSelect(props: Props) {
       filterOptions={(options) => options.filter((option) => option.provinceName !== "")}
       getOptionLabel={(option) => option.provinceName}
       getOptionSelected={(option, value) => option.provinceName === value.provinceName}
-      style={{ width: 210, display: "inline-block", verticalAlign: "middle" }}
+      style={{ width: 210, display: "inline-block", verticalAlign: "middle", ...style }}
       renderInput={(params) => (
-        <TextField autoFocus {...params} variant="outlined" label="Provincie" />
+        <TextField autoFocus {...params} variant="outlined" placeholder="Provincie" />
       )}
     />
   );

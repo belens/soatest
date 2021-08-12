@@ -1,15 +1,12 @@
-import "./App.css";
 import React from "react";
 import { createTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import blue from "@material-ui/core/colors/blue";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomePage from "./Pages/Home";
 import HomeAltPage from "./Pages/HomeAlt";
 import AboutPage from "./Pages/About";
 import OrganisationPage from "./Pages/Organisation";
-import AppBar from "./components/AppBar";
 
 const values = {
   xs: 0,
@@ -23,14 +20,28 @@ export default function App() {
   const theme = React.useMemo(
     () =>
       createTheme({
+        typography: {
+          fontFamily: ["Work Sans", "sans-serif"],
+        },
         breakpoints: {
           keys: ["xs", "sm", "md", "lg", "xl"],
           up: (key) => `@media (min-width:${values[key]}px)`,
         },
+        shape: { borderRadius: 28 },
+
         palette: {
-          primary: blue,
+          primary: {
+            main: "#ee4e8b",
+          },
+          background: {
+            paper: "#fff",
+            default: "#fff",
+          },
           secondary: {
-            main: "#1976d2",
+            contrastText: "#fff",
+            dark: "#1976d2",
+            light: "#64b5f6",
+            main: "#ee4e8b",
           },
         },
       }),
@@ -40,9 +51,6 @@ export default function App() {
     <Router>
       <ThemeProvider theme={theme}>
         <div>
-          <AppBar />
-          {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
           <Switch>
             <Route path="/about">
               <AboutPage />
@@ -50,12 +58,10 @@ export default function App() {
             <Route path="/organisations/:name">
               <OrganisationPage />
             </Route>
-            <Route path="/">
+            <Route exact path="/">
               <HomePage />
             </Route>
-            <Route path="/alt">
-              <HomeAltPage />
-            </Route>
+            <Route path="/alt" component={HomeAltPage}></Route>
           </Switch>
         </div>
         <CssBaseline />
