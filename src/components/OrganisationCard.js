@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import moment from "moment";
 import "moment/locale/nl-be";
 import "moment/locale/fr";
@@ -51,9 +51,6 @@ function CheckMarkComp({ isTrue, children }) {
 
 export default function OrganisationCard(props) {
   const classes = useStyles();
-  function onError(el) {
-    el.target.style.display = "none";
-  }
   const {
     isFree,
     isAnonymous,
