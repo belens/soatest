@@ -51,7 +51,7 @@ export class OpenPeriods extends Component {
     if (closesAt) {
       return (
         <span>
-          <span style={{ color: "darkgreen", fontWeight: 700 }}>open.</span> tot{" "}
+          <span style={{ color: "#46b205", fontWeight: 700 }}>open.</span> tot{" "}
           {moment(closesAt.endTime).format("H:mm")}
         </span>
       );
@@ -60,7 +60,7 @@ export class OpenPeriods extends Component {
     return (
       (nOpen && nOpen[0] && (
         <span>
-          <span style={{ color: "darkred", fontWeight: 700 }}>gesloten.</span> Open op{" "}
+          <span style={{ color: "#ee4e8b", fontWeight: 700 }}>gesloten.</span> Open op{" "}
           {moment(nOpen[0].startTime).format("ddd H:mm")}
         </span>
       )) ||
@@ -91,11 +91,9 @@ export class OpenPeriods extends Component {
     var relativeTime = this.getRelativeTime();
     const now = moment();
     return (
-      <Accordion variant="outlined" expanded={open}>
-        <AccordionSummary style={{ margin: 0 }} expandIcon={<ExpandMoreIcon />}>
+      <Accordion variant="outlined" style={{ borderWidth: 0 }} expanded={open}>
+        <AccordionSummary style={{ margin: 0, padding: 0 }} expandIcon={<ExpandMoreIcon />}>
           <Typography variant="subtitle2" style={{ textAlign: "left" }}>
-            Openingstijden:
-            <br />
             <Typography variant="body2">{relativeTime}</Typography>
           </Typography>
         </AccordionSummary>

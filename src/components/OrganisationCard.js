@@ -114,21 +114,16 @@ export default function OrganisationCard(props) {
             Maak afspraak
           </Button>
         )}
-        {extraInfo && (
-          <div>
-            <br />
-            <Typography className={classes.pos} variant="body1">
-              {extraInfo}
-            </Typography>
-            <br />
-          </div>
-        )}
-        <br />
 
         <div style={{ margin: "10px 0" }}>
           <OpenPeriods org={name} openPeriods={openPeriods}></OpenPeriods>
         </div>
 
+        {extraInfo && (
+          <Typography className={classes.pos} variant="body2">
+            {extraInfo}
+          </Typography>
+        )}
         <CheckMarkComp isTrue={isFree}>Gratis</CheckMarkComp>
         <CheckMarkComp isTrue={!onAppointment}>Zonder afspraak</CheckMarkComp>
         <CheckMarkComp isTrue={isAnonymous}>Anoniem</CheckMarkComp>
