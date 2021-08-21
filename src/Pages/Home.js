@@ -14,7 +14,6 @@ const Sidebox = styled(Grid)`
   ${spacing}
   
   height: 100vh;
-  // max-width: 400px;
   background-color: #ee4e8b;
 `;
 const SlideboxRight = styled(Grid)`
@@ -57,6 +56,11 @@ const MapContainer = styled(Grid)`
   height: 100vh;
   flex: 1;
 `;
+
+const Logo = styled.img`
+  margin: 45px 0;
+`;
+
 export default class Home extends Component {
   state = {
     activeProvinceName: null,
@@ -108,11 +112,12 @@ export default class Home extends Component {
     return (
       <Grid container spacing={0} direction="row" justifyContent="flex-start" alignItems="stretch">
         {activeProvinceName ? (
-          <Sidebox p={3} xs={1}>
-            <Title>{"<3"}</Title>
+          <Sidebox p={1} xs={0}>
+            <Logo src={`${process.env.PUBLIC_URL}/logo.svg`} alt="logo" />
           </Sidebox>
         ) : (
           <Sidebox p={3} xs={4}>
+            <Logo src={`${process.env.PUBLIC_URL}/logo.svg`} alt="logo" />
             <Title>
               Something <em>title</em>
             </Title>

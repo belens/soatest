@@ -16,12 +16,14 @@ import EventIcon from "@material-ui/icons/Event";
 import CallIcon from "@material-ui/icons/Call";
 import OpenPeriods from "./OpenPeriods";
 import { green, red } from "@material-ui/core/colors";
+import Chip from "@material-ui/core/Chip";
 import { CardMedia } from "@material-ui/core";
 
 const useStyles = makeStyles({
   root: {
     marginBottom: 20,
     maxWidth: 450,
+    borderRadius: 8,
     margin: "0 auto",
   },
   bullet: {
@@ -36,40 +38,18 @@ const useStyles = makeStyles({
 
 moment.locale("nl-be");
 
-class CheckIconComp extends PureComponent {
-  render() {
-    return (
-      <CheckIcon
-        fontSize="small"
-        style={{
-          verticalAlign: "middle",
-          display: "inline-block",
-          color: green[500],
-        }}
-      />
-    );
-  }
-}
-class CloseIconComp extends PureComponent {
-  render() {
-    return (
-      <CloseIcon
-        fontSize="small"
-        style={{
-          verticalAlign: "middle",
-          display: "inline-block",
-          color: red[500],
-        }}
-      />
-    );
-  }
-}
-
 function CheckMarkComp({ isTrue, children }) {
+  if (!isTrue) return null;
   return (
-    <Typography variant="subtitle2">
-      {isTrue ? <CheckIconComp /> : <CloseIconComp />} {children}
-    </Typography>
+    <Chip
+      size="small"
+      style={{
+        margin: "16px 4px 0 0",
+        borderRadius: "4px",
+      }}
+      label={children}
+      color="primary"
+    />
   );
 }
 
@@ -92,14 +72,6 @@ export default function OrganisationCard(props) {
   } = props;
   return (
     <Card className={classes.root} variant="outlined">
-      <CardMedia
-        type="image"
-        component="img"
-        onError={onError}
-        style={{ maxHeight: 150 }}
-        image={`${process.env.PUBLIC_URL}/img/organisations/${name}.jpg`}
-      />
-
       <CardContent>
         <Typography variant="h5" component="h2">
           {name}
@@ -117,10 +89,6 @@ export default function OrganisationCard(props) {
           </div>
         )}
         <br />
-
-        <CheckMarkComp isTrue={isFree}>Gratis consultatie</CheckMarkComp>
-        <CheckMarkComp isTrue={onAppointment}>Enkel op afspraak</CheckMarkComp>
-        <CheckMarkComp isTrue={isAnonymous}>Anoniem testen</CheckMarkComp>
 
         <div style={{ margin: "10px 0" }}>
           <OpenPeriods org={name} openPeriods={openPeriods}></OpenPeriods>
@@ -164,6 +132,10 @@ export default function OrganisationCard(props) {
             </Button>
           )}
         </div>
+
+        <CheckMarkComp isTrue={isFree}>Gratis</CheckMarkComp>
+        <CheckMarkComp isTrue={!onAppointment}>Zonder afspraak</CheckMarkComp>
+        <CheckMarkComp isTrue={isAnonymous}>Anoniem</CheckMarkComp>
       </CardContent>
     </Card>
   );
