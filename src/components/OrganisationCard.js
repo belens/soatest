@@ -9,15 +9,11 @@ import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
-import CheckIcon from "@material-ui/icons/Check";
-import CloseIcon from "@material-ui/icons/Close";
 import LinkIcon from "@material-ui/icons/Link";
 import EventIcon from "@material-ui/icons/Event";
 import CallIcon from "@material-ui/icons/Call";
 import OpenPeriods from "./OpenPeriods";
-import { green, red } from "@material-ui/core/colors";
 import Chip from "@material-ui/core/Chip";
-import { CardMedia } from "@material-ui/core";
 
 const useStyles = makeStyles({
   root: {
