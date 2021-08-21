@@ -8,10 +8,10 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
-import LocationOnIcon from "@material-ui/icons/LocationOn";
-import LinkIcon from "@material-ui/icons/Link";
-import EventIcon from "@material-ui/icons/Event";
-import CallIcon from "@material-ui/icons/Call";
+import LocationOnIcon from "@material-ui/icons/LocationOnOutlined";
+import EventIcon from "@material-ui/icons/EventOutlined";
+import WebsiteIcon from "@material-ui/icons/PublicOutlined";
+import CallIcon from "@material-ui/icons/CallOutlined";
 import OpenPeriods from "./OpenPeriods";
 import Chip from "@material-ui/core/Chip";
 
@@ -66,12 +66,54 @@ export default function OrganisationCard(props) {
   return (
     <Card className={classes.root} variant="outlined">
       <CardContent>
-        <Typography variant="h5" component="h2">
+        <Typography variant="h5" component="h2" style={{ fontWeight: "bold" }}>
           {name}
         </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-          {address} · <span>{telephone}</span>
-        </Typography>
+
+        {address && (
+          <Button
+            style={{ textTransform: "initial", color: "#4a4a4a" }}
+            size="small"
+            target="_blank"
+            startIcon={<LocationOnIcon color="primary" variant="out" />}
+            href={"https://maps.google.com/?q=" + address} // TODO: test href={`geo:${coords.lat},${coords.lng},u=35`}
+          >
+            {address}
+          </Button>
+        )}
+
+        {telephone && (
+          <Button
+            size="small"
+            style={{ textTransform: "initial", color: "#4a4a4a" }}
+            startIcon={<CallIcon color="primary" />}
+            href={`tel:${telephone}`}
+          >
+            {telephone}
+          </Button>
+        )}
+        {websiteUrl && (
+          <Button
+            style={{ textTransform: "initial", color: "#4a4a4a" }}
+            size="small"
+            target="_blank"
+            startIcon={<WebsiteIcon color="primary" />}
+            href={websiteUrl}
+          >
+            Website
+          </Button>
+        )}
+        {appointmentUrl && (
+          <Button
+            style={{ textTransform: "initial", color: "#4a4a4a" }}
+            size="small"
+            target="_blank"
+            startIcon={<EventIcon color="primary" />}
+            href={appointmentUrl}
+          >
+            Maak afspraak
+          </Button>
+        )}
         {extraInfo && (
           <div>
             <br />
@@ -85,45 +127,6 @@ export default function OrganisationCard(props) {
 
         <div style={{ margin: "10px 0" }}>
           <OpenPeriods org={name} openPeriods={openPeriods}></OpenPeriods>
-        </div>
-
-        <div>
-          <Button
-            size="small"
-            target="_blank"
-            startIcon={<LocationOnIcon />}
-            href={"https://maps.google.com/?q=" + address} // TODO: test href={`geo:${coords.lat},${coords.lng},u=35`}
-          >
-            Toon locatie
-          </Button>
-          {appointmentUrl && (
-            <Button
-              size="small"
-              target="_blank"
-              style={{ float: "right" }}
-              startIcon={<EventIcon />}
-              href={appointmentUrl}
-            >
-              Maak afspraak
-            </Button>
-          )}
-        </div>
-        <div>
-          {websiteUrl && (
-            <Button size="small" target="_blank" startIcon={<LinkIcon />} href={websiteUrl}>
-              Bezoek website
-            </Button>
-          )}
-          {telephone && (
-            <Button
-              size="small"
-              style={{ float: "right" }}
-              startIcon={<CallIcon />}
-              href={`tel:${telephone}`}
-            >
-              Bel organisatie
-            </Button>
-          )}
         </div>
 
         <CheckMarkComp isTrue={isFree}>Gratis</CheckMarkComp>
